@@ -8,6 +8,7 @@
    "date": "2026-08-13",
    "speakers": "Kevin (host)",
    "thread_line": "5 threads · SEC disclosure rollback, Elon/SpaceX spend, Kevin's actual buys (RSP/IGV/MSFT/PLTR/AXON), CoreWeave red flag, macro backdrop",
+   "category": "market",
    "entities": [
     {
      "ticker": "NVDA",
@@ -123,6 +124,7 @@
    "date": "2026-08-13",
    "speakers": "Peter Diamandis (host), Alex Wissner-Gross, Dave Blondin, Salim Ismail, Emad Mostaque",
    "thread_line": "6 threads · Longevity XPRIZE awards, Hollywood's AI-driven cost collapse, Grok's sprint to the frontier, Nvidia's $500B compute financialization, Bernie Sanders' pause letter colliding with a Stanford bioweapon-design breakthrough, and Zuckerberg's personal-AI manifesto",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -231,6 +233,7 @@
    "date": "2026-08-13",
    "speakers": "Jason Calacanis (host), Lon Harris (news), Will Bryk (Exa), Josh Serota (Aragon), Kash Ali (Tax GPT / Taxfyle)",
    "thread_line": "5 threads · Claude watermarking under EU pressure, Zuckerberg's decentralization manifesto (and its distillation hypocrisy), Texas hits pause on new data centers, the panel's split verdict on whether software is dead, and the founder-as-moat closing riff",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -304,6 +307,7 @@
    "date": "2026-08-09",
    "speakers": "Jordi Visser (host)",
    "thread_line": "5 threads · speed-crash bottom call, new hedging framework, Gavin Baker on compute scarcity, hyperscaler/Google/memory cracks, Fed-yen intervention and debasement trade",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -370,6 +374,7 @@
    "date": "2026-08-08",
    "speakers": "Jason Calacanis, David Sacks, David Friedberg, Brad Gerstner (guest)",
    "thread_line": "5 threads · Google's AI brain drain, SpaceX Q2 earnings bull case, SpaceX's compute financing risk, Airtable/Bending Spoons SaaS lesson, US data fueling Chinese AI",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -464,6 +469,7 @@
    "date": "2026-08-08",
    "speakers": "Kevin (host)",
    "thread_line": "6 threads · Elon's capex thesis, Nvidia, Marvell, Lattice, cooling/power infra, the rest of the field",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -551,6 +557,7 @@
    "date": "2026-08-08",
    "speakers": "Peter Diamandis, Alex (AWG), Dave Blundin, Salem (See), Immad Mustafa",
    "thread_line": "6 threads · Google's DeepMind/Brain reshuffle, OpenAI's Astra bulk-solving math, SpaceX's earnings call and its $16.8B Terrafab, AI consciousness & personhood research, Qwen's open-weight leap vs Trump's secret AI framework, and Brett Adcock's Hark/Handoff bet",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -624,6 +631,7 @@
    "date": "2026-08-06",
    "speakers": "EJ and Josh (hosts)",
    "thread_line": "5 threads · SpaceX Q2 2026 earnings, Nvidia compute deal, Starlink growth, share unlock, long-term thesis",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -676,6 +684,7 @@
    "date": "2026-08-06",
    "speakers": "Mr. FIRED Up Wealth (host)",
    "thread_line": "5 threads · all-time-highs framework, Mercado Libre buy, Celsius/Wingstop K-shaped economy read, Uber & DataDog headline-vs-reality, AppLovin sentiment risk",
+   "category": "market",
    "entities": [
     {
      "ticker": "MELI",
@@ -756,6 +765,7 @@
    "date": "2026-08-02",
    "speakers": "Valentin Dragu and Alex Marian",
    "thread_line": "(1) The South Korean KOSPI collapse is the episode's core story: SK Hynix and Samsung make up ~50% of the index, and a violent correction wiped out hundreds...",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -829,6 +839,7 @@
    "date": "2026-08-02",
    "speakers": "Reconstruction brief — compiled from public sources, not a single video",
    "thread_line": "11 companies/tickers covered",
+   "category": "market",
    "entities": [
     {
      "ticker": "NVDA",
@@ -916,6 +927,7 @@
    "date": "2026-08-02",
    "speakers": "Reconstruction brief — compiled from public sources, not a single video",
    "thread_line": "96 companies/tickers covered",
+   "category": "market",
    "entities": [
     {
      "ticker": "NVDA",
@@ -1598,6 +1610,7 @@
    "date": "2026-08-02",
    "speakers": "Reconstruction brief — compiled from public sources, not a single video",
    "thread_line": "18 companies/tickers covered",
+   "category": "market",
    "entities": [
     {
      "ticker": "COHR",
@@ -1734,6 +1747,7 @@
    "date": "2026-08-02",
    "speakers": "Jordi Visser (solo weekly market update)",
    "thread_line": "(1) A ~$45B AI-focused hedge fund, Situational Awareness (founded by Leopold Aschenbrenner), was forced to sell its entire public-equities book (~$16-20B) to...",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -1758,6 +1772,7 @@
    "date": "2026-08-01",
    "speakers": "Anthony Pompliano (interviewer), Jordi Visser 'Jordy' (guest)",
    "thread_line": "(1) The Leopold hedge fund unwind was a 'cleansing event' - forced liquidation of positions via prime brokers.",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -1796,6 +1811,7 @@
    "date": "2026-07-31",
    "speakers": "Chris Williamson 'Shawn' (host), Sam Parr (co-host)",
    "thread_line": "(1) The golden window (ages 6-16) is critical for world-class achievement - if you find something you obsess over during this neuroplastic period, you hyper-...",
+   "category": "market",
    "entities": []
   },
   {
@@ -1805,6 +1821,7 @@
    "date": "2026-07-29",
    "speakers": "Limitless Podcast hosts (Josh and co-host)",
    "thread_line": "(1) SpaceX stock is down more than 50% from its post-IPO all-time high (IPO'd at $135, peaked near $225, hit an all-time low of $107) six weeks after going p...",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -1822,6 +1839,7 @@
    "date": "2026-07-29",
    "speakers": "Kevin Paffrath (\"Meet Kevin\")",
    "thread_line": "(1) Kevin calls the past ~6-8 weeks 'the great suckening': a wave of massive capital raises (Alphabet's ~$80B equity raise, a SpaceX raise he cites at ~$85B,...",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -1846,6 +1864,7 @@
    "date": "2026-07-29",
    "speakers": "Chris Camillo (Dumb Money, guest), Sam Parr and Shaan Puri (My First Million, hosts)",
    "thread_line": "(1) Chris Camillo's core method — 'observational' or 'social arbitrage' investing — is to detect real-world cultural/behavioral change (via TikTok/Reddit com...",
+   "category": "market",
    "entities": [
     {
      "ticker": "AMZN",
@@ -1863,7 +1882,26 @@
    "date": "2026-07-29",
    "speakers": "Peter Diamandis (host), with Dave Blundin, Alex (AWG), and Salim (Seem) — the \"Moonshots\" panel",
    "thread_line": "(1) Open vs.",
+   "category": "market",
    "entities": []
+  },
+  {
+   "html": "codehead_2026-07-28_why-most-devs-stop-improving.html",
+   "title": "Why Most Devs Stop Improving",
+   "channel": "CodeHead",
+   "date": "2026-07-28",
+   "speakers": "CodeHead (solo creator)",
+   "thread_line": "4 threads · stack loyalty as a hiding spot, tenure-based promotion killing growth incentives, AI dependency eroding fundamental skills, and a sponsored plug for an AI-tool coordination layer",
+   "category": "dev",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Tracer",
+     "stance": "Sponsored plug",
+     "conviction": null,
+     "color": "gray"
+    }
+   ]
   },
   {
    "html": "anthony-pompliano_2026-07-27_wall-street-s-top-ai-bull-reveals-the-real-bottleneck-it-s-not-chips.html",
@@ -1872,6 +1910,7 @@
    "date": "2026-07-27",
    "speakers": "Anthony Pompliano (interviewer), Dan Ives (guest)",
    "thread_line": "(1) Dan Ives dismisses Chinese open-source fears as 'mini deepseek moment' - Anthropic/OpenAI playing different game.",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -1931,6 +1970,7 @@
    "date": "2026-07-27",
    "speakers": "Boris Cherny (creator of Claude Code, guest), Forrest (Y Combinator, interviewer)",
    "thread_line": "(1) Anthropic deleted 80% of Claude Code's system prompt for Opus 5 because a more intelligent model no longer needs instructions correcting behavior it now...",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -1955,6 +1995,7 @@
    "date": "2026-07-26",
    "speakers": "Valentin Dragu and Alex Marian",
    "thread_line": "(1) Google's report showed its first negative free cash flow in roughly 10-15 years, driven by massive AI/cloud capex plus convertible-bond dilution - but th...",
+   "category": "market",
    "entities": [
     {
      "ticker": "GOOGL",
@@ -2014,6 +2055,7 @@
    "date": "2026-07-26",
    "speakers": "Jordi Visser",
    "thread_line": "Jordi Visser argues we're in a short-term AI sentiment pullback ('mini bear market') within a powerful secular bull market driven by structural compute scarc...",
+   "category": "market",
    "entities": [
     {
      "ticker": "MRVL",
@@ -2073,6 +2115,7 @@
    "date": "2026-07-24",
    "speakers": "Peter Diamandis, Alex, Dave London, Seem (co-hosts)",
    "thread_line": "(1) Moonshot AI's Kimi K3 (2.8T params, open weights July 27) caught US frontier labs by surprise at a fraction of the cost - Bessant floats sanctions over a...",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -2097,6 +2140,7 @@
    "date": "2026-07-20",
    "speakers": "David Senra (guest), Chris Williamson (interviewer)",
    "thread_line": "(1) Chips on shoulders put chips in pockets - the hungry, overlooked people with something to prove (dysfunctional backgrounds, failures, immigration stories...",
+   "category": "market",
    "entities": []
   },
   {
@@ -2106,6 +2150,7 @@
    "date": "2026-07-19",
    "speakers": "Jordi Visser",
    "thread_line": "(1) The AI structural bull market is intact but we are in a 'speed crash' / midcycle digestion phase: the Morgan Stanley tech momentum factor fell ~40% in 18...",
+   "category": "market",
    "entities": [
     {
      "ticker": "MU",
@@ -2151,6 +2196,7 @@
    "date": "2026-07-18",
    "speakers": "Jordy Visser (guest), interviewed by Anthony Pompliano",
    "thread_line": "The highest-signal ideas: (1) A real deleveraging / 'fireworks show is over' is underway in AI names — the 'AI midcycle slowdown' is a second-derivative dece...",
+   "category": "market",
    "entities": [
     {
      "ticker": "MU",
@@ -2224,6 +2270,7 @@
    "date": "2026-07-18",
    "speakers": "George Buhnici",
    "thread_line": "The highest-signal ideas from Curiosity 335: (1) China's Kimi K3 model (2.8T parameters, 1M context tokens) was launched and is positioned as the most advanc...",
+   "category": "market",
    "entities": [
     {
      "ticker": "XAI",
@@ -2255,6 +2302,7 @@
    "date": "2026-07-16",
    "speakers": "Brandon Doyle",
    "thread_line": "Chris Koerner ran a live experiment giving five paid AI models (Claude, ChatGPT, Gemini, Grok, Perplexity) $1,000 each in real Schwab brokerage accounts, fra...",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -2335,6 +2383,7 @@
    "date": "2026-07-16",
    "speakers": "Kevin Rose",
    "thread_line": "The 3-6 highest-signal ideas: (1) Kevin Rose frames the AI model market as consolidating to a 'big three' — Google (Gemini), Anthropic, and OpenAI — plus a w...",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -2408,6 +2457,7 @@
    "date": "2026-07-15",
    "speakers": "School of Hard Knocks Podcast",
    "thread_line": "David Stout, founder of WebAI (valued at $2.5B, ~200 employees), recounts building an on-device AI company from a $400 loan from his grandfather and one shar...",
+   "category": "market",
    "entities": [
     {
      "ticker": null,
@@ -2425,6 +2475,7 @@
    "date": "2026-07-12",
    "speakers": "Jordi Visser (solo)",
    "thread_line": "Highest-signal ideas: (1) Jordi declares the AI 'midcycle slowdown' is ending and calls this a sentiment/technical cleanse inside a structural bull market bu...",
+   "category": "market",
    "entities": [
     {
      "ticker": "MU",

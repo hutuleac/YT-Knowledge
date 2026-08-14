@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research: Why Most Devs Stop Improving</title>
+<style>
+:root{
+  --ink:#20231f; --muted:#6b6f66; --line:#e4e2d8; --card:#fffdf8; --bg:#efece2;
+  --brand:#8a5a2e; --serif:'Iowan Old Style','Palatino Linotype',Georgia,serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:clamp(15px,1.05vw,18px);line-height:1.7;-webkit-font-smoothing:antialiased;}
+.page{max-width:1600px;width:100%;margin:0 auto;background:var(--card);box-shadow:0 0 0 1px var(--line);}
+.hero{padding:clamp(18px,2.4vw,34px) clamp(18px,4vw,56px) clamp(14px,1.8vw,22px);border-bottom:1px solid var(--line);}
+.kicker{font-family:var(--serif);font-style:italic;font-size:clamp(13px,1vw,16px);color:var(--brand);margin-bottom:10px;}
+.hero h1{font-family:var(--serif);margin:0 0 14px;font-size:clamp(24px,3.4vw,42px);line-height:1.15;
+  letter-spacing:-.01em;font-weight:600;color:#171916;max-width:42ch;}
+.byline{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:clamp(13px,1vw,15px);line-height:1.6;}
+.byline b{color:var(--ink);font-weight:600;}
+.stats-line{font-family:var(--serif);font-style:italic;color:var(--brand);font-size:clamp(12.5px,.95vw,14.5px);margin-top:4px;}
+.stats-line a{color:var(--brand);}
+.inner{padding:10px clamp(18px,4vw,56px) 48px;}
+section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
+.sec-eye{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--brand);margin-bottom:4px;}
+.sec h2{font-family:var(--serif);margin:0;font-size:clamp(20px,2vw,26px);font-weight:600;color:#171916;
+  border-bottom:2px solid var(--brand);display:inline-block;padding-bottom:5px;}
+.card{background:#fbf7ef;border:1px solid var(--line);border-radius:14px;padding:clamp(18px,3vw,28px);}
+.snap{list-style:none;margin:0;padding:0;}
+.snap li{padding:12px 0;border-bottom:1px solid var(--line);line-height:1.6;font-size:clamp(14.5px,.95vw,16.5px);}
+.snap li:last-child{border-bottom:none}
+.theme{padding:36px 0;border-bottom:1px solid var(--line);}
+.theme-badgerow{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-bottom:10px;}
+.badge{display:inline-block;padding:5px 13px;border-radius:3px;font-size:12px;font-weight:700;
+  white-space:nowrap;letter-spacing:.03em;text-transform:uppercase;color:#fffdf8;}
+.theme-status{font-family:var(--serif);font-style:italic;font-size:13.5px;color:var(--muted);}
+.theme h2{font-family:var(--serif);margin:0 0 20px;font-size:clamp(20px,2.2vw,28px);font-weight:600;
+  color:#171916;line-height:1.25;max-width:32ch;padding-left:16px;}
+.theme-body{display:flex;flex-wrap:wrap;gap:28px;}
+.theme-main{flex:3 1 400px;min-width:0;}
+.theme-side{flex:2 1 260px;min-width:0;}
+.lead{margin:0 0 18px;font-size:clamp(16px,1.15vw,19px);line-height:1.6;color:#171916;font-weight:600;max-width:70ch;}
+.bullets{list-style:none;margin:0 0 22px;padding:0;max-width:76ch;}
+.bullets li{position:relative;padding:9px 0 9px 20px;border-bottom:1px solid var(--line);
+  font-size:clamp(14px,.95vw,15.5px);line-height:1.65;color:#2c2f28;}
+.bullets li .dot{position:absolute;left:0;top:16px;width:7px;height:7px;border-radius:50%;}
+.sidecard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:14px 16px 14px 26px;max-width:76ch;margin:0 0 18px;}
+.sidecard:last-child{margin-bottom:0;}
+.sidecard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;
+  background:var(--sc-accent);}
+.sidecard .lbl{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--sc-accent);margin-bottom:8px;}
+.sidecard.quote{font-family:var(--serif);font-style:italic;font-size:clamp(15px,1.1vw,18px);
+  line-height:1.5;color:#2c2f28;}
+.sidecard.quote .lbl{font-family:-apple-system,sans-serif;font-style:normal;}
+.sidecard.quote cite{display:block;font-family:-apple-system,sans-serif;font-style:normal;font-size:13px;
+  color:var(--muted);margin-top:9px;}
+.sidecard .txt{font-size:14.5px;line-height:1.55;color:#3a3d35;}
+.namechip{padding:0 0 10px;margin:0 0 10px;border-bottom:1px solid var(--line);}
+.namechip:last-child{padding-bottom:0;margin-bottom:0;border-bottom:none;}
+.namechip b{display:block;font-weight:600;font-size:14.5px;color:#171916;}
+.namechip span{font-size:13px;color:#4a4d44;line-height:1.5;}
+.icard{display:flex;gap:14px;align-items:flex-start;background:#fffefb;border:1px solid var(--line);
+  border-radius:12px;padding:14px 16px;margin:11px 0;}
+.icard .ic{flex:none;width:30px;height:30px;border-radius:6px;display:grid;place-items:center;
+  font-size:14px;background:#f4e9db;line-height:1;}
+.icard .title{font-weight:600;font-size:clamp(14px,.95vw,15.5px);color:#171916;line-height:1.42;margin-bottom:5px;}
+.icard .tag{display:inline-block;font-family:var(--serif);font-style:italic;font-size:13px;font-weight:600;color:var(--brand);}
+.icard .detail{font-size:13.5px;color:#4a4d44;line-height:1.55;margin-top:4px;}
+.riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px 14px 28px;margin:11px 0;}
+.riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
+.gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
+.gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
+.gloss b{font-family:var(--serif);color:#171916;}
+.empty{color:var(--muted);font-style:italic;font-size:14.5px;}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <div class="kicker">A YouTube Research Brief</div>
+    <h1>Why Most Devs Stop Improving</h1>
+    <div class="byline">
+      Channel: <b>CodeHead</b> &middot; Speaker: <b>CodeHead (solo creator)</b> &middot; <b>2026-07-28</b>
+      <div class="stats-line">4 threads · stack loyalty as a hiding spot, tenure-based promotion killing growth incentives, AI dependency eroding fundamental skills, and a sponsored plug for an AI-tool coordination layer &middot; <a href="https://www.youtube.com/watch?v=8hLMqx-KS8w" target="_blank" rel="noopener">Watch on YouTube &#8599;</a></div>
+    </div>
+  </header>
+  <div class="inner">
+    <section class="sec">
+      <div class="sec-eye">The one-paragraph takeaway</div>
+      <h2>Video Snapshot</h2>
+      <div class="card" style="margin-top:16px;"><ol class="snap"><li>Solo dev-career essay arguing most developers quietly stop improving through three sneaky, individually 'productive-feeling' habits rather than one dramatic failure.</li><li>Habit 1: clinging to one familiar stack (his own example: Spring Boot + Angular) as an identity/hiding spot rather than a deliberate choice.</li><li>Habit 2: mistaking 'the way we've always done it' for expertise — enabled by companies that promote on tenure more than range or curiosity.</li><li>Habit 3: inability to function without AI assistance — cites (unnamed) research that devs who lean on AI heavily perform worse once it's removed, because struggle is where learning happens.</li><li>Unifying thesis: all three are 'friction avoidance in a hoodie' — growth lives specifically in the friction people are avoiding.</li><li>Explicit non-anti-AI disclaimer: he uses Claude Code daily and isn't asking viewers to abandon AI tools, just to notice when a tool has replaced thinking rather than accelerated it.</li><li>Video is sponsored by Tracer, a free/open-source coordination layer pitched as sitting on top of an existing AI coding stack (Claude Code, Cursor, Codex) to share context and state across tools.</li></ol></div>
+    </section>
+
+    
+<section class="theme" id="stack-as-hiding-spot">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Self-critique, since resolved</span>
+    <span class="theme-status">PERSONAL ADMISSION</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">Habit #1: loyalty to one tech stack, dressed up as valuing 'structure'</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">The creator admits his years-long refusal to touch React or Go wasn't really about preferring convention — it was fear of looking like a beginner in front of people who already rated him as good.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>He describes being 'Spring Boot and Angular, full stop, no exceptions' early in his career, and dismissing React or Go whenever colleagues raised them.</li><li><span class="dot" style="background:#93711b;"></span>His own retrospective diagnosis: the real driver wasn't technical judgment, it was fear of feeling like a beginner again in front of people who already thought he was good at his job.</li><li><span class="dot" style="background:#93711b;"></span>He still reaches for Spring Boot and Angular most often today — the habit itself didn't disappear, only its function changed: it's now a deliberate choice for the right project, not a hiding spot that 'wrecks his whole week' when challenged.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#93711b;"><div class="lbl">Pull quote</div>&#8220;What changed is that it's a choice now instead of a hiding spot.&#8221;<cite>— CodeHead</cite></div>
+      
+      
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="tenure-vs-growth">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#a23f22;">Structural / incentive critique</span>
+    <span class="theme-status">SYSTEMIC, NOT INDIVIDUAL FAULT</span>
+  </div>
+  <h2 style="border-left:4px solid #a23f22;">Habit #2: mistaking 'how we've always done it' for expertise — because companies reward tenure, not range</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">The video's sharpest claim is structural: the senior dev who solves every problem exactly as they did in year one isn't lazy so much as correctly reading their company's actual incentives.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#a23f22;"></span>Archetype named: 'that one senior dev who's technically been senior for 6 years, but still solves every single problem exactly the way he did in year one' — his 'senior position is basically a rerun with better pay.'</li><li><span class="dot" style="background:#a23f22;"></span>Root cause per the creator: companies promote based on tenure far more often than on range or curiosity, so comfort gets rewarded and growth doesn't, not directly — meaning nobody in that system is actually incentivized to leave the loop they're in.</li><li><span class="dot" style="background:#a23f22;"></span>Framed explicitly as barely the individual's fault — a systemic/organizational problem, not a personal character flaw.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#a23f22;"><div class="lbl">Pull quote</div>&#8220;Comfortable gets rewarded in most orgs. Growth just doesn't, not directly anyway.&#8221;<cite>— CodeHead</cite></div>
+      
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">No source or data is cited for the tenure-vs-range promotion claim — it's presented as the creator's own read of common industry behavior, not a study.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="ai-dependency-atrophy">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#a23f22;">Skill-atrophy warning</span>
+    <span class="theme-status">CITES RESEARCH, BUT UNNAMED/UNLINKED</span>
+  </div>
+  <h2 style="border-left:4px solid #a23f22;">Habit #3: outsourcing the struggle to AI outsources the growth that comes with it</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">Not an anti-AI take — the creator uses Claude Code daily — but a warning that reaching for AI before attempting a problem yourself quietly erodes the exact skills that make you valuable.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#a23f22;"></span>Illustrative anecdote: asking a developer to reverse a linked list with no AI tool open makes them 'short circuit like you just asked them to do their taxes by hand with no calculator' — the creator admits reacting the same way when a colleague asked him cold.</li><li><span class="dot" style="background:#a23f22;"></span>Cites 'actual research now showing that developers who lean on AI assistance heavily tend to perform worse the moment it's taken away' — no study, author, or publication is named or linked in the video.</li><li><span class="dot" style="background:#a23f22;"></span>His causal claim: the underperformance isn't because heavy AI users are less capable, but because the struggle itself was where the learning was happening — 'you can't outsource struggle without also outsourcing the growth attached to it.'</li><li><span class="dot" style="background:#a23f22;"></span>Explicit disclaimer to preempt an anti-AI read: he is not telling viewers to boycott AI tools or 'go back to coding like it's 2008'; Claude Code, Cursor, and Codex are called out by name as good tools that are simply 'not the bottleneck anymore.'</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#a23f22;"><div class="lbl">Pull quote</div>&#8220;You can't outsource struggle without also outsourcing the growth attached to it.&#8221;<cite>— CodeHead</cite></div>
+      
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">The 'developers perform worse once AI is removed' research claim is unsourced in the video — treat as an assertion, not a verified citation, until you can locate the underlying study.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="tracer-sponsor">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#65695f;">Sponsored plug</span>
+    <span class="theme-status">PAID SPONSORSHIP SEGMENT</span>
+  </div>
+  <h2 style="border-left:4px solid #65695f;">Sponsor segment: Tracer, a free/open-source coordination layer for your existing AI coding tools</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">Pitched as solving tool fragmentation rather than replacing any tool you already use — Tracer sits on top of Claude Code, Cursor, or Codex to share context, memory, and task state across them.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#65695f;"></span>Positioning: 'the tools just don't talk to each other' is framed as the real remaining bottleneck, not AI capability itself — Tracer is pitched as the shared coordination layer, not a replacement for any existing paid tool.</li><li><span class="dot" style="background:#65695f;"></span>Claimed features: context carries over when switching models, so hitting a rate limit doesn't mean starting from scratch; persistent workspaces keep project state and memory between sessions; agents can reportedly communicate with each other instead of only passing static text.</li><li><span class="dot" style="background:#65695f;"></span>'Epic mode' lets you go spec-first, breaking work into structured tasks before any code gets written.</li><li><span class="dot" style="background:#65695f;"></span>Free and open source, per the video — no pricing tiers or paid plan mentioned.</li></ul>
+    </div>
+    <div class="theme-side">
+      
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Tracer</b><span>Free/open-source coordination layer sponsoring this video; claims to share context, memory, and task state across Claude Code, Cursor, and Codex.</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">This is a paid sponsorship read directly from the creator — none of Tracer's feature claims are independently demonstrated on screen in this video.</div></div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="sec">
+      <div class="sec-eye">What to do with this</div>
+      <h2>Best Actionable Takeaways</h2>
+      <div style="margin-top:16px;"><div class="icard"><div class="ic">🛠️</div><div><div class="title">Deliberately touch one tool or framework you've been avoiding for non-technical reasons — notice if the resistance is judgment or just discomfort.</div><div class="tag">Stack</div></div></div><div class="icard"><div class="ic">🧩</div><div><div class="title">Before opening an AI assistant on your next problem, spend a fixed few minutes attempting it yourself first — the struggle is reportedly where the retained learning happens.</div><div class="tag">Problem-solving</div></div></div><div class="icard"><div class="ic">📊</div><div><div class="title">If you're the senior dev solving everything the same way as year one, treat that as a structural incentive signal to investigate, not just a personal failing to feel bad about.</div><div class="tag">Career</div></div></div><div class="icard"><div class="ic">🔍</div><div><div class="title">Track down the actual study behind the 'AI reliance degrades unaided performance' claim before citing it yourself — this video doesn't name it.</div><div class="tag">Research</div></div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where this could be wrong</div>
+      <h2>Risks &amp; Caveats on This Source</h2>
+      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">This video contains a paid sponsorship segment for Tracer; its feature claims are relayed by the creator, not independently verified or demonstrated in the video.</div></div><div class="riskcard"><div class="txt">The central 'research shows heavy AI users perform worse without it' claim is asserted without naming a study, author, or publication — treat as an unverified claim pending a source.</div></div><div class="riskcard"><div class="txt">This is a single creator's personal essay/opinion piece based on self-reported anecdotes (his own career, one colleague's reaction) rather than data across a broader developer population.</div></div><div class="riskcard"><div class="txt">Auto-generated captions on a short, fast-paced solo video can occasionally mangle proper nouns or phrasing — cross-check exact wording against the video if quoting directly.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Beyond the main threads</div>
+      <h2>Other Notable News</h2>
+      <div style="margin-top:16px;"><p class="empty">Nothing notable found in this category for this video.</p></div>
+    </section>
+
+    <section class="sec" style="border-bottom:none;">
+      <div class="sec-eye">Names and terms at a glance</div>
+      <h2>Glossary &amp; Entities</h2>
+      <div style="margin-top:16px;"><div class="gloss"><div><b>Epic mode (Tracer)</b> &mdash; A spec-first workflow in the sponsor tool Tracer that breaks work into structured tasks before any code is written.</div></div></div>
+    </section>
+  </div>
+</div>
+</body>
+</html>
