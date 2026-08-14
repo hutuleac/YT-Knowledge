@@ -1891,17 +1891,9 @@
    "channel": "CodeHead",
    "date": "2026-07-28",
    "speakers": "CodeHead (solo creator)",
-   "thread_line": "4 threads · stack loyalty as a hiding spot, tenure-based promotion killing growth incentives, AI dependency eroding fundamental skills, and a sponsored plug for an AI-tool coordination layer",
+   "thread_line": "3 threads · stack loyalty as a hiding spot, tenure-based promotion killing growth incentives, and AI dependency eroding fundamental skills",
    "category": "dev",
-   "entities": [
-    {
-     "ticker": null,
-     "display": "Tracer",
-     "stance": "Sponsored plug",
-     "conviction": null,
-     "color": "gray"
-    }
-   ]
+   "entities": []
   },
   {
    "html": "anthony-pompliano_2026-07-27_wall-street-s-top-ai-bull-reveals-the-real-bottleneck-it-s-not-chips.html",

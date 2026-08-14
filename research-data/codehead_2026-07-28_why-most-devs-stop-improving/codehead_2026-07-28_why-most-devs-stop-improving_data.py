@@ -4,7 +4,7 @@ META = {
     "speakers": "CodeHead (solo creator)",
     "date": "2026-07-28",
     "video_url": "https://www.youtube.com/watch?v=8hLMqx-KS8w",
-    "thread_line": "4 threads · stack loyalty as a hiding spot, tenure-based promotion killing growth incentives, AI dependency eroding fundamental skills, and a sponsored plug for an AI-tool coordination layer",
+    "thread_line": "3 threads · stack loyalty as a hiding spot, tenure-based promotion killing growth incentives, and AI dependency eroding fundamental skills",
     "category": "dev",
 }
 
@@ -15,7 +15,6 @@ SNAPSHOT = [
     "Habit 3: inability to function without AI assistance — cites (unnamed) research that devs who lean on AI heavily perform worse once it's removed, because struggle is where learning happens.",
     "Unifying thesis: all three are 'friction avoidance in a hoodie' — growth lives specifically in the friction people are avoiding.",
     "Explicit non-anti-AI disclaimer: he uses Claude Code daily and isn't asking viewers to abandon AI tools, just to notice when a tool has replaced thinking rather than accelerated it.",
-    "Video is sponsored by Tracer, a free/open-source coordination layer pitched as sitting on top of an existing AI coding stack (Claude Code, Cursor, Codex) to share context and state across tools.",
 ]
 
 THEMES = [
@@ -77,25 +76,6 @@ THEMES = [
         "watch": "The 'developers perform worse once AI is removed' research claim is unsourced in the video — treat as an assertion, not a verified citation, until you can locate the underlying study.",
         "names": None,
     },
-    {
-        "id": "tracer-sponsor",
-        "color": "gray",
-        "badge": "Sponsored plug",
-        "status": "PAID SPONSORSHIP SEGMENT",
-        "title": "Sponsor segment: Tracer, a free/open-source coordination layer for your existing AI coding tools",
-        "lead": "Pitched as solving tool fragmentation rather than replacing any tool you already use — Tracer sits on top of Claude Code, Cursor, or Codex to share context, memory, and task state across them.",
-        "bullets": [
-            "Positioning: 'the tools just don't talk to each other' is framed as the real remaining bottleneck, not AI capability itself — Tracer is pitched as the shared coordination layer, not a replacement for any existing paid tool.",
-            "Claimed features: context carries over when switching models, so hitting a rate limit doesn't mean starting from scratch; persistent workspaces keep project state and memory between sessions; agents can reportedly communicate with each other instead of only passing static text.",
-            "'Epic mode' lets you go spec-first, breaking work into structured tasks before any code gets written.",
-            "Free and open source, per the video — no pricing tiers or paid plan mentioned.",
-        ],
-        "quote": None,
-        "watch": "This is a paid sponsorship read directly from the creator — none of Tracer's feature claims are independently demonstrated on screen in this video.",
-        "names": [
-            {"name": "Tracer", "blurb": "Free/open-source coordination layer sponsoring this video; claims to share context, memory, and task state across Claude Code, Cursor, and Codex."},
-        ],
-    },
 ]
 
 TAKEAWAYS = [
@@ -106,7 +86,6 @@ TAKEAWAYS = [
 ]
 
 RISKS = [
-    "This video contains a paid sponsorship segment for Tracer; its feature claims are relayed by the creator, not independently verified or demonstrated in the video.",
     "The central 'research shows heavy AI users perform worse without it' claim is asserted without naming a study, author, or publication — treat as an unverified claim pending a source.",
     "This is a single creator's personal essay/opinion piece based on self-reported anecdotes (his own career, one colleague's reaction) rather than data across a broader developer population.",
     "Auto-generated captions on a short, fast-paced solo video can occasionally mangle proper nouns or phrasing — cross-check exact wording against the video if quoting directly.",
@@ -114,6 +93,4 @@ RISKS = [
 
 OTHER_NEWS = []
 
-GLOSSARY = [
-    {"term": "Epic mode (Tracer)", "def": "A spec-first workflow in the sponsor tool Tracer that breaks work into structured tasks before any code is written."},
-]
+GLOSSARY = []
