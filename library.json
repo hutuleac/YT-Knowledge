@@ -227,6 +227,52 @@
    ]
   },
   {
+   "html": "raoul-pal-the-journey-man_2026-08-13_why-the-next-phase-of-crypto-is-bigger-than-you-think-w-blue-macellari.html",
+   "title": "Why The Next Phase of Crypto Is Bigger Than You Think w/ Blue Macellari",
+   "channel": "Raoul Pal The Journey Man",
+   "date": "2026-08-13",
+   "speakers": "Raoul Pal (host), Blue Macellari (Head of Digital Assets, T. Rowe Price)",
+   "thread_line": "6 threads · institutional crypto infrastructure that survived FTX, crypto's liquidity stall since '10/10', stablecoin fragmentation as a UX problem, tokenization hype vs. reality, accelerating institutional adoption signals, and an AI-risk digression on identity, self-reporting, and a wargame that always goes nuclear",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": "TROW",
+     "display": "T. Rowe Price",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "SOL",
+     "display": "Solana",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "HOOD",
+     "display": "Robin Hood",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "COIN",
+     "display": "Coinbase",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "BEN",
+     "display": "Franklin Templeton",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    }
+   ]
+  },
+  {
    "html": "this-week-in-ai_2026-08-13_why-anthropic-is-watermarking-every-word-claude-writes.html",
    "title": "Why Anthropic is watermarking every word Claude writes",
    "channel": "This Week in AI",
