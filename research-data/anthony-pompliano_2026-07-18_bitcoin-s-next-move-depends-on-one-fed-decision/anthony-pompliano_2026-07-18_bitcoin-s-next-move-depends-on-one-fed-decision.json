@@ -1,0 +1,479 @@
+{
+  "metadata": {
+    "video_id": "fEnq13uJBD0",
+    "url": "https://www.youtube.com/watch?v=fEnq13uJBD0",
+    "channel": "Anthony Pompliano",
+    "title": "Bitcoin's Next Move Depends On One Fed Decision",
+    "publication_date": "2026-07-18",
+    "analysis_date": "2026-07-18",
+    "speaker": "Jordy Visser (guest), interviewed by Anthony Pompliano",
+    "duration_seconds": 3017
+  },
+  "executive_takeaway": "The highest-signal ideas: (1) A real deleveraging / 'fireworks show is over' is underway in AI names — the 'AI midcycle slowdown' is a second-derivative deceleration, not a thesis break. (2) Jordy is rotating hard toward crypto (Bitcoin + Ethereum + MicroStrategy) and back into memory semis (Micron), arguing crypto is the only asset with a moat AI cannot disrupt. (3) Memory is named the single most important part of the AI trade; he is focused on names that have not yet seen their earnings 'step-up function.' (4) Cooling inflation + a Warsh-led Fed reform is read as a major positive for the 'debasement trade' / crypto into year-end. (5) Open-source Chinese models (Kimi K3) are seen as NOT displacing US frontier models inside the Fortune 500 due to tooling, bureaucracy, and 'cultural weights.' (6) He expects the next leg to be 'embodied AI' / robotics, played via the semiconductor/infrastructure trade.",
+  "conviction_map": [
+    {
+      "topic": "Micron (MU)",
+      "category": "stock",
+      "stance": "OWNS / BUYING (small)",
+      "conviction": "High",
+      "action_status": "Bought a little this week; rebuilt small position at higher avg price than where he sold",
+      "core_thesis": "Memory is the most important part of the AI trade; names haven't built capacity in years, supply can't keep up with exponential token demand",
+      "risks": "Already gave back 30-50%; fireworks show over means individual names diverge; could sell off another 20%"
+    },
+    {
+      "topic": "Ethereum (ETH)",
+      "category": "crypto",
+      "stance": "OWNS / WATCHING (add)",
+      "conviction": "High",
+      "action_status": "Owns; says 'get in once we get above the 200-day moving average'",
+      "core_thesis": "AI agents + tokenization = on-chain revenue/volume; ETH outperformed BTC, best month since Aug last year (+~20% MTD cited)",
+      "risks": "Trading actively below 200-day MA; bottom not confirmed"
+    },
+    {
+      "topic": "Bitcoin (BTC)",
+      "category": "crypto",
+      "stance": "OWNS",
+      "conviction": "High",
+      "action_status": "Core holding; 'only thing that has a moat' AI cannot disrupt",
+      "core_thesis": "Debasement trade; 5-6% deficit + AI/Fed reform = positive; V-adjusted basis favors BTC 3x over AI",
+      "risks": "Acted better than expected in momentum unwind but still below prior highs since Oct 10"
+    },
+    {
+      "topic": "MicroStrategy (MSTR)",
+      "category": "stock",
+      "stance": "OWNS",
+      "conviction": "Medium",
+      "action_status": "Listed as 3rd crypto allocation alongside BTC and ETH",
+      "core_thesis": "Bitcoin proxy / leverage to debasement trade",
+      "risks": "Equity wrapper on BTC; correlation + volatility"
+    },
+    {
+      "topic": "Memory semis (Samsung, SK Hynix implied)",
+      "category": "stock",
+      "stance": "WATCHING / POSITIVE",
+      "conviction": "Medium",
+      "action_status": "Names to watch; 'memory is the place I'm going to be focused on'",
+      "core_thesis": "Samsung/ASML 'blew away numbers'; memory bottleneck drives earnings step-up",
+      "risks": "Stocks traded lower despite beats (deleveraging)"
+    },
+    {
+      "topic": "Vera Rubin supply chain names",
+      "category": "stock",
+      "stance": "WATCHING",
+      "conviction": "Medium",
+      "action_status": "Writing a piece; focused on names without earnings step-up yet",
+      "core_thesis": "Next area where certain names haven't seen the earnings step-up function",
+      "risks": "Unidentified names; thesis depends on beating earnings significantly"
+    },
+    {
+      "topic": "Robotics / Embodied AI",
+      "category": "technology trend",
+      "stance": "WATCHING / INTENDS TO BUY",
+      "conviction": "Medium",
+      "action_status": "'I'm sure I will start buying some of these robotics things'",
+      "core_thesis": "Next trade after software; played via semiconductor/infrastructure (e.g., Tesla's Dojo/cortex for chips)",
+      "risks": "Supply side not built; early"
+    },
+    {
+      "topic": "S&P 500",
+      "category": "macro",
+      "stance": "POSITIVE VIEW",
+      "conviction": "Medium",
+      "action_status": "'buy the S&P, great returns next couple years'",
+      "core_thesis": "Earnings strong (16% beat ratio cited); nominal GDP supported by deficit",
+      "risks": "Expects multiple compression over next 3 years"
+    },
+    {
+      "topic": "Biotech (NASDAQ)",
+      "category": "sector",
+      "stance": "POSITIVE VIEW",
+      "conviction": "Low",
+      "action_status": "'most interested in biotech at this point' within NASDAQ",
+      "core_thesis": "Area of NASDAQ with beta he likes",
+      "risks": "Passing comment, no detail"
+    },
+    {
+      "topic": "SaaS / seat-based software",
+      "category": "sector",
+      "stance": "NEGATIVE VIEW (avoid)",
+      "conviction": "High",
+      "action_status": "'still have no interest'; people picking bottoms are wrong",
+      "core_thesis": "Structural change from AI, not a temporary selloff; Adobe/Salesforce disrupted",
+      "risks": "None stated (he is confident)"
+    },
+    {
+      "topic": "Hyperscaler debt",
+      "category": "macro",
+      "stance": "NEGATIVE VIEW on the fear (not worried)",
+      "conviction": "Medium",
+      "action_status": "Actively dismisses debt concern",
+      "core_thesis": "$2T RPOs; $2T capex contracted (AMZN/MSFT/GOOG/ORCL); debt/equity 'nothing'",
+      "risks": "Assumes funding markets stay open"
+    },
+    {
+      "topic": "US Frontier AI models (Anthropic, OpenAI, Google, Meta, Apple)",
+      "category": "AI company",
+      "stance": "POSITIVE VIEW",
+      "conviction": "Medium",
+      "action_status": "Believes all model companies make money; 'all going to make money'",
+      "core_thesis": "Largest TAM ever (intelligence); Jevons paradox; compute demand everywhere",
+      "risks": "ARR extrapolation to $1T doubtful; uphill battle vs last 2 yrs"
+    },
+    {
+      "topic": "Chinese open-source models (Kimi K3)",
+      "category": "AI model/tool",
+      "stance": "NEGATIVE VIEW for enterprise adoption",
+      "conviction": "Medium",
+      "action_status": "Does not see Fortune 500 switching",
+      "core_thesis": "Needs own hardware/GPUs; no tools; bureaucracy; 'cultural weights' concern",
+      "risks": "Could gain developer/share via cost"
+    }
+  ],
+  "companies_assets": [
+    {
+      "company": "Micron (MU)",
+      "status": "OWNS / BUYING (small)",
+      "view": "Positive; memory is the most important AI trade",
+      "why": "Bought back a little this week as consolidation/deleveraging created confidence; capacity not built in years",
+      "catalysts": "AI memory bottleneck; earnings beats; supply can't match exponential token demand",
+      "risks": "Down 30-50% from highs; may sell off another 20%; fireworks show over",
+      "evidence": "High"
+    },
+    {
+      "company": "Nvidia (NVDA)",
+      "status": "CASUAL MENTION / POSITIVE VIEW",
+      "view": "Dominates AI trade; 12x then +48% over 2 yrs; '25% a yr still possible'",
+      "why": "Used as the template for the midcycle slowdown; peaked 2024, now only beats by a little",
+      "catalysts": "Continued earnings growth; agentic world",
+      "risks": "Deceleration; won't return to 60-70x euphoria",
+      "evidence": "Medium"
+    },
+    {
+      "company": "Samsung",
+      "status": "CASUAL MENTION / POSITIVE VIEW",
+      "view": "'Blew away numbers' on memory",
+      "why": "Memory earnings strength",
+      "catalysts": "Memory step-up",
+      "risks": "Stock traded lower on the beat",
+      "evidence": "Medium"
+    },
+    {
+      "company": "ASML",
+      "status": "CASUAL MENTION / POSITIVE VIEW",
+      "view": "'Blew away numbers'",
+      "why": "Semiconductor equipment demand",
+      "catalysts": "AI buildout",
+      "risks": "Stock traded lower on the beat",
+      "evidence": "Medium"
+    },
+    {
+      "company": "Ethereum (ETH)",
+      "status": "OWNS / WATCHING (add)",
+      "view": "Strong positive; +~20% MTD, best since Aug",
+      "why": "On-chain revenue from agents + tokenization; outperformed BTC",
+      "catalysts": "Above 200-day MA = add trigger; Stripe/PayPal tokenization news",
+      "risks": "Below 200-day MA = still trading actively",
+      "evidence": "High"
+    },
+    {
+      "company": "Bitcoin (BTC)",
+      "status": "OWNS",
+      "view": "Core positive; 'only asset with a moat'",
+      "why": "Cannot be disrupted by AI; debasement trade; V-adjusted 3x vs AI",
+      "catalysts": "Cooling inflation; Warsh Fed reform; deficit spending",
+      "risks": "Below Oct 10 highs; hasn't recovered like gold/silver",
+      "evidence": "High"
+    },
+    {
+      "company": "MicroStrategy (MSTR)",
+      "status": "OWNS",
+      "view": "Bitcoin proxy in portfolio",
+      "why": "3rd crypto allocation",
+      "catalysts": "BTC upside",
+      "risks": "Equity/BTC leverage",
+      "evidence": "Medium"
+    },
+    {
+      "company": "PayPal (PYPL)",
+      "status": "WATCHING (in basket)",
+      "view": "In his 'crypto 40 name equal weight basket'",
+      "why": "Crossover with AI agents + crypto; Stripe bid for PayPal called 'a big deal'",
+      "catalysts": "Tokenization / payment rails",
+      "risks": "Not individually detailed",
+      "evidence": "Medium"
+    },
+    {
+      "company": "Robinhood (HOOD)",
+      "status": "WATCHING (in basket)",
+      "view": "One of 6 public companies in crypto basket fitting AI-agent crossover",
+      "why": "Prediction markets / RWA / tokenization growth",
+      "catalysts": "Tokenization trend",
+      "risks": "Not individually detailed",
+      "evidence": "Medium"
+    },
+    {
+      "company": "Tesla (TSLA)",
+      "status": "CASUAL MENTION",
+      "view": "Building Dojo/cortex for robotics chips ('we don't have enough chips')",
+      "why": "Embodied AI / robotics angle",
+      "catalysts": "Humanoids, FSD = more tokens",
+      "risks": "Early; supply side not built",
+      "evidence": "Low"
+    },
+    {
+      "company": "Adobe (ADBE)",
+      "status": "CASUAL MENTION / NEGATIVE VIEW",
+      "view": "Example of company being disrupted by AI",
+      "why": "Cannot be viewed past next 3 years (terminal value risk)",
+      "catalysts": "N/A",
+      "risks": "AI disruption",
+      "evidence": "Low"
+    },
+    {
+      "company": "Salesforce (CRM)",
+      "status": "CASUAL MENTION / NEGATIVE VIEW",
+      "view": "Example of company being disrupted by AI",
+      "why": "Same terminal-value argument",
+      "catalysts": "N/A",
+      "risks": "AI disruption",
+      "evidence": "Low"
+    },
+    {
+      "company": "Amazon / Microsoft / Google / Oracle",
+      "status": "CASUAL MENTION / POSITIVE VIEW",
+      "view": "Hyperscalers; $2T capex contracted, $2T RPOs",
+      "why": "AI infrastructure demand confirmed",
+      "catalysts": "Capex continuation; race vs China",
+      "risks": "Debt fears dismissed by speaker",
+      "evidence": "Medium"
+    },
+    {
+      "company": "Eli Lilly (LLY)",
+      "status": "CASUAL MENTION",
+      "view": "Called an 'AI trade' by speaker (thematic framing)",
+      "why": "Everything in his portfolio framed as AI or crypto",
+      "catalysts": "N/A",
+      "risks": "Framing is the speaker's, not a fundamental thesis",
+      "evidence": "Low"
+    },
+    {
+      "company": "Caterpillar (CAT)",
+      "status": "CASUAL MENTION",
+      "view": "Example of a name that ran up fast and is giving back",
+      "why": "Illustrates broad deleveraging beyond AI",
+      "catalysts": "N/A",
+      "risks": "N/A",
+      "evidence": "Low"
+    },
+    {
+      "company": "Silver / Gold",
+      "status": "OWNS (implied) / CASUAL MENTION",
+      "view": "Up massively last year; had 30-yr record drawdowns",
+      "why": "Comparison for deleveraging; thematic framing uncertain",
+      "catalysts": "Debasement",
+      "risks": "Haven't come back like AI names",
+      "evidence": "Low"
+    }
+  ],
+  "technology_ai_views": [
+    {
+      "theme": "Memory is the core AI bottleneck",
+      "view": "Most important part of the AI trade; semis fine but memory is the focus",
+      "companies": "Micron, Samsung, SK Hynix (implied), ASML",
+      "why": "Capacity not built for 7 years; exponential token demand vs linear supply",
+      "horizon": "Next 12-24 months",
+      "conviction": "High"
+    },
+    {
+      "theme": "AI midcycle slowdown / deleveraging",
+      "view": "Second-derivative deceleration, not thesis break; 'fireworks show is over'",
+      "companies": "Nvidia, Micron, broad semis",
+      "why": "Names up 3-10x built in 2 yrs of growth; decelerating earnings beats",
+      "horizon": "Now / summer 2026",
+      "conviction": "High"
+    },
+    {
+      "theme": "Open-source vs US frontier models",
+      "view": "Chinese open models (Kimi K3) won't displace US frontier in enterprises",
+      "companies": "Kimi (Moonshot), Anthropic, OpenAI, Google, Meta, Apple",
+      "why": "Need own GPUs; no tools/UX; Fortune 500 bureaucracy; 'cultural weights'",
+      "horizon": "12+ months",
+      "conviction": "Medium"
+    },
+    {
+      "theme": "Model routers / outsourced intelligence",
+      "view": "Route queries to cheapest sufficient model; Jevons paradox in play",
+      "companies": "Sylvia (Pompliano co), Anthropic, open models",
+      "why": "Lowers cost, raises token volume; adoption still extremely low",
+      "horizon": "Now / early",
+      "conviction": "Medium"
+    },
+    {
+      "theme": "Agents (enterprise then consumer)",
+      "view": "'Barely entered the agentic world'; consumer agents coming",
+      "companies": "All model labs, crypto (ETH) for settlement",
+      "why": "Largest TAM = intelligence; drives compute + on-chain volume",
+      "horizon": "12-36 months",
+      "conviction": "High"
+    },
+    {
+      "theme": "AGI timeline ~2030",
+      "view": "Demis Hassabis forecast ~2030; 'world changes over next 3 years'",
+      "companies": "DeepMind, all public cos",
+      "why": "Rises probability every company gets disrupted; terminal-value risk",
+      "horizon": "by ~2030",
+      "conviction": "Low (speaker cites Hassabis)"
+    },
+    {
+      "theme": "Embodied AI / robotics",
+      "view": "Next trade after software; played via semis (Tesla Dojo/cortex)",
+      "companies": "Tesla, humanoid makers, semis",
+      "why": "Humanoids/FSD = more tokens; supply side not built",
+      "horizon": "12-36 months",
+      "conviction": "Medium"
+    },
+    {
+      "theme": "Tokenization / RWA / prediction markets",
+      "view": "Major growth; US must lead financial guardrails",
+      "companies": "PayPal, Robinhood, Stripe, Ethereum",
+      "why": "Crossover of AI agents + crypto; convergence thesis",
+      "horizon": "Now / year-end",
+      "conviction": "Medium"
+    },
+    {
+      "theme": "Cultural weights in models",
+      "view": "Eastern values in open-model weights is an under-discussed risk",
+      "companies": "Kimi, Chinese open models",
+      "why": "Finance/customer-service responses may carry unwanted cultural bias",
+      "horizon": "Emerging",
+      "conviction": "Low (uncertain)"
+    }
+  ],
+  "ai_workflows": [
+    {
+      "name": "Model router for cost-efficient inference",
+      "goal": "Answer each query with the cheapest model that is good enough",
+      "tools": "Sylvia product (multi-model router); high-intelligence + lower-cost/open models",
+      "approach": "Route complex queries to the most powerful (expensive) model; route simple queries (e.g. 'what is the date') to lower-compute/open-source models. Question still tested: how many models to include (2-3 vs 20; cite Brett Taylor's Sierra using ~20 models).",
+      "why": "Positive impact seen on cost/throughput; Jevons paradox — cheaper intelligence raises total usage"
+    },
+    {
+      "name": "Earnings 'step-up function' screen (Jordy's method)",
+      "goal": "Separate AI names that will keep beating earnings hard from those that won't",
+      "tools": "His '100 name AI portfolio'; tracks which names have vs haven't seen their earnings step-up",
+      "approach": "Focus on companies that have NOT yet seen their earnings step-up function and are still expected to beat by a significant amount in coming quarters (not just this quarter). Names beating by only a little (like post-2024 Nvidia) produce ~25%/yr but not 60-70x re-ratings.",
+      "why": "Identifies the next outperformers as the 'fireworks' phase ends"
+    },
+    {
+      "name": "V-adjusted position sizing",
+      "goal": "Size positions by volatility rather than price",
+      "tools": "Volatility (V) targeting framework",
+      "approach": "Compare V of assets (AI thematic V ~100 vs Bitcoin V ~30) => can hold ~3x as much BTC on a V-adjusted basis. When vol rises, quant/risk-par strategies must cut risk and rebuilt positions are smaller.",
+      "why": "Explains the deleveraging mechanics and why crypto is comparatively attractive"
+    }
+  ],
+  "predictions": [
+    {
+      "prediction": "AI 'fireworks show' is over; individual names diverge, vol grinds down slowly",
+      "horizon": "Next 3-6 months",
+      "reasoning": "Deleveraging real; 30-60% retracement zone then names 'hang in there'",
+      "invalidated_by": "Fresh retail/leverage influx; new catalyst re-inflating multiples",
+      "assets": "AI semis, broad tech"
+    },
+    {
+      "prediction": "Crypto (BTC/ETH) is the year-end winner as inflation cools and Warsh reform lands",
+      "horizon": "Final 4 months of 2026",
+      "reasoning": "Debasement trade; deficit 5-6%; Fed hike odds to ~10% July; V-adjusted BTC attractive",
+      "invalidated_by": "Re-acceleration of inflation; hawkish Fed surprise",
+      "assets": "BTC, ETH, MSTR, crypto basket"
+    },
+    {
+      "prediction": "Memory earnings step-up continues to drive the AI trade",
+      "horizon": "Next 2-4 quarters",
+      "reasoning": "No capacity built in years; exponential token demand vs linear supply",
+      "invalidated_by": "New memory capacity; demand disappointing",
+      "assets": "Micron, Samsung, SK Hynix, ASML"
+    },
+    {
+      "prediction": "S&P delivers great returns next couple years but with multiple compression",
+      "horizon": "2-3 years",
+      "reasoning": "Strong earnings (16% beat); nominal GDP from deficit; but AGI raises disruption/terminal-value risk",
+      "invalidated_by": "Earnings rollover; rates spike; AGI shock priced in faster",
+      "assets": "S&P 500, broad equities"
+    },
+    {
+      "prediction": "Next AI leg is embodied AI / robotics, played via semiconductors",
+      "horizon": "12-36 months",
+      "reasoning": "Software battle is structural loser; humanoids/FSD need exponentially more tokens",
+      "invalidated_by": "Robotics supply/cost not solved; adoption slower",
+      "assets": "Tesla, semis, robotics names"
+    },
+    {
+      "prediction": "Fortune 500 will NOT switch to Chinese open-source models soon",
+      "horizon": "12+ months",
+      "reasoning": "Tooling, bureaucracy, lack of UX, 'cultural weights', need own GPUs",
+      "invalidated_by": "Cost pressure + mature open tooling + regulatory push",
+      "assets": "Anthropic, OpenAI, Google, Meta"
+    },
+    {
+      "prediction": "AGI arrives ~2030 and disrupts ALL companies' terminal value",
+      "horizon": "by ~2030",
+      "reasoning": "Demis Hassabis forecast; probability rises daily",
+      "invalidated_by": "AGI delayed; narrow-only progress",
+      "assets": "All public companies"
+    }
+  ],
+  "notable_quotes": [],
+  "risks": [
+    "Speaker explicitly says deleveraging is 'real' and about leverage — a momentum unwind in tech factor was 'unprecedented.'",
+    "He warns the 'fireworks show is over': future returns are stock-specific, not broad 3-10x moves.",
+    "Contradiction/evolution: he is rebuilding a Micron position at HIGHER average prices than where he sold — acknowledges paying more.",
+    "Inflation call is his read; he notes PCE core is the one measure still pointing up — 'inflation is a non-story' is his lean, not fact.",
+    "Warsh/Fed reform thesis assumes a dovish-leaning, AI-literate Fed; July hike odds ~10% but not zero.",
+    "Assumption that US frontier models keep enterprise dominance ignores rapid open-source improvement (Kimi K3 cited as matching/beating closed models on benchmarks).",
+    "'Cultural weights' in open models is flagged as under-researched — uncertainty, not established fact.",
+    "AGI ~2030 and 'all companies disrupted' is presented as a framework, sourced to Demis Hassabis, not the speaker's own forecast.",
+    "ROIC shifting to private companies as agents accelerate is a thesis, not yet in reported data (he cites 40 S&P names reported, 16% beat).",
+    "Missing: no specific price targets, position sizes beyond 'small,' or dated entries; crypto basket constituents beyond PayPal/Robinhood/MSTR not named.",
+    "Several claims (memory bottleneck, token-exponential demand) are speaker convictions — verify with supply/capacity data independently."
+  ],
+  "actionable_takeaways": [
+    {
+      "item": "Research the memory semis (Micron, Samsung, SK Hynix) supply/demand and earnings step-up before the next print",
+      "type": "Analyst interpretation based on speaker's claim",
+      "detail": ""
+    },
+    {
+      "item": "Add Ethereum to watchlist with a hard trigger: close above the 200-day moving average",
+      "type": "Speaker claim",
+      "detail": ""
+    },
+    {
+      "item": "Validate Jordy's 'V-adjusted' framing: compare realized vol of AI thematic basket vs BTC to size allocations",
+      "type": "Needs independent verification",
+      "detail": ""
+    },
+    {
+      "item": "Test a model-router setup (route simple queries to cheap/open models) to cut inference cost — mirrors Sylvia's approach",
+      "type": "Speaker claim (Sylvia example)",
+      "detail": ""
+    },
+    {
+      "item": "Monitor inflation swaps + PCE core divergence; watch for the Fed hike-odds path into year-end",
+      "type": "Speaker claim (verify with primary data)",
+      "detail": ""
+    },
+    {
+      "item": "Track tokenization/RWA news (PayPal, Robinhood, Stripe, ETH) as the AI-agent x crypto convergence plays out",
+      "type": "Speaker claim",
+      "detail": ""
+    },
+    {
+      "item": "Investigate 'cultural weights' / bias in Chinese open models if evaluating them for any enterprise use",
+      "type": "Needs independent verification",
+      "detail": ""
+    }
+  ],
+  "other_notable_news": [],
+  "glossary": []
+}

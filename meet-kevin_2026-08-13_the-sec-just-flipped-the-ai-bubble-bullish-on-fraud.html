@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research: The SEC JUST Flipped the AI Bubble | Bullish on Fraud.</title>
+<style>
+:root{
+  --ink:#20231f; --muted:#6b6f66; --line:#e4e2d8; --card:#fffdf8; --bg:#efece2;
+  --brand:#8a5a2e; --serif:'Iowan Old Style','Palatino Linotype',Georgia,serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:clamp(15px,1.05vw,18px);line-height:1.7;-webkit-font-smoothing:antialiased;}
+.page{max-width:1600px;width:100%;margin:0 auto;background:var(--card);box-shadow:0 0 0 1px var(--line);}
+.hero{padding:clamp(18px,2.4vw,34px) clamp(18px,4vw,56px) clamp(14px,1.8vw,22px);border-bottom:1px solid var(--line);}
+.kicker{font-family:var(--serif);font-style:italic;font-size:clamp(13px,1vw,16px);color:var(--brand);margin-bottom:10px;}
+.hero h1{font-family:var(--serif);margin:0 0 14px;font-size:clamp(24px,3.4vw,42px);line-height:1.15;
+  letter-spacing:-.01em;font-weight:600;color:#171916;max-width:42ch;}
+.byline{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:clamp(13px,1vw,15px);line-height:1.6;}
+.byline b{color:var(--ink);font-weight:600;}
+.stats-line{font-family:var(--serif);font-style:italic;color:var(--brand);font-size:clamp(12.5px,.95vw,14.5px);margin-top:4px;}
+.stats-line a{color:var(--brand);}
+.inner{padding:10px clamp(18px,4vw,56px) 48px;}
+section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
+.sec-eye{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--brand);margin-bottom:4px;}
+.sec h2{font-family:var(--serif);margin:0;font-size:clamp(20px,2vw,26px);font-weight:600;color:#171916;
+  border-bottom:2px solid var(--brand);display:inline-block;padding-bottom:5px;}
+.card{background:#fbf7ef;border:1px solid var(--line);border-radius:14px;padding:clamp(18px,3vw,28px);}
+.snap{list-style:none;margin:0;padding:0;}
+.snap li{padding:12px 0;border-bottom:1px solid var(--line);line-height:1.6;font-size:clamp(14.5px,.95vw,16.5px);}
+.snap li:last-child{border-bottom:none}
+.theme{padding:36px 0;border-bottom:1px solid var(--line);}
+.theme-badgerow{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-bottom:10px;}
+.badge{display:inline-block;padding:5px 13px;border-radius:3px;font-size:12px;font-weight:700;
+  white-space:nowrap;letter-spacing:.03em;text-transform:uppercase;color:#fffdf8;}
+.theme-status{font-family:var(--serif);font-style:italic;font-size:13.5px;color:var(--muted);}
+.theme h2{font-family:var(--serif);margin:0 0 20px;font-size:clamp(20px,2.2vw,28px);font-weight:600;
+  color:#171916;line-height:1.25;max-width:32ch;padding-left:16px;}
+.theme-body{display:flex;flex-wrap:wrap;gap:28px;}
+.theme-main{flex:3 1 400px;min-width:0;}
+.theme-side{flex:2 1 260px;min-width:0;}
+.lead{margin:0 0 18px;font-size:clamp(16px,1.15vw,19px);line-height:1.6;color:#171916;font-weight:600;max-width:70ch;}
+.bullets{list-style:none;margin:0 0 22px;padding:0;max-width:76ch;}
+.bullets li{position:relative;padding:9px 0 9px 20px;border-bottom:1px solid var(--line);
+  font-size:clamp(14px,.95vw,15.5px);line-height:1.65;color:#2c2f28;}
+.bullets li .dot{position:absolute;left:0;top:16px;width:7px;height:7px;border-radius:50%;}
+.sidecard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:14px 16px 14px 26px;max-width:76ch;margin:0 0 18px;}
+.sidecard:last-child{margin-bottom:0;}
+.sidecard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;
+  background:var(--sc-accent);}
+.sidecard .lbl{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--sc-accent);margin-bottom:8px;}
+.sidecard.quote{font-family:var(--serif);font-style:italic;font-size:clamp(15px,1.1vw,18px);
+  line-height:1.5;color:#2c2f28;}
+.sidecard.quote .lbl{font-family:-apple-system,sans-serif;font-style:normal;}
+.sidecard.quote cite{display:block;font-family:-apple-system,sans-serif;font-style:normal;font-size:13px;
+  color:var(--muted);margin-top:9px;}
+.sidecard .txt{font-size:14.5px;line-height:1.55;color:#3a3d35;}
+.namechip{padding:0 0 10px;margin:0 0 10px;border-bottom:1px solid var(--line);}
+.namechip:last-child{padding-bottom:0;margin-bottom:0;border-bottom:none;}
+.namechip b{display:block;font-weight:600;font-size:14.5px;color:#171916;}
+.namechip span{font-size:13px;color:#4a4d44;line-height:1.5;}
+.icard{display:flex;gap:14px;align-items:flex-start;background:#fffefb;border:1px solid var(--line);
+  border-radius:12px;padding:14px 16px;margin:11px 0;}
+.icard .ic{flex:none;width:30px;height:30px;border-radius:6px;display:grid;place-items:center;
+  font-size:14px;background:#f4e9db;line-height:1;}
+.icard .title{font-weight:600;font-size:clamp(14px,.95vw,15.5px);color:#171916;line-height:1.42;margin-bottom:5px;}
+.icard .tag{display:inline-block;font-family:var(--serif);font-style:italic;font-size:13px;font-weight:600;color:var(--brand);}
+.icard .detail{font-size:13.5px;color:#4a4d44;line-height:1.55;margin-top:4px;}
+.riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px 14px 28px;margin:11px 0;}
+.riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
+.gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
+.gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
+.gloss b{font-family:var(--serif);color:#171916;}
+.empty{color:var(--muted);font-style:italic;font-size:14.5px;}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <div class="kicker">A YouTube Research Brief</div>
+    <h1>The SEC JUST Flipped the AI Bubble | Bullish on Fraud.</h1>
+    <div class="byline">
+      Channel: <b>Meet Kevin</b> &middot; Speaker: <b>Kevin (host)</b> &middot; <b>2026-08-13</b>
+      <div class="stats-line">5 threads · SEC disclosure rollback, Elon/SpaceX spend, Kevin's actual buys (RSP/IGV/MSFT/PLTR/AXON), CoreWeave red flag, macro backdrop &middot; <a href="https://www.youtube.com/watch?v=0st1nrd-Qw4" target="_blank" rel="noopener">Watch on YouTube &#8599;</a></div>
+    </div>
+  </header>
+  <div class="inner">
+    <section class="sec">
+      <div class="sec-eye">The one-paragraph takeaway</div>
+      <h2>Video Snapshot</h2>
+      <div class="card" style="margin-top:16px;"><ol class="snap"><li>Core thesis: short-term bullish (through Q3/Q4 2026), longer-term cautious — Kevin explicitly expects the AI bubble to pop eventually, just not yet.</li><li>SEC quietly exempted data-center asset-backed securities from Dodd-Frank disclosure rules; a day later Nvidia partnered with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to mobilize $500B for data-center financing — Kevin estimates ~40% flows straight to Nvidia.</li><li>Kevin's actual buy list in this video: RSP (S&amp;P 500 equal-weight ETF, favorite #1) and IGV (software ETF, favorite #2), with Microsoft, Palantir and Axon named inside the IGV/software-bottoming thesis.</li><li>CoreWeave (CRWV) flagged as a red flag: $6B cash against $18B of debt due within 12 months, and a disclosed 9% WACC that Kevin says masks an effective &gt;10.5% borrowing cost per a WSJ report on a discounted $2.6B loan sale.</li><li>Elon/SpaceX: compute framed as ~99% of the company going forward, $30-50B per gigawatt in planned data-center spend, guidance of $300-500B/year revenue — treated by Kevin purely as a market-wide liquidity tailwind, not a stock pick (SpaceX is private).</li><li>Macro backdrop supports the near-term bullish case: CPI/PPI cooler than feared, rate-hike odds falling even among hawks like TS Lombard, though Kevin calls the underlying labor data a 'muddy foundation.'</li><li>Not organized financial advice — this is a fast-paced, heavily self-promotional monologue; treat hard numbers (debt figures, WACC, CPI internals) as needing independent verification.</li></ol></div>
+    </section>
+
+    
+<section class="theme" id="sec-disclosure-rollback">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Bullish short-term, risk flag long-term</span>
+    <span class="theme-status">SEC RULE CHANGE — CONFIRMED AUG 2026</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">SEC Exempts Data-Center Securities From Dodd-Frank Disclosure Rules</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">The SEC agreed, within about a day of being asked, that data-center asset-backed securities don't have to follow the post-2008 disclosure and skin-in-the-game rules — and Nvidia announced a $500B financing vehicle the very next day.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>Post-2008 Dodd-Frank rules required issuers of pooled asset-backed securities (mortgages, car loans) to keep 5% unhedged 'skin in the game' and disclose the makeup of the underlying pool.</li><li><span class="dot" style="background:#93711b;"></span>A group of attorneys petitioned the SEC arguing GPUs are different from houses/cars because GPUs 'don't self-liquidate' (can't be individually resold by an end user) — the SEC agreed and granted the exemption.</li><li><span class="dot" style="background:#93711b;"></span>Rules now waived for data-center securitizations include: underlying-asset disclosure, ongoing reporting, repurchase obligations, GPU rental rates, utilization rates, concentration, and lease expirations.</li><li><span class="dot" style="background:#93711b;"></span>Aug 10: Nvidia partnered with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to mobilize $500B for data-center financing; Kevin estimates roughly 40% of that flows directly into Nvidia's revenue.</li><li><span class="dot" style="background:#93711b;"></span>Kevin's read: these asset managers earn fees on AUM (assets under management) regardless of underlying asset quality, so less disclosure doesn't cost them much — it just removes a check on the system.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#93711b;"><div class="lbl">Pull quote</div>&#8220;Who needs disclosure or rules? ... this is literally what happened here.&#8221;<cite>— Kevin, on the SEC exemption</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Nvidia (NVDA)</b><span>Central beneficiary of the new $500B data-center financing vehicle; Kevin estimates ~40% of that fund flows directly to Nvidia. Not explicitly named as a fresh buy in this video, but framed as the biggest structural winner of the disclosure rollback.</span></div><div class="namechip"><b>Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR</b><span>Asset managers co-mobilizing the $500B fund; Kevin's point is they profit on AUM fees regardless of the quality of the GPUs backing the securitizations — mentioned as context/participants, not stock recommendations.</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">Kevin says explicitly: 'I don't actually think it's healthy what's going on with these SEC disclosure rules. It is going to just accelerate the bubble even more... short term, bullish. Longer term, cautious.'</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="elon-spacex-spend">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#65695f;">Macro tailwind, not a stock pick — SpaceX is private</span>
+    <span class="theme-status">SPACEX RALLIED 9% ON COMPUTE COMMENTS</span>
+  </div>
+  <h2 style="border-left:4px solid #65695f;">Elon's Spending Is a Market-Wide Tailwind, Not an Investable Ticker</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">SpaceX rallied 9% after Elon said compute will be ~99% of the company, but Kevin treats this purely as a 'rising tide lifts all ships' liquidity driver — SpaceX itself isn't a stock you can buy.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#65695f;"></span>Elon: SpaceX compute will become ~99% of the company; plans to spend $30-50B per gigawatt building data-center facilities.</li><li><span class="dot" style="background:#65695f;"></span>Elon's own guidance: $300-500B/year in future revenue from this compute buildout.</li><li><span class="dot" style="background:#65695f;"></span>Kevin's caveat: Elon didn't mention the bottom line, GPU rental-rate sustainability, or how much debt SpaceX will take on to fund this.</li><li><span class="dot" style="background:#65695f;"></span>Kevin frames this as reason #2 to be bullish on the broader market (alongside the SEC rule change) — massive private-company spending lifts the whole AI capex ecosystem, even though SpaceX itself isn't publicly investable.</li></ul>
+    </div>
+    <div class="theme-side">
+      
+      
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">This is forward guidance from Elon with no disclosed profitability or debt detail — Kevin flags the gap himself rather than taking the $300-500B figure at face value.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="kevin-bullish-picks">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#3f6b2e;">High conviction — actively buying</span>
+    <span class="theme-status">OWNS / BUYING — enterprise inference compute thesis</span>
+  </div>
+  <h2 style="border-left:4px solid #3f6b2e;">Kevin's Actual Buys: RSP, IGV, and the Software-Bottoming Names Inside It</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">Of everything covered, these are the only names Kevin says he is actively buying and expanding exposure to — RSP and IGV, with Microsoft, Palantir and Axon named as the software leg.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#3f6b2e;"></span>RSP (S&amp;P 500 equal-weight ETF) — Kevin's favorite #1 pick at the index level: daily new highs, six-year uptrend, clean 200-day moving average that he buys dips against.</li><li><span class="dot" style="background:#3f6b2e;"></span>Broadening beyond just tech stocks (what RSP captures) signals a widening wealth effect — more people getting richer and spending, which Kevin lists as his third overall reason to be bullish.</li><li><span class="dot" style="background:#3f6b2e;"></span>IGV (software ETF) — favorite #2, tied to Kevin's 'Q3/Q4 software bottoming thesis,' which he says is now playing out.</li><li><span class="dot" style="background:#3f6b2e;"></span>Named inside that software thesis: Microsoft, Palantir, and Axon — stocks he says his service has sent buy alerts on, with the caveat that not every pick goes straight up (some dip right after the buy alert).</li><li><span class="dot" style="background:#3f6b2e;"></span>Kevin says he is 'expanding our exposure in a conservative way' as part of a broader 'enterprise inference compute thesis' spanning both hardware and software exposure.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#3f6b2e;"><div class="lbl">Pull quote</div>&#8220;The second portion that I'm also very bullish on is IGV, the software ETF.&#8221;<cite>— Kevin</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>RSP</b><span>S&amp;P 500 equal-weight ETF; Kevin's #1 favorite index-level pick, buys dips at the 200-day moving average.</span></div><div class="namechip"><b>IGV</b><span>Software ETF; Kevin's #2 favorite, tied to his Q3/Q4 software-bottoming thesis.</span></div><div class="namechip"><b>Microsoft (MSFT)</b><span>Named as one of the stocks driving the software-bottoming thesis; buy alert sent per Kevin.</span></div><div class="namechip"><b>Palantir (PLTR)</b><span>Same — named inside the IGV/software-bottoming thesis, buy alert sent.</span></div><div class="namechip"><b>Axon (AXON)</b><span>Same — named inside the IGV/software-bottoming thesis, buy alert sent.</span></div></div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="coreweave-red-flag">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#a23f22;">Red flag — balance-sheet warning</span>
+    <span class="theme-status">CRWV EARNINGS BEAT ON BACKLOG, NOT ON BALANCE-SHEET STRENGTH</span>
+  </div>
+  <h2 style="border-left:4px solid #a23f22;">CoreWeave's 'Fantastic' Earnings Hide an Ugly Balance Sheet and a WACC That Doesn't Add Up</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">CoreWeave's earnings looked great on the backlog, but Kevin says the balance sheet 'makes me want to vomit' — and its disclosed 9% cost of capital is masking a real borrowing cost above 10.5%.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#a23f22;"></span>CoreWeave (CRWV) had a strong earnings release, but Kevin says it was driven by backlog, not balance-sheet health.</li><li><span class="dot" style="background:#a23f22;"></span>Only $6B of cash against $18B of debt due within the next 12 months (excluding deferrals) — a gap Kevin calls the reason CoreWeave is paying 10%+ interest on its debt.</li><li><span class="dot" style="background:#a23f22;"></span>CoreWeave discloses a weighted average cost of capital (WACC) of 9% as of June 30 — but per the Wall Street Journal, it just revised terms on a $2.6B leveraged loan sale, offering ~5.5 points above SOFR (effective yield 10%+), sold at a steep discount to par.</li><li><span class="dot" style="background:#a23f22;"></span>Kevin's own math: $100 of debt at a 9% coupon, sold at an 85% discount, actually yields 10.59% to the buyer — meaning the disclosed 9% WACC understates CoreWeave's true cost of capital. He calls this 'another WACC lie.'</li><li><span class="dot" style="background:#a23f22;"></span>Nebius (NBIS) moved up on CoreWeave's earnings as a sector read-through, but Kevin gives it no independent balance-sheet scrutiny in this video — it's a passing mention, not a vetted pick.</li><li><span class="dot" style="background:#a23f22;"></span>Kevin explicitly says this CoreWeave debt situation is exactly what he does NOT want to see happen to SpaceX.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#a23f22;"><div class="lbl">Pull quote</div>&#8220;In English, here's just ANOTHER WACC LIE... this is how you blow up a bubble.&#8221;<cite>— Kevin, on CoreWeave's debt disclosures</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>CoreWeave (CRWV)</b><span>$6B cash vs $18B of debt due within 12 months; disclosed 9% WACC vs. an effective &gt;10.5% real borrowing cost per WSJ reporting on its discounted $2.6B loan sale.</span></div><div class="namechip"><b>Nebius (NBIS)</b><span>Moved up on CoreWeave's earnings as a sector read-through; only a passing mention, no independent balance-sheet check given.</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">Kevin isn't calling an imminent CoreWeave blowup — he frames this as a symptom of bubble stress worth monitoring, not a collapse prediction.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="macro-backdrop">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Supports the near-term bullish case</span>
+    <span class="theme-status">CPI/PPI COOLER THAN FEARED, RATE-HIKE ODDS FALLING</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">Cooling Inflation and Softening Labor Data Argue Against a September Hike</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">CPI and PPI both came in less bad than feared, and even rate-hike hawks like TS Lombard are backing off — but Kevin says the labor data underneath is a 'muddy foundation,' not a clean all-clear.</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>CPI came in lower than expected; PPI was flat ('wholesale prices unchanged... as energy prices edged down' — though Brent was actually around $87 at the time).</li><li><span class="dot" style="background:#93711b;"></span>Core goods disinflation reflects a fading tariff effect; core services ex-housing roughly flat; housing disinflation (the lagged effect Powell flagged back in 2021-22 due to how owner's-equivalent-rent is calculated) is now flattening out.</li><li><span class="dot" style="background:#93711b;"></span>Kevin references his own earlier prediction that a Mamdani win would push Manhattan rents to all-time highs, and claims that's what happened.</li><li><span class="dot" style="background:#93711b;"></span>TS Lombard, previously pushing for a rate hike, is now lowering its odds of a September hike given the softer CPI/PPI/labor data.</li><li><span class="dot" style="background:#93711b;"></span>Kevin calls the continued hawkish case 'ludicrous' — he says it leans on a falling unemployment rate while ignoring weaker 27-week-unemployed figures, labor force participation, and the weekly ADP trend, which he calls a 'muddy foundation.'</li><li><span class="dot" style="background:#93711b;"></span>Kevin expects AI to destroy jobs before it creates net new ones, and flags the risk that this delayed job growth could coincide with the AI bubble eventually popping.</li><li><span class="dot" style="background:#93711b;"></span>Bubble analogy: 'This tire is rated for 70 PSI and we're at 50, or maybe 69 — it can probably stretch to 100-120 before it blows.'</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#93711b;"><div class="lbl">Pull quote</div>&#8220;This tire is rated for 70 PSI and we are just at 50 or maybe we're at 69... this puppy can stretch. We can probably pump it up to 100, 120 before it blows.&#8221;<cite>— Kevin, bubble analogy</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>QQQ</b><span>Kevin has a near-term price target on QQQ for the upcoming Tuesday, which he says is about to be hit early — a near-term bullish signal, not a long-hold thesis on its own in this video.</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">Kevin flags his own base case as short-term bullish only — he has a near-term price target on QQQ he says is about to be hit early, but is explicitly more cautious about 2027 than 2026.</div></div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="sec">
+      <div class="sec-eye">What to do with this</div>
+      <h2>Best Actionable Takeaways</h2>
+      <div style="margin-top:16px;"><div class="icard"><div class="ic">🎯</div><div><div class="title">Track RSP and IGV first — these are Kevin's two explicitly-stated conviction vehicles for the rest of 2026, not just commentary.</div><div class="tag">Speaker's actual buys</div></div></div><div class="icard"><div class="ic">📈</div><div><div class="title">Within the software leg of the thesis, Microsoft, Palantir, and Axon are the named buy-alert stocks — verify each independently before following.</div><div class="tag">Speaker's stated favorites</div></div></div><div class="icard"><div class="ic">⚠️</div><div><div class="title">Before touching CoreWeave (CRWV), independently verify the $18B-debt-vs-$6B-cash gap and the WACC-vs-discounted-loan-yield math against its actual filings.</div><div class="tag">Needs independent verification</div></div></div><div class="icard"><div class="ic">🔎</div><div><div class="title">Treat Nvidia (NVDA) as the biggest indirect beneficiary of the SEC rule change and the $500B financing vehicle (~40% per Kevin's estimate), even though it isn't named as a fresh buy in this specific video.</div><div class="tag">Analyst interpretation</div></div></div><div class="icard"><div class="ic">🚫</div><div><div class="title">Don't chase SpaceX-driven market euphoria directly — it's private. Treat Elon's spending comments as a macro tailwind for AI-adjacent names, not a ticker to buy.</div><div class="tag">Analyst interpretation</div></div></div><div class="icard"><div class="ic">⚛️</div><div><div class="title">Size any new AI-exposure positions to Kevin's own split: short-term bullish (through Q3/Q4 2026), explicitly more cautious about 2027.</div><div class="tag">Speaker's own framing</div></div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where this could be wrong</div>
+      <h2>Risks &amp; Caveats on This Source</h2>
+      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Meet Kevin promotes his own paid subscription (meetkevin.com) throughout the video and has a financial incentive to keep viewers bullish and engaged with his platform.</div></div><div class="riskcard"><div class="txt">Stock 'buy alerts' referenced (Microsoft, Palantir, Axon) are self-reported by the speaker, not independently verified against a public track record in this video.</div></div><div class="riskcard"><div class="txt">This is a fast-paced, heavily editorialized solo monologue mixing jokes, opinion, and factual claims — hard numbers (CoreWeave's debt figures, WACC math, CPI internals) should be checked against primary sources (filings, WSJ, BLS).</div></div><div class="riskcard"><div class="txt">Auto-generated captions may contain transcription errors, particularly around tickers and numeric figures.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Beyond the main threads</div>
+      <h2>Other Notable News</h2>
+      <div style="margin-top:16px;"><p class="empty">Nothing notable found in this category for this video.</p></div>
+    </section>
+
+    <section class="sec" style="border-bottom:none;">
+      <div class="sec-eye">Names and terms at a glance</div>
+      <h2>Glossary &amp; Entities</h2>
+      <div style="margin-top:16px;"><div class="gloss"><div><b>Dodd-Frank Act (ABS rules)</b> &mdash; Post-2008 financial-crisis law requiring issuers of pooled asset-backed securities to retain 5% unhedged exposure ('skin in the game') and disclose the makeup of the underlying pool.</div><div><b>DCS (data center securitization)</b> &mdash; A fixed-income security backed by data-center assets (e.g., GPU leases); the SEC just agreed these don't count as traditional asset-backed securities, exempting them from Dodd-Frank disclosure rules.</div><div><b>WACC (weighted average cost of capital)</b> &mdash; A company's blended cost of debt and equity financing; CoreWeave discloses 9%, but Kevin argues its actual effective borrowing cost (via discounted note sales) is over 10.5%.</div><div><b>SOFR</b> &mdash; Secured Overnight Financing Rate — the benchmark rate CoreWeave's leveraged loan is priced against (SOFR + ~5.5 points, per the WSJ).</div><div><b>AUM (assets under management)</b> &mdash; The total value of assets a firm manages, on which it earns fees — Kevin's point is that AUM-fee firms like BlackRock and Apollo profit regardless of the underlying asset quality.</div><div><b>RSP</b> &mdash; The S&amp;P 500 equal-weight ETF; unlike the market-cap-weighted S&amp;P 500, gains here reflect breadth across the whole index, not just mega-cap tech.</div><div><b>IGV</b> &mdash; A software-sector ETF; Kevin's second-favorite pick, tied to his thesis that software stocks are bottoming in Q3/Q4 2026.</div><div><b>200-day moving average</b> &mdash; A long-term trend indicator; Kevin describes buying dips when RSP bounces off this line as a recurring, reliable entry pattern in the current uptrend.</div><div><b>Owner's equivalent rent (OER)</b> &mdash; The BLS's method for estimating the cost of owning a home in CPI housing data; Powell noted in 2021 that its lagged calculation would delay housing disinflation showing up in the data — which is what happened.</div></div></div>
+    </section>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+{
+ "metadata": {
+  "video_id": "",
+  "url": "",
+  "channel": "Jordi Visser",
+  "title": "The \"10 Highly Correlated Names\" — Jordi Visser Deep Research Brief",
+  "publication_date": "2026-08-02",
+  "analysis_date": "2026-08-02",
+  "speaker": "Reconstruction brief — compiled from public sources, not a single video"
+ },
+ "executive_takeaway": "",
+ "conviction_map": [
+  {
+   "topic": "NVIDIA (NVDA)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "\"NVIDIA (NVDA) — one of his 10 concentrated names; closed above 20-day first time since June 2, holding the 200-day, MACD buy signal at lowest valuation in a decade.\" Also described as concentrated-basket core; \"still position\" with acknowledged multiple compression. — AlphaAbstract summary of \"AI's Speed Crash Is Creating the Next Opportunity\" (Jul 12, 2026); BigGo recap of Speed Crash episodes; Kazuha",
+   "risks": ""
+  },
+  {
+   "topic": "Corning (GLW)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "Verbatim in the Aug 2, 2026 video: \"One of the names in there is Corning. I highlighted this this week on the subscriber video.\" — chart anchored Dec 31, 2025 (Meta $6B fiber announcement; later NVIDIA partnership); hit the 200-day, traded up. Q2-26: strong results, upgraded Springboard plan; NVIDIA multiyear manufacturing partnership (May 6, 2026: 10x US optical connectivity capacity, 3 new plants). — VVfTS50v91I transcript (local research-data copy); Corning IR; NVIDIA-Corning PR",
+   "risks": ""
+  },
+  {
+   "topic": "Marvell (MRVL)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "3 — Optical & Interconnect — Largest single position (July 2026); Jensen Huang's \"next trillion-dollar company\"; optical/interconnect moat; in the \"Coherent, Lumentum, Corning, and Marvell all in the mix\" 800V DC/optical list; named in Edge Awakens long table.",
+   "risks": ""
+  },
+  {
+   "topic": "Micron (MU)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "4 — Semicon (memory) — Was in/out of the book all year (sold near peak ~$700-800 early June, repurchased mid-July at 1/5 of May size, ~$850 with 200-day ~$500, target $1,500-1,600). Memory scarcity = core theme; named in every episode.",
+   "risks": ""
+  },
+  {
+   "topic": "Coherent (COHR)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "5 — Optical & Interconnect — Explicit in his optical fiber long list (\"Coherent, Lumentum, Corning\"); silicon photonics efficiency story for 800V DC; Indium-phosphide bottleneck angle; CEO on White House trade trip.",
+   "risks": ""
+  },
+  {
+   "topic": "Lumentum (LITE)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "6 — Optical & Interconnect — Explicit in his optical fiber long list; 800V DC / photonics efficiency story; step-up function in optical earnings a stated catalyst theme.",
+   "risks": ""
+  },
+  {
+   "topic": "Intel (INTC)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "7 — Semicon (CPU / edge) — Started buying below $110; \"sees CPU/optical value\"; +400% from lows per May table; CPU shortage / agentic CPU TAM $100B by 2030 thesis; edge AI pull-through.",
+   "risks": ""
+  },
+  {
+   "topic": "Broadcom (AVGO)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "8 — Semicon architecture — In his long semis list (Nvidia, Broadcom, Micron, Intel, TI, Marvell); \"85% of S&P revisions\" concentration; one of the few semis ranked in the Semicon Architecture theme above NVDA per the exhaustion report (KLAC #1, AVGO/NVDA/ASML below).",
+   "risks": ""
+  },
+  {
+   "topic": "Texas Instruments (TXN)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "9 — Power semis / edge — Named in the long table; \"critical for understanding where the cycle is heading\" (industrial + edge AI + NPUs); power semis at the center of the 800V DC solution; 6-name power semi vertical in the 68-name Edge universe.",
+   "risks": ""
+  },
+  {
+   "topic": "Vistra (VST)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "10 — Energy & Infrastructure — The IPP trade he \"increased size in\" as defensive AI against momentum unwind; IPP index shown as the risk-reduction sleeve; \"If defense starts working in AI, you're going to see Vistra and some of these IPPs.\"",
+   "risks": ""
+  },
+  {
+   "topic": "Entegris (ENTG)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "11 — Chemicals & Materials — On his Vera Rubin watch list (\"Entegris, MKSI\"); \"Molecular Moat 2.0\" chemistry-at-the-interface paper; chemicals = his highest-scoring theme (5 of top 12 names); consumables = capex-proof revenue.",
+   "risks": ""
+  }
+ ],
+ "companies_assets": [],
+ "technology_ai_views": [],
+ "ai_workflows": [],
+ "predictions": [],
+ "notable_quotes": [],
+ "risks": [],
+ "actionable_takeaways": [],
+ "other_notable_news": [],
+ "glossary": []
+}

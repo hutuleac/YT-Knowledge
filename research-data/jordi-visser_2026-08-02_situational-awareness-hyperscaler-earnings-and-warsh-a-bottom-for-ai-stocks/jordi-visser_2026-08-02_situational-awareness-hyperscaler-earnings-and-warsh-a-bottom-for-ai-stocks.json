@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "video_id": "VVfTS50v91I",
+    "url": "https://www.youtube.com/watch?v=VVfTS50v91I",
+    "channel": "Jordi Visser",
+    "title": "Situational Awareness, Hyperscaler Earnings and Warsh: A Bottom for AI Stocks?",
+    "publication_date": "2026-08-02",
+    "analysis_date": "2026-08-02",
+    "speaker": "Jordi Visser (solo weekly market update)",
+    "duration_seconds": 3723
+  },
+  "executive_takeaway": "(1) A ~$45B AI-focused hedge fund, Situational Awareness (founded by Leopold Aschenbrenner), was forced to sell its entire public-equities book (~$16-20B) to Citadel (with Millennium also bidding) after running roughly 4x leverage into a July AI-stock rout that wiped out the equity behind its borrowed money — margin calls came from Goldman Sachs, JPMorgan and Bank of America. (2) Visser treats this forced unwind as a probable 'cleansing event' rather than the start of a bigger crisis, drawing on his own experience inside LTCM's 1998 closeout and the 2007 quant unwind — the key difference this time being that the two buyers (Citadel, Millennium) are themselves up big for the year and are considered strong risk managers, making a broader credit event less likely in his base case. (3) The damage was historic by several measures: the Goldman Sachs hedge-fund VIP basket had its worst month relative to the S&P since the index began in 2001 (worse than the Lehman month), tech momentum factors fell as much as 40% year-to-date at the Thursday low (worse than the dot-com bust), and momentum-factor realized volatility hit its highest level in the 45 years Visser has data for outside a recession. (4) Despite the carnage, Visser's own framework says the correction is largely over in price and time: 74-84% of his AI/thematic basket names remain above their 200-day moving averages, the 63-day rate of change round-tripped from +50% to -1.7%, and the S&P/Nasdaq have already staged textbook 'follow-through day' bounces off the panic low. (5) Q2 hyperscaler earnings (Amazon, Google, Microsoft, Meta) all reinforced the 'compute demand is insatiable' thesis Visser has repeated weekly: combined backlog across Amazon/Google/Microsoft hit roughly $1.7T, and every hyperscaler CEO said demand still exceeds available capacity — directly contradicting the bearish narrative that this quarter would bring capex cuts. (6) Newly appointed Fed Chair Kevin Warsh held rates steady (3.50-3.75%) as expected, but market-structure volatility (not the Fed decision itself) was the real story of the week — Visser argues AI is 'compressing economic time,' making backward-looking risk models and terminal-value assumptions structurally unreliable, which is itself widening equity volatility versus index volatility. (7) On the All-In Podcast, David Sacks reportedly said Anthropic's annualized revenue reached roughly $74B through mid-2026 (implying ~10x growth this year) and OpenAI is pacing toward roughly $75B — a combined ~$175B in revenue from two companies that had none two years ago, which Visser uses to argue compute-demand skepticism is 'misleading.' (8) Visser flags the CCC/high-yield credit spread as the one indicator that could change his mind, name-checking unrelated private-credit stress (the Dodgers/Guggenheim/Mark Walter situation) as a reason to stay alert to contagion risk even while remaining structurally bullish on the AI trade.",
+  "conviction_map": [
+    {
+      "topic": "AI trade / hyperscaler capex & compute demand",
+      "category": "AI / Macro",
+      "stance": "POSITIVE VIEW",
+      "conviction": "High",
+      "action_status": "HOLDING — reduced but not exited Micron, Marvell and other AI-basket names; added a little back this week",
+      "core_thesis": "\"Compute demand is insatiable\" — repeated weekly since before the sell-off. Every hyperscaler (Amazon, Google, Microsoft, Meta) said on Q2 earnings that demand exceeds available capacity; combined Amazon/Google/Microsoft backlog is ~$1.7T. Visser argues this directly refutes the bearish 'overbuilding, no revenue' narrative.",
+      "risks": "He explicitly lost money this month and cut positions; own admission the correction may not be fully over — \"not convinced yet that we've made the absolute low\""
+    },
+    {
+      "topic": "Situational Awareness / Citadel-Millennium hedge-fund unwind",
+      "category": "Market Structure",
+      "stance": "UNCERTAIN",
+      "conviction": "Medium",
+      "action_status": "WATCHING — confirmed event, outcome (cleansing vs. beginning of bigger unwind) not yet resolved",
+      "core_thesis": "Draws a direct historical parallel to LTCM (1998) and the 2007 quant unwind: once a distressed book gets 'marketed' to the street (shown to Citadel/Millennium), that itself completes the flush. Because the buyers are large, well-hedged, and up big for the year, he thinks this decompresses rather than cascades — his stated base case is no major credit event, just multiple compression and continued deleveraging.",
+      "risks": "He explicitly says there could be \"another hundred hedge funds\" in a similar situation and the unwind \"is definitely not over from people that need to get out\"; his own uncertainty is the load-bearing caveat here"
+    },
+    {
+      "topic": "Structurally higher market volatility (post-AI regime change)",
+      "category": "Market Structure",
+      "stance": "POSITIVE VIEW (as a persistent regime, not a trade)",
+      "conviction": "High",
+      "action_status": "ONGOING — no near-term reversion expected",
+      "core_thesis": "Tech-momentum and factor-neutral realized volatility have broken to structurally higher ranges (roughly 15-30 vs. 5-15 from 2000-2020) since ChatGPT-era AI began compressing 'terminal value' visibility for public companies; equity-level volatility has decoupled from and now sits meaningfully above index-level (VIX) volatility.",
+      "risks": "This is Visser's own regime read from proprietary factor charts, not a market consensus view; he concedes he doesn't have comparable data going back further than 45 years"
+    },
+    {
+      "topic": "Kevin Warsh Fed / rate path",
+      "category": "Macro / Fed",
+      "stance": "CASUAL MENTION",
+      "conviction": "Low",
+      "action_status": "WATCHING",
+      "core_thesis": "Fed held rates as expected; Visser frames Warsh as pushing to abandon backward-looking, frequently-revised economic data in favor of more forward-looking measures given how fast AI is moving — but treats the Fed decision itself as secondary to the market-structure story of the week.",
+      "risks": "Speculative framing of Warsh's philosophy based on public remarks, not a specific tradeable call"
+    },
+    {
+      "topic": "Private credit / CCC-rated credit spreads",
+      "category": "Credit / Risk",
+      "stance": "WATCHING",
+      "conviction": "Medium",
+      "action_status": "ONE EYE OPEN — named as his top risk-management concern",
+      "core_thesis": "Hyperscaler CDS doesn't worry him, but the CCC/junk credit-spread curve has a \"bad-looking roll\" that historically is where systemic stress starts (weak credit first, then it drags in everything else); flags the Dodgers/Guggenheim/Mark Walter private-credit situation as a related, watchable data point without drawing a firm conclusion.",
+      "risks": "Explicitly says \"I don't know what it means\" — this is a flagged watch-item, not a conviction call"
+    }
+  ],
+  "companies_assets": [
+    {
+      "company": "Situational Awareness (Leopold Aschenbrenner's hedge fund)",
+      "status": "CASUAL MENTION",
+      "view": "Forced to sell essentially its entire ~$16-20B public-equities portfolio to Citadel after ~4x leverage on AI/semiconductor longs plus a large private Anthropic stake left it unable to meet collateral calls when positions fell 35-47% in July.",
+      "why": "Central case study for Visser's 'cleansing event' thesis and market-structure argument this week.",
+      "catalysts": "Whether more hedge funds in similar leveraged AI positions face forced unwinds",
+      "risks": "Not a public/investable company; retained its private Anthropic stake per outside reporting",
+      "evidence": "High (deal independently confirmed by WSJ/Axios/Yahoo Finance)"
+    },
+    {
+      "company": "Citadel / Millennium Management",
+      "status": "CASUAL MENTION",
+      "view": "Both acquired/bid on the distressed Situational Awareness book; Visser notes both firms are up big for the year and considers them the 'best risk managers in the world,' which underpins his view that this is more likely to decompress than cascade.",
+      "why": "Their willingness and capacity to absorb the block trade is the main reason Visser leans toward 'cleansing event' over 'bigger unwind.'",
+      "catalysts": "How they manage/hedge the acquired book going forward",
+      "risks": "Private funds, not directly investable; their positioning is inferred from reporting, not disclosed by the firms themselves",
+      "evidence": "Medium (deal terms confirmed, firms' risk stance is Visser's own characterization)"
+    },
+    {
+      "company": "Micron",
+      "status": "BUYING / ADDING",
+      "view": "Reduced position heavily starting mid-May (now roughly 1/5th the size it was then) and started buying back small amounts below $900, expecting a run back toward $1,500-1,600 over the next year but says he is not trying to call the exact bottom.",
+      "why": "Core position in his AI/memory thesis; DRAM price charts (rising every week since 2016 data began) support continued fundamental strength.",
+      "catalysts": "Continued DRAM price increases; AI-driven memory demand",
+      "risks": "He was early getting out in the first place and has been wrong on timing before by his own admission; stock still well below recent highs",
+      "evidence": "Medium (his own stated position sizing and price levels)"
+    },
+    {
+      "company": "Google / Alphabet",
+      "status": "POSITIVE VIEW",
+      "view": "Defends Google's backlog (~$500B/reported $514B) as real and understated by critics who \"do the math\" and call the print bad; stock already recovered after closing below its 200-day the prior week.",
+      "why": "Used as his main rebuttal to people dismissing hyperscaler backlog growth as meaningless.",
+      "catalysts": "Continued Cloud/backlog growth into next quarters",
+      "risks": "None specifically flagged by Visser beyond general multiple-compression risk shared by the group",
+      "evidence": "High (backlog figures corroborate with outside Q2 2026 earnings reporting)"
+    },
+    {
+      "company": "Amazon (AWS)",
+      "status": "POSITIVE VIEW",
+      "view": "Quotes Amazon management directly: \"we will still not have enough capacity to meet all of the demand we have in 2026\" and expects the same into 2027; notes AWS's 2027 compute capacity is already substantially reserved.",
+      "why": "Strongest forward-looking demand commentary of the earnings season per Visser.",
+      "catalysts": "2027-2028 reserved-capacity monetization",
+      "risks": "Heavy capex spend ($220B cited industry-wide) ahead of revenue recognition — Visser notes this explains weak near-term free cash flow",
+      "evidence": "High (backlog figure of $496B matches independently reported AWS Q2 2026 results)"
+    },
+    {
+      "company": "Meta",
+      "status": "CASUAL MENTION",
+      "view": "Notes Meta chose not to rent out spare compute this earnings call (despite earlier leaks suggesting it might) because doing so would cannibalize future personal-agent compute demand — read as a bullish signal on internal demand expectations, not a negative.",
+      "why": "Used as evidence hyperscalers see personal AI agents as a much larger future demand driver than currently priced.",
+      "catalysts": "Personal-agent product rollout",
+      "risks": "Meta is 'making a huge bet' and 'they don't have anything now' if the agent thesis doesn't pan out, per Visser's own caveat",
+      "evidence": "Medium (Visser's interpretation of a non-decision, not a disclosed figure)"
+    },
+    {
+      "company": "Anthropic",
+      "status": "CASUAL MENTION",
+      "view": "Cites a claim (attributed to David Sacks on the All-In Podcast) that Anthropic's annualized revenue reached ~$74B through mid-2026, implying roughly 10x growth this year over ~$7-9B at the end of 2025.",
+      "why": "Used to argue that compute-demand bears are ignoring real, rapidly compounding revenue from both API and enterprise channels.",
+      "catalysts": "Continued frontier model releases and enterprise adoption",
+      "risks": "The specific $74B figure is a secondhand claim relayed from a podcast, not independently sourced by Visser in this video, and is notably higher than the ~$47B run-rate reported by outside sources as of May 2026 — treat as unverified/likely optimistic",
+      "evidence": "Low-Medium (secondhand podcast claim, not independently corroborated in this review at the exact figure cited)"
+    },
+    {
+      "company": "Corning",
+      "status": "POSITIVE VIEW",
+      "view": "Highlighted as one of ten concentrated names tracking a broader 100-name AI index; recovered to pre-selloff levels on the back of a $6B Meta optical-fiber partnership announcement (plus an earlier Nvidia partnership).",
+      "why": "Example of a 'combing through the rubble' technical/fundamental screen — price above and 200-day moving average still rising.",
+      "catalysts": "Continued hyperscaler fiber/optical infrastructure buildout",
+      "risks": "None specifically flagged beyond general AI-capex-cycle risk",
+      "evidence": "Medium (deal amount cited, stock-price recovery is Visser's own chart read)"
+    }
+  ],
+  "technology_ai_views": [
+    {
+      "theme": "AI is compressing 'economic time' and destroying terminal-value visibility",
+      "view": "Visser's central macro-structural argument (echoing Treasury Secretary Scott Bessent's comments on the All-In Pod): innovation cycles that used to take a decade now take about a year, so backward-looking valuation/risk models are structurally too slow, causing violent multiple compression even when earnings are fine.",
+      "companies": "Adobe, Salesforce (named as terminal-value-uncertain examples); broadly all software/AI-exposed names",
+      "why": "Explains why stocks can fall 40% with no change in earnings, and why hedge-fund risk models built on historical correlations are now unreliable.",
+      "horizon": "Ongoing, structural",
+      "conviction": "High"
+    },
+    {
+      "theme": "Token efficiency, not raw token output, is becoming the moat",
+      "view": "Compute scarcity means the labs with the most efficient models per compute dollar can charge a premium and undercut competitors on delivered cost (his 'expensive gas → fuel-efficient car' analogy) — cites Anthropic's potential to let a company make a $5B-cost movie for a fraction of that via token efficiency.",
+      "companies": "Anthropic, OpenAI, Moonshot AI (Kimi K3) as the cheap-but-less-efficient contrast case",
+      "why": "Reframes the compute-scarcity bear case into a moat/pricing-power bull case for whoever already owns compute.",
+      "horizon": "Next ~2 years by his estimate",
+      "conviction": "Medium-High"
+    },
+    {
+      "theme": "Structurally higher, regime-shifted market volatility since AI-era compute build-out began",
+      "view": "Factor-neutral and tech-momentum realized volatility has broken out of its 2000-2020 range (roughly 5-15) into a new 15-30+ range since around the ChatGPT era, and equity-level volatility has decoupled upward from index-level (VIX) volatility.",
+      "companies": "Broad market / factor baskets, not single names",
+      "why": "Argues prime brokers won't re-extend leverage back to pre-selloff levels even after this event resolves, keeping realized volatility structurally elevated.",
+      "horizon": "Ongoing, no near-term reversion expected",
+      "conviction": "High"
+    },
+    {
+      "theme": "Hyperscaler compute demand still outstrips supply despite the sell-off narrative",
+      "view": "Backlog across Amazon ($496B), Google (~$500-514B) and Microsoft (~$678-700B) totals roughly $1.7T; every hyperscaler CEO said on the Q2 2026 call that available capacity is the constraint, not demand.",
+      "companies": "Amazon, Google, Microsoft, Meta",
+      "why": "Directly rebuts the 'AI overbuilding, capex cuts coming' bear case that Visser says drove much of the July sell-off.",
+      "horizon": "Confirmed through 2026-2027 per management commentary",
+      "conviction": "High"
+    }
+  ],
+  "ai_workflows": [
+    {
+      "name": "'Combing through the rubble' — technical + fundamental re-entry screen",
+      "goal": "Systematically find AI-basket names that have been beaten down in price but remain structurally intact, to identify better risk/reward re-entry points after a sell-off.",
+      "tools": "Proprietary weekly technical sheet (uploaded to Visser's subscriber site); standard price/moving-average data",
+      "approach": "Screen for (1) price still above its 200-day moving average and (2) the 200-day moving average itself still sloping upward, then rank by how far the name has fallen on 30/60/90-day rate-of-change versus those two structural conditions; cross-check against reported fundamentals/earnings commentary before adding.",
+      "why": "Two structural conditions filter out names that are merely 'cheap' from names that are cheap *and* still in a structurally healthy uptrend — his stated favorite technical signal, also taught directly to RIAs."
+    },
+    {
+      "name": "Rate-of-change (ROC) based position sizing for reducing/adding risk",
+      "goal": "Decide when to trim or add to a concentrated thematic position using price momentum extremes rather than trying to call exact tops/bottoms.",
+      "tools": "63-day (≈3-month) and 30-day rate-of-change charts on a thematic portfolio/basket",
+      "approach": "Reduce risk when the trailing 63-day ROC reaches historic extremes (e.g., +50%); treat a full round-trip back toward flat/negative ROC, combined with elapsed time, as confirmation that 'price and time' consolidation requirements have been met before re-adding.",
+      "why": "Visser states markets move on a rate-of-change basis more than absolute price, and this method let him reduce Micron/Marvell exposure from mid-May onward ahead of the July drawdown, then re-enter smaller size afterward."
+    }
+  ],
+  "predictions": [
+    {
+      "prediction": "The Situational Awareness/Citadel-Millennium unwind marks a 'cleansing event' rather than the start of a broader hedge-fund/credit crisis",
+      "horizon": "Next 6-7 trading days for initial confirmation; multi-week for full resolution",
+      "reasoning": "Based on Visser's direct experience trading through LTCM (1998) and the 2007 quant unwind: once a large distressed book is shown to and absorbed by the largest, best-capitalized players (here, Citadel and Millennium, both up big for the year), that flush itself tends to mark the bottom rather than the start of contagion.",
+      "invalidated_by": "A break below the panic-low support level; signs that additional highly-levered funds are being forced to unwind in the same window; credit spreads (especially CCC/junk) continuing to widen rather than stabilizing",
+      "assets": "Broad AI/tech momentum basket, SMH, NDX"
+    },
+    {
+      "prediction": "Markets will not fully re-lever or re-risk back to pre-selloff volatility levels even if the current scare passes",
+      "horizon": "Ongoing / structural, no specific date",
+      "reasoning": "Factor and tech-momentum realized volatility has broken into a structurally higher regime; prime brokers are unlikely to re-extend leverage to prior levels while this elevated volatility persists, and Visser doesn't expect volatility to compress quickly.",
+      "invalidated_by": "A sustained return of factor-neutral realized volatility back to pre-2023 (roughly 5-15) ranges",
+      "assets": "Tech momentum factor, factor-neutral long/short baskets, VIX vs. equity-vol spread"
+    },
+    {
+      "prediction": "Micron re-rates back toward $1,500-1,600 over the next year",
+      "horizon": "~12 months",
+      "reasoning": "DRAM prices have risen nearly every week since his 2016 baseline data began and continue rising; Visser sees a better risk/reward at current levels (~$850-900) versus where he trimmed in May, given the 200-day moving average (~$500) is well below spot.",
+      "invalidated_by": "A sustained reversal in DRAM/memory pricing trends; Micron closing below its rising 200-day moving average",
+      "assets": "Micron (MU)"
+    },
+    {
+      "prediction": "CCC/high-yield credit spreads are the indicator most likely to signal the next real risk event, ahead of equities",
+      "horizon": "Unspecified — an ongoing watch-item, not a dated call",
+      "reasoning": "Historically, credit stress starts in the weakest tier (CCC/junk) and 'drags everything in' afterward; Visser flags a 'bad-looking roll' in this spread alongside the private-credit/Dodgers-Guggenheim situation as early, unconfirmed signals worth monitoring.",
+      "invalidated_by": "CCC/junk spreads stabilizing or tightening from current levels over the following weeks",
+      "assets": "High-yield/CCC credit, private-credit-exposed names"
+    }
+  ],
+  "notable_quotes": [
+    {
+      "quote": "Compute demand is insatiable. There is no way for the supply side to keep up with the demand of compute currently, and there are no indications that that's the case.",
+      "speaker": "Jordi Visser",
+      "context": "Opening thesis, repeated weekly across his videos, reasserted directly against this month's AI sell-off narrative."
+    },
+    {
+      "quote": "I've lost money this month in a big way and my positions are reduced... but that's the market and that's what goes on.",
+      "speaker": "Jordi Visser",
+      "context": "Disclosing his own drawdown before laying out why he still thinks the broader AI thesis holds."
+    },
+    {
+      "quote": "Once the marketing of the portfolio begins and they start looking for buyers, basically you're showing people other people's poker hands.",
+      "speaker": "Jordi Visser",
+      "context": "Explaining, from his own LTCM experience, why a distressed hedge-fund book being shopped to the street tends to complete rather than start a market flush."
+    },
+    {
+      "quote": "Ubiquitous AI risk tools create a false sense of confidence. This is like watching people drive down the street with all-wheel drive when it's icy and snowy out, thinking that they're protected.",
+      "speaker": "Jordi Visser",
+      "context": "Warning that AI-driven portfolio-optimization tools are built on historical correlations that no longer hold in the current regime."
+    },
+    {
+      "quote": "If gas is a dollar a gallon, nobody cares about the fuel efficiency. When it's $10, everyone pays a premium for the car with the best mileage.",
+      "speaker": "Jordi Visser",
+      "context": "Analogy for why token efficiency (not raw model capability) becomes the moat once compute is scarce and expensive."
+    },
+    {
+      "quote": "Terminal value is gone forever... you're seeing things like companies that are private, like Anthropic, grow so fast, the fastest in the history of companies, but also seeing companies go out of business faster than they've ever.",
+      "speaker": "Jordi Visser",
+      "context": "Core structural argument for why traditional valuation models are breaking down across the market, not just in AI names."
+    },
+    {
+      "quote": "How can you be arguing about ROIC when these guys are printing money at that side and the cloud revenue guys are printing $2 trillion during the exact same period?",
+      "speaker": "Jordi Visser",
+      "context": "Pushing back on bearish commentary questioning AI capex return-on-investment, citing combined lab + hyperscaler revenue growth."
+    }
+  ],
+  "risks": [
+    "The claim that Anthropic's annualized revenue reached ~$74B through mid-2026 is attributed secondhand to David Sacks on the All-In Podcast and is notably higher than the ~$47B run-rate reported by independent outlets as of May 2026 — treat the exact figure as unverified/likely optimistic.",
+    "Visser explicitly discloses he lost money this month and reduced his own AI-basket positions — his bullish framing should be weighed against his own admitted drawdown and reduced conviction sizing (e.g., Micron position now ~1/5th its May size).",
+    "His base case that this is a 'cleansing event' rather than a broader unwind is explicitly a probability judgment, not a certainty — he states directly there could be another ~100 hedge funds in a similar leveraged position and that the unwind 'is definitely not over from people that need to get out.'",
+    "The video is a personal/subscriber market-commentary format; specific figures (e.g., Situational Awareness's exact leverage ratio, the precise size of the Citadel deal) are relayed from FT/WSJ-style reporting he read rather than primary-sourced by him directly — cross-check exact figures against original reporting before citing precisely.",
+    "Transcript is auto-generated from a ~62-minute solo monologue with fast, chart-heavy delivery; ticker/figure misattributions are possible (e.g., company names, percentage figures) — verify precise numbers before citing.",
+    "No explicit sponsorship disclosure appears in this transcript, but Visser repeatedly promotes his own subscriber-only 'thematic portfolio,' technical sheet, and RIA advisory conversations — his enthusiasm for the AI trade should be read alongside that commercial interest."
+  ],
+  "actionable_takeaways": [
+    {
+      "item": "Track whether more highly-levered AI-focused hedge funds face forced unwinds in the coming weeks — Visser's own base case (no broader credit event) depends on this NOT happening at scale.",
+      "type": "Needs independent verification"
+    },
+    {
+      "item": "Watch CCC/high-yield credit spreads, not just hyperscaler CDS — Visser flags this as the one indicator that could change his otherwise bullish read, and it's is easy to track via public credit-spread data.",
+      "type": "Speaker claim"
+    },
+    {
+      "item": "When evaluating hyperscaler AI capex bear cases, check the actual backlog/RPO figures from the earnings call transcripts directly rather than secondhand commentary — Visser's cited numbers ($496B Amazon, ~$500-514B Google, ~$678-700B Microsoft) match independently reported Q2 2026 results.",
+      "type": "Analyst interpretation"
+    },
+    {
+      "item": "Before repeating the '$74B Anthropic revenue' figure, verify against a primary source — it runs well ahead of the ~$47B run-rate reported elsewhere as of May 2026.",
+      "type": "Needs independent verification"
+    },
+    {
+      "item": "His 'combing through the rubble' screen (price above rising 200-day moving average, ranked by drawdown severity) is a reusable, mechanical way to find re-entry candidates after a sector-wide sell-off — applicable well beyond the AI trade.",
+      "type": "Analyst interpretation"
+    }
+  ],
+  "other_notable_news": [
+    {
+      "category": "Markets / Credit",
+      "title": "Hedge Funds Face Collateral/Margin Demands Amid AI-Stock Rout",
+      "detail": "Financial Times reported Goldman Sachs and JPMorgan were among banks asking clients for additional collateral, automatically triggered by market volatility; Goldman noted the buildup in gross leverage in the first five months of 2026 was the largest cumulative increase since it began tracking the data in 2016."
+    },
+    {
+      "category": "Geopolitics / Fed",
+      "title": "Kevin Warsh Holds Rates Steady in Second Meeting as Fed Chair",
+      "detail": "Widely expected hold; Visser frames Warsh's broader push as moving the Fed away from backward-looking, frequently-revised economic data toward more forward-looking measures given how fast AI is reshaping the economy."
+    },
+    {
+      "category": "AI / Geopolitics",
+      "title": "Ezra Klein Interviews Kevin Rudd on China's AI Strategy",
+      "detail": "Visser recommends this interview (former Australian PM Kevin Rudd, a Xi Jinping expert) for understanding China's approach to making AI models free/accessible globally and the broader US-China balance of power in AI."
+    },
+    {
+      "category": "Cybersecurity",
+      "title": "AI Lab Security Incidents Flagged as a Growing Concern",
+      "detail": "Visser notes recent hacking incidents affecting both OpenAI/Hugging Face and Claude, framing rising 'cyber stuff' around AI infrastructure as worth monitoring going forward."
+    },
+    {
+      "category": "Policy",
+      "title": "Crypto Clarity Act Status Update",
+      "detail": "Visser notes the Clarity Act (crypto market-structure legislation) is sitting below 40% odds of passage depending on which party's estimate you use; says he doesn't think it matters long-term for Bitcoin/crypto but does matter for entrepreneurs in the space near-term."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Situational Awareness (hedge fund)",
+      "definition": "AI-focused hedge fund founded by Leopold Aschenbrenner that grew to ~$45B in assets and posted a 439% gain by June 2026 before being forced to sell its ~$16-20B public-equities book to Citadel after ~4x leverage was wiped out in July's AI-stock rout."
+    },
+    {
+      "term": "GS HVIP / hedge-fund VIP index",
+      "definition": "Goldman Sachs index tracking the most crowded/most-owned positions across the hedge-fund industry; used by Visser to show the worst relative monthly performance versus the S&P 500 since the index began in 2001."
+    },
+    {
+      "term": "Rate of change (ROC)",
+      "definition": "A momentum indicator measuring the percentage price change over a fixed trailing window (Visser uses 30-day and 63-day); used here to time reductions/additions to concentrated thematic positions."
+    },
+    {
+      "term": "Follow-through day",
+      "definition": "A technical-analysis signal (popularized by William O'Neil/IBD) confirming that an oversold bounce may be turning into a genuine rally rather than a short-covering pop, typically looked for 4-10 days after a low on rising volume."
+    },
+    {
+      "term": "Factor-neutral / sector-neutral momentum",
+      "definition": "A long/short basket constructed to strip out broad factor or sector exposure, isolating pure momentum performance; used by Visser to show the scale of the July momentum unwind independent of sector effects."
+    },
+    {
+      "term": "RPO / backlog (Remaining Performance Obligations)",
+      "definition": "Contracted future revenue not yet recognized; cited for Amazon ($496B), Google (~$500-514B) and Microsoft (~$678-700B) as evidence hyperscaler demand still exceeds current capacity."
+    },
+    {
+      "term": "Token efficiency",
+      "definition": "How much useful output/intelligence a model produces per unit of compute; Visser argues this — not raw model size — becomes the key competitive moat once compute is scarce and expensive."
+    },
+    {
+      "term": "Terminal value",
+      "definition": "The long-run valuation assumption for a company's cash flows beyond the explicit forecast period; Visser argues AI's pace of change makes terminal value far harder to estimate, driving multiple compression across software/tech."
+    }
+  ]
+}

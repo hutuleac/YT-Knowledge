@@ -1,0 +1,169 @@
+"""
+Per-video data for youtube-research-brief.
+"""
+
+META = {
+    "title": "The Secret to Buying Stocks at All-Time Highs (It's Not What You Think)",
+    "channel": "Mr. FIRED Up Wealth",
+    "speakers": "Mr. FIRED Up Wealth (host)",
+    "date": "2026-08-06",
+    "video_url": "https://www.youtube.com/watch?v=mKWIerd0elE",
+    "thread_line": "5 threads · all-time-highs framework, Mercado Libre buy, Celsius/Wingstop K-shaped economy read, Uber & DataDog headline-vs-reality, AppLovin sentiment risk",
+}
+
+SNAPSHOT = [
+    "S&P 500 hit a fresh all-time high this week (7723, first close over 7700 ever) — the host argues, using data since 1950 he posted on X, that buying at new highs has historically produced smaller drawdowns than buying on a random day or during a pullback, reinforcing his \"time in the market beats timing the market\" stance.",
+    "Dense earnings week: Mercado Libre, Celsius, Uber, AppLovin, DataDog, and Wingstop all reported, plus a callback to SiTime's strong post-earnings pop.",
+    "The only stock the host says he's actively buying right now is Mercado Libre (MELI) — a ~50% revenue beat sent shares down 7% anyway, which he attributes to a soft 6.7% operating margin as management deliberately prioritizes long-term growth investment over near-term profit.",
+    "Celsius and Wingstop both missed and sold off hard (-16% and fundamentals \"broken down,\" respectively) — used as the evidence base for his \"K-shaped economy\" thesis: asset owners/high earners riding the market higher while lower-income, labor-dependent consumers get squeezed by inflation, including rising gas prices cutting into discretionary spend.",
+    "Uber's headline 11.7% revenue growth looks weak but is distorted by a one-time UK tax accounting reclassification — real platform metrics (gross bookings +22-24%, trips +18%) show a much healthier business, and the company threw off $10.1B of free cash flow this quarter.",
+    "AppLovin posted some of the strongest profitability metrics in the group (88% gross margin, higher net income per employee than Nvidia) but fell ~20% on the print — the host isn't buying, citing sentiment risk that reminds him of Trade Desk's collapse, not a fundamentals problem.",
+    "DataDog was trimmed a few days before this video; the host argues its ~15% earnings-day drop is normal SaaS-name volatility and that it should be valued on EV/revenue rather than its scary-looking ~116 P/E, flagging renewed interest tied to AI-observability demand from OpenAI and Anthropic.",
+    "Standard risk disclosures throughout: everything discussed is the host's own personal/community-portfolio activity, not personalized advice — he repeatedly tells viewers to \"do what's best for your money.\"",
+]
+
+THEMES = [
+    {
+        "id": "all-time-highs",
+        "color": "green",
+        "badge": "Historical framework",
+        "status": "S&P AT ALL-TIME HIGH 7723 — FIRST CLOSE OVER 7700 EVER",
+        "title": "Buying at All-Time Highs Isn't the Risk You Think It Is",
+        "lead": "History since 1950 says the fear of buying at fresh highs is mostly overstated — the market tends to set a new floor, not a trap.",
+        "bullets": [
+            "S&P 500 closed above 7700 for the first time ever this week, hitting 7723; Nasdaq ticked up slightly on the day while the Dow and S&P dipped slightly — a mixed, not euphoric, tape.",
+            "Per data the host posted on X, going back to 1950, buying at new all-time highs has historically produced smaller max drawdowns over the following month than buying on a random day, or even during pullbacks, corrections, or bear markets.",
+            "His read: a fresh all-time high often marks a new price \"floor\" (it can still break below it, but historically often doesn't) — the actual outcome still depends on macro, earnings, and GDP trends layered on top.",
+            "Core message: \"time in the market still beats trying to time the market\" — waiting for a dip doesn't reliably reduce downside risk, contrary to the common assumption.",
+            "His own technical-analysis philosophy: fundamentals are \"99%\" of the decision (financials, management, competition, SWOT, bear/bull case) — chart-based technical analysis is the final \"1%,\" used only to find better entry/exit points on a stock already fundamentally chosen, never to pick a stock off a chart alone.",
+            "Foreshadows the K-shaped economy risk covered later in the video as the main counterweight to this bullish framing — not every stock or sector benefits equally from the index being at highs.",
+        ],
+        "quote": {"text": "Time in the market still beats perfect timing or trying to time the market.", "cite": "— Mr. FIRED Up Wealth"},
+        "watch": "This is the host's own backtest posted on X, not an independently sourced study — and it's a single-factor historical pattern (new-high entries since 1950) that doesn't account for valuation, rate regime, or the K-shaped bifurcation he flags later in the same video.",
+        "names": None,
+    },
+    {
+        "id": "mercado-libre",
+        "color": "green",
+        "badge": "High conviction — actively buying",
+        "status": "OWNS — ADDED MORE TODAY",
+        "title": "Mercado Libre: The Only Stock He's Actually Buying Right Now",
+        "lead": "A ~50% revenue beat sent the stock down 7% anyway — he says that's a profitability optics problem, not a real one, and used it to add to a 10-year hold.",
+        "bullets": [
+            "Q results: GAAP EPS $9.19 (beat by $0.25), revenue $10.17B — a new record, ~50% YoY growth, beat estimates by $410M. Shares were initially up 3.4% on the print, then reversed to close down 7%.",
+            "The reversal, per the host, traces to the operating EBIT margin of just 6.7% for the quarter — a number the market didn't like. He estimates (the company doesn't disclose the exact split) e-commerce gross margin around 38-42% and fintech around 58-65%, blending to the ~49.5% TTM gross margin Seeking Alpha shows.",
+            "Management said explicitly on the call that they are deliberately prioritizing growth and long-term competitive strength (building out Latin America logistics infrastructure) over near-term profitability — a decision the host says \"Wall Street hates\" even when it's the right long-term call, drawing a direct parallel to early Amazon's capex-heavy build-out (with the caveat that MELI, unlike Amazon, has no AWS-equivalent cloud arm — in fact a chunk of MELI's own infrastructure runs on AWS).",
+            "Personal position: a 10-year \"buy, hold, and monitor\" thesis; added a small \"nibble\" today. Current community-portfolio weight is ~4%, with a target core-position size of 5%.",
+            "Chart context: the stock peaked at $2,645 in July 2025 and is back to $1,777 about a year later. Updated Fibonacci supports: S1 $1,759, S2 $1,713, S3 $1,640 — he'd \"buy heavily\" if it fell under $1,500.",
+            "Explicit caveat to viewers: this is a 10-year hold (a \"2035 hold\" as he put it on-screen) — not a stock for anyone looking for a quick return.",
+        ],
+        "quote": None,
+        "watch": "The bull case leans on the host's own rough estimate of MELI's e-commerce vs. fintech margin split, since the company doesn't publish the exact breakdown — treat the 40%/60% figures as an educated guess, not disclosed data.",
+        "names": [
+            {"name": "Mercado Libre (MELI)", "blurb": "~4% of the community portfolio today, target 5%; the only name the host says he's actively buying in this video."},
+            {"name": "Amazon (comparison)", "blurb": "Cited as the historical parallel for prioritizing capex/growth over near-term margins — with the caveat that MELI lacks an AWS-equivalent cloud business."},
+        ],
+    },
+    {
+        "id": "k-shaped-economy",
+        "color": "amber",
+        "badge": "Contested / macro read",
+        "status": "CONSUMER-FACING NAMES DIVERGING FROM THE INDEX",
+        "title": "Celsius, Wingstop, and the K-Shaped Economy",
+        "lead": "Two consumer-discretionary earnings misses become his evidence for a bifurcated economy — asset owners climbing, lower-income consumers falling behind.",
+        "bullets": [
+            "Celsius (CELH): non-GAAP EPS $0.36 (missed by $0.06), revenue $817.9M (missed), growth just 10.6% — a \"double miss,\" stock down 16% to under $25. Management referenced 2027 on the call and, per the host, \"lacks confidence\" in the rest of 2026 — he doesn't expect a fast, catalyst-free V-shaped recovery.",
+            "Celsius position: a small ~0.85% \"spec\" slot in the community portfolio (target spec size is normally ~1%, could flex to 1.5%); not adding right now, though he has slightly more confidence in Celsius than in Wingstop. Chart-wise: a VIP member was advised to trim near $100 during a parabolic run (a classic \"air pocket\" setup); Fibonacci S3 sits at $22.33, with a possible break of $20 on further weakness.",
+            "Wingstop (WING): beat EPS by $0.16 but missed revenue, with growth of only 6.5% and domestic same-store sales down 4-6% — fundamentals he flagged as \"broken down\" back on August 4th. Fibonacci S3 is $95 (could trade under $100); buyers have been stepping in around $120, with a prior bottom at $116 in April as a possible retest level.",
+            "Contrast case, McDonald's: US comparable sales +0.8% (vs. 0.9% consensus) — soft, but positive, and the host frames MCD as a different animal entirely: a ~2.7% dividend-income stock for a different type of investor, not a growth name, so it's not really comparable apples-to-apples with Wingstop.",
+            "His read-through: both Celsius (a $3 energy drink) and Wingstop are lower-ticket discretionary spend that's getting squeezed as gas prices rise (his example: $70 to fill a tank vs. $50 leaves ~$20 less for everything else) — direct evidence, in his framing, of a \"K-shaped\" recovery where high earners/asset owners ride the market higher while labor-dependent, lower-income consumers get squeezed by persistent inflation.",
+            "Macro knock-on: oil-price pressure (Middle East tension-driven, per the host) feeds inflation, which complicates the Fed's path — he floats that it could prevent rate cuts or even force a hike, which \"would make the market gyrate.\"",
+            "Comparison case for context, not a pick: Monster Beverage's stock is up ~49,000% all-time (93% in just the last 5 years alone) — cited to show the energy-drink category CAN produce huge winners, while explicitly warning against the \"Nvidia did it so AMD/Celsius has to too\" logical trap; heavy competition from Monster, Red Bull, and others remains a real risk, and Pepsi owns 11% of Celsius.",
+        ],
+        "quote": {"text": "High earners and asset owners climb the upward arm of the K... while lower-income groups and labor-dependent sectors slide down due to persistent inflation, tighter budgets, and not benefiting from things like the stock market.", "cite": "— Mr. FIRED Up Wealth"},
+        "watch": "This is the host's own macro interpretation stitched together from two single-company earnings misses plus a gas-price anecdote — it's a plausible narrative, not a rigorously sourced macro dataset.",
+        "names": [
+            {"name": "Celsius (CELH)", "blurb": "Small ~0.85% spec position; double miss on EPS and revenue, guidance soft, not being added to right now."},
+            {"name": "Wingstop (WING)", "blurb": "Beat EPS but missed revenue with negative same-store sales; fundamentals flagged as broken down, not currently held or being bought."},
+            {"name": "McDonald's (comparison)", "blurb": "Cited only as a contrasting dividend/income name, not a growth pick — comparable sales positive but modest."},
+            {"name": "Monster Beverage (comparison)", "blurb": "Cited as historical proof the energy-drink category can produce huge winners (~49,000% all-time), not as a current recommendation."},
+        ],
+    },
+    {
+        "id": "headline-vs-reality",
+        "color": "green",
+        "badge": "Mixed signal — bullish once explained",
+        "status": "BOTH SOLD OFF ON HEADLINE NUMBERS THAT DON'T TELL THE FULL STORY",
+        "title": "Uber and DataDog: When the Headline Number Lies",
+        "lead": "Two names that looked weak on the surface print — Uber because of a one-time accounting reclassification, DataDog because a SaaS business shouldn't be judged on a P/E ratio at all.",
+        "bullets": [
+            "Uber: non-GAAP EPS $0.81 (beat by $0.01), revenue $14.19B (missed by $70M), headline growth just 11.7% — but the real story is a UK VAT/tax rule change effective early 2026 (the \"taxi tax\") that reclassifies driver payments from cost-of-revenue into a reduction of revenue. Gross profit, operating income, adjusted EBITDA, and free cash flow were all unaffected — it's a pure accounting/optics headwind, not a business slowdown.",
+            "Once you look past the headline: gross bookings (real platform volume) grew 22-24%, trips +18%, mobility +20%, delivery +25%, freight +25% — much stronger than the distorted 11.7% figure implies. He says the market initially knee-jerk sold the headline before analysts caught up and buyers returned.",
+            "Uber generated $10.1B of free cash flow this quarter, ending with $5.4B unrestricted cash and $12.5B in cash-plus-investments — he compares the pattern to Airbnb \"quietly printing money while the stock goes nowhere.\" Uber's stock has been range-bound roughly $65-75.",
+            "Longer-term optionality he flags: Uber as a potential autonomous-vehicle/robotaxi distribution layer (alongside, not necessarily against, Tesla's own robotaxi buildout and Waymo) — leaning on an \"AI winners will be ecosystem/habit players\" thesis (Google, Apple, Microsoft-style stickiness) covered previously in the community's dedicated physical-AI/robotics video series.",
+            "Uber position sizing: modest, about a 2% community-portfolio position, not high-conviction — he likes it more at $65 or below, and \"really likes it\" near $59 (Fibonacci S3 $59.80, S2 $63.97).",
+            "DataDog: its stock reaction (down 15% intraday, per the segment) is misleading on its own — the host stresses SaaS names carry high beta and routinely swing 10-30% in a day, so a drop alone isn't necessarily alarming, especially for new investors who should generally avoid this volatility. Actual results were solid: EPS $0.65 (beat by $0.07), revenue $1.12B, +35.4% growth, ~80% gross margin.",
+            "His valuation framework for DataDog: judge recurring-revenue SaaS businesses on EV/revenue, not a P/E ratio (a naive P/E of ~116 looks scary but is the wrong lens) — he trimmed part of his DataDog position a few days before this video (about 20% above the current price, \"not at the perfect high\"), while flagging renewed interest because OpenAI and Anthropic/Claude reportedly use DataDog almost exclusively for AI observability, plus a growing cybersecurity push he expects to be more resilient than general SaaS.",
+        ],
+        "quote": {"text": "These numbers are good. You look at mobility, 20%. Delivery, 25%. Freight, 25%. The company's doing well.", "cite": "— Mr. FIRED Up Wealth, on Uber's real growth beneath the accounting-distorted headline"},
+        "watch": "The DataDog-as-AI-observability-standard claim (used \"almost exclusively\" by OpenAI and Anthropic) is the host's own characterization, not a sourced disclosure from either company — worth independently checking before treating it as confirmed vendor lock-in.",
+        "names": [
+            {"name": "Uber (UBER)", "blurb": "~2% community-portfolio position; liked more at $65 or below, more so near $59."},
+            {"name": "DataDog (DDOG)", "blurb": "Recently trimmed; cost basis reportedly in the $70s from early positions, now trading far above that; 200-day moving average ~$169 at time of recording."},
+        ],
+    },
+    {
+        "id": "applovin-sentiment",
+        "color": "amber",
+        "badge": "Strong fundamentals, low conviction",
+        "status": "DOWN ~20% ON THE PRINT DESPITE A BEAT",
+        "title": "AppLovin: Great Numbers, Trade Desk PTSD",
+        "lead": "The fundamentals are some of the best in the group, but the host won't buy it — the stock's sentiment setup reminds him too much of a name that got destroyed.",
+        "bullets": [
+            "Results: GAAP EPS $3.77 (beat by $0.02), revenue $1.92B (+52.4% YoY, missed by $20M) — yet the stock fell about 20% on the day discussed. Down 14% over the past year, but still up 470% over the past 5 years.",
+            "Profitability metrics the host highlights as exceptional: 88% gross profit margin TTM (\"A+\" on Seeking Alpha) and net income per employee of $4.47M — higher than Nvidia's roughly $3.8M/employee and vastly higher than Amazon's ~$85K/employee (a figure he attributes to Amazon's large retail headcount).",
+            "Valuation: ~26x forward GAAP P/E, a GAAP TTM PEG ratio of 0.39 (under 1 is generally considered attractive), forward price/sales around 17 — numbers he says \"pique his interest\" given 30%, 50%, and 66% growth figures cited across different metrics.",
+            "His core hesitation, stated explicitly: \"Is it a strong buy or is it the next Trade Desk?\" — he draws a direct sentiment parallel to Trade Desk (TTD), a stock that \"was great until it wasn't,\" and says he's personally not buying AppLovin even on further weakness because of that specific fear, despite liking the numbers.",
+            "Chart context: R3 Fibonacci resistance at $648 (no guarantee it gets there); S3 support at $251, with April 2025 lows near $200 and more recent March/April lows around $350-360 — he expects a new floor closer to $250, possibly holding $300-325. All-time high was $738; trading around $335 at time of recording.",
+            "Explicitly not one of his \"best of breed\" high-conviction names — he frames it as a stock with strong numbers but sentiment-driven risk that make it a more speculative, not top-tier, opportunity.",
+        ],
+        "quote": {"text": "Is it a strong buy, or is it the next Trade Desk?", "cite": "— Mr. FIRED Up Wealth, on AppLovin"},
+        "watch": "This is explicitly a sentiment-based hesitation, not a fundamentals-based one — the host repeatedly says the numbers themselves look strong; the caution is entirely about pattern-matching to a prior stock's collapse (Trade Desk), which may or may not be a valid comparison.",
+        "names": [
+            {"name": "AppLovin (APP)", "blurb": "Not currently held or being bought by the host despite strong fundamentals; flagged as more speculative, not on his high-conviction 'best of breed' list."},
+            {"name": "Trade Desk (comparison)", "blurb": "Cited as a cautionary sentiment parallel — a stock the host says 'was great until it wasn't.'"},
+        ],
+    },
+]
+
+TAKEAWAYS = [
+    {"icon": "\U0001F4CA", "tag": "Needs independent verification", "title": "If following the \"buy at all-time highs\" framework, note it's the host's own backtest posted on X (since 1950), not an independently published study — check the underlying methodology before leaning on it."},
+    {"icon": "\U0001F4C9", "tag": "Analyst interpretation", "title": "Track Mercado Libre's margin trajectory next quarter — the entire near-term bear case hinges on the 6.7% operating margin the market didn't like; a rebound there would likely resolve the post-earnings selloff."},
+    {"icon": "\U0001F50E", "tag": "Needs independent verification", "title": "Verify Uber's real growth rate (gross bookings, trips) directly from the 10-Q rather than the headline revenue growth number, since the host's whole bull case for Uber depends on the UK VAT/tax reclassification explanation holding up."},
+    {"icon": "⚖️", "tag": "Analyst interpretation", "title": "If considering AppLovin, separate the fundamentals question (strong, per every metric cited) from the sentiment question (the host's explicit, admitted reason for not buying) — they point in different directions here."},
+    {"icon": "\U0001F9E9", "tag": "Needs independent verification", "title": "Confirm the DataDog/OpenAI/Anthropic \"almost exclusive\" observability claim independently before treating it as a durable moat — it's stated as fact by the host but not sourced to a company disclosure."},
+    {"icon": "⛽", "tag": "Analyst interpretation", "title": "Watch oil prices and Fed rate-path commentary as the connective tissue for the K-shaped economy thesis — the host's own framing ties consumer-discretionary weakness (Celsius, Wingstop) directly to gas-price-driven inflation pressure."},
+]
+
+RISKS = [
+    "The host repeatedly discloses his own trades in real time (buying MELI, trimming DataDog, holding small Celsius/Uber positions) throughout the video — useful transparency, but he also monetizes a paid Discord/Patreon community built around this same portfolio and content, a conflict worth weighing against the framing.",
+    "Several of the most load-bearing numbers (MELI's e-commerce vs. fintech margin split, the \"DataDog used almost exclusively by OpenAI/Anthropic\" claim, the K-shaped-economy read-through from two earnings misses) are the host's own estimates or interpretations, not disclosed or independently sourced data.",
+    "All Fibonacci price levels and support/resistance targets are the host's own technical-analysis levels, explicitly presented as \"possibilities,\" not guarantees — he says so himself multiple times.",
+    "This is a single YouTuber's live, unscripted commentary (his own words: \"I'm doing this live... it's not scripted\") covering a large number of tickers quickly — depth on any single name is necessarily limited compared to a dedicated deep-dive.",
+    "The transcript is auto-generated from a roughly 40-minute solo monologue with informal, conversational phrasing; specific figures (EPS, revenue, percentages, price levels) have been transcribed as stated but not independently re-verified against company filings.",
+]
+
+OTHER_NEWS = [
+    {"icon": "\U0001F4A1", "title": "SiTime (semiconductor): a past \"Fired Up Wealth\" community buy/share at $75/share, now a $17B market cap company; 52-week high was $900, trading around $661 (up 21.74% on the day) after a strong earnings report — cited as a \"look what you may have missed\" callback, not a current buy recommendation.", "tag": "Color/context"},
+    {"icon": "\U0001F6D2", "title": "Recent \"opportunistic\" buys mentioned in passing but not detailed on-screen: AAOI, Oracle, and Microsoft (bought in the $350-400 range, below $400).", "tag": "Speaker's disclosure"},
+    {"icon": "\U0001F9E0", "title": "Personal disclosure: the host says he didn't grow up with money and became a multi-millionaire primarily through the stock market (plus some real estate investing); he explicitly warns new investors away from FOMO-chasing, options trading, margin, and derivatives as needlessly dangerous.", "tag": "Speaker's opinion"},
+]
+
+GLOSSARY = [
+    {"term": "K-shaped economy/recovery", "def": "An economic pattern where different segments of society or industries move in opposite directions at once — here, asset owners/high earners benefiting from rising markets while lower-income, labor-dependent consumers are squeezed by inflation."},
+    {"term": "PEG ratio", "def": "Price/earnings divided by expected earnings growth; used here to judge whether a stock's P/E is justified by its growth rate (AppLovin's 0.39 GAAP TTM PEG is cited as attractive since under 1.0 is generally considered cheap)."},
+    {"term": "Operating EBIT margin vs. gross profit margin", "def": "Gross margin measures the profitability of the core product/service itself; operating margin measures what's left after running the whole business (people, marketing, tech, overhead) — the distinction the host uses to explain why Mercado Libre's report looked weaker than its top-line numbers suggested."},
+    {"term": "Fibonacci retracement levels (S1/S2/S3, R3)", "def": "Chart-based support/resistance levels the host uses only after a stock has passed his fundamental research process, to help time entries/exits — not a stock-picking method on its own."},
+    {"term": "Contra revenue / revenue reclassification", "def": "An accounting treatment (as seen in Uber's UK \"taxi tax\" VAT rule change) that reduces reported revenue without changing the underlying economics (gross profit, EBITDA, free cash flow) of the business."},
+    {"term": "EV/revenue vs. P/E", "def": "For recurring-revenue SaaS businesses like DataDog, the host argues enterprise-value-to-revenue is the more appropriate valuation multiple than price-to-earnings, which can look artificially extreme for high-growth, reinvestment-heavy software companies."},
+]

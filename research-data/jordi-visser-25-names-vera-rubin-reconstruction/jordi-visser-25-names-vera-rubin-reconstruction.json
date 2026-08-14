@@ -1,0 +1,167 @@
+{
+ "metadata": {
+  "video_id": "",
+  "url": "",
+  "channel": "Jordi Visser",
+  "title": "Jordi Visser's \"25 Names\" — Vera Rubin Supply Chain Reconstruction",
+  "publication_date": "2026-08-02",
+  "analysis_date": "2026-08-02",
+  "speaker": "Reconstruction brief — compiled from public sources, not a single video"
+ },
+ "executive_takeaway": "",
+ "conviction_map": [
+  {
+   "topic": "Coherent (COHR)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "1 — Nvidia invested ~$2B (March 2026) + multibillion purchase commitment; silicon photonics already in Spectrum-X switches; ELS laser source for CPO; capacity doubling through CY27. — The single most-cited photonics supplier in every teardown; earnings step-up begins H2 2026 as Spectrum-6 CPO ramps.",
+   "risks": ""
+  },
+  {
+   "topic": "Lumentum (LITE)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "2 — Mirror deal: ~$2B Nvidia investment + purchase commitment; primary external-laser-source (ELS) supplier with a ~15-month qualification lead; ~$480M Nvidia CPO revenue estimated FY27. — Highest near-term Nvidia CPO revenue share; new US fab capacity; the classic \"step-up\" profile.",
+   "risks": ""
+  },
+  {
+   "topic": "Fabrinet (FN)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "3 — Thailand-based ODM assembling optical transceivers, CPO modules and laser modules; named by Nvidia in the CPO ecosystem; dominant contract manufacturer for US optics designers. — Assembly node where transceiver + CPO volumes convert to revenue; historically under-owned vs. designer peers.",
+   "risks": ""
+  },
+  {
+   "topic": "Ciena (CIEN)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "4 — Optical systems & coherent DSPs; WaveLogic coherent optics for data-center interconnect; supplies hyperscaler network fabrics alongside Nvidia ecosystems. — Pure-play optical at the systems level; estimate revisions lag transceiver makers — a later \"step-up\" candidate.",
+   "risks": ""
+  },
+  {
+   "topic": "Nokia (NOK)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "5 — Acquired Infinera (2025) — coherent optics, plus silicon photonics push; large optical transport installed base inside telco/AI backbones. — Infinera integration + AI datacenter optics is a classic revision-up story; European name US funds under-weight.",
+   "risks": ""
+  },
+  {
+   "topic": "Cisco (CSCO)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "6 — Owns Acacia (silicon photonics, coherent modules); ships 800G optics into AI fabrics; NVIDIA-named in optical ecosystem discussions. — Defensive optics incumbent; multiples and revisions offer room vs. the semiconductor complex.",
+   "risks": ""
+  },
+  {
+   "topic": "Broadcom (AVGO)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "7 — Optical DSPs (PAM4), Tomahawk/Jericho Ethernet switches, its own CPO program; ESUN alliance member with Nvidia, Marvell, AMD for scale-out optical standards. — Mixed CPO threat vs. pluggables, but the scale-out networking step-up is real; huge AI revenue base.",
+   "risks": ""
+  },
+  {
+   "topic": "Astera Labs (ALAB)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "8 — PCIe Gen6 retimers (Aries 6), Scorpio switches, CXL memory controllers — signal-integrity silicon for the densest racks ever built (1,300+ chips/NVL72). — Content-per-rack rises with Vera Rubin complexity; guidance beats consensus; \"step-up\" already visible.",
+   "risks": ""
+  },
+  {
+   "topic": "Innolight (Zhongji Innolight) (SZ)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "9 — World's largest optical transceiver maker; 800G/1.6T modules into hyperscalers; dominant in Nvidia-adjacent networks. — The archetypal \"many Asian\" name; transceiver step-up with pricing power — exactly his screen.",
+   "risks": ""
+  },
+  {
+   "topic": "Yangtze Optical Fibre (YOFC) (HK)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "16 — Largest fiber producer globally; Nvidia-ecosystem partner; fiber demand driven by rack-scale networking. — Global fiber upturn + AI; China-listed/HK name with step-up in orders.",
+   "risks": ""
+  },
+  {
+   "topic": "Hengtong Optic-Electric (SS)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "17 — Chinese fiber/cable giant; submarine + datacenter connectivity. — Volume fiber play on the same demand curve.",
+   "risks": ""
+  },
+  {
+   "topic": "Browave (TWO)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "18 — Taiwanese fiber-optic component maker explicitly named by Nvidia in CPO ecosystem materials (fiber, micro-optics, connectors). — A direct Nvidia-named partner that US investors barely know — the report's exact profile.",
+   "risks": ""
+  },
+  {
+   "topic": "POET Technologies (POET)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "20 — Hybrid photonics platform (passive+active integration); 800G/CPO roadmap; micro-cap with design-win optionality. — The speculative \"step-up lottery ticket\" — fits his small/mid-cap thematic skew.",
+   "risks": ""
+  },
+  {
+   "topic": "AXT Inc (AXTI)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "21 — Pure-play InP/GaAs compound-semiconductor substrates — the raw material bottleneck behind every CPO laser (supplies Coherent/Lumentum/Ayar ecosystem). — ~$350M market cap, off most radars; the classic second-order scarcity name.",
+   "risks": ""
+  },
+  {
+   "topic": "Lightwave Logic (LWLG)",
+   "category": "stock",
+   "stance": "SPECULATIVE / LOW-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Low",
+   "core_thesis": "22 — Polymer photonics / electro-optic modulators; long-running story, commercial ramp still unproven. — Speculative next-gen photonics; only fits if the report reaches beyond proven suppliers.",
+   "risks": ""
+  },
+  {
+   "topic": "Delta Electronics (TW)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "23 — 800VDC power racks, liquid-cooled busbars, UPS — one of the primary rack-level power partners for the 800V architecture. — The 800 VDC half of his paper; Taiwan mega-cap, under-covered by US investors.",
+   "risks": ""
+  },
+  {
+   "topic": "Vicor (VICR)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "25 — \"Gold standard\" 48V-to-sub-1V last-inch conversion (per Infineon materials); qualified for Nvidia's next-gen platform H2 2025. — Qualification + Nvidia ramp = the earnings inflection his screen hunts for.",
+   "risks": ""
+  },
+  {
+   "topic": "Flex (FLEX)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "26 — 800VDC power racks + NVLink 6 system integration + full-rack assembly; appears across 3+ subsystems. — Broad Vera Rubin exposure beyond optics; contract-manufacturing margins improve with utilization.",
+   "risks": ""
+  }
+ ],
+ "companies_assets": [],
+ "technology_ai_views": [],
+ "ai_workflows": [],
+ "predictions": [],
+ "notable_quotes": [],
+ "risks": [],
+ "actionable_takeaways": [],
+ "other_notable_news": [],
+ "glossary": []
+}

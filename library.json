@@ -1,0 +1,2523 @@
+{
+ "generated_from": "youtube-research-brief generate.py --reindex",
+ "briefs": [
+  {
+   "html": "meet-kevin_2026-08-13_the-sec-just-flipped-the-ai-bubble-bullish-on-fraud.html",
+   "title": "The SEC JUST Flipped the AI Bubble | Bullish on Fraud.",
+   "channel": "Meet Kevin",
+   "date": "2026-08-13",
+   "speakers": "Kevin (host)",
+   "thread_line": "5 threads · SEC disclosure rollback, Elon/SpaceX spend, Kevin's actual buys (RSP/IGV/MSFT/PLTR/AXON), CoreWeave red flag, macro backdrop",
+   "entities": [
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "Bullish short-term, risk flag long-term",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Apollo",
+     "stance": "Bullish short-term, risk flag long-term",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "BlackRock",
+     "stance": "Bullish short-term, risk flag long-term",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Blackstone",
+     "stance": "Bullish short-term, risk flag long-term",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Brookfield",
+     "stance": "Bullish short-term, risk flag long-term",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Goldman Sachs",
+     "stance": "Bullish short-term, risk flag long-term",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "KKR",
+     "display": "KKR",
+     "stance": "Bullish short-term, risk flag long-term",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "RSP",
+     "display": "RSP",
+     "stance": "High conviction — actively buying",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "IGV",
+     "display": "IGV",
+     "stance": "High conviction — actively buying",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "MSFT",
+     "display": "Microsoft",
+     "stance": "High conviction — actively buying",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "PLTR",
+     "display": "Palantir",
+     "stance": "High conviction — actively buying",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "AXON",
+     "display": "Axon",
+     "stance": "High conviction — actively buying",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "CRWV",
+     "display": "CoreWeave",
+     "stance": "Red flag — balance-sheet warning",
+     "conviction": null,
+     "color": "red"
+    },
+    {
+     "ticker": "NBIS",
+     "display": "Nebius",
+     "stance": "Red flag — balance-sheet warning",
+     "conviction": null,
+     "color": "red"
+    },
+    {
+     "ticker": "QQQ",
+     "display": "QQQ",
+     "stance": "Supports the near-term bullish case",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
+   "html": "peter-h-diamandis_2026-08-13_bernie-demands-the-labs-stop-wall-street-turns-gpus-into-bonds-grok-4-7-takes-1-ft-emad-mostaque.html",
+   "title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 ft. Emad Mostaque",
+   "channel": "Peter H. Diamandis",
+   "date": "2026-08-13",
+   "speakers": "Peter Diamandis (host), Alex Wissner-Gross, Dave Blondin, Salim Ismail, Emad Mostaque",
+   "thread_line": "6 threads · Longevity XPRIZE awards, Hollywood's AI-driven cost collapse, Grok's sprint to the frontier, Nvidia's $500B compute financialization, Bernie Sanders' pause letter colliding with a Stanford bioweapon-design breakthrough, and Zuckerberg's personal-AI manifesto",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "XPRIZE Healthspan",
+     "stance": "Confirmed milestone",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Hicksfield",
+     "stance": "Confirmed trend, contested implications",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "LTX 2.5",
+     "stance": "Confirmed trend, contested implications",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "xAI (Grok)",
+     "stance": "High conviction on catch-up, contested on leapfrog",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "Contested — bull case vs. MBS-style risk",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Apollo",
+     "stance": "Contested — bull case vs. MBS-style risk",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "BlackRock",
+     "stance": "Contested — bull case vs. MBS-style risk",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Blackstone",
+     "stance": "Contested — bull case vs. MBS-style risk",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Brookfield",
+     "stance": "Contested — bull case vs. MBS-style risk",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "KKR",
+     "display": "KKR",
+     "stance": "Contested — bull case vs. MBS-style risk",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Contested — alarm vs. dismissal",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Meta",
+     "stance": "Contested — alarm vs. dismissal",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Contested — alarm vs. dismissal",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "META",
+     "display": "Meta",
+     "stance": "Praised for openness, doubted on motive",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
+   "html": "this-week-in-ai_2026-08-13_why-anthropic-is-watermarking-every-word-claude-writes.html",
+   "title": "Why Anthropic is watermarking every word Claude writes",
+   "channel": "This Week in AI",
+   "date": "2026-08-13",
+   "speakers": "Jason Calacanis (host), Lon Harris (news), Will Bryk (Exa), Josh Serota (Aragon), Kash Ali (Tax GPT / Taxfyle)",
+   "thread_line": "5 threads · Claude watermarking under EU pressure, Zuckerberg's decentralization manifesto (and its distillation hypocrisy), Texas hits pause on new data centers, the panel's split verdict on whether software is dead, and the founder-as-moat closing riff",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Anthropic (via Claude)",
+     "stance": "Confirmed policy, contested framing",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Pangram",
+     "stance": "Confirmed policy, contested framing",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Meta",
+     "stance": "Praised for vision, called out for hypocrisy",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Praised for vision, called out for hypocrisy",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "ERCOT",
+     "display": "ERCOT",
+     "stance": "Contested — pause, not ban",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Crusoe Cloud",
+     "stance": "Contested — pause, not ban",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Exa",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Aragon",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Tax GPT / Taxfyle",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
+   "html": "jordi-visser_2026-08-09_the-ai-crash-is-over-here-s-what-comes-next.html",
+   "title": "The AI Crash Is Over. Here's What Comes Next",
+   "channel": "Jordi Visser",
+   "date": "2026-08-09",
+   "speakers": "Jordi Visser (host)",
+   "thread_line": "5 threads · speed-crash bottom call, new hedging framework, Gavin Baker on compute scarcity, hyperscaler/Google/memory cracks, Fed-yen intervention and debasement trade",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Palantir",
+     "stance": "Methodology",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Micron",
+     "stance": "Methodology",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Eaton & Schneider Electric",
+     "stance": "Methodology",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Nvidia",
+     "stance": "Must-listen (speaker's endorsement)",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Google / Alphabet",
+     "stance": "Contested / mixed",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Micron",
+     "stance": "Contested / mixed",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Gold / Silver / Platinum",
+     "stance": "Mixed / speculative",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Bitcoin",
+     "stance": "Mixed / speculative",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
+   "html": "all-in-podcast_2026-08-08_google-s-ai-brain-drain-spacex-s-huge-quarter-airtable-s-90-collapse-us-data-fuels-china-ai.html",
+   "title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
+   "channel": "All-In Podcast",
+   "date": "2026-08-08",
+   "speakers": "Jason Calacanis, David Sacks, David Friedberg, Brad Gerstner (guest)",
+   "thread_line": "5 threads · Google's AI brain drain, SpaceX Q2 earnings bull case, SpaceX's compute financing risk, Airtable/Bending Spoons SaaS lesson, US data fueling Chinese AI",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Google / Alphabet",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic & OpenAI",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Discovery Loop",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX (Starlink / AI compute / Space segments)",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Grok & Cursor",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Nvidia",
+     "stance": "Unresolved risk",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "CoreWeave (comparison)",
+     "stance": "Unresolved risk",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Airtable",
+     "stance": "Case study — not a stock pick",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Bending Spoons",
+     "stance": "Case study — not a stock pick",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Leopold Aschenbrenner (comparison)",
+     "stance": "Case study — not a stock pick",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Surge AI & Mercor",
+     "stance": "Unresolved policy debate",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Micro1",
+     "stance": "Unresolved policy debate",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
+   "html": "meet-kevin_2026-08-08_bullish-on-elon-9-mega-ai-hardware-stocks-now.html",
+   "title": "Bullish on Elon: 9 Mega AI Hardware Stocks | NOW",
+   "channel": "Meet Kevin",
+   "date": "2026-08-08",
+   "speakers": "Kevin (host)",
+   "thread_line": "6 threads · Elon's capex thesis, Nvidia, Marvell, Lattice, cooling/power infra, the rest of the field",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "SpaceX / Elon Musk",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Foxconn",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "MRVL",
+     "display": "Marvell",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "LSCC",
+     "display": "Lattice Semiconductor",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "VRT",
+     "display": "Vertiv",
+     "stance": "Mixed",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "ETN",
+     "display": "Eaton",
+     "stance": "Mixed",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Schneider Electric (OTC ADR)",
+     "stance": "Speculative / value plays",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": null,
+     "display": "Dell Technologies",
+     "stance": "Speculative / value plays",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "ENPH",
+     "display": "Enphase Energy",
+     "stance": "Speculative / value plays",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": null,
+     "display": "ARM Holdings",
+     "stance": "Speculative / value plays",
+     "conviction": null,
+     "color": "gray"
+    }
+   ]
+  },
+  {
+   "html": "moonshots-with-peter-diamandis_2026-08-08_google-s-jeff-dean-exits-spacex-hits-100b-in-rev-openai-s-astra-solves-decade-old-math-problems.html",
+   "title": "Google's Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI's Astra Solves Decade-Old Math Problems",
+   "channel": "Moonshots with Peter Diamandis",
+   "date": "2026-08-08",
+   "speakers": "Peter Diamandis, Alex (AWG), Dave Blundin, Salem (See), Immad Mustafa",
+   "thread_line": "6 threads · Google's DeepMind/Brain reshuffle, OpenAI's Astra bulk-solving math, SpaceX's earnings call and its $16.8B Terrafab, AI consciousness & personhood research, Qwen's open-weight leap vs Trump's secret AI framework, and Brett Adcock's Hark/Handoff bet",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Demis Hassabis",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Jeff Dean",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Corey Kavukcuoglu",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX Terrafab",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Starmine",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Immad Mustafa",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": null,
+     "display": "Qwen 3.8 Max",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Kimi K3 / DeepSeek V4 Flash",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Brett Adcock",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    }
+   ]
+  },
+  {
+   "html": "limitless-podcast_2026-08-06_elon-just-promised-1-trillion-a-year.html",
+   "title": "Elon Just Promised $1 Trillion a Year",
+   "channel": "Limitless Podcast",
+   "date": "2026-08-06",
+   "speakers": "EJ and Josh (hosts)",
+   "thread_line": "5 threads · SpaceX Q2 2026 earnings, Nvidia compute deal, Starlink growth, share unlock, long-term thesis",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Nvidia",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Walmart",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Amazon / Google (hyperscalers)",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Speaker claim",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Google",
+     "stance": "Speaker claim",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Tesla",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
+   "html": "mr-fired-up-wealth_2026-08-06_the-secret-to-buying-stocks-at-all-time-highs-it-s-not-what-you-think.html",
+   "title": "The Secret to Buying Stocks at All-Time Highs (It's Not What You Think)",
+   "channel": "Mr. FIRED Up Wealth",
+   "date": "2026-08-06",
+   "speakers": "Mr. FIRED Up Wealth (host)",
+   "thread_line": "5 threads · all-time-highs framework, Mercado Libre buy, Celsius/Wingstop K-shaped economy read, Uber & DataDog headline-vs-reality, AppLovin sentiment risk",
+   "entities": [
+    {
+     "ticker": "MELI",
+     "display": "Mercado Libre",
+     "stance": "High conviction — actively buying",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Amazon (comparison)",
+     "stance": "High conviction — actively buying",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "CELH",
+     "display": "Celsius",
+     "stance": "Contested / macro read",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "WING",
+     "display": "Wingstop",
+     "stance": "Contested / macro read",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "McDonald's (comparison)",
+     "stance": "Contested / macro read",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Monster Beverage (comparison)",
+     "stance": "Contested / macro read",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "UBER",
+     "display": "Uber",
+     "stance": "Mixed signal — bullish once explained",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "DDOG",
+     "display": "DataDog",
+     "stance": "Mixed signal — bullish once explained",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "APP",
+     "display": "AppLovin",
+     "stance": "Strong fundamentals, low conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Trade Desk (comparison)",
+     "stance": "Strong fundamentals, low conviction",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
+   "html": "grow-your-wealth-valentin-dragu-si-alex-marian_2026-08-02_saptamana-care-a-socat-bursele-the-week-that-shocked-the-markets.html",
+   "title": "SAPTAMANA CARE A SOCAT BURSELE! (The Week That Shocked the Markets!)",
+   "channel": "Grow your WEALTH - Valentin Dragu si Alex Marian",
+   "date": "2026-08-02",
+   "speakers": "Valentin Dragu and Alex Marian",
+   "thread_line": "(1) The South Korean KOSPI collapse is the episode's core story: SK Hynix and Samsung make up ~50% of the index, and a violent correction wiped out hundreds...",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "South Korea / KOSPI",
+     "stance": "NEGATIVE VIEW (warned in advance)",
+     "conviction": "High",
+     "color": "red"
+    },
+    {
+     "ticker": null,
+     "display": "Citadel / Ken Griffin",
+     "stance": "NEGATIVE VIEW (unproven allegation)",
+     "conviction": "Medium",
+     "color": "red"
+    },
+    {
+     "ticker": "MSFT",
+     "display": "Microsoft",
+     "stance": "POSITIVE VIEW (short-term)",
+     "conviction": "Medium",
+     "color": "red"
+    },
+    {
+     "ticker": "AMZN",
+     "display": "Amazon",
+     "stance": "POSITIVE VIEW",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": "AAPL",
+     "display": "Apple",
+     "stance": "MIXED VIEW",
+     "conviction": "Medium",
+     "color": "amber"
+    },
+    {
+     "ticker": "META",
+     "display": "Meta",
+     "stance": "NEGATIVE VIEW (short-term)",
+     "conviction": "High",
+     "color": "red"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "POSITIVE VIEW (market cap race)",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": "BE",
+     "display": "Bloom Energy",
+     "stance": "CAUTION (unhealthy move)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": null,
+     "display": "BVB / BET index (Romania)",
+     "stance": "NEGATIVE VIEW (looks like KOSPI)",
+     "conviction": "High",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "html": "jordi-visser-10-names-deep-dive.html",
+   "title": "The \"10 Highly Correlated Names\" — Jordi Visser Deep Research Brief",
+   "channel": "Jordi Visser",
+   "date": "2026-08-02",
+   "speakers": "Reconstruction brief — compiled from public sources, not a single video",
+   "thread_line": "11 companies/tickers covered",
+   "entities": [
+    {
+     "ticker": "NVDA",
+     "display": "NVIDIA",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "GLW",
+     "display": "Corning",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "MRVL",
+     "display": "Marvell",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "MU",
+     "display": "Micron",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "COHR",
+     "display": "Coherent",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "LITE",
+     "display": "Lumentum",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "INTC",
+     "display": "Intel",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "AVGO",
+     "display": "Broadcom",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "TXN",
+     "display": "Texas Instruments",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "VST",
+     "display": "Vistra",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "ENTG",
+     "display": "Entegris",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    }
+   ]
+  },
+  {
+   "html": "jordi-visser-100-names-reconstruction.html",
+   "title": "The Visser 100 — Reconstruction Brief | Jordi Visser Deep Research",
+   "channel": "Jordi Visser",
+   "date": "2026-08-02",
+   "speakers": "Reconstruction brief — compiled from public sources, not a single video",
+   "thread_line": "96 companies/tickers covered",
+   "entities": [
+    {
+     "ticker": "NVDA",
+     "display": "NVIDIA",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "MRVL",
+     "display": "Marvell",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "MU",
+     "display": "Micron",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "INTC",
+     "display": "Intel",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "AMD",
+     "display": "AMD",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "WDC",
+     "display": "Western Digital",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "LSCC",
+     "display": "Lattice Semi",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "QCOM",
+     "display": "Qualcomm",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "TER",
+     "display": "Teradyne",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "DELL",
+     "display": "Dell",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "SMCI",
+     "display": "Supermicro",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "ANET",
+     "display": "Arista",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "CSCO",
+     "display": "Cisco",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "PSTG",
+     "display": "Pure Storage",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "NXPI",
+     "display": "NXP",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "DD",
+     "display": "DuPont",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "FCX",
+     "display": "Freeport-McMoRan",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "ENTG",
+     "display": "Entegris",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "MRK",
+     "display": "Merck KGaA",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "DE",
+     "display": "Henkel",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "CBT",
+     "display": "Cabot",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "TECK",
+     "display": "Teck Resources",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "VALE",
+     "display": "Vale",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "RIO",
+     "display": "Rio Tinto",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "BHP",
+     "display": "BHP Group",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "AA",
+     "display": "Alcoa",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "ALB",
+     "display": "Albemarle",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "SQM",
+     "display": "SQM",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "MP",
+     "display": "MP Materials",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "KLAC",
+     "display": "KLA",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "TSM",
+     "display": "TSMC",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "AVGO",
+     "display": "Broadcom",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "ASML",
+     "display": "ASML",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "MKSI",
+     "display": "MKS Instruments",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "KS",
+     "display": "Samsung",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "TXN",
+     "display": "Texas Instruments",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "AMAT",
+     "display": "Applied Materials",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "LRCX",
+     "display": "Lam Research",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "ON",
+     "display": "ON Semiconductor",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "IFX",
+     "display": "Infineon",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "AMKR",
+     "display": "Amkor",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "ONTO",
+     "display": "Onto Innovation",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "FORM",
+     "display": "FormFactor",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "GLW",
+     "display": "Corning",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "AAOI",
+     "display": "Applied Optoelectronics",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "COHR",
+     "display": "Coherent",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "CRDO",
+     "display": "Credo",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "ALAB",
+     "display": "Astera Labs",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "LITE",
+     "display": "Lumentum",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "CIEN",
+     "display": "Ciena",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "VST",
+     "display": "Vistra",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "CEG",
+     "display": "Constellation",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "XOM",
+     "display": "Exxon Mobil",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "CVX",
+     "display": "Chevron",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "ETN",
+     "display": "Eaton",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "VRT",
+     "display": "Vertiv",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "CAT",
+     "display": "Caterpillar",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "GEV",
+     "display": "GE Vernova",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "NRG",
+     "display": "NRG Energy",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "FLNC",
+     "display": "Fluence Energy",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "ENS",
+     "display": "EnerSys",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "CCJ",
+     "display": "Cameco",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "NVT",
+     "display": "nVent Electric",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "EMR",
+     "display": "Emerson",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "PWR",
+     "display": "Quanta Services",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "ABB",
+     "display": "ABB",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "HUBB",
+     "display": "Hubbell",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "ATKR",
+     "display": "Atkore",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "NEE",
+     "display": "NextEra",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "EXC",
+     "display": "Exelon",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "SO",
+     "display": "Southern Co.",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "WEC",
+     "display": "WEC Energy",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "BKR",
+     "display": "Baker Hughes",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "SLB",
+     "display": "SLB",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "HAL",
+     "display": "Halliburton",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "COP",
+     "display": "ConocoPhillips",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "EOG",
+     "display": "EOG Resources",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "OXY",
+     "display": "Occidental",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "DVN",
+     "display": "Devon Energy",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "FSLR",
+     "display": "First Solar",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "ENPH",
+     "display": "Enphase",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "NUE",
+     "display": "Nucor",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "LLY",
+     "display": "Eli Lilly",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "EWZ",
+     "display": "Brazil ETF",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "PLTR",
+     "display": "Palantir",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "SLV",
+     "display": "Silver (iShares)",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "GOOGL",
+     "display": "Alphabet",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "XBI",
+     "display": "Biotech ETF",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "TSLA",
+     "display": "Tesla",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "ORCL",
+     "display": "Oracle",
+     "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+     "conviction": "Confirmed",
+     "color": "green"
+    },
+    {
+     "ticker": "WPM",
+     "display": "Wheaton Precious",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "PAAS",
+     "display": "Pan American Silver",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "XLE",
+     "display": "Energy Select ETF",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "URA",
+     "display": "Uranium ETF",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "INTG",
+     "display": "\"Integris\" (unidentified)",
+     "stance": "SPECULATIVE / LOW-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Low",
+     "color": "gray"
+    },
+    {
+     "ticker": "KIM",
+     "display": "\"Kimors\" (unidentified)",
+     "stance": "SPECULATIVE / LOW-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Low",
+     "color": "gray"
+    }
+   ]
+  },
+  {
+   "html": "jordi-visser-25-names-vera-rubin-reconstruction.html",
+   "title": "Jordi Visser's \"25 Names\" — Vera Rubin Supply Chain Reconstruction",
+   "channel": "Jordi Visser",
+   "date": "2026-08-02",
+   "speakers": "Reconstruction brief — compiled from public sources, not a single video",
+   "thread_line": "18 companies/tickers covered",
+   "entities": [
+    {
+     "ticker": "COHR",
+     "display": "Coherent",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "LITE",
+     "display": "Lumentum",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "FN",
+     "display": "Fabrinet",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "CIEN",
+     "display": "Ciena",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "NOK",
+     "display": "Nokia",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "CSCO",
+     "display": "Cisco",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "AVGO",
+     "display": "Broadcom",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "ALAB",
+     "display": "Astera Labs",
+     "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+     "conviction": "High",
+     "color": "amber"
+    },
+    {
+     "ticker": "SZ",
+     "display": "Innolight (Zhongji Innolight)",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "HK",
+     "display": "Yangtze Optical Fibre (YOFC)",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "SS",
+     "display": "Hengtong Optic-Electric",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "TWO",
+     "display": "Browave",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "POET",
+     "display": "POET Technologies",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "AXTI",
+     "display": "AXT Inc",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "LWLG",
+     "display": "Lightwave Logic",
+     "stance": "SPECULATIVE / LOW-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Low",
+     "color": "gray"
+    },
+    {
+     "ticker": "TW",
+     "display": "Delta Electronics",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "VICR",
+     "display": "Vicor",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    },
+    {
+     "ticker": "FLEX",
+     "display": "Flex",
+     "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+     "conviction": "Medium",
+     "color": "gray"
+    }
+   ]
+  },
+  {
+   "html": "jordi-visser_2026-08-02_situational-awareness-hyperscaler-earnings-and-warsh-a-bottom-for-ai-stocks.html",
+   "title": "Situational Awareness, Hyperscaler Earnings and Warsh: A Bottom for AI Stocks?",
+   "channel": "Jordi Visser",
+   "date": "2026-08-02",
+   "speakers": "Jordi Visser (solo weekly market update)",
+   "thread_line": "(1) A ~$45B AI-focused hedge fund, Situational Awareness (founded by Leopold Aschenbrenner), was forced to sell its entire public-equities book (~$16-20B) to...",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Situational Awareness / Citadel-Millennium hedge-fund unwind",
+     "stance": "UNCERTAIN",
+     "conviction": "Medium",
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Structurally higher market volatility (post-AI regime change)",
+     "stance": "POSITIVE VIEW (as a persistent regime, not a trade)",
+     "conviction": "High",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "html": "anthony-pompliano_2026-08-01_bitcoin-is-the-best-hedge-fund-that-s-ever-existed.html",
+   "title": "Bitcoin Is The Best Hedge Fund That's Ever Existed",
+   "channel": "Anthony Pompliano",
+   "date": "2026-08-01",
+   "speakers": "Anthony Pompliano (interviewer), Jordi Visser 'Jordy' (guest)",
+   "thread_line": "(1) The Leopold hedge fund unwind was a 'cleansing event' - forced liquidation of positions via prime brokers.",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Bitcoin as Best Hedge Fund Ever",
+     "stance": "POSITIVE VIEW (strong conviction)",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Compute (Chips/Energy) Scarcity",
+     "stance": "POSITIVE VIEW (supply constrained)",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Tokenization of Real-World Assets",
+     "stance": "POSITIVE VIEW (inevitable)",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "AI Agents Disrupting Public Companies",
+     "stance": "NEGATIVE VIEW (on traditional models)",
+     "conviction": "High",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "html": "my-first-million_2026-07-31_what-happened-when-i-accidentally-sat-next-to.html",
+   "title": "What happened when I accidentally sat next to...",
+   "channel": "My First Million",
+   "date": "2026-07-31",
+   "speakers": "Chris Williamson 'Shawn' (host), Sam Parr (co-host)",
+   "thread_line": "(1) The golden window (ages 6-16) is critical for world-class achievement - if you find something you obsess over during this neuroplastic period, you hyper-...",
+   "entities": []
+  },
+  {
+   "html": "limitless-podcast_2026-07-29_the-market-is-wrong-about-spacex.html",
+   "title": "The Market Is Wrong About SpaceX",
+   "channel": "Limitless Podcast",
+   "date": "2026-07-29",
+   "speakers": "Limitless Podcast hosts (Josh and co-host)",
+   "thread_line": "(1) SpaceX stock is down more than 50% from its post-IPO all-time high (IPO'd at $135, peaked near $225, hit an all-time low of $107) six weeks after going p...",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Near-term share price / supply unlock risk",
+     "stance": "NEGATIVE VIEW",
+     "conviction": "Medium",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "html": "meet-kevin_2026-07-29_buy.html",
+   "title": "Buy.",
+   "channel": "Meet Kevin",
+   "date": "2026-07-29",
+   "speakers": "Kevin Paffrath (\"Meet Kevin\")",
+   "thread_line": "(1) Kevin calls the past ~6-8 weeks 'the great suckening': a wave of massive capital raises (Alphabet's ~$80B equity raise, a SpaceX raise he cites at ~$85B,...",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "\"The Great Suckening\" — mega capital raises draining market liquidity",
+     "stance": "NEGATIVE VIEW (short-term), POSITIVE VIEW (medium-term resolution)",
+     "conviction": "High",
+     "color": "red"
+    },
+    {
+     "ticker": null,
+     "display": "Memory / semiconductor stocks (SK Hynix, implicitly Samsung, Micron)",
+     "stance": "POSITIVE VIEW",
+     "conviction": "Medium",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "html": "my-first-million_2026-07-29_chris-camillo-i-put-70-of-my-portfolio-in-this-one-stock.html",
+   "title": "Chris Camillo: I Put 70% of My Portfolio in This ONE Stock",
+   "channel": "My First Million",
+   "date": "2026-07-29",
+   "speakers": "Chris Camillo (Dumb Money, guest), Sam Parr and Shaan Puri (My First Million, hosts)",
+   "thread_line": "(1) Chris Camillo's core method — 'observational' or 'social arbitrage' investing — is to detect real-world cultural/behavioral change (via TikTok/Reddit com...",
+   "entities": [
+    {
+     "ticker": "AMZN",
+     "display": "Amazon",
+     "stance": "OWNS",
+     "conviction": "High",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "html": "peter-h-diamandis_2026-07-29_dario-vs-jensen-on-open-weights-openai-anthropic-in-dc-xi-exports-ai-to-global-south-ep-275.html",
+   "title": "Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
+   "channel": "Peter H. Diamandis",
+   "date": "2026-07-29",
+   "speakers": "Peter Diamandis (host), with Dave Blundin, Alex (AWG), and Salim (Seem) — the \"Moonshots\" panel",
+   "thread_line": "(1) Open vs.",
+   "entities": []
+  },
+  {
+   "html": "anthony-pompliano_2026-07-27_wall-street-s-top-ai-bull-reveals-the-real-bottleneck-it-s-not-chips.html",
+   "title": "Wall Street's Top AI Bull Reveals the Real Bottleneck (It's Not Chips)",
+   "channel": "Anthony Pompliano",
+   "date": "2026-07-27",
+   "speakers": "Anthony Pompliano (interviewer), Dan Ives (guest)",
+   "thread_line": "(1) Dan Ives dismisses Chinese open-source fears as 'mini deepseek moment' - Anthropic/OpenAI playing different game.",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Anthropic Revenue Slowdown",
+     "stance": "POSITIVE VIEW (healthy)",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Model Commoditization + Cost Compression",
+     "stance": "POSITIVE VIEW",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Fat AI Model Thesis",
+     "stance": "NEGATIVE VIEW",
+     "conviction": "High",
+     "color": "red"
+    },
+    {
+     "ticker": null,
+     "display": "Memory (HBM) as Bottleneck",
+     "stance": "POSITIVE VIEW (supply constrained)",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Energy as Bottleneck",
+     "stance": "POSITIVE VIEW (constraint)",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Hyperscaler Capex (Mag 7 FCF)",
+     "stance": "POSITIVE VIEW",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "AI Industry PR Problem",
+     "stance": "NEGATIVE VIEW (self-inflicted)",
+     "conviction": "High",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "html": "y-combinator_2026-07-27_boris-cherny-we-cut-80-of-claude-code-s-prompt.html",
+   "title": "Boris Cherny: We Cut 80% of Claude Code's Prompt",
+   "channel": "Y Combinator",
+   "date": "2026-07-27",
+   "speakers": "Boris Cherny (creator of Claude Code, guest), Forrest (Y Combinator, interviewer)",
+   "thread_line": "(1) Anthropic deleted 80% of Claude Code's system prompt for Opus 5 because a more intelligent model no longer needs instructions correcting behavior it now...",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Dynamic Workflows for Massive Test-Time Compute",
+     "stance": "POSITIVE VIEW",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Autonomous Maintenance Routines",
+     "stance": "POSITIVE VIEW",
+     "conviction": "High",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "html": "grow-your-wealth-valentin-dragu-si-alex-marian_2026-07-26_companiile-transmit-un-avertisment.html",
+   "title": "COMPANIILE TRANSMIT UN AVERTISMENT?",
+   "channel": "Grow your WEALTH - Valentin Dragu si Alex Marian",
+   "date": "2026-07-26",
+   "speakers": "Valentin Dragu and Alex Marian",
+   "thread_line": "(1) Google's report showed its first negative free cash flow in roughly 10-15 years, driven by massive AI/cloud capex plus convertible-bond dilution - but th...",
+   "entities": [
+    {
+     "ticker": "GOOGL",
+     "display": "Google",
+     "stance": "POSITIVE VIEW (contrarian buy under $300)",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": "TSLA",
+     "display": "Tesla",
+     "stance": "OWNS",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": "ORCL",
+     "display": "Oracle",
+     "stance": "NEGATIVE VIEW (sold)",
+     "conviction": "High",
+     "color": "red"
+    },
+    {
+     "ticker": "INTC",
+     "display": "Intel",
+     "stance": "POSITIVE VIEW",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": "IBM",
+     "display": "IBM",
+     "stance": "NEGATIVE VIEW (avoid)",
+     "conviction": "Medium",
+     "color": "red"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "POSITIVE VIEW (conditional)",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": "AMD",
+     "display": "AMD",
+     "stance": "POSITIVE VIEW (conditional)",
+     "conviction": "Medium",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "html": "jordi-visser_2026-07-26_short-term-ai-fear-long-term-compute-scarcity.html",
+   "title": "Short-Term AI Fear, Long-Term Compute Scarcity",
+   "channel": "Jordi Visser",
+   "date": "2026-07-26",
+   "speakers": "Jordi Visser",
+   "thread_line": "Jordi Visser argues we're in a short-term AI sentiment pullback ('mini bear market') within a powerful secular bull market driven by structural compute scarc...",
+   "entities": [
+    {
+     "ticker": "MRVL",
+     "display": "Marvell",
+     "stance": "OWNS",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "AOI (Applied Optoelectronics)",
+     "stance": "BUYING/ADDING",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": "GOOG",
+     "display": "Google",
+     "stance": "POSITIVE VIEW",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "NEGATIVE VIEW",
+     "conviction": "Medium",
+     "color": "red"
+    },
+    {
+     "ticker": null,
+     "display": "Optical/Photonics Supply Chain",
+     "stance": "POSITIVE VIEW",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Memory/Chip Names",
+     "stance": "POSITIVE VIEW",
+     "conviction": "Medium-High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Estimate Revisions Factor",
+     "stance": "POSITIVE VIEW",
+     "conviction": "High",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "html": "moonshots-with-peter-diamandis_2026-07-24_the-hugging-face-breach-moonshot-ai-valued-at-20b-and-living-to-1-759-years-old-ep-273.html",
+   "title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
+   "channel": "Moonshots with Peter Diamandis",
+   "date": "2026-07-24",
+   "speakers": "Peter Diamandis, Alex, Dave London, Seem (co-hosts)",
+   "thread_line": "(1) Moonshot AI's Kimi K3 (2.8T params, open weights July 27) caught US frontier labs by surprise at a fraction of the cost - Bessant floats sanctions over a...",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Western Frontier Labs (Anthropic, OpenAI)",
+     "stance": "NEGATIVE VIEW (on capital efficiency)",
+     "conviction": "High",
+     "color": "red"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX Engineering Data into Grok",
+     "stance": "POSITIVE VIEW",
+     "conviction": "High",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "html": "chris-williamson_2026-07-20_14-patterns-behind-the-world-s-greatest-minds-david-senra.html",
+   "title": "14 Patterns Behind the World's Greatest Minds - David Senra",
+   "channel": "Chris Williamson",
+   "date": "2026-07-20",
+   "speakers": "David Senra (guest), Chris Williamson (interviewer)",
+   "thread_line": "(1) Chips on shoulders put chips in pockets - the hungry, overlooked people with something to prove (dysfunctional backgrounds, failures, immigration stories...",
+   "entities": []
+  },
+  {
+   "html": "jordi-visser_2026-07-19_ai-s-speed-crash-the-structural-bull-market-isn-t-over.html",
+   "title": "AI's Speed Crash: The Structural Bull Market Isn't Over",
+   "channel": "Jordi Visser",
+   "date": "2026-07-19",
+   "speakers": "Jordi Visser",
+   "thread_line": "(1) The AI structural bull market is intact but we are in a 'speed crash' / midcycle digestion phase: the Morgan Stanley tech momentum factor fell ~40% in 18...",
+   "entities": [
+    {
+     "ticker": "MU",
+     "display": "Micron",
+     "stance": "BUYING",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "OWNS",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": "MRVL",
+     "display": "Marvell",
+     "stance": "OWNS",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Crypto (Bitcoin / Ethereum / Silver)",
+     "stance": "POSITIVE VIEW",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "US banks (JPM, GS, MS, etc.)",
+     "stance": "POSITIVE VIEW",
+     "conviction": "Medium",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "html": "anthony-pompliano_2026-07-18_bitcoin-s-next-move-depends-on-one-fed-decision.html",
+   "title": "Bitcoin's Next Move Depends On One Fed Decision",
+   "channel": "Anthony Pompliano",
+   "date": "2026-07-18",
+   "speakers": "Jordy Visser (guest), interviewed by Anthony Pompliano",
+   "thread_line": "The highest-signal ideas: (1) A real deleveraging / 'fireworks show is over' is underway in AI names — the 'AI midcycle slowdown' is a second-derivative dece...",
+   "entities": [
+    {
+     "ticker": "MU",
+     "display": "Micron",
+     "stance": "OWNS / BUYING (small)",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": "ETH",
+     "display": "Ethereum",
+     "stance": "OWNS / WATCHING (add)",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": "BTC",
+     "display": "Bitcoin",
+     "stance": "OWNS",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": "MSTR",
+     "display": "MicroStrategy",
+     "stance": "OWNS",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Memory semis (Samsung, SK Hynix implied)",
+     "stance": "WATCHING / POSITIVE",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Vera Rubin supply chain names",
+     "stance": "WATCHING",
+     "conviction": "Medium",
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Biotech (NASDAQ)",
+     "stance": "POSITIVE VIEW",
+     "conviction": "Low",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "SaaS / seat-based software",
+     "stance": "NEGATIVE VIEW (avoid)",
+     "conviction": "High",
+     "color": "red"
+    },
+    {
+     "ticker": null,
+     "display": "US Frontier AI models (Anthropic, OpenAI, Google, Meta, Apple)",
+     "stance": "POSITIVE VIEW",
+     "conviction": "Medium",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "html": "george-buhnici_2026-07-18_china-lider-la-ai-apple-da-in-judecata-openai-pretul-la-kwh-starlink-de-1-gigabit-curiosity-335.html",
+   "title": "China Lider la AI, Apple dă în judecată OpenAI, Prețul la KWh, Starlink de 1 Gigabit #CURIOSITY 335",
+   "channel": "George Buhnici",
+   "date": "2026-07-18",
+   "speakers": "George Buhnici",
+   "thread_line": "The highest-signal ideas from Curiosity 335: (1) China's Kimi K3 model (2.8T parameters, 1M context tokens) was launched and is positioned as the most advanc...",
+   "entities": [
+    {
+     "ticker": "XAI",
+     "display": "Grok 4.5",
+     "stance": "POSITIVE VIEW",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Local AI hardware (Nvidia, Ryzen Halo)",
+     "stance": "WATCHING / POSITIVE",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "RAM/Memory prices",
+     "stance": "NEGATIVE VIEW (consumer impact)",
+     "conviction": "Medium",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "html": "chris-koerner-on-the-koerner-office-podcast_2026-07-16_he-told-5-ais-make-money-or-get-deleted.html",
+   "title": "He Told 5 AIs: Make Money or Get Deleted",
+   "channel": "Chris Koerner on The Koerner Office Podcast",
+   "date": "2026-07-16",
+   "speakers": "Brandon Doyle",
+   "thread_line": "Chris Koerner ran a live experiment giving five paid AI models (Claude, ChatGPT, Gemini, Grok, Perplexity) $1,000 each in real Schwab brokerage accounts, fra...",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "SOXL (3x semiconductor leveraged ETF)",
+     "stance": "POSITIVE VIEW (held by 3 of 5 winning models)",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": "INTC",
+     "display": "Intel",
+     "stance": "POSITIVE VIEW",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "TQQQ (3x Nasdaq leveraged ETF)",
+     "stance": "POSITIVE VIEW (held by ChatGPT)",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Solana / 2x Solana ETF",
+     "stance": "NEGATIVE VIEW (bad entry)",
+     "conviction": "Medium",
+     "color": "red"
+    },
+    {
+     "ticker": null,
+     "display": "BOTZ (Global Robotics & Automation ETF)",
+     "stance": "CASUAL MENTION / WATCHING",
+     "conviction": "Low",
+     "color": "amber"
+    },
+    {
+     "ticker": "HOOD",
+     "display": "Robinhood",
+     "stance": "POSITIVE VIEW",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": "TSLA",
+     "display": "Tesla",
+     "stance": "POSITIVE VIEW",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": "COIN",
+     "display": "Coinbase",
+     "stance": "POSITIVE VIEW",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": "LLY",
+     "display": "Eli Lilly",
+     "stance": "POSITIVE VIEW",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "StubHub (newly public)",
+     "stance": "POSITIVE VIEW (long-term hold)",
+     "conviction": "Low",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "html": "tim-ferriss_2026-07-16_the-random-show-mortality-ai-supplements-rock-climbing-more.html",
+   "title": "The Random Show! Mortality, AI, Supplements, Rock Climbing, & More",
+   "channel": "Tim Ferriss",
+   "date": "2026-07-16",
+   "speakers": "Kevin Rose",
+   "thread_line": "The 3-6 highest-signal ideas: (1) Kevin Rose frames the AI model market as consolidating to a 'big three' — Google (Gemini), Anthropic, and OpenAI — plus a w...",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "AI model landscape = 'big three' (Google/Anthropic/OpenAI)",
+     "stance": "POSITIVE VIEW (structural)",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "POSITIVE VIEW (structural)",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "TSMC (supply chain)",
+     "stance": "CASUAL MENTION",
+     "conviction": "Low",
+     "color": "amber"
+    },
+    {
+     "ticker": "AAPL",
+     "display": "Apple",
+     "stance": "WATCHING (cautiously positive)",
+     "conviction": "Low",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "WhisperFlow (voice capture app)",
+     "stance": "POSITIVE VIEW",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Whole Earth is Medicine",
+     "stance": "POSITIVE VIEW (favorite)",
+     "conviction": "Low",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "This Too Is Me (meditation, 'Henry')",
+     "stance": "POSITIVE VIEW (favorite)",
+     "conviction": "Low",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "S&P 500 (passive investing)",
+     "stance": "POSITIVE VIEW (default)",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Crypto",
+     "stance": "NEGATIVE VIEW (disinterest)",
+     "conviction": "Low",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "html": "school-of-hard-knocks-podcast_2026-07-15_he-started-with-a-400-loan-now-his-ai-company-is-worth-2-5-billion-david-stout.html",
+   "title": "He Started With a $400 Loan… Now His AI Company Is Worth $2.5 Billion | David Stout",
+   "channel": "School of Hard Knocks Podcast",
+   "date": "2026-07-15",
+   "speakers": "School of Hard Knocks Podcast",
+   "thread_line": "David Stout, founder of WebAI (valued at $2.5B, ~200 employees), recounts building an on-device AI company from a $400 loan from his grandfather and one shar...",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "WebAI (private)",
+     "stance": "Owns / Building",
+     "conviction": "High",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "html": "jordi-visser_2026-07-12_ai-s-speed-crash-is-creating-the-next-opportunity.html",
+   "title": "AI's Speed Crash Is Creating the Next Opportunity",
+   "channel": "Jordi Visser",
+   "date": "2026-07-12",
+   "speakers": "Jordi Visser (solo)",
+   "thread_line": "Highest-signal ideas: (1) Jordi declares the AI 'midcycle slowdown' is ending and calls this a sentiment/technical cleanse inside a structural bull market bu...",
+   "entities": [
+    {
+     "ticker": "MU",
+     "display": "Micron",
+     "stance": "OWNS / WATCHING (adding back)",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Samsung",
+     "stance": "WATCHING / POSITIVE",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "SK Hynix",
+     "stance": "WATCHING / POSITIVE",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "WATCHING / POSITIVE",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": "BTC",
+     "display": "Bitcoin",
+     "stance": "OWNS / POSITIVE",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": "PLTR",
+     "display": "Palantir",
+     "stance": "OWNS",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": "AAPL",
+     "display": "Apple",
+     "stance": "WATCHING / POSITIVE",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": "META",
+     "display": "Meta",
+     "stance": "POSITIVE VIEW",
+     "conviction": "Medium",
+     "color": "green"
+    },
+    {
+     "ticker": "TSLA",
+     "display": "Tesla",
+     "stance": "CASUAL MENTION / POSITIVE",
+     "conviction": "Low",
+     "color": "green"
+    },
+    {
+     "ticker": "CRM",
+     "display": "Salesforce",
+     "stance": "NEGATIVE VIEW (avoid / short)",
+     "conviction": "Medium",
+     "color": "red"
+    },
+    {
+     "ticker": null,
+     "display": "Silver",
+     "stance": "OWNS",
+     "conviction": "Low",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Hyperscalers (MSFT/GOOG/AMZN/ORCL)",
+     "stance": "POSITIVE VIEW",
+     "conviction": "High",
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "SaaS / legacy software",
+     "stance": "NEGATIVE VIEW (short)",
+     "conviction": "High",
+     "color": "red"
+    }
+   ]
+  }
+ ]
+}

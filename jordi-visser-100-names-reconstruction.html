@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Visser 100 — Reconstruction Brief | Jordi Visser Deep Research</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 16px; scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #0d0f14;
+    color: #d8dce6;
+    line-height: 1.65;
+    padding: 2rem 1rem;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  h1, h2, h3, h4 { font-weight: 600; letter-spacing: -0.01em; color: #edf0f7; }
+  h1 { font-size: 2.1rem; line-height: 1.2; }
+  h2 { font-size: 1.45rem; margin: 2.5rem 0 0.75rem; border-bottom: 1px solid #2a2e3a; padding-bottom: 0.5rem; }
+  h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
+  p { margin-bottom: 0.8rem; }
+  a { color: #d4a853; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { color: #edf0f7; }
+  .gold { color: #d4a853; }
+  .muted { color: #9aa0b0; font-size: 0.9rem; }
+  .small { font-size: 0.8rem; color: #6b7280; }
+  .report-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 2px solid #2a2e3a; }
+  .report-header .subtitle { font-size: 0.95rem; color: #9aa0b0; margin-top: 0.5rem; }
+  .report-header .meta { font-size: 0.8rem; color: #6b7280; margin-top: 0.75rem; }
+  .stats-row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.25rem 0; }
+  .stat {
+    flex: 1; min-width: 150px; background: #141820; border: 1px solid #252a36;
+    border-radius: 10px; padding: 0.85rem 1rem;
+  }
+  .stat .label { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.06em; color: #6b7280; }
+  .stat .value { font-size: 1.25rem; font-weight: 700; color: #d4a853; }
+  .section-block {
+    background: #141820; border: 1px solid #252a36; border-radius: 10px;
+    padding: 1.25rem 1.5rem; margin-bottom: 1.25rem;
+  }
+  .callout {
+    background: #1a1e2a; border-left: 3px solid #d4a853; padding: 0.85rem 1rem;
+    margin: 0.9rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem;
+  }
+  .callout.verified { border-left-color: #27ae60; }
+  .callout.warn { border-left-color: #e74c3c; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin: 0.75rem 0; }
+  thead th {
+    background: #1a1e2a; color: #9aa0b0; text-transform: uppercase; letter-spacing: 0.05em;
+    font-size: 0.65rem; padding: 0.6rem 0.5rem; text-align: left;
+    border-bottom: 2px solid #2a2e3a; white-space: nowrap;
+  }
+  tbody td { padding: 0.55rem 0.5rem; border-bottom: 1px solid #1e2230; vertical-align: top; }
+  tbody tr:hover { background: #1a1e2a; }
+  .tag {
+    display: inline-block; font-size: 0.6rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.05em; padding: 0.15rem 0.5rem; border-radius: 4px; margin-right: 0.3rem;
+  }
+  .tag-confirmed { background: #1a3a1a; color: #27ae60; border: 1px solid #2a5a2a; }
+  .tag-high { background: #3a3510; color: #f1c40f; border: 1px solid #5a4a1a; }
+  .tag-med { background: #3a2510; color: #e67e22; border: 1px solid #5a3a1a; }
+  .tag-other { background: #1a2a3a; color: #3498db; border: 1px solid #2a3a5a; }
+  .tag-warn { background: #3a1a1a; color: #e74c3c; border: 1px solid #5a2a2a; }
+  .source-list { counter-reset: src; }
+  .source-list li { list-style: none; margin-bottom: 0.6rem; font-size: 0.88rem; padding-left: 2.2rem; position: relative; }
+  .source-list li::before {
+    counter-increment: src; content: counter(src); position: absolute; left: 0; top: 0;
+    background: #2a2e3a; color: #d4a853; border-radius: 4px; width: 1.5rem; height: 1.5rem;
+    display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700;
+  }
+  ul.tight li { margin-bottom: 0.4rem; }
+  .theme-head td {
+    background: #1a1e2a; font-weight: 700; color: #d4a853; letter-spacing: 0.04em;
+    text-transform: uppercase; font-size: 0.72rem; padding: 0.55rem 0.5rem;
+  }
+  .footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #2a2e3a; font-size: 0.75rem; color: #6b7280; }
+  @media (max-width: 600px) { html { font-size: 14px; } }
+</style>
+</head>
+<body>
+
+<div class="report-header">
+  <h1>The Visser 100 — Reconstruction Brief</h1>
+  <div class="subtitle">Rebuilding Jordi Visser's 100-name thematic AI infrastructure portfolio from public sources: transcripts, episode recaps, his exhaustion sheet, and the $8T physical-world buildout thesis</div>
+  <div class="meta">Compiled August 2, 2026 &middot; Third in a series: <a href="jordi-visser-25-names-vera-rubin-reconstruction.html">25 Names / Vera Rubin</a> &middot; <a href="jordi-visser-10-names-deep-dive.html">10 Highly Correlated Names</a></div>
+</div>
+
+<div class="callout warn">
+  <strong>Critical caveat before anything else:</strong> Visser has never published the full 100-name list. It lives inside the paywalled <strong>AI Macro Nexus</strong> platform (ai.22vresearch.com, $100&ndash;$500/mo, contact Mark Whaling at mwhaling@22vresearch.com). Everything below is a <strong>reconstruction from named positions, exhaustion-sheet scores, and theme definitions he has shown publicly</strong>. Tiers are labeled honestly: <span class="tag tag-confirmed">Confirmed</span> = explicitly named as a long/position, <span class="tag tag-high">High</span> = in his screening universe or near-certain member, <span class="tag tag-med">Medium</span> = theme-fit inference. ~47 of 100 rows are directly evidenced; the rest are best-guess members by theme.
+</div>
+
+<h2>Executive Summary</h2>
+<p>Visser's 100-name thematic basket is <strong>"built entirely around physical-world AI infrastructure"</strong> &mdash; not AI software, not hyperscalers. He has described it as a <strong>five-theme basket (Rack, Chemicals, Optical Fibers, Advanced Packaging, Power/Energy) plus five individual names (Eli Lilly, EWZ Brazil, Palantir, Silver, one unnamed)</strong>, which later evolved into a <strong>six-theme structure</strong> on his exhaustion sheet (June 18, 2026): Whole Rack, Chemicals &amp; Materials, Semicon Architecture, Optical &amp; Interconnect, Energy &amp; Infrastructure, Macro Satellites. It is the broad tier of a three-tier product (100-name index / 25-name concentrated / 10-name hyper-concentrated). Performance anchors: the basket made <strong>new all-time highs while the S&amp;P returned to unchanged</strong> (April 2026), was <strong>~+60% YTD</strong> (May 2026), and the concentrated 25-name version ran <strong>+68% YTD vs +9% for the S&amp;P</strong> (May 2026).</p>
+
+<div class="stats-row">
+  <div class="stat"><div class="label">Tier A — Confirmed names</div><div class="value">47</div></div>
+  <div class="stat"><div class="label">Tier B — High confidence</div><div class="value">30</div></div>
+  <div class="stat"><div class="label">Tier C — Theme fit</div><div class="value">23</div></div>
+  <div class="stat"><div class="label">Total rows</div><div class="value">100</div></div>
+</div>
+
+<h2>What We Actually Know</h2>
+
+<div class="section-block">
+<h3>The product structure (from his own words)</h3>
+<ul class="tight">
+  <li><strong>"I built a 100-name thematic portfolio and am now launching a concentrated 10-name and 25-name version"</strong> &mdash; June 2026 episode. Three tiers: 100-name index (broad), 25-name concentrated (+68% YTD vs +9% S&amp;P as of May 2026), 10-name hyper-concentrated (higher beta).</li>
+  <li><strong>Basket construction:</strong> "100 names across five themes" that made new all-time highs while the S&amp;P returned to unchanged for the year (April 2026 episode): <em>The Rack</em> (semiconductors, networking, memory), <em>Chemicals</em> (commodity inputs for AI hardware), <em>Optical Fibers</em> (Corning and related), <em>Advanced Packaging</em>, <em>Power/Energy</em> (uranium, utilities, grid infrastructure &mdash; "approaching" new highs). <strong>Plus five individual names:</strong> Eli Lilly, EWZ (Brazil), Palantir, Silver, and one unnamed position.</li>
+  <li><strong>The six-theme exhaustion sheet</strong> (June 18, 2026, shown publicly on video) reorganized the basket: Whole Rack &middot; Chemicals &amp; Materials &middot; Semicon Architecture &middot; Optical &amp; Interconnect &middot; Energy &amp; Infrastructure &middot; Macro Satellites.</li>
+  <li><strong>His screening workflow:</strong> three Excel sheets (fundamental, technical, exhaustion/TDS) uploaded into any LLM; example screen "PEG &lt;1, technical score &gt;85, exhaustion low" returned "15 names across optical, semis, chemicals."</li>
+  <li><strong>His framing:</strong> "This is not Web 2.0. AI is not a technology. It is electricity." The basket is the scarcity trade: commodities, semis, infrastructure, energy, critical minerals &mdash; versus the abundance trade (software, private credit) he is short/avoiding.</li>
+</ul>
+</div>
+
+<div class="section-block">
+<h3>Exhaustion sheet (June 18, 2026) — theme-level averages</h3>
+<table>
+  <thead><tr><th>Theme</th><th>Avg Exhaustion</th><th>&ge;75 Extreme</th><th>&ge;60 Elevated</th><th>Reading</th></tr></thead>
+  <tbody>
+    <tr><td>Whole Rack</td><td>38.9</td><td>1</td><td>2</td><td>Some heat at the top (NVDA-tier names), rest fine</td></tr>
+    <tr><td>Chemicals &amp; Materials</td><td>38.6</td><td>1</td><td>6</td><td>Most names extended (ENTG, HEN3.DE, CBT)</td></tr>
+    <tr><td>Semicon Architecture</td><td>34.0</td><td>0</td><td>4</td><td>Elevated subset (KLAC 58.2, MKSI 77.7, ALAB 78.2)</td></tr>
+    <tr><td>Optical &amp; Interconnect</td><td>27.1</td><td>1</td><td>3</td><td>Healthy; CRDO at just 44.2</td></tr>
+    <tr><td>Energy &amp; Infrastructure</td><td>21.1</td><td>0</td><td>0</td><td>Cleanest entry zone; VRT inferred ~35</td></tr>
+    <tr><td>Macro Satellites</td><td>5.1</td><td>0</td><td>0</td><td>Lowest exhaustion — the pullback names (LLY, PLTR)</td></tr>
+  </tbody>
+</table>
+<p class="small">Note the evolution: the April episode described 5 themes (Rack / Chemicals / Optical Fibers / Advanced Packaging / Power-Energy). By June the sheet had split into 6 (Advanced Packaging absorbed into Rack+Materials; Semicon Architecture and Macro Satellites added; Energy &amp; Infrastructure renamed).</p>
+</div>
+
+<h2>The Reconstruction — 100 Rows</h2>
+<p class="muted">Evidence column cites his episodes (dated via recap age) or the June 12, 2026 portfolio valuation / June 18 exhaustion sheet. Confidence tags: <span class="tag tag-confirmed">Confirmed</span> named long or position &middot; <span class="tag tag-high">High</span> in-universe or near-certain &middot; <span class="tag tag-med">Medium</span> theme-fit inference.</p>
+
+<table>
+  <thead><tr><th>#</th><th>Ticker</th><th>Company</th><th>Theme</th><th>Evidence</th><th>Confidence</th></tr></thead>
+  <tbody>
+
+  <tr class="theme-head"><td colspan="6">1 · Whole Rack — semiconductors, memory, networking, servers</td></tr>
+  <tr><td>1</td><td><strong>NVDA</strong></td><td>NVIDIA</td><td>Whole Rack</td><td>Core long-term holding; "lowest PE in a decade" (Apr); +120% YTD (Jun); 10-name list member; Jensen commentary = his main research input</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>2</td><td><strong>MRVL</strong></td><td>Marvell</td><td>Whole Rack / Optical</td><td>"Favored" — optical interconnect moat (Jun); Jensen-named; added small positions (Jul); +60% YTD; 10-name candidate</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>3</td><td><strong>MU</strong></td><td>Micron</td><td>Whole Rack — memory</td><td>Long "memory bottleneck trade"; sold (Jun) then repurchased ~1/5 of May position below ~$850, 200-day ~$500 (Jul); "another five bagger" potential</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>4</td><td><strong>INTC</strong></td><td>Intel</td><td>Whole Rack — CPU</td><td>Long; "agentic AI server CPU shortage" (Mar); started buying below $110; +400% from lows (Jun)</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>5</td><td><strong>AMD</strong></td><td>AMD</td><td>Whole Rack — CPU</td><td>Long; same agentic-CPU shortage thesis (Mar)</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>6</td><td><strong>WDC</strong></td><td>Western Digital</td><td>Whole Rack — memory</td><td>Long; "AI memory shortage" (Jan)</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>7</td><td><strong>LSCC</strong></td><td>Lattice Semi</td><td>Whole Rack</td><td>Long; "semis supply chain may outperform AI leaders" (Jan)</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>8</td><td><strong>QCOM</strong></td><td>Qualcomm</td><td>Whole Rack</td><td>Long; same supply-chain thesis (Jan)</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>9</td><td><strong>TER</strong></td><td>Teradyne</td><td>Whole Rack — test</td><td>Long; "AI build-out industrials" (Nov)</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>10</td><td><strong>DELL</strong></td><td>Dell</td><td>Whole Rack — servers</td><td>Exhaustion 39.1 (Jun 18); Michael Dell quoted confirming memory demand surge (Apr)</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>11</td><td><strong>SMCI</strong></td><td>Supermicro</td><td>Whole Rack — servers</td><td>Rack integration leader; "every component of the AI rack needs more supply" (Apr)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>12</td><td><strong>ANET</strong></td><td>Arista</td><td>Whole Rack — switching</td><td>Switching/networking named as bottleneck component (Apr)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>13</td><td><strong>CSCO</strong></td><td>Cisco</td><td>Whole Rack — networking</td><td>Featured in "Cisco's Bandwidth Warning and the Optical Revolution" recap; blowout quarter</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>14</td><td><strong>PSTG</strong></td><td>Pure Storage</td><td>Whole Rack — storage</td><td>Storage named as rack component (Apr)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>15</td><td><strong>NXPI</strong></td><td>NXP</td><td>Whole Rack — edge</td><td>Edge AI / physical-world silicon, "first inning" thesis</td><td><span class="tag tag-med">Medium</span></td></tr>
+
+  <tr class="theme-head"><td colspan="6">2 · Chemicals &amp; Materials — commodity inputs for AI hardware</td></tr>
+  <tr><td>16</td><td><strong>DD</strong></td><td>DuPont</td><td>Chemicals</td><td>Long; "chemicals breakout" (Jan)</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>17</td><td><strong>FCX</strong></td><td>Freeport-McMoRan</td><td>Chemicals — copper</td><td>Long; "copper, cyclical breakout" (Jan); copper = his scarcity trade</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>18</td><td><strong>ENTG</strong></td><td>Entegris</td><td>Chemicals — semis consumables</td><td>Exhaustion 70.6 (Jun 18) — in-universe; 10-name candidate; filtration/contamination consumables</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>19</td><td><strong>MRK.DE</strong></td><td>Merck KGaA</td><td>Chemicals — electronics</td><td>Visser Technical Score <strong>100/100</strong> — highest in his universe; 15.3x P/E; ultra-pure semicon materials (Jun 21)</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>20</td><td><strong>HEN3.DE</strong></td><td>Henkel</td><td>Chemicals</td><td>Exhaustion 72.4 (Jun 18)</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>21</td><td><strong>CBT</strong></td><td>Cabot</td><td>Chemicals</td><td>Exhaustion 70.3 (Jun 18)</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>22</td><td><strong>4062.T</strong></td><td>Ibiden</td><td>Chemicals / Packaging</td><td>Exhaustion 70.6 (Jun 18); packaging substrates</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>23</td><td><strong>TECK</strong></td><td>Teck Resources</td><td>Chemicals — copper</td><td>Copper shortage narrative (Hormuz, sulfuric acid export ban)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>24</td><td><strong>VALE</strong></td><td>Vale</td><td>Chemicals — copper</td><td>Copper/mining exposure</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>25</td><td><strong>RIO</strong></td><td>Rio Tinto</td><td>Chemicals — copper</td><td>Copper exposure</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>26</td><td><strong>BHP</strong></td><td>BHP Group</td><td>Chemicals — copper</td><td>Copper exposure</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>27</td><td><strong>AA</strong></td><td>Alcoa</td><td>Chemicals — aluminum</td><td>Aluminum named "up in price and in short supply" (ISM/Apr)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>28</td><td><strong>ALB</strong></td><td>Albemarle</td><td>Chemicals — lithium</td><td>Critical minerals / lithium named in scarcity framework</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>29</td><td><strong>SQM</strong></td><td>SQM</td><td>Chemicals — lithium</td><td>Lithium + fertilizer inputs (sulfuric acid)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>30</td><td><strong>MP</strong></td><td>MP Materials</td><td>Chemicals — rare earths</td><td>Rare earths named in ISM shortage list (Apr)</td><td><span class="tag tag-med">Medium</span></td></tr>
+
+  <tr class="theme-head"><td colspan="6">3 · Semicon Architecture — fab, equipment, foundry, process</td></tr>
+  <tr><td>31</td><td><strong>KLAC</strong></td><td>KLA</td><td>Semicon Architecture</td><td><strong>"Ranked #1 in Visser's Semicon Architecture theme — above AVGO, NVDA, and ASML"</strong>; "cheapest stock in the entire Visser 100"; PEG 0.13 on peak-cycle earnings; exhaustion 58.2 (Jun)</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>32</td><td><strong>TSM</strong></td><td>TSMC</td><td>Semicon Architecture — foundry</td><td>Foundry scarcity long (scarcity list: Samsung, Micron, SK Hynix, TSMC — Jul); exhaustion 50.3</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>33</td><td><strong>AVGO</strong></td><td>Broadcom</td><td>Semicon Architecture</td><td>Ranked below KLAC in theme (Jun); 10-name candidate; Google/Anthropic TPU partner</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>34</td><td><strong>ASML</strong></td><td>ASML</td><td>Semicon Architecture</td><td>Ranked below KLAC in theme (Jun); high-NA EUV gating</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>35</td><td><strong>MKSI</strong></td><td>MKS Instruments</td><td>Semicon Architecture</td><td>Exhaustion 77.7 (Jun 18)</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>36</td><td><strong>005930.KS</strong></td><td>Samsung</td><td>Semicon Architecture — memory</td><td>Memory scarcity long (Jul); 10-day decline = buy signal; $100B long-term supply agreement</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>37</td><td><strong>000660.KS</strong></td><td>SK Hynix</td><td>Semicon Architecture — memory</td><td>Memory scarcity long (Jul); HBM leader; "correlated to thematic portfolio" (Jun)</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>38</td><td><strong>TXN</strong></td><td>Texas Instruments</td><td>Semicon Architecture — analog</td><td>"Analog semiconductors — sector long" (Mar); 10-name candidate</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>39</td><td><strong>AMAT</strong></td><td>Applied Materials</td><td>Semicon Architecture — WFE</td><td>WFE market "$140B+ in 2026"; every high-NA EUV fab needs process tools</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>40</td><td><strong>LRCX</strong></td><td>Lam Research</td><td>Semicon Architecture — WFE</td><td>WFE peer of KLAC/AMAT</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>41</td><td><strong>ON</strong></td><td>ON Semiconductor</td><td>Semicon Architecture — power</td><td>"SK Hynix and power semis had been correlated to thematic portfolio" (Jun)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>42</td><td><strong>IFX.DE</strong></td><td>Infineon</td><td>Semicon Architecture — power</td><td>Power semiconductors + grid exposure</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>43</td><td><strong>AMKR</strong></td><td>Amkor</td><td>Advanced Packaging</td><td>Advanced Packaging was an explicit basket theme (Apr)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>44</td><td><strong>ONTO</strong></td><td>Onto Innovation</td><td>Advanced Packaging</td><td>Packaging/process control metrology</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>45</td><td><strong>FORM</strong></td><td>FormFactor</td><td>Advanced Packaging</td><td>Probe/test for advanced packages</td><td><span class="tag tag-med">Medium</span></td></tr>
+
+  <tr class="theme-head"><td colspan="6">4 · Optical &amp; Interconnect — fiber, transceivers, interconnects</td></tr>
+  <tr><td>46</td><td><strong>GLW</strong></td><td>Corning</td><td>Optical</td><td><strong>Core holding</strong>; "the portfolio's stock" (Jul); optical fiber thesis; 10-name list member; featured in his video</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>47</td><td><strong>AAOI</strong></td><td>Applied Optoelectronics</td><td>Optical</td><td>Added position during the week (Jul) — "op [tical]... he added AOI"; transceiver supplier</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>48</td><td><strong>COHR</strong></td><td>Coherent</td><td>Optical</td><td>Jensen-named (Apr); 10-name candidate; "Names derived from Jensen Huang's commentary include Marvell, Coherent"</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>49</td><td><strong>CRDO</strong></td><td>Credo</td><td>Optical — AEC</td><td>Exhaustion 44.2, lowest in the June basket; ZeroFlap AEC + DustPhotonics; 3x revenue growth</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>50</td><td><strong>ALAB</strong></td><td>Astera Labs</td><td>Optical — interconnect</td><td>Exhaustion 78.2 (Jun 18); PCIe retimer/interconnect</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>51</td><td><strong>LITE</strong></td><td>Lumentum</td><td>Optical</td><td>10-name candidate list (prior research); datacom transceivers</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>52</td><td><strong>CIEN</strong></td><td>Ciena</td><td>Optical — systems</td><td>Optical revolution theme (Cisco bandwidth warning episode)</td><td><span class="tag tag-med">Medium</span></td></tr>
+
+  <tr class="theme-head"><td colspan="6">5 · Energy &amp; Infrastructure — power, cooling, grid, IPPs, energy</td></tr>
+  <tr><td>53</td><td><strong>VST</strong></td><td>Vistra</td><td>Energy — IPP</td><td>"Defensive AI" IPP trade (Jun); IPP equal-weight index member; 10-name candidate; flat YTD</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>54</td><td><strong>CEG</strong></td><td>Constellation</td><td>Energy — IPP</td><td>Named in "Vistra, Constellation, etc." IPP cohort (Jun)</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>55</td><td><strong>XOM</strong></td><td>Exxon Mobil</td><td>Energy</td><td>Bought during the week — "bought Exxon and Chevron during the week, not for drama" (Jul/Energy hedge)</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>56</td><td><strong>CVX</strong></td><td>Chevron</td><td>Energy</td><td>Bought during the week (same)</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>57</td><td><strong>ETN</strong></td><td>Eaton</td><td>Energy — electrical</td><td>Long; "capital goods" (Feb); grid/electrical buildout</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>58</td><td><strong>VRT</strong></td><td>Vertiv</td><td>Energy — cooling</td><td>Power/cooling for data centers; $15B backlog +109% YoY; exhaustion inferred ~35 — "likely in the 30-40 range"</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>59</td><td><strong>CAT</strong></td><td>Caterpillar</td><td>Energy — industrial</td><td>Exhaustion 54.7 (Jun 18); data-center gensets + grid earthmoving</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>60</td><td><strong>GEV</strong></td><td>GE Vernova</td><td>Energy — turbines</td><td>"Power/turbines" named as scarcity long (Jul AlphaAbstract framework)</td><td><span class="tag tag-high">High</span></td></tr>
+  <tr><td>61</td><td><strong>NRG</strong></td><td>NRG Energy</td><td>Energy — IPP</td><td>IPP cohort candidate (equal-weight 10-name IPP index)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>62</td><td><strong>FLNC</strong></td><td>Fluence Energy</td><td>Energy — batteries</td><td>"Positions in Fluence..." (Jul transcript); battery storage = Currie's convergence point</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>63</td><td><strong>ENS</strong></td><td>EnerSys</td><td>Energy — batteries</td><td>Battery/energy storage named in scarcity framework</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>64</td><td><strong>CCJ</strong></td><td>Cameco</td><td>Energy — uranium</td><td>Uranium named in Power/Energy theme (Apr)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>65</td><td><strong>NVT</strong></td><td>nVent Electric</td><td>Energy — electrical</td><td>Cooling/electrical buildout</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>66</td><td><strong>EMR</strong></td><td>Emerson</td><td>Energy — electrical</td><td>Power/electrical controls</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>67</td><td><strong>PWR</strong></td><td>Quanta Services</td><td>Energy — grid</td><td>Grid infrastructure (substations overloaded = his bottleneck #1)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>68</td><td><strong>ABB</strong></td><td>ABB</td><td>Energy — grid</td><td>Grid/electrical equipment</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>69</td><td><strong>HUBB</strong></td><td>Hubbell</td><td>Energy — grid</td><td>Electrical infrastructure</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>70</td><td><strong>ATKR</strong></td><td>Atkore</td><td>Energy — electrical</td><td>Electrical conduit/infrastructure</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>71</td><td><strong>NEE</strong></td><td>NextEra</td><td>Energy — utility</td><td>Utilities sector-long ("physical world" theme)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>72</td><td><strong>EXC</strong></td><td>Exelon</td><td>Energy — utility</td><td>Utility + nuclear exposure</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>73</td><td><strong>SO</strong></td><td>Southern Co.</td><td>Energy — utility</td><td>Utility; nuclear-friendly</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>74</td><td><strong>WEC</strong></td><td>WEC Energy</td><td>Energy — utility</td><td>Utility exposure</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>75</td><td><strong>BKR</strong></td><td>Baker Hughes</td><td>Energy — oil services</td><td>Energy cycle + LNG/gas for power</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>76</td><td><strong>SLB</strong></td><td>SLB</td><td>Energy — oil services</td><td>Energy supply tightening (Hormuz drawdowns)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>77</td><td><strong>HAL</strong></td><td>Halliburton</td><td>Energy — oil services</td><td>Energy cycle</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>78</td><td><strong>COP</strong></td><td>ConocoPhillips</td><td>Energy — E&amp;P</td><td>Oil price risk ("WTI &gt;$90" = his watch)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>79</td><td><strong>EOG</strong></td><td>EOG Resources</td><td>Energy — E&amp;P</td><td>Energy exposure</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>80</td><td><strong>OXY</strong></td><td>Occidental</td><td>Energy — E&amp;P</td><td>Energy + direct air capture angle</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>81</td><td><strong>DVN</strong></td><td>Devon Energy</td><td>Energy — E&amp;P</td><td>Energy exposure</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>82</td><td><strong>FSLR</strong></td><td>First Solar</td><td>Energy — solar</td><td>Silver/solar critical-mineral chain (silver for AI/solar)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>83</td><td><strong>ENPH</strong></td><td>Enphase</td><td>Energy — solar</td><td>Solar/electrical exposure</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>84</td><td><strong>NUE</strong></td><td>Nucor</td><td>Energy — electrical steel</td><td>Transformer/electrical steel shortage</td><td><span class="tag tag-med">Medium</span></td></tr>
+
+  <tr class="theme-head"><td colspan="6">6 · Macro Satellites — the five individual names + AI-adjacent longs</td></tr>
+  <tr><td>85</td><td><strong>LLY</strong></td><td>Eli Lilly</td><td>Satellites</td><td><strong>One of the five individual names in the basket</strong>; "the world's largest company" biotech thesis; Jensen-named; GLP-1 + AI drug discovery</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>86</td><td><strong>EWZ</strong></td><td>Brazil ETF</td><td>Satellites</td><td><strong>One of the five individual names</strong>; "green compute arbitrage of the AI decade" paper; safe data-center haven</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>87</td><td><strong>PLTR</strong></td><td>Palantir</td><td>Satellites</td><td><strong>One of the five individual names</strong>; long; "buy pullbacks"; liked relative to Microsoft (Apr); +0.41% quoted on BigGo recap</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>88</td><td><strong>SLV</strong></td><td>Silver (iShares)</td><td>Satellites</td><td><strong>One of the five individual names</strong>; "his favorite commodity" (Apr); silver mining stocks lagging play (Jan)</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>89</td><td><strong>GOOGL</strong></td><td>Alphabet</td><td>Satellites</td><td>Long; Gemini + TPUs + VLM phase winner (Nov); Anthropic compute partner</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>90</td><td><strong>MRK</strong></td><td>Merck (US)</td><td>Satellites — pharma</td><td>Long; "undervalued, P/E expansion" (Nov); AI drug discovery</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>91</td><td><strong>XBI</strong></td><td>Biotech ETF</td><td>Satellites — biotech</td><td>Long; "AI drug discovery" (Nov); biotech renaissance episode</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>92</td><td><strong>TSLA</strong></td><td>Tesla</td><td>Satellites</td><td>"Top conviction buy" (Nov); robotaxi Austin catalyst + humanoids</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>93</td><td><strong>ORCL</strong></td><td>Oracle</td><td>Satellites</td><td>"Pullback = attractive entry" (Nov); ROIC debate — hyperscaler-adjacent but owned</td><td><span class="tag tag-confirmed">Confirmed</span></td></tr>
+  <tr><td>94</td><td><strong>WPM</strong></td><td>Wheaton Precious</td><td>Satellites — silver</td><td>Silver streamer — his favorite commodity exposure</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>95</td><td><strong>PAAS</strong></td><td>Pan American Silver</td><td>Satellites — silver</td><td>Silver miners "lagging play" (Jan)</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>96</td><td><strong>XLE</strong></td><td>Energy Select ETF</td><td>Satellites — energy</td><td>Explicitly long "energy &gt; software long-term" (Feb); ETF as basket satellite</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>97</td><td><strong>URA</strong></td><td>Uranium ETF</td><td>Satellites — uranium</td><td>Uranium theme vehicle</td><td><span class="tag tag-med">Medium</span></td></tr>
+  <tr><td>98</td><td><strong>TSM-x</strong></td><td><em>(reserved)</em></td><td>Satellites</td><td>The unnamed 5th individual name in the April basket — unknown identity</td><td><span class="tag tag-other">Unknown</span></td></tr>
+  <tr><td>99</td><td><strong>INTG?</strong></td><td>"Integris" (unidentified)</td><td>Satellites</td><td>Transcript (Jul): "positions in Fluence, Kimors, and Integris" — 2 of 3 unresolved</td><td><span class="tag tag-other">Unresolved</span></td></tr>
+  <tr><td>100</td><td><strong>KIM?</strong></td><td>"Kimors" (unidentified)</td><td>Satellites</td><td>Same transcript mention; possibly mis-transcription</td><td><span class="tag tag-other">Unresolved</span></td></tr>
+
+  </tbody>
+</table>
+
+<h2>Theme-by-Theme Notes</h2>
+<div class="section-block">
+<h3>Whole Rack — the core</h3>
+<p>His oldest and most public layer: NVIDIA (platform), Marvell (interconnect moat, now favored over memory), Micron (memory bottleneck — sold in June, repurchased a fifth of the May position in July below ~$850), Intel/AMD (the "agentic AI CPU shortage" — Intel started below $110, now +400% from lows), Western Digital, Lattice, Qualcomm, Teradyne. In April he warned "every component of the AI rack needs more supply — CPU, memory, switching, networking, power, cooling, storage."</p>
+<h3>Chemicals &amp; Materials</h3>
+<p>Thematically the purest "physical world" expression: DuPont (breakout), Freeport (copper), and the exhaustion-sheet universe (Entegris 70.6, Merck KGaA at a perfect 100/100 technical score, Henkel 72.4, Cabot 70.3, Ibiden 70.6). ISM reported aluminum, electrical components, bearings, memory, rare earths all "up in price and in short supply." China's sulfuric-acid export ban hits fertilizer and copper.</p>
+<h3>Semicon Architecture</h3>
+<p>KLAC is the anchor — "ranked #1 above AVGO, NVDA, and ASML," "cheapest stock in the entire Visser 100," PEG 0.13 on peak-cycle earnings, WFE projected $140B+ in 2026. Memory scarcity longs (Samsung, SK Hynix, TSMC) live here; Samsung's $100B long-term supply agreement and the 10-day decline buy signal were cited in July. This theme carries the highest exhaustion outliers (ALAB 78.2, MKSI 77.7).</p>
+<h3>Optical &amp; Interconnect</h3>
+<p>Corning is the cornerstone holding ("the portfolio's stock"), joined by Coherent (Jensen-named), AAOI (added July), Credo (44.2 — lowest exhaustion in the June basket), Astera Labs (78.2) and Lumentum (10-name candidate). The Cisco bandwidth-warning episode framed optical as the next bottleneck after memory.</p>
+<h3>Energy &amp; Infrastructure</h3>
+<p>The defensive tail of the basket: Vistra and Constellation in the 10-name equal-weight IPP index ("if defense starts working in AI, you'll see Vistra and these IPPs"), Exxon/Chevron bought as hedges, Eaton (capital goods), Vertiv (power/cooling, $15B backlog +109% YoY), Caterpillar (54.7 exhaustion). Theme average exhaustion 21.1 — "cleanest entry zone." Uranium, natural gas, batteries (Currie's convergence point), silver and copper are the commodity underlays.</p>
+<h3>Macro Satellites</h3>
+<p>The sixth theme (5.1 avg exhaustion — the freshest names): the five individual basket names (Eli Lilly, EWZ, Palantir, Silver, one unnamed) plus his named longs Google (Gemini/TPUs), Merck US, the XBI biotech ETF, Tesla ("top conviction buy"), and Oracle ("pullback = attractive"). Notably <em>excluded</em>: hyperscalers as a group (he calls them the counterparty — "spenders to receivers" rotation), software (IGV — structurally short), and private credit.</p>
+</div>
+
+<h2>What's Deliberately NOT in the Basket</h2>
+<ul class="tight">
+  <li><strong>Hyperscalers (MSFT, AMZN, META)</strong> — "the hyperscaler rotation: from spenders to receivers"; he prefers the suppliers. GOOGL is the exception (long).</li>
+  <li><strong>Software / SaaS (IGV, CRM, WDAY)</strong> — structurally short; "AI is electricity, not Web 2.0."</li>
+  <li><strong>Private credit (OWL, BX, CCLFX)</strong> — cautious/avoid; redemption-gate spiral narrative.</li>
+  <li><strong>Financials (XLF, KRE)</strong> — below 200-DMA, worst sector; avoid bottom-fishing.</li>
+  <li><strong>Crypto</strong> — separate allocation, not part of the 100: BTC (long, own directly over MSTR), ETH, SOL.</li>
+  <li><strong>VIX / IWM / ex-US indices</strong> — macro overlay positions, not basket constituents.</li>
+</ul>
+
+<h2>Methodology &amp; Confidence Tiers</h2>
+<div class="section-block">
+<p><strong>Tier A — Confirmed (47):</strong> Explicitly named as a long, position, buy, or core holding in ≥1 episode recap or transcript. Dates and context are in the evidence column. This tier alone is a solid portfolio skeleton — every name is real.</p>
+<p><strong>Tier B — High (30):</strong> Present in his screening universe (exhaustion sheet scores or theme rankings from the June 18 sheet), in the 10-name candidate set, or required to make a described structure coherent (e.g., IPP index members, optical leaders). Near-certain members.</p>
+<p><strong>Tier C — Medium (23):</strong> Theme-fit inference: names that must exist in a 100-name physical-world basket given his repeatedly stated sub-themes (copper, uranium, silver miners, batteries, grid, packaging, power semis, WFE). Plausible but unverified — the true basket may substitute similar names.</p>
+<p><strong>Known gaps:</strong> The 5th individual basket name (unnamed); 2 of 3 names in the July "Fluence, Kimors, and Integris" mention; exact IPP index constituents beyond Vistra/Constellation; ~53 rows are inference. Anything could shift with portfolio updates — his June 18 exhaustion sheet showed him actively de-risking (sold MU, trimmed to 1/5).</p>
+</div>
+
+<h2>Sources</h2>
+<ol class="source-list">
+  <li><strong>BigGo Finance podcast channel — Jordi Visser</strong> (full episode recaps, ~24 episodes): "The 100-Name Thematic Basket: Performance and Construction" (Apr 2026, five themes + five individual names); "Momentum Exhaustion and Global Correlation Breaks" + "Tools for Practitioners: Exhaustion Sheet and Concentrated Portfolios" + "Defensive Rotation Within AI: The IPP Trade" (Jun 2026 — 100/25/10 tiers, LLM screening, IPP index, MU sold, NVDA +120%, INTC +400%). finance.biggo.com</li>
+  <li><strong>May 24, 2026 episode</strong> — "Bottlenecks, Momentum Breaks, and the Next Phase of AI": three-tier product announcement, 25-name = +68% YTD vs +9% S&amp;P, 100-name ≈ +60% YTD. finance.biggo.com/podcast/2961c4a9690374d4</li>
+  <li><strong>GitHub gist (gordongould, Jun 22, 2026)</strong> — "AI Ecosystem Additions — Full Collector/Advocate/Critic Analysis": June 18 exhaustion sheet (six themes, KLAC #1 in Semicon Architecture "above AVGO, NVDA, and ASML", "cheapest stock in the entire Visser 100", PEG 0.13), CRDO 44.2, VRT inferred ~35, MRK.DE Visser Score 100/100, ENTG 70.6, + ALAB 78.2 / MKSI 77.7 / DELL 39.1 / HEN3.DE 72.4 / 4062.T 70.6 / CBT 70.3 / CAT 54.7 / TSM 50.3; "Visser 100 portfolio" valuation data (Jun 12, 2026). gist.github.com/gordongould/69f3cc9c068ff394787930bba42fcb96</li>
+  <li><strong>Kazuha.ai source page — Jordi Visser</strong> (58 posts; 26 substantive episodes): tickers by date — INTC/AMD long (Mar 15), WDC (Jan 11), LSCC/QCOM (Jan 4), TER (Nov 2), CVX/XOM/FCX/DD/ETN (Feb), WTI &gt;$90 watch (Mar), MU long series (Nov–Feb), MRVL "key opportunity — data movement bottlenecks" (Dec 7), GLW core (Dec–Mar), PLTR long (Dec 7 + Mar), ACN (Mar 8), TSLA top conviction (Nov–Dec), ORCL pullback (Nov 9), BTC/ETH/SOL. kazuha.ai/sources/jordi-visser</li>
+  <li><strong>AlphaAbstract, "AI Speed Crash Opportunity Investment Thesis" (Jul 12, 2026)</strong> — short abundance / long scarcity; memory (Samsung, Micron, SK Hynix), foundry (TSMC), power/turbines; NVDA in 10-name list; Samsung 10-day decline buy signal, $100B supply agreement; 87% of S&amp;P semis above a technical buy signal. alphabstract.com</li>
+  <li><strong>YouTube transcripts (local research-data folder)</strong>: "Situational Awareness: Hyperscaler Earnings and Warsh — A Bottom for AI Stocks?" (MU repurchase ~1/5 of May size, ~$850 vs 200-day ~$500, head-and-shoulders; AAOI + MRVL added; GLW = portfolio's stock); "Short-Term AI Fear, Long-Term Compute Scarcity" (AOI/AAOI added, agentic memory bottleneck); "AI's Speed Crash Is Creating the Next Opportunity" (Fluence/Kimors/Integris positions, Vera Rubin / 800VDC chapter).</li>
+  <li><strong>Prior deliverables in this series</strong>: jordi-visser-25-names-vera-rubin-reconstruction.html (25-name tier: many Asian + optical/photonics + 800VDC, earnings step-up screen); jordi-visser-10-names-deep-dive.html (10-name hyper-concentrated tier: NVDA + GLW confirmed; MRVL, MU, COHR, LITE, INTC, AVGO, TXN, VST, ENTG candidates; AI Macro Nexus paywall: $100–500/mo, Mark Whaling).</li>
+  <li><strong>AI Macro Nexus (ai.22vresearch.com)</strong> — the paywalled source of the true 100-name list, exhaustion sheet, and Visser Technical Scores. Contact: mwhaling@22vresearch.com.</li>
+</ol>
+
+<div class="footer">
+  Reconstruction, not publication: no complete official constituent list exists publicly. Compiled Aug 2, 2026 from the above sources. Theme assignments follow his June 18, 2026 exhaustion sheet. Performance figures are his claims as recapped — not verified against independent data. Not investment advice.
+</div>
+
+</body>
+</html>

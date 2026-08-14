@@ -1,0 +1,503 @@
+{
+  "metadata": {
+    "video_id": "QHRUwziQ-oE",
+    "url": "https://www.youtube.com/watch?v=QHRUwziQ-oE",
+    "channel": "Jordi Visser",
+    "title": "Short-Term AI Fear, Long-Term Compute Scarcity",
+    "publication_date": "2026-07-26",
+    "analysis_date": "2026-07-28",
+    "speaker": "Jordi Visser",
+    "duration_seconds": 0
+  },
+  "executive_takeaway": "Jordi Visser argues we're in a short-term AI sentiment pullback ('mini bear market') within a powerful secular bull market driven by structural compute scarcity. Key thesis: model abundance + Jevons Paradox = exponentially growing compute demand that physical infrastructure cannot match at software speed. Google's $514B cloud backlog (up from $106B YoY) and 82% cloud growth prove demand outpaces capacity. China's state-backed AI race (DeepSeek, Moonshot/Kimi) makes this a two-horse geopolitical contest. Near-term: optical/photonics step-up function (Marvell largest position, added AOI), profit margins at all-time highs, estimate revisions as key signal. Long-term: bearish on all public AI cos by 2030 unless AGI arrives slower or governments prop markets. Crypto/blockchain emerging as parallel infrastructure layer as important as AI.",
+  "conviction_map": [
+    {
+      "topic": "AI Secular Bull Market",
+      "category": "Macro Theme",
+      "stance": "POSITIVE VIEW",
+      "conviction": "High",
+      "action_status": "HOLDING/BUYING DIPS",
+      "core_thesis": "Structural compute scarcity + model abundance + Jevons Paradox = sustained exponential demand. Short-term sentiment pullback is noise.",
+      "risks": "Overcapacity if OpenAI revenue fails and capital stops; chip obsolescence; 2030 inflection"
+    },
+    {
+      "topic": "Marvell (MRVL)",
+      "category": "Stock",
+      "stance": "OWNS",
+      "conviction": "High",
+      "action_status": "LARGEST POSITION, BOUGHT MORE LAST WEEK",
+      "core_thesis": "Optical/photonics step-up function in earnings coming; Vera Rubin supply chain beneficiary; hasn't seen full earnings flow-through yet",
+      "risks": "Correlated to semis; depends on hyperscaler capex continuing"
+    },
+    {
+      "topic": "AOI (Applied Optoelectronics)",
+      "category": "Stock",
+      "stance": "BUYING/ADDING",
+      "conviction": "Medium",
+      "action_status": "ADDED THIS WEEK",
+      "core_thesis": "Optical/photonics step-up function; technical correction made entry attractive; part of Vera Rubin supply chain",
+      "risks": "Smaller name, higher volatility; correlated to MRVL"
+    },
+    {
+      "topic": "Google (GOOG)",
+      "category": "Stock",
+      "stance": "POSITIVE VIEW",
+      "conviction": "High",
+      "action_status": "NOT STATED OWNING",
+      "core_thesis": "Cloud +82% YoY, $514B backlog ($260B to recognize in 12mo), capacity-constrained not demand-constrained. Negative FCF is capex timing, not business failure. Fable puts 70-75% odds capex value-creative over 3-5yr",
+      "risks": "Chip obsolescence (4-6yr life); off-balance sheet commitments; backlog concentration (OpenAI)"
+    },
+    {
+      "topic": "Anthropic",
+      "category": "Company",
+      "stance": "NEGATIVE VIEW",
+      "conviction": "Medium",
+      "action_status": "NOT OWNING/WATCHING",
+      "core_thesis": "Growth rate will not reach levels priced a month ago; competition expanding total market but Anthropic's share grows slower",
+      "risks": "Could be wrong if routing/orchestration favors them disproportionately"
+    },
+    {
+      "topic": "China AI (DeepSeek, Moonshot/Kimi)",
+      "category": "Geopolitical/Theme",
+      "stance": "POSITIVE VIEW",
+      "conviction": "High",
+      "action_status": "WATCHING CLOSELY",
+      "core_thesis": "State-backed capital unlimited; DeepSeek gov't funding with voting rights; Moonshot seeking $50B valuation; Kimi K3 needs massive compute. Two-horse race with US.",
+      "risks": "State control risks; closed ecosystem; capital efficiency questions"
+    },
+    {
+      "topic": "Optical/Photonics Supply Chain",
+      "category": "Sector Theme",
+      "stance": "POSITIVE VIEW",
+      "conviction": "High",
+      "action_status": "HOLDING MRVL, ADDED AOI, VERA RUBIN REPORT 25 NAMES",
+      "core_thesis": "Step-up function in earnings H2 2025; Vera Rubin (Nvidia next-gen) drives performance/watt; 1000 racks/day = $630B/q potential",
+      "risks": "Correlated to NVDA/hyperscaler capex cycle"
+    },
+    {
+      "topic": "Memory/Chip Names",
+      "category": "Sector",
+      "stance": "POSITIVE VIEW",
+      "conviction": "Medium-High",
+      "action_status": "WATCHING/BUYING DIPS",
+      "core_thesis": "Hyperscaler capex rising (Google +$80B, Meta renting excess, China raising) benefits memory and chip suppliers",
+      "risks": "Cyclical; inventory risk if demand pauses"
+    },
+    {
+      "topic": "Crypto/Blockchain (Bitcoin, Clarity Act)",
+      "category": "Macro Theme",
+      "stance": "POSITIVE VIEW",
+      "conviction": "High",
+      "action_status": "WATCHING, LAUNCHING CRYPTO CONTENT SEPT/OCT",
+      "core_thesis": "Global race for financial infrastructure parallel to AI race; Japan/Korea/Russia/US all moving; Clarity Act at 'one yard line'; agentic AI needs blockchain for memory/identity",
+      "risks": "Regulatory uncertainty; Dogecoin 20-day MA below since May = retail absent"
+    },
+    {
+      "topic": "Profit Margins (GDP measure)",
+      "category": "Macro Indicator",
+      "stance": "POSITIVE VIEW",
+      "conviction": "High",
+      "action_status": "MONITORING",
+      "core_thesis": "At all-time highs; margins weaken INTO recessions, not before. Current acceleration = no recession imminent",
+      "risks": "Lagging indicator; could roll over with lag"
+    },
+    {
+      "topic": "Estimate Revisions Factor",
+      "category": "Market Signal",
+      "stance": "POSITIVE VIEW",
+      "conviction": "High",
+      "action_status": "MONITORING",
+      "core_thesis": "Dominant factor since iPhone (2010); forward EPS at $305, rising significantly; no divergence with price yet",
+      "risks": "Revisions lead price; watch for downturn"
+    },
+    {
+      "topic": "Oil/Inflation/Fed",
+      "category": "Macro",
+      "stance": "NEGATIVE VIEW (on panic)",
+      "conviction": "Medium-High",
+      "action_status": "IGNORING NOISE",
+      "core_thesis": "Oil $68->$78 not panic-worthy; 1yr inflation swaps didn't budge; smart money not pricing higher CPI; first non-zero CPI print mid-Sept",
+      "risks": "Could spike higher; Fed 35% July hike odds"
+    },
+    {
+      "topic": "Hyperscaler Bonds Widening",
+      "category": "Credit",
+      "stance": "NEGATIVE VIEW (on panic)",
+      "conviction": "Medium",
+      "action_status": "NOT SELLING",
+      "core_thesis": "Best balance sheets in world; $7B Oracle CDS blowout trivial in $100B+ context; spreads widen in corrections, stocks lead recovery",
+      "risks": "If spreads keep widening persistently"
+    },
+    {
+      "topic": "2030 AI Public Companies",
+      "category": "Long-term Risk",
+      "stance": "NEGATIVE VIEW",
+      "conviction": "Medium",
+      "action_status": "AWARENESS ONLY",
+      "core_thesis": "By 2030, worried about ALL public AI companies including infrastructure; AGI timing and govt intervention key variables",
+      "risks": "Could change if AGI delayed or governments prop markets"
+    }
+  ],
+  "companies_assets": [
+    {
+      "company": "Marvell (MRVL)",
+      "status": "OWNS",
+      "view": "Largest position; bought more last week; optical/photonics step-up coming; Vera Rubin supply chain",
+      "why": "Biggest position; catalyst-rich H2 2025; 25 new names in Vera Rubin report",
+      "catalysts": "Optical earnings step-up; Vera Rubin production ramp; hyperscaler capex",
+      "risks": "Semi cyclicality; NVDA correlation; China exposure",
+      "evidence": "High"
+    },
+    {
+      "company": "Applied Optoelectronics (AOI)",
+      "status": "BUYING/ADDING",
+      "view": "Added this week; optical name; technical correction provided entry",
+      "why": "Part of photonics step-up theme; Vera Rubin supply chain",
+      "catalysts": "Optical earnings inflection; Vera Rubin",
+      "risks": "Small cap volatility; correlated to MRVL",
+      "evidence": "Medium"
+    },
+    {
+      "company": "Google (GOOG)",
+      "status": "POSITIVE VIEW",
+      "view": "Cloud +82% YoY; $514B backlog; capacity constrained not demand constrained; FCF negative due to capex timing",
+      "why": "Hyperscaler bellwether; proves AI demand real",
+      "catalysts": "Backlog conversion ($260B/12mo); capex ROI proof",
+      "risks": "Chip obsolescence; off-balance sheet $1T+; OpenAI concentration",
+      "evidence": "High"
+    },
+    {
+      "company": "Anthropic",
+      "status": "NEGATIVE VIEW",
+      "view": "Growth rate decelerating from prior expectations; not 'done' but won't hit prior priced levels",
+      "why": "Key AI lab; routing/orchestration future includes but not exclusive to them",
+      "catalysts": "Model releases; enterprise adoption",
+      "risks": "Competition expanding TAM but diluting share",
+      "evidence": "Medium"
+    },
+    {
+      "company": "DeepSeek",
+      "status": "CASUAL MENTION / POSITIVE VIEW",
+      "view": "Most important AI company in China; state-backed funding with voting rights; hedge fund arm down 16%",
+      "why": "China AI race proxy; state capital structure unique",
+      "catalysts": "Fundraising ($7B+); model releases",
+      "risks": "State control; closed system",
+      "evidence": "Medium"
+    },
+    {
+      "company": "Moonshot / Kimi (Kimi K3)",
+      "status": "WATCHING",
+      "view": "Kimi K3 needs massive compute (not small model); subscriptions paused from demand; seeking $50B pre-IPO valuation",
+      "why": "China's OpenAI equivalent; compute demand proof point",
+      "catalysts": "IPO; K3 release; capacity expansion",
+      "risks": "Valuation vs Anthropic; state backing",
+      "evidence": "Medium"
+    },
+    {
+      "company": "Nvidia (NVDA) / Vera Rubin",
+      "status": "CASUAL MENTION / POSITIVE VIEW",
+      "view": "Vera Rubin in full production; 1000 racks/day = $630B/q; performance/watt leader; lowest cost token",
+      "why": "Compute scarcity thesis core; Vera Rubin report 25 names",
+      "catalysts": "Vera Rubin ramp; Blackwell transition",
+      "risks": "Obsolescence risk; China restrictions",
+      "evidence": "Medium"
+    },
+    {
+      "company": "Bitcoin / Crypto",
+      "status": "WATCHING",
+      "view": "Clarity Act near finish; global adoption (Japan, Korea, Russia); S&P Bitcoin index; Dogecoin 20-day MA signal for retail",
+      "why": "Parallel infrastructure race to AI; agentic AI needs blockchain memory",
+      "catalysts": "Clarity Act passage; stablecoin legislation; agentic adoption",
+      "risks": "Regulatory; retail absent (DOGE below 20MA 67 days)",
+      "evidence": "Medium"
+    }
+  ],
+  "technology_ai_views": [
+    {
+      "theme": "Model Abundance + Compute Scarcity",
+      "view": "Models converging on capabilities, prices dropping dramatically (abundance). Compute cannot scale at software speed - perpetual shortage.",
+      "companies": "All frontier labs (OpenAI, Anthropic, Google, xAI, DeepSeek, Moonshot)",
+      "why": "Core investment thesis: demand outpaces efficiency gains forever",
+      "horizon": "3-5 years (secular)",
+      "conviction": "High"
+    },
+    {
+      "theme": "Jevons Paradox in AI",
+      "view": "Cheaper intelligence -> exponentially more consumption. Efficiency gains increase total demand, not decrease it.",
+      "companies": "All AI infrastructure",
+      "why": "Explains why capex keeps rising despite model efficiency",
+      "horizon": "Ongoing",
+      "conviction": "High"
+    },
+    {
+      "theme": "Enterprise Adoption: Token Maxing -> Token Efficiency -> Routing/Orchestration",
+      "view": "Adoption moves from experiments to workflows only when cheap, private, controllable. Winner is routing layer (includes Anthropic but not exclusive).",
+      "companies": "Enterprise AI platforms, routing startups",
+      "why": "Next phase of monetization; margin expansion via AI infrastructure",
+      "horizon": "1-3 years",
+      "conviction": "High"
+    },
+    {
+      "theme": "AI as Infrastructure (QE for the Mind)",
+      "view": "AI reduces expenses -> flows to bottom line with more leverage than financial engineering. 5% expense cut = 20% EPS jump for low-margin cos.",
+      "companies": "UPS, Cisco, Jabil, Centene, Walmart (examples from paper)",
+      "why": "Profit margin expansion mechanism for non-tech S&P 500",
+      "horizon": "2-5 years",
+      "conviction": "High"
+    },
+    {
+      "theme": "Agentic AI Requires Massive Memory",
+      "view": "Consumer agents delayed because they need lifetime memory (50 First Dates analogy). Context window insufficient. Blockchain/crypto solves identity/memory.",
+      "companies": "Agent frameworks, blockchain memory layers",
+      "why": "Next compute demand wave; crypto/AI convergence",
+      "horizon": "2-5 years",
+      "conviction": "Medium-High"
+    },
+    {
+      "theme": "Vera Rubin / Next-Gen Compute",
+      "view": "Full production; 1000 racks/day potential; performance/watt breakthrough; lowest cost token globally.",
+      "companies": "NVDA, optical supply chain (MRVL, AOI, 25 names in report)",
+      "why": "Next capex cycle driver; photonics step-function",
+      "horizon": "H2 2025 - 2026",
+      "conviction": "Medium-High"
+    },
+    {
+      "theme": "China AI Race - State Capitalism vs US Capitalism",
+      "view": "Two-horse race. China: state-backed, open-source, abundance goal. US: capitalist, monetization focus. China unlimited capital (DeepSeek gov't voting rights, Moonshot $50B raise).",
+      "companies": "DeepSeek, Moonshot/Kimi, Alibaba, Baidu, state funds",
+      "why": "Geopolitical AI competition drives both sides' capex",
+      "horizon": "Decade",
+      "conviction": "High"
+    }
+  ],
+  "ai_workflows": [
+    {
+      "name": "Mosaic Method / Mixture of Experts Prompt",
+      "goal": "Synthesize multiple expert sources (podcasts, transcripts) into unified view preserving nuance",
+      "tools": "Fable (LLM), large context window",
+      "approach": "Feed 3+ podcast transcripts into single context. Prompt: 'Go through all and give me overlapping conversation + most important points.' Then apply custom mosaic prompt that treats each source as orchestra section, AI as conductor connecting nuances across sources.",
+      "why": "Human brain serial-processes; forgets first source by third. Mosaic preserves cross-connections and minor points that become significant in aggregate."
+    },
+    {
+      "name": "Fable Probability Assessment for Capex Decisions",
+      "goal": "Quantify probability that hyperscaler capex pays off",
+      "tools": "Fable (described as 'smartest LLM on the street')",
+      "approach": "Feed earnings details (backlog, capex, FCF, cloud growth). Ask: 'Go through details, give probability this works out over 3-5yr horizon.' Returns thesis + downside risks + probability (e.g., 70-75% for Google).",
+      "why": "Forces explicit probabilistic thinking; surfaces risks (obsolescence, off-balance sheet, concentration) systematically."
+    },
+    {
+      "name": "QE for the Mind Framework for Stock Selection",
+      "goal": "Find S&P 500 companies where AI expense reduction drives disproportionate EPS growth",
+      "tools": "Fable + LLM research paper framework",
+      "approach": "Prompt: 'Give me 5 S&P 500 cos fitting QE for Mind frame: high revenue, low margins, many employees, internal friction.' Returns: UPS, Cisco, Jabil, Centene, Walmart. Agents deployed as infrastructure not software.",
+      "why": "Low-margin cos get 25%+ profit boost from <1% revenue cost reduction via AI agents."
+    },
+    {
+      "name": "Research Skill Architecture (Parts 3-4)",
+      "goal": "Systematic deep research methodology for finding non-consensus names",
+      "tools": "Custom prompts, mixture of experts approach",
+      "approach": "Multi-stage: broad scan -> filter for step-up function catalysts -> technical setup verification -> position sizing. Used for Vera Rubin report (25 names, 800 VDC).",
+      "why": "Structured process reduces bias; finds names before consensus."
+    },
+    {
+      "name": "Fantasy Football Draft Prep as Mosaic Analogy",
+      "goal": "Apply mixture-of-experts to fantasy draft",
+      "tools": "Same mosaic prompt",
+      "approach": "Ocean of expert talk -> visible consensus to beat -> scoreboard settles truth. Same structure as investment research.",
+      "why": "Proves framework generalizes beyond finance."
+    }
+  ],
+  "predictions": [
+    {
+      "prediction": "AI thematic portfolio outperforms S&P by 15%+ annually for 3-5 years",
+      "horizon": "3-5 years",
+      "reasoning": "Secular bull market in compute scarcity; S&P 15% annualized last 5.5yrs including COVID; rolling 3mo -10% drawdowns normal",
+      "invalidated_by": "OpenAI revenue collapse -> capital stops -> overcapacity; AGI arrives early disrupting infrastructure; government intervention",
+      "assets": "AI thematic basket, MRVL, semis, optical"
+    },
+    {
+      "prediction": "Google cloud backlog $514B -> $260B recognized in next 12 months",
+      "horizon": "12 months",
+      "reasoning": "Management guidance: 'expect to recognize just over half' of $514B backlog",
+      "invalidated_by": "Contract cancellations; OpenAI bankruptcy; demand evaporation",
+      "assets": "GOOG, optical supply chain"
+    },
+    {
+      "prediction": "Optical/photonics earnings step-up function in H2 2025",
+      "horizon": "H2 2025",
+      "reasoning": "Vera Rubin production ramp; 25 names identified in report; MRVL largest position",
+      "invalidated_by": "Vera Rubin delays; hyperscaler capex pause",
+      "assets": "MRVL, AOI, 25 Vera Rubin report names"
+    },
+    {
+      "prediction": "China state-backed AI funding accelerates",
+      "horizon": "Ongoing, 2025-2026",
+      "reasoning": "DeepSeek $7B+ with gov't voting rights; Moonshot $50B valuation target; 5 state insurers buying equities; listing standards eased",
+      "invalidated_by": "China financial crisis; housing collapse overwhelming state capacity",
+      "assets": "Chinese AI names (private), US semis (indirect)"
+    },
+    {
+      "prediction": "Crypto/blockchain becomes as important as AI for global financial infrastructure by 2026",
+      "horizon": "1 year",
+      "reasoning": "Clarity Act 'one yard line'; Japan/Korea/Russia/US all moving; S&P Bitcoin index; agentic AI needs blockchain for memory/identity",
+      "invalidated_by": "US regulatory crackdown; major hack/exploit",
+      "assets": "BTC, ETH, DOGE (retail signal), crypto infra"
+    },
+    {
+      "prediction": "Profit margins (GDP measure) at all-time highs -> no recession imminent",
+      "horizon": "6-18 months",
+      "reasoning": "Margins weaken INTO recessions (dotcom, housing, COVID). Current acceleration = expansion continues. Lead time visible.",
+      "invalidated_by": "Sharp margin rollover + profit decline + credit spread widening simultaneously",
+      "assets": "Broad market, cyclicals"
+    },
+    {
+      "prediction": "Estimate revisions factor remains positive (forward EPS $305 rising)",
+      "horizon": "Near-term",
+      "reasoning": "Dominant factor since 2010 (iPhone era). 93% beat rate. No divergence price vs revisions yet.",
+      "invalidated_by": "Revisions turn negative sustainably",
+      "assets": "S&P 500, momentum factor"
+    },
+    {
+      "prediction": "2030 bearish on ALL public AI companies including infrastructure",
+      "horizon": "2030",
+      "reasoning": "AGI arrival or government market-propping only offsets. Infrastructure valuations assume perpetual growth.",
+      "invalidated_by": "AGI delayed significantly; governments explicitly backstop public markets",
+      "assets": "NVDA, MRVL, GOOG, MSFT, AMZN, AI pure-plays"
+    }
+  ],
+  "notable_quotes": [],
+  "risks": [
+    "Chip obsolescence: GPU useful life 4-6 years, not 6+ as market assumes. Capex may not earn back before replacement.",
+    "Off-balance sheet commitments: ~$1T+ across hyperscalers. Not captured in standard FCF/ROIC models.",
+    "Backlog concentration risk: Google's $514B backlog heavily weighted to OpenAI. If OpenAI fails, conversion risk.",
+    "Hyperscaler bond spreads widening: Credit market signaling concern. CDS on Oracle blowing out ($7B notional but symbolically important).",
+    "China housing collapse: Prices falling monthly. State must prop stock market as alternative asset class. If fails, social instability.",
+    "Overcapacity risk: If OpenAI revenue stalls and capital markets close, compute glut possible. 'Scary time' per speaker.",
+    "2030 inflection: Speaker explicitly bearish on all public AI cos by 2030 unless AGI delayed or govt intervention.",
+    "Oil/CPI shock: Oil $68 -> $78. First non-zero CPI print mid-Sept. But 1yr inflation swaps unmoved - smart money skeptical.",
+    "Dogecoin below 20-day MA for 67 days (longest ever) = retail absent. No retail = no speculative top but also no momentum.",
+    "Clarity Act stuck below 50 votes in Senate despite Bessent 'one yard line' claim. Legislative risk.",
+    "Speaker's own technical signals: 30% names below 20-day MA = 'mini bear market'. Could break 200-day.",
+    "Anthropic growth deceleration: Not 'done' but growth rate permanently lower than priced."
+  ],
+  "actionable_takeaways": [
+    {
+      "item": "Buy AI pullbacks systematically - secular bull with normal 10%+ 3-month drawdowns. Speaker bought MRVL last week, adds on dips.",
+      "type": "Speaker claim",
+      "detail": ""
+    },
+    {
+      "item": "Focus on optical/photonics supply chain (MRVL, AOI, Vera Rubin report 25 names) for H2 2025 earnings step-up.",
+      "type": "Speaker claim",
+      "detail": ""
+    },
+    {
+      "item": "Monitor Google cloud backlog conversion ($260B/12mo) as proof of AI demand durability - more important than quarterly FCF.",
+      "type": "Speaker claim",
+      "detail": ""
+    },
+    {
+      "item": "Use Mosaic Method prompt to synthesize multiple expert sources - preserves nuance lost in serial consumption.",
+      "type": "Speaker claim / Analyst interpretation",
+      "detail": ""
+    },
+    {
+      "item": "Apply QE for the Mind framework: screen for high-revenue, low-margin, labor-intensive S&P 500 names for AI agent deployment.",
+      "type": "Speaker claim",
+      "detail": ""
+    },
+    {
+      "item": "Watch estimate revisions factor (forward EPS $305) and profit margins (GDP measure) as primary macro signals - not Fed/oil headlines.",
+      "type": "Speaker claim",
+      "detail": ""
+    },
+    {
+      "item": "Track Dogecoin 20-day MA reclaim as retail sentiment signal; monitor Clarity Act progress for crypto infrastructure legitimacy.",
+      "type": "Speaker claim",
+      "detail": ""
+    },
+    {
+      "item": "China AI race is real and state-funded - DeepSeek gov't voting rights, Moonshot $50B raise. Not just US story.",
+      "type": "Needs independent verification",
+      "detail": ""
+    },
+    {
+      "item": "Prepare for 2030 AI public market inflection - infrastructure valuations assume perpetual growth that may not materialize.",
+      "type": "Speaker claim / Analyst interpretation",
+      "detail": ""
+    }
+  ],
+  "other_notable_news": [
+    {
+      "category": "AI/Tech",
+      "title": "Vera Rubin (Nvidia next-gen) in full production",
+      "detail": "Claimed 1,000 racks/day capacity = $630B/quarter potential. Performance/watt leader. Speaker released detailed Vera Rubin report with 25 supply chain names."
+    },
+    {
+      "category": "AI/Tech",
+      "title": "Kimmy K3 (Moonshot) requires massive compute - not a small model",
+      "detail": "Subscriptions paused from demand. 'Nobody at home can use it unless they have a lot of hardware.' China's OpenAI equivalent seeking $50B pre-IPO valuation."
+    },
+    {
+      "category": "AI/Tech",
+      "title": "Google renting Nvidia chips from SpaceX ~$920M/month",
+      "detail": "Revealed via Fable analysis. Shows capacity desperation. Meta renting excess capacity to others since they lack cloud."
+    },
+    {
+      "category": "AI/Tech",
+      "title": "Enterprise AI settling on routing/orchestration layer",
+      "detail": "Per Stephen Hoe (Forward Guidance) and Gavin Baker consensus. Token index not showing demand collapse. Market shifting token maxing -> token efficiency."
+    },
+    {
+      "category": "Macro/Markets",
+      "title": "S&P 500 profit margins (GDP measure) at all-time highs",
+      "detail": "Margins weaken INTO recessions, not before. Dotcom, housing, COVID all showed lead time. Current acceleration = no recession signal."
+    },
+    {
+      "category": "Macro/Markets",
+      "title": "Estimate revisions dominant factor since 2010 (iPhone era)",
+      "detail": "Forward EPS $305, risen significantly. 93% beat rate. Direct overlay with price. No divergence yet."
+    },
+    {
+      "category": "Geopolitics/China",
+      "title": "China state-backed AI funding unprecedented",
+      "detail": "DeepSeek: gov't only outside investor with voting rights. Moonshot: $50B valuation target. 5 state insurers buying equities. Listing standards eased for faster index inclusion."
+    },
+    {
+      "category": "Geopolitics/China",
+      "title": "China housing prices falling every month",
+      "detail": "Forces state to prop stock market as alternative asset class. Capital markets now critical to AI ambitions."
+    },
+    {
+      "category": "Crypto/Blockchain",
+      "title": "Clarity Act at 'one yard line' in Senate",
+      "detail": "Bessent claims close but still below 50 votes. David Solomon (GS) pushing. Japan, Korea, Russia all regulating crypto. S&P launched Bitcoin index."
+    },
+    {
+      "category": "Crypto/Blockchain",
+      "title": "Agentic AI requires blockchain for memory/identity",
+      "detail": "50 First Dates analogy: consumer agents need lifetime memory (songs from age 2, every experience). Context window insufficient. Blockchain solves."
+    },
+    {
+      "category": "Energy",
+      "title": "Oil $68->$78 but inflation swaps unmoved",
+      "detail": "First oil spike saw 1yr inflation swaps rise then lead down. This time swaps flat. Smart money not pricing CPI spike. First non-zero CPI print mid-Sept."
+    },
+    {
+      "category": "Credit",
+      "title": "Hyperscaler bond spreads widening / Oracle CDS blowout",
+      "detail": "$7B notional 'tiny in world of hundreds of billions.' Spreads widen in corrections, stocks lead recovery. Best balance sheets in world."
+    },
+    {
+      "category": "Research/Process",
+      "title": "Research Skill Architecture Parts 3-4 published",
+      "detail": "Systematic deep research methodology used for Vera Rubin report. Mixture-of-experts approach. Prompts available on subscriber side."
+    },
+    {
+      "category": "Research/Process",
+      "title": "Three podcasts synthesized via Mosaic Method",
+      "detail": "All-In, Moonshots (Emad Mostaque), Forward Guidance (Stephen Hoe). Overlapping themes: model abundance, compute scarcity, Jevons paradox, routing winner."
+    }
+  ],
+  "glossary": []
+}

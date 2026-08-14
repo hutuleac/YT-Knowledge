@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The 10 Highly Correlated Names — Jordi Visser Deep Research Brief</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 16px; scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #0d0f14;
+    color: #d8dce6;
+    line-height: 1.65;
+    padding: 2rem 1rem;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  h1, h2, h3, h4 { font-weight: 600; letter-spacing: -0.01em; color: #edf0f7; }
+  h1 { font-size: 2.1rem; line-height: 1.2; }
+  h2 { font-size: 1.45rem; margin: 2.5rem 0 0.75rem; border-bottom: 1px solid #2a2e3a; padding-bottom: 0.5rem; }
+  h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
+  p { margin-bottom: 0.8rem; }
+  a { color: #d4a853; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { color: #edf0f7; }
+  .gold { color: #d4a853; }
+  .muted { color: #9aa0b0; font-size: 0.9rem; }
+  .small { font-size: 0.8rem; color: #6b7280; }
+  .report-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 2px solid #2a2e3a; }
+  .report-header .subtitle { font-size: 0.95rem; color: #9aa0b0; margin-top: 0.5rem; }
+  .report-header .meta { font-size: 0.8rem; color: #6b7280; margin-top: 0.75rem; }
+  .stats-row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1.25rem 0; }
+  .stat {
+    flex: 1; min-width: 150px; background: #141820; border: 1px solid #252a36;
+    border-radius: 10px; padding: 0.85rem 1rem;
+  }
+  .stat .label { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.06em; color: #6b7280; }
+  .stat .value { font-size: 1.25rem; font-weight: 700; color: #d4a853; }
+  .section-block {
+    background: #141820; border: 1px solid #252a36; border-radius: 10px;
+    padding: 1.25rem 1.5rem; margin-bottom: 1.25rem;
+  }
+  .callout {
+    background: #1a1e2a; border-left: 3px solid #d4a853; padding: 0.85rem 1rem;
+    margin: 0.9rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem;
+  }
+  .callout.verified { border-left-color: #27ae60; }
+  .callout.warn { border-left-color: #e74c3c; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin: 0.75rem 0; }
+  thead th {
+    background: #1a1e2a; color: #9aa0b0; text-transform: uppercase; letter-spacing: 0.05em;
+    font-size: 0.65rem; padding: 0.6rem 0.5rem; text-align: left;
+    border-bottom: 2px solid #2a2e3a; white-space: nowrap;
+  }
+  tbody td { padding: 0.55rem 0.5rem; border-bottom: 1px solid #1e2230; vertical-align: top; }
+  tbody tr:hover { background: #1a1e2a; }
+  .tag {
+    display: inline-block; font-size: 0.6rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.05em; padding: 0.15rem 0.5rem; border-radius: 4px; margin-right: 0.3rem;
+  }
+  .tag-confirmed { background: #1a3a1a; color: #27ae60; border: 1px solid #2a5a2a; }
+  .tag-high { background: #3a3510; color: #f1c40f; border: 1px solid #5a4a1a; }
+  .tag-med { background: #3a2510; color: #e67e22; border: 1px solid #5a3a1a; }
+  .tag-other { background: #1a2a3a; color: #3498db; border: 1px solid #2a3a5a; }
+  .tag-warn { background: #3a1a1a; color: #e74c3c; border: 1px solid #5a2a2a; }
+  .source-list { counter-reset: src; }
+  .source-list li { list-style: none; margin-bottom: 0.6rem; font-size: 0.88rem; padding-left: 2.2rem; position: relative; }
+  .source-list li::before {
+    counter-increment: src; content: counter(src); position: absolute; left: 0; top: 0;
+    background: #2a2e3a; color: #d4a853; border-radius: 4px; width: 1.5rem; height: 1.5rem;
+    display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700;
+  }
+  ul.tight li { margin-bottom: 0.4rem; }
+  .ep { margin-bottom: 0.5rem; }
+  .ep .t { font-weight: 600; color: #edf0f7; }
+  .ep .d { font-size: 0.75rem; color: #6b7280; }
+  .footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #2a2e3a; font-size: 0.75rem; color: #6b7280; }
+  @media (max-width: 600px) { html { font-size: 14px; } }
+</style>
+</head>
+<body>
+
+<div class="report-header">
+  <h1>The "10 Highly Correlated Names"<br>— <span class="gold">Jordi Visser Deep Research Brief</span></h1>
+  <div class="subtitle">Reconstructing the 10-name hyper-concentrated portfolio referenced in "Situational Awareness, Hyperscaler Earnings and Warsh" (Aug 2, 2026) — with confirmed members, candidates, ecosystem context, and full source map.</div>
+  <div class="meta">Compiled Aug 2026 &nbsp;·&nbsp; Sources: 22V Research / AI Macro Nexus · BigGo Finance · PodcastAlpha · AlphaAbstract · Kazuha · GitHub · YouTube transcripts &nbsp;·&nbsp; <strong class="gold">Verdict: full list is subscriber-only; 2 of 10 members verified publicly</strong></div>
+</div>
+
+<div class="stats-row">
+  <div class="stat"><div class="label">Confirmed members</div><div class="value">2 / 10</div></div>
+  <div class="stat"><div class="label">Episodes analyzed</div><div class="value">24</div></div>
+  <div class="stat"><div class="label">Theme indexes mapped</div><div class="value">6</div></div>
+  <div class="stat"><div class="label">Candidate names</div><div class="value">~20</div></div>
+  <div class="stat"><div class="label">Sources cited</div><div class="value">30+</div></div>
+</div>
+
+<h2>1. Executive Finding</h2>
+<div class="section-block">
+  <p>The "10 highly correlated names" is <strong>not the Vera Rubin / 800V DC list</strong> (that's a separate ~25-name paper, many Asian names). It is Jordi Visser's <strong>"10-name hyper-concentrated portfolio"</strong> — the smallest, highest-beta tier of a three-tier product he launched in May 2026:</p>
+  <table>
+    <thead><tr><th>Tier</th><th>What it is</th><th>Known performance / behavior</th></tr></thead>
+    <tbody>
+      <tr><td><strong>100-name index</strong></td><td>Broad thematic index (~$20T market cap universe) spanning semiconductors, energy infrastructure, chemicals, industrials, optical — the benchmark he quotes weekly</td><td>+60% YTD (May 2026); +34% since Opus 4.5 (Nov 2024); ~84 of 100 names above rising 200-day in July</td></tr>
+      <tr><td><strong>25-name concentrated</strong></td><td>Trading-oriented proxy capturing high within-theme correlation, giving single-name expression ("highly correlated to the 100-name index")</td><td><span class="gold">68% YTD vs 9% S&amp;P</span> (May 2026); "90% S&amp;P + 10% in the 25-name basket → +8% from S&amp;P + ~7% from basket"</td></tr>
+      <tr><td><strong>10-name hyper-concentrated</strong></td><td><span class="gold">← THE LIST IN THE VIDEO.</span> Highest-beta subset of the same themes; "10 name concentrated position" he recommends to trade the index</td><td>Retested the 50-day with RSI reset in July 2026 — "same setup that preceded the March liftoff"; closed above 20-day (NVDA) first time since June 2</td></tr>
+    </tbody>
+  </table>
+  <div class="callout verified">
+    <strong>Verified:</strong> the video's Corning quote ("I spent a lot of time to come up with 10 names that are highly correlated to the 100 name index... One of the names in there is Corning") matches the 25-name/10-name concentrated portfolio concept — <em>high-correlation single-name proxies for the 100-name book</em> — exactly as described in the May 24, 2026 episode "Bottlenecks, Momentum Breaks, and the Next Phase of AI" and in third-party documentation of the exhaustion sheets.
+  </div>
+  <div class="callout warn">
+    <strong>Do not conflate:</strong> there are <em>two</em> separate "10-name" constructs — (a) the 10-name hyper-concentrated AI portfolio (Corning, NVDA), and (b) an <strong>equal-weight IPP index of 10 names</strong> (Vistra, Constellation + 8 others) shown as a defensive "cyclical defensive within AI" basket. The IPP index is not the list referenced in the video.
+  </div>
+</div>
+
+<h2>2. The Two Confirmed Members</h2>
+<div class="section-block">
+  <table>
+    <thead><tr><th>Ticker</th><th>Company</th><th>Evidence</th><th>Source</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><span class="tag tag-confirmed">CONFIRMED</span><strong>NVDA</strong></td>
+        <td>NVIDIA</td>
+        <td>"NVIDIA (NVDA) — <strong>one of his 10 concentrated names</strong>; closed above 20-day first time since June 2, holding the 200-day, MACD buy signal at lowest valuation in a decade." Also described as concentrated-basket core; "still position" with acknowledged multiple compression.</td>
+        <td>AlphaAbstract summary of "AI's Speed Crash Is Creating the Next Opportunity" (Jul 12, 2026); BigGo recap of Speed Crash episodes; Kazuha</td>
+      </tr>
+      <tr>
+        <td><span class="tag tag-confirmed">CONFIRMED</span><strong>GLW</strong></td>
+        <td>Corning</td>
+        <td>Verbatim in the Aug 2, 2026 video: "One of the names in there is Corning. I highlighted this this week on the subscriber video." — chart anchored Dec 31, 2025 (Meta $6B fiber announcement; later NVIDIA partnership); hit the 200-day, traded up. Q2-26: strong results, upgraded Springboard plan; NVIDIA multiyear manufacturing partnership (May 6, 2026: 10x US optical connectivity capacity, 3 new plants).</td>
+        <td>VVfTS50v91I transcript (local research-data copy); Corning IR; NVIDIA-Corning PR</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="muted">Note on chronology: NVDA and GLW are named in July/August 2026. The basket composition rotates — Micron was sold (early June) then repurchased at 1/5 size (mid-July), so membership is dynamic.</p>
+</div>
+
+<h2>3. High-Probability Candidates (9)</h2>
+<div class="section-block">
+  <p>Visser's own public long side of the trade (from "The Edge Awakens" rotation table + his stated positions) defines the pool the 10-name basket is drawn from. Ranked by strength of evidence:</p>
+  <table>
+    <thead><tr><th>#</th><th>Ticker</th><th>Company</th><th>Theme</th><th>Why it fits</th></tr></thead>
+    <tbody>
+      <tr><td>3</td><td><span class="tag tag-high">HIGH</span><strong>MRVL</strong></td><td>Marvell</td><td>Optical &amp; Interconnect</td><td><strong>Largest single position</strong> (July 2026); Jensen Huang's "next trillion-dollar company"; optical/interconnect moat; in the "Coherent, Lumentum, Corning, and Marvell all in the mix" 800V DC/optical list; named in Edge Awakens long table.</td></tr>
+      <tr><td>4</td><td><span class="tag tag-high">HIGH</span><strong>MU</strong></td><td>Micron</td><td>Semicon (memory)</td><td>Was in/out of the book all year (sold near peak ~$700-800 early June, repurchased mid-July at 1/5 of May size, ~$850 with 200-day ~$500, target $1,500-1,600). Memory scarcity = core theme; named in every episode.</td></tr>
+      <tr><td>5</td><td><span class="tag tag-high">HIGH</span><strong>COHR</strong></td><td>Coherent</td><td>Optical &amp; Interconnect</td><td>Explicit in his optical fiber long list ("Coherent, Lumentum, Corning"); silicon photonics efficiency story for 800V DC; Indium-phosphide bottleneck angle; CEO on White House trade trip.</td></tr>
+      <tr><td>6</td><td><span class="tag tag-high">HIGH</span><strong>LITE</strong></td><td>Lumentum</td><td>Optical &amp; Interconnect</td><td>Explicit in his optical fiber long list; 800V DC / photonics efficiency story; step-up function in optical earnings a stated catalyst theme.</td></tr>
+      <tr><td>7</td><td><span class="tag tag-med">MED</span><strong>INTC</strong></td><td>Intel</td><td>Semicon (CPU / edge)</td><td>Started buying below $110; "sees CPU/optical value"; +400% from lows per May table; CPU shortage / agentic CPU TAM $100B by 2030 thesis; edge AI pull-through.</td></tr>
+      <tr><td>8</td><td><span class="tag tag-med">MED</span><strong>AVGO</strong></td><td>Broadcom</td><td>Semicon architecture</td><td>In his long semis list (Nvidia, Broadcom, Micron, Intel, TI, Marvell); "85% of S&P revisions" concentration; one of the few semis ranked in the Semicon Architecture theme above NVDA per the exhaustion report (KLAC #1, AVGO/NVDA/ASML below).</td></tr>
+      <tr><td>9</td><td><span class="tag tag-med">MED</span><strong>TXN</strong></td><td>Texas Instruments</td><td>Power semis / edge</td><td>Named in the long table; "critical for understanding where the cycle is heading" (industrial + edge AI + NPUs); power semis at the center of the 800V DC solution; 6-name power semi vertical in the 68-name Edge universe.</td></tr>
+      <tr><td>10</td><td><span class="tag tag-med">MED</span><strong>VST</strong></td><td>Vistra</td><td>Energy &amp; Infrastructure</td><td>The IPP trade he "increased size in" as defensive AI against momentum unwind; IPP index shown as the risk-reduction sleeve; "If defense starts working in AI, you're going to see Vistra and some of these IPPs."</td></tr>
+      <tr><td>11</td><td><span class="tag tag-med">MED</span><strong>ENTG</strong></td><td>Entegris</td><td>Chemicals &amp; Materials</td><td>On his Vera Rubin watch list ("Entegris, MKSI"); "Molecular Moat 2.0" chemistry-at-the-interface paper; chemicals = his highest-scoring theme (5 of top 12 names); consumables = capex-proof revenue.</td></tr>
+    </tbody>
+  </table>
+  <p class="muted">The 10-name basket likely blends the top of these themes. His own LLM-screening example (PEG &lt;1, technical score &gt;85, low exhaustion → "15 names across optical, semis, chemicals") shows how the basket is constructed mechanically.</p>
+</div>
+
+<h2>4. How the Basket Is Built (The Jordi Method)</h2>
+<div class="section-block">
+  <ul class="tight">
+    <li><strong>Three Excel sheets per name</strong> — fundamental, technical, exhaustion — updated weekly, downloadable by subscribers.</li>
+    <li><strong>LLM-driven intersection screening:</strong> upload the sheets to any LLM and ask for criteria. His own worked example: <em>"PEG ratio &lt;1, technical score &gt;85, exhaustion low" → returned 15 names across optical, semis, chemicals.</em></li>
+    <li><strong>Proprietary exhaustion model</strong> (4 buckets: Extreme / Elevated / Somewhat / Low) — predicted next-day reversals at 4.1x average in the "extreme" bucket on his test; feeds the weekly "Exhaustion/TDS sheet."</li>
+    <li><strong>Correlation engineering:</strong> the concentrated tiers are built to track the 100-name index with high correlation (hence "10 names highly correlated to the 100 name index") while adding single-name beta — his pitch: "overweight a small piece of the secular trend."</li>
+    <li><strong>Theme indexes</strong> (from the June 18, 2026 exhaustion sheet) — the 100/25/10-name books are composed across these six themes:
+      <table>
+        <thead><tr><th>Theme</th><th>Avg exhaustion</th><th>≥75 extreme</th><th>≥60 elevated</th></tr></thead>
+        <tbody>
+          <tr><td>Whole Rack</td><td>38.9</td><td>1</td><td>2</td></tr>
+          <tr><td>Chemicals &amp; Materials</td><td>38.6</td><td>1</td><td>6</td></tr>
+          <tr><td>Semicon Architecture</td><td>34.0</td><td>0</td><td>4</td></tr>
+          <tr><td>Optical &amp; Interconnect</td><td>27.1</td><td>1</td><td>3</td></tr>
+          <tr><td>Energy &amp; Infrastructure</td><td>21.1</td><td>0</td><td>0</td></tr>
+          <tr><td>Macro Satellites</td><td>5.1</td><td>0</td><td>0</td></tr>
+        </tbody>
+      </table>
+      <span class="small">(Scoreable names in the ecosystem with published exhaustion readings: ALAB 78.2, MKSI 77.7, ENTG 70.6, HEN3.DE 72.4, 4062.T 70.6, CBT 70.3, CAT 54.7, TSM 50.3, DELL 39.1, CRDO 44.2; MRK.DE scored 100/100 technical.)</span>
+    </li>
+  </ul>
+</div>
+
+<h2>5. Where the Full List Lives (Paywall)</h2>
+<div class="section-block">
+  <p>The 10-name (and 25-name) constituent lists are published through <strong>AI Macro Nexus</strong> (ai.22vresearch.com) — Visser's subscription platform with 22V Research:</p>
+  <ul class="tight">
+    <li><strong>$100 / $200 / $500 per month</strong> (or $1,000-$5,000/yr) — all tiers include "AI 100 Theme Portfolio" and <strong>"AI Concentrated Portfolios"</strong> (the 25- and 10-name books).</li>
+    <li>Also included: weekly videos, "Jordi Filter &amp; Video Recap", AI Macro Nexus notes, subscriber webinars, thematic research library, AI prompts/agentic tools, "The Jordi Method" masterclass.</li>
+    <li>Contact for subscriptions: Mark Whaling (mwhaling@22vresearch.com) — the address promoted in every YouTube video description.</li>
+    <li>Free public surface: YouTube (@JordiVisserLabs, ~64K subs), Substack (visserlabs.substack.com, 26K+ free), X (@jvisserlabs), visser-labs.com.</li>
+  </ul>
+  <div class="callout warn">
+    <strong>Bottom line:</strong> the remaining 8 names are not enumerated in any public transcript, recap, or third-party summary found. 2 of 10 are confirmed (NVDA, GLW); 9 high-probability candidates are documented above with the evidence for each. Any claim of a full public list is fabrication.
+  </div>
+</div>
+
+<h2>6. Full Output Map — Episodes, Papers, Articles, Appearances</h2>
+<div class="section-block">
+  <h3>Weekly video episodes (YouTube / BigGo recaps, 24 tracked)</h3>
+  <div class="ep"><span class="t">E1 Situational Awareness, Hyperscaler Earnings and Warsh: A Bottom for AI Stocks?</span> <span class="d">Aug 2, 2026 · 62m — THE SOURCE VIDEO (10-name / Corning)</span></div>
+  <div class="ep"><span class="t">E2 Short-Term AI Fear, Long-Term Compute Scarcity</span> <span class="d">Jul 26, 2026 · 49m — Vera Rubin 25-name paper, MRVL largest, AOI added, "step-up function in optical/photonics"</span></div>
+  <div class="ep"><span class="t">E3 AI's Speed Crash: The Structural Bull Market Isn't Over</span> <span class="d">Jul 19, 2026 · 45m — momentum -40% in 18 days; Vera Rubin / 800V DC paper "25 new names, many Asian"</span></div>
+  <div class="ep"><span class="t">E4 AI's Speed Crash Is Creating the Next Opportunity</span> <span class="d">Jul 12, 2026 · 54m — 10-name basket 50-day retest; NVDA confirmed in the 10</span></div>
+  <div class="ep"><span class="t">E5 Momentum Is Crashing, Bitcoin Is Bottoming, AI Agents Are Rising</span> <span class="d">Jul 5, 2026 · 50m — megaphone SMH/IGV wider than dot-com; Warsh won't hike</span></div>
+  <div class="ep"><span class="t">E6 Hyperscalers Are Collapsing. Is the AI "Bubble" Crashing or Consolidating?</span> <span class="d">Jun 28, 2026 · 56m — midcycle slowdown; Stripe Sessions; LLY; Apple memory</span></div>
+  <div class="ep"><span class="t">E7 Signal Over Noise: "The Most Important Moment in Human History"</span> <span class="d">~Jun 21, 2026 · 49m — Vera Rubin 800-volt paper intro; S&P PEG lowest in 22 years</span></div>
+  <div class="ep"><span class="t">E8 The AI Mid-Cycle Slowdown: OpenAI, Anthropic, and the AI Price War</span> <span class="d">~Jun 14, 2026 · 47m — 100-name portfolio ~$20T; chemicals top theme; watch list Entegris, MKSI</span></div>
+  <div class="ep"><span class="t">E9 The Fireworks Show Is Over: Why This Is an AI Rotation, Not a Bubble Unwind</span> <span class="d">~Jun 7, 2026 · 55m — exited Micron ~$700; buying Marvell ("next trillion-dollar company"); LLY "most important AI company"</span></div>
+  <div class="ep"><span class="t">E10 "We Will Have a Crash": Why AI Brings Out the Fear in People</span> <span class="d">~May 31, 2026 · 60m — optical exploded (Corning, Fujikura); Cisco blowout; supply fragilities</span></div>
+  <div class="ep"><span class="t">E11 How Do I Start With AI?</span> <span class="d">~May 24, 2026 · 22m — education episode, no tickers</span></div>
+  <div class="ep"><span class="t">E12 Bottlenecks, Momentum Breaks, and the Next Phase of AI</span> <span class="d">May 24, 2026 · 60m — ★ KEY: 100/25/10-name three tiers announced; IPP index (10 names, Vistra/Constellation); performance table; LLM screening example</span></div>
+  <div class="ep"><span class="t">E13 Running Hot Into Scarcity</span> <span class="d">~May 17, 2026 · 51m — exhaustion model validated (4.1x prediction rate)</span></div>
+  <div class="ep"><span class="t">E14 Bubbles, Parabolas and Speed Crashes: The End of Human Market Structure</span> <span class="d">~May 10, 2026 · 60m — rotated out of Micron into power/energy: silver, gold, BTC, Vistra, Eaton, "Hanhai"</span></div>
+  <div class="ep"><span class="t">E15 Your Capex Is My Opportunity</span> <span class="d">~May 3, 2026 · 43m — CAT $62B backlog; $1.3T RPOs; benchmark arbitrage: semis/chemicals/power/optical</span></div>
+  <div class="ep"><span class="t">E16 The Edge Awakens: Why the Physical AI Upgrade Is Still in the First Inning</span> <span class="d">Apr 26, 2026 · 47m — ★ rotation table (long: NVDA/AVGO/MU/INTC/TXN/MRVL + power semis + COHR/LITE/GLW + CAT/URI + XOM/CVX); 68-name Edge universe; 800V DC South Korea</span></div>
+  <div class="ep"><span class="t">E17 All Time Highs Built on a Compute Shortage</span> <span class="d">Apr 19, 2026 · 45m — chipflation; Intel parabolic; batteries EOS/FLNC; 68-company edge universe</span></div>
+  <div class="ep"><span class="t">E18 Ceasefire, Inflation, Mythos and a Scarcity vs Abundance Moonshot</span> <span class="d">~Apr 12, 2026 · 46m — 100-name basket "built entirely around physical-world AI infrastructure"</span></div>
+  <div class="ep"><span class="t">E19-E24 (older)</span> <span class="d">Mar-Apr 2026 · oil/private credit/regime themes; E20: 95-name model portfolio +75% over a year, $16T market cap, spanning optical fiber, semis, advanced packaging, energy infrastructure</span></div>
+
+  <h3>Papers &amp; named research pieces</h3>
+  <ul class="tight">
+    <li><strong>"Vera Rubin / 800V DC paper"</strong> (Jul 2026) — ~25 names, many Asian, earnings step-up functions — <em>distinct from the 10-name list</em></li>
+    <li><strong>"The Edge Awakens"</strong> (Apr 2026) — Edge AI universe, 68 names</li>
+    <li><strong>"Molecular Moat 2.0"</strong> — chemistry at the interface of advanced packaging, photonics, liquid cooling</li>
+    <li><strong>"QE for the Mind"</strong> (Nov 2025) — 5% cost cut → 20% EPS jump framework; UPS, Cisco, Jabil, Centene, Walmart</li>
+    <li><strong>"Bubbles, Parabolas and Speed Crashes"</strong> (May 2026) — new market structure doctrine</li>
+    <li><strong>"The Art of Unlearning the Fed"</strong> — Warsh-era Fed framework</li>
+    <li><strong>"The Firework Show" paper</strong> (May/Jun 2026) — Opus 4.5-era chase digesting</li>
+    <li><strong>"The Physical World Upgrade: 2026 Outlook — When AI Spreads From Cloud to Edge"</strong> — Institutional Investor, Jan 21, 2026</li>
+    <li>Older: "Shrinking Alpha" (2017), "The Unwinding of Globalization, Fallen Angels &amp; Behavioral Alpha" (2019), "Kentucky Derby 150" (2024)</li>
+  </ul>
+
+  <h3>Substack (visserlabs.substack.com — 26K+ free subscribers)</h3>
+  <ul class="tight">
+    <li>2026: Billions Served (Jul 20), Bitcoin and the Art of Unlearning the Fed (Jul 6), Stripe Sessions and the Coming Agentic Commerce Economy (Jun 30), The AI Mindset (Jun 23), Build the Brain Before the Models Run Away (Jun 19), I Was There: The Knicks (Jun 15), Brick by Brick (May 28), Tokenization (May 7), Your CapEx Is My Opportunity (May 6), Kentucky Derby (May 1), Killing the Float (Apr 26), How AI, Inflation, and Scarcity Are Driving Bitcoin Into Its Strongest Regime (Apr 11)</li>
+    <li>Archive: All Aboard the "Deplorables'" Investment Train, The Light at the End of the Turbulence, The Collapse of Patience, The Death of a Systems Thinker</li>
+  </ul>
+
+  <h3>Podcast appearances</h3>
+  <ul class="tight">
+    <li><strong>The Pomp Podcast</strong> (regular guest): "The 2026 Playbook" (Jan 3, 2026), "The AI Bull Market Is Still in the First Inning" (May 30, 2026), "Why Are Bitcoin &amp; AI Stocks CRASHING?" (Jul 18, 2026), "The AI Boom Is Very BULLISH For Bitcoin" (May 9, 2026), "Why Is Bitcoin CRASHING?" (Jun 6, 2026)</li>
+    <li><strong>Raoul Pal — The Journey Man</strong>: "The AI Supercycle with Jordi Visser" (Jun 11, 2026)</li>
+    <li><strong>Forward Guidance (Blockworks)</strong>: "Why AI Will Reprice the Entire Economy" (Apr 6, 2026, live from Digital Asset Summit)</li>
+    <li><strong>Full Signal (Phil Rosen)</strong> (Jul 2026) — moving off Mag 7, buying bottlenecks, benchmark arbitrage</li>
+    <li><strong>CNBC</strong> (Mar 10, 2026) — oil / Iran segment</li>
+    <li>Other: episode 231 of an unnamed pod (K5cHgBtbU-M), "The End of Recessions Is Closer Than You Think" (3gK-TQoZqfQ), "How Fed Rate Cuts Affect Bitcoin, AI &amp; the Market" (dGxR_00APUM), "Bitcoin's Bull Case, Macro, AI &amp; 2026 Predictions" (Jw_kDHCIA10), Mark Moss interview (Jul 2026), TFTC (Jun 1, 2026), Weiss-era "In Search of Green Marbles" + "Real-Time with Jordi Visser"</li>
+  </ul>
+</div>
+
+<h2>7. Sources</h2>
+<div class="section-block">
+  <ol class="source-list">
+    <li><strong>Local transcript:</strong> Situational Awareness video (VVfTS50v91I) — research-data/situational-awareness-hyperscaler-earnings-and-warsh-a-bottom-for-ai-stocks_jordi-visser/VVfTS50v91I.en.txt (the "10 names highly correlated" + Corning quote)</li>
+    <li><strong>BigGo Finance podcast recap E12</strong> — Bottlenecks, Momentum Breaks, and the Next Phase of AI (May 24, 2026): three tiers 100/25/10, LLM screening, IPP index, performance table — finance.biggo.com/podcast/2961c4a9690374d4</li>
+    <li><strong>BigGo Finance podcast recap E1/E2/E3/E7/E8/E10/E14/E16/E20</strong> — situational awareness recap, Vera Rubin 25-name paper, 800V DC, Edge Awakens rotation table, 95-name portfolio — finance.biggo.com/podcast (channel page)</li>
+    <li><strong>AlphaAbstract</strong> — "Jordi Visser — AI Speed Crash Opportunity Investment Thesis" (Jul 12, 2026): NVDA explicitly "one of his 10 concentrated names"; 10-name basket 50-day retest; ecosystem map — alphabstract.com/summaries/jordi-visser/...</li>
+    <li><strong>PodcastAlpha</strong> — Pomp Podcast recaps: May 30 2026 (100-name portfolio +60%, LLY only healthcare name), Jul 18 2026 (fireworks show over; BTC only moat) — podcastalpha.substack.com/p/jordi-pompliano-may-30-2026; /p/visser-ai-stocks-20260617; /p/jordi-visser-bitcoin-only-moat-left</li>
+    <li><strong>GitHub gist (gordongould)</strong> — "AI Ecosystem Additions" (Jun 22, 2026): 6 Visser theme indexes + exhaustion scores (June 18 sheet), KLAC #1 Semicon Architecture, MRK.DE 100/100, 25-name as "high correlation proxy" — gist.github.com/gordongould/69f3cc9c...</li>
+    <li><strong>Kazuha</strong> — Visser YouTube source summaries: "AI's Speed Crash Is Creating the Next Opportunity" (NVDA decade-low, MU/SK Hynix/Samsung, AAPL/META agents), "Your Capex is My Opportunity" (ENTG, Chemours CC), "Ceasefire, Inflation, Mythos" (GLW as picks-and-shovels), "How Do I Start With AI" (Claude workflow, AMD/MRVL/Soitec laggards), "All Time Highs" (Eaton/Vertiv, EOS/Fluence) — kazuha.ai/sources/jordi-visser</li>
+    <li><strong>AI Macro Nexus (22V Research)</strong> — pricing $100-$500/mo, "AI Concentrated Portfolios" included, offerings FAQ — ai.22vresearch.com</li>
+    <li><strong>22V Research bio / LinkedIn</strong> — career: Morgan Stanley (Brazil office), Anchor Point, Weiss 2005-2024 (President &amp; CIO), VisserLabs, 22V — 22vresearch.com/team-member/jordi-visser; linkedin.com/in/jordicvisser</li>
+    <li><strong>VisserLabs Substack archive</strong> — visserlabs.substack.com/archive (all 2026 posts listed above)</li>
+    <li><strong>YouTube video pages + chapters</strong> — -hvvu5n_oLQ (E12 chapters: "the 100/25/10-name thematic portfolios"), 4vh3m4SNoj4 (Edge Awakens), tAUIFAptWvo, QHRUwziQ-oE, vu2zBT3ced8, VVfTS50v91I</li>
+    <li><strong>ptlsignal.com</strong> — "Running Hot Into Scarcity" (May 18, 2026): exhaustion model 4.1x verification, candlestick detail — ptlsignal.com/blog/kuppy-ai-momentum-exhaustion-crypto-rotation</li>
+    <li><strong>Corning IR / press</strong> — Q2-26 results (Jul 28, 2026), NVIDIA-Corning partnership (May 6, 2026), Amazon fiber agreement (Jun 8, 2026) — investor.corning.com</li>
+    <li><strong>EliminatePoliticians / TFTC / Cryptobriefing / Grokipedia</strong> — secondary coverage of Edge Awakens report, crash playbook (silver/copper/BTC scarcity portfolio), Pomp Bitcoin episode notes, biography + references — eliminatepoliticians.com, tftc.io, cryptobriefing.com, grokipedia.com/page/jordi-visser</li>
+    <li><strong>Blockworks Forward Guidance</strong> (Apr 6, 2026) — blockworks.com/podcast/forwardguidance/afbef274-31dd-11f1-b66f-ebf2f85890c2</li>
+    <li><strong>Institutional Investor</strong> — "The Physical World Upgrade: 2026 Outlook" (Jan 21, 2026) — institutionalinvestor.com/author/jordi-visser</li>
+    <li><strong>CNBC</strong> (Mar 10, 2026) — cnbc.com/video/2026/03/10/jordi-visser-markets-are-looking-at-where-oil-will-be-in-three-weeks-not-today.html</li>
+    <li><strong>ListenNotes / Podscan</strong> — episode inventory: Full Signal, Pomp episodes, Raoul Pal, X (Twitter) posts — listennotes.com, podscan.fm, x.com/jvisserlabs</li>
+  </ol>
+</div>
+
+<h2>8. Caveats</h2>
+<div class="section-block">
+  <ul class="tight">
+    <li>The 10-name constituent list is <strong>not public</strong>; members rotate (MU example). Reconstruction is inference from his published long side, third-party recaps, and the exhaustion-sheet theme indexes.</li>
+    <li>Third-party recaps (BigGo, Kazuha, AlphaAbstract) are AI-generated summaries of his videos — treat phrasing as paraphrase, not verbatim.</li>
+    <li>The May-24 "68% YTD" figure is for the <strong>25-name</strong> basket; no public YTD figure exists for the 10-name basket.</li>
+    <li>"Hanhai" (E14) is likely an auto-captioning artifact (possibly Hansen or a Chinese name); no ticker verified.</li>
+    <li>Nothing here is investment advice.</li>
+  </ul>
+</div>
+
+<div class="footer">
+  Research brief generated from public web sources, Aug 2026. Full list requires AI Macro Nexus subscription (ai.22vresearch.com). Verified members: NVDA, GLW.
+</div>
+
+</body>
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jordi Visser's "25 Names" — Vera Rubin Supply Chain Reconstruction</title>
+<style>
+:root{
+  --ink:#20231f; --muted:#6b6f66; --line:#e4e2d8; --card:#fffdf8; --bg:#efece2;
+  --brand:#8a5a2e; --brand-soft:#f4e9db;
+  --serif:'Iowan Old Style','Palatino Linotype',Georgia,serif;
+  --g:#eaf3e6; --gk:#3f6b2e; --r:#f8ebe6; --rk:#a23f22;
+  --y:#f8f0dd; --yk:#93711b; --gr:#eeece3; --grk:#65695f;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:17.5px;line-height:1.7;-webkit-font-smoothing:antialiased;}
+.page{max-width:1720px;width:100%;margin:0 auto;background:var(--card);min-height:100vh;box-shadow:0 0 0 1px var(--line);}
+.hero{padding:clamp(18px,2.4vw,34px) clamp(20px,4vw,56px) clamp(14px,1.8vw,22px);border-bottom:1px solid var(--line);}
+.kicker{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--brand);margin-bottom:10px;}
+h1{font-family:var(--serif);margin:0 0 14px;font-size:clamp(28px,3vw,42px);line-height:1.15;letter-spacing:-.01em;font-weight:600;color:#171916;max-width:32ch;}
+.hero-row{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;border-top:1px solid var(--line);padding-top:12px;}
+.meta{color:var(--muted);font-size:14.5px;line-height:1.55;}
+.meta b{color:var(--ink);font-weight:600;}
+.stats-line{font-family:var(--serif);font-style:italic;color:var(--brand);font-size:14.5px;margin-top:4px;}
+.inner{padding:10px clamp(20px,4vw,56px) 44px;}
+.sec{margin:0;padding:34px 0;border-top:1px solid var(--line);}
+.sec:first-child{border-top:none;padding-top:20px;}
+.sec-eye{font-family:var(--serif);font-style:italic;font-size:14.5px;color:var(--brand);margin-bottom:4px;}
+h2{font-family:var(--serif);margin:0 0 16px;font-size:clamp(22px,2vw,27px);font-weight:600;color:#171916;border-bottom:2px solid var(--brand);display:inline-block;padding-bottom:5px;}
+.card{background:#fbf7ef;border:1px solid var(--line);border-radius:14px;padding:26px 28px;}
+.card h3{font-family:var(--serif);font-weight:600;font-size:19px;color:#171916;margin:26px 0 8px;}
+.card h3:first-child{margin-top:0;}
+p{margin:0 0 12px;max-width:1100px;}
+.quote{font-family:var(--serif);font-style:italic;font-size:19px;line-height:1.55;color:#2c2f28;border-left:3px solid var(--brand);padding:7px 0 7px 22px;margin:16px 0;max-width:1000px;}
+.quote cite{display:block;font-family:-apple-system,sans-serif;font-style:normal;font-size:13px;color:var(--muted);margin-top:7px;}
+.quote .ctx{font-family:-apple-system,sans-serif;font-style:normal;font-size:13px;color:var(--muted);margin-top:4px;}
+.badge{display:inline-block;padding:3px 10px;border-radius:3px;font-size:12px;font-weight:700;white-space:nowrap;letter-spacing:.03em;text-transform:uppercase;}
+.g{background:var(--g);color:var(--gk)} .r{background:var(--r);color:var(--rk)}
+.y{background:var(--y);color:var(--yk)} .gr{background:var(--gr);color:var(--grk)}
+.muted{color:var(--muted);font-size:13.5px;font-weight:400}
+.criteria{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:16px 0;}
+.crit{background:#fffefb;border:1px solid var(--line);border-radius:12px;padding:14px 16px;}
+.crit b{display:block;font-family:var(--serif);font-size:16px;color:#171916;margin-bottom:4px;}
+.crit span{font-size:13.5px;color:#4a4d44;}
+.tablewrap{overflow-x:auto;}
+table{width:100%;table-layout:fixed;border-collapse:collapse;font-size:14.5px;}
+th,td{text-align:left;padding:11px 12px;vertical-align:top;border-bottom:1px solid var(--line);overflow-wrap:break-word;word-break:break-word;}
+th{font-family:var(--serif);font-weight:600;font-style:italic;color:var(--brand);font-size:14px;padding:8px 12px 10px;border-bottom:2px solid var(--brand);}
+tbody tr{transition:background .12s}
+tbody tr:hover{background:#f5efe2}
+tr.row-g:hover{background:var(--g)} tr.row-r:hover{background:var(--r)}
+tr.row-y:hover{background:var(--y)} tr.row-gr:hover{background:var(--gr)}
+tr[class*="row-"] td:first-child{position:relative;padding-left:24px;}
+tr[class*="row-"] td:first-child::before{content:"";position:absolute;left:9px;top:8px;bottom:8px;width:6px;border-radius:5px;background:var(--line);}
+tr.row-g td:first-child::before{background:var(--gk)}
+tr.row-y td:first-child::before{background:var(--yk)}
+tr.row-r td:first-child::before{background:var(--rk)}
+tr.row-gr td:first-child::before{background:var(--grk)}
+.c-num{width:4%;min-width:36px} .c-name{width:14%;min-width:130px}
+.c-tick{width:9%;min-width:84px} .c-conf{width:7%;min-width:76px}
+.c-text{width:auto}
+.legend{display:flex;flex-wrap:wrap;gap:12px;margin:14px 0 0;}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend .dot{width:10px;height:10px;border-radius:50%}
+.legend .dot.g{background:var(--gk)} .legend .dot.y{background:var(--yk)}
+.legend .dot.r{background:var(--rk)} .legend .dot.gr{background:var(--grk)}
+.legend .t{font-size:13px;color:var(--muted)}
+.poses{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;}
+.pose{background:#fffefb;border:1px solid var(--line);border-radius:12px;padding:16px 18px;border-left:4px solid var(--gk);}
+.pose b{font-family:var(--serif);font-size:16px;color:#171916;}
+.pose span{display:block;font-size:13.5px;color:#4a4d44;margin-top:4px;}
+.src{list-style:none;margin:0;padding:0;max-width:1100px;}
+.src li{display:flex;gap:14px;padding:12px 0;border-bottom:1px solid var(--line);font-size:14.5px;line-height:1.55;}
+.src li:last-child{border-bottom:none}
+.src .n{flex:none;width:28px;height:28px;border-radius:50%;background:var(--brand);color:#fffdf8;display:grid;place-items:center;font-family:var(--serif);font-weight:700;font-size:13px;margin-top:2px;}
+.src b{color:#171916;}
+.src a{color:var(--brand);text-decoration:none;word-break:break-all;}
+.src a:hover{text-decoration:underline}
+.src .tag{font-family:var(--serif);font-style:italic;color:var(--muted);font-size:13px;}
+.warn{background:var(--y);border:1px solid #e6d9a8;border-radius:12px;padding:16px 20px;margin:16px 0;max-width:1100px;font-size:14.5px;}
+.warn b{color:var(--yk);}
+@media(max-width:900px){
+  body{font-size:16px}
+  .hero-row{flex-direction:column;align-items:flex-start;gap:14px}
+  table{table-layout:auto}
+  .c-conf{display:none} th:nth-child(4),td:nth-child(4){display:none}
+  .c-tick{display:none} th:nth-child(3),td:nth-child(3){display:none}
+}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="hero">
+  <div class="kicker">Research reconstruction &middot; Jordi Visser &middot; Vera Rubin supply chain</div>
+  <h1>Jordi Visser's "25 Names": Reconstructing the Vera Rubin Optical / Photonics Report</h1>
+  <div class="hero-row">
+    <div class="meta">
+      Basis: <b>video transcript QHRUwziQ-oE</b> ("Short-term AI fear, long-term compute scarcity", Grow Your WEALTH research archive) &middot; Research date: <b>2026-08-02</b>
+      <div class="stats-line">26 candidate names &middot; 4 confirmed positions &middot; 10 sources &middot; list itself is paywalled &mdash; reconstruction only</div>
+    </div>
+  </div>
+</header>
+<div class="inner">
+
+  <section class="sec" id="claim">
+    <div class="sec-eye">What was actually said</div>
+    <h2>The Claim</h2>
+    <div class="card">
+      <p>In his weekly video published July 24-26, 2026, Jordi Visser (former Weiss Multi-Strategy chief, now 22V Research principal &amp; the <em>VisserLabs</em> Substack) revealed he had finally published a <b>"Vera Rubin report"</b> &mdash; three to four months of work identifying supply-chain names for Nvidia's next-generation Vera Rubin platform, focused on an earnings <b>"step-up function"</b> in optical and photonics.</p>
+      <div class="quote">&ldquo;I finally released the Vera Rubin report that I spent, in total, three or four months really working through it, trying to find companies that were not part of the 100-name portfolio. I think there's 25 that are not connected to it. They're still going to be correlated.&rdquo;<cite>&mdash; Jordi Visser, weekly video (QHRUwziQ-oE), July 2026</cite><div class="ctx">He deliberately does not read the names out on air; the full list goes to paying subscribers (hedge funds, mutual funds).</div></div>
+      <div class="quote">&ldquo;The Vera Rubin step-up &amp; the next beta: the 800V DC / Vera Rubin paper (~25 names) targets earnings step-up functions.&rdquo;<cite>&mdash; YouTube chapter marker, "AI's Speed Crash Is Creating the Next Opportunity" (vu2zBT3ced8), 37:47</cite><div class="ctx">Same report, one week earlier: confirms ~25 names and the 800 VDC power component.</div></div>
+      <div class="quote">&ldquo;Visser's broader report identifies roughly 25 names outside his core 100-stock portfolio that will benefit from the Vera Rubin cycle... The Vera Rubin buildout... approximately 25 new names, <b>many Asian</b>, with step-function revenue potential. His 800-volt DC infrastructure thesis also remains in play.&rdquo;<cite>&mdash; BigGo Finance recaps of the same episode, July 2026</cite><div class="ctx">Independent recap confirms the count, the "outside the 100-name portfolio" filter, and the Asian skew.</div></div>
+    </div>
+  </section>
+
+  <section class="sec" id="screen">
+    <div class="sec-eye">The filter he applied</div>
+    <h2>What We Know About the Screen</h2>
+    <div class="card">
+      <div class="criteria">
+        <div class="crit"><b>Step-up function</b><span>Companies whose earnings have NOT yet flowed through &mdash; looking for bigger beats and significant upward estimate revisions at the catalyst point (H2 2025 into 2026).</span></div>
+        <div class="crit"><b>Outside the 100-name portfolio</b><span>His thematic index (hardware, chemicals, semiconductors, optical fiber, energy infrastructure; mid/small-cap skewed) already held the obvious names &mdash; the 25 are the less-covered ones.</span></div>
+        <div class="crit"><b>Many Asian</b><span>Independent recap confirms heavy Asian representation &mdash; i.e. the Taiwanese / Chinese / Japanese / Korean optical and power ecosystem, under-covered by US analysts.</span></div>
+        <div class="crit"><b>Optical / photonics + 800 VDC</b><span>Two theses in one paper: Vera Rubin's co-packaged optics (CPO) networking step-up, plus the move to 800-volt DC rack power distribution.</span></div>
+      </div>
+      <p class="muted">Anchor facts from the video: Nvidia allegedly ramping <b>1,000 Vera Rubin racks/day = ~$630B/quarter potential</b>; Vera Rubin drives "performance per watt, lowest cost token worldwide"; Marvell remains his <b>largest position</b> and he <b>added AOI</b> the same week.</p>
+    </div>
+  </section>
+
+  <section class="sec" id="confirmed">
+    <div class="sec-eye">Names he confirmed out loud</div>
+    <h2>Confirmed Positions (not part of the 25)</h2>
+    <div class="card">
+      <div class="poses">
+        <div class="pose"><b>Marvell (MRVL)</b><span>His largest position. Optical DSP / PCIe 6 / CXL / CPO across Vera Rubin networking. "The reason why Marvell is still my biggest position."</span></div>
+        <div class="pose"><b>Applied Optoelectronics (AOI)</b><span>Added the same week as the report. Optical name (transceivers, DFB lasers); "technical correction made entry attractive."</span></div>
+        <div class="pose"><b>Micron (MU)</b><span>Memory (HBM4, SOCAMM2, Gen6 SSD) &mdash; he sold most in May, buying back at ~1/5 size. "AI = memory."</span></div>
+        <div class="pose"><b>Corning (GLW)</b><span>Named on his subscriber video as one of "10 names highly correlated to the 100-name index" &mdash; a Vera Rubin optical-fiber play (Nvidia partnership, Meta $6B deal).</span></div>
+      </div>
+      <p class="muted" style="margin-top:14px;">These sit in or around his core portfolio; by his own definition the 25 are <em>different</em> names &mdash; smaller, more obscure, mostly Asian.</p>
+    </div>
+  </section>
+
+  <section class="sec" id="names">
+    <div class="sec-eye">The reconstructed candidate pool</div>
+    <h2>The 25 Possible Names</h2>
+    <div class="card">
+      <p>Reconstruction method: cross-reference his stated screen (step-up, non-portfolio, Asian-leaning, optical + 800VDC) against the public Vera Rubin supply-chain research base &mdash; Nvidia's own partner disclosures (GTC 2026, Computex 2026), the "$2B + $2B" photonics investments in Coherent and Lumentum, and the two independent supply-chain teardowns listed in the sources. <b>Confidence reflects how strongly the public record places each name inside the Vera Rubin optical/photonics + 800VDC chain</b>, not whether Jordi specifically picked it.</p>
+      <div class="tablewrap">
+      <table>
+        <thead><tr>
+          <th class="c-num">#</th><th class="c-name">Company</th><th class="c-tick">Ticker</th><th class="c-conf">Conf.</th>
+          <th class="c-text">Role in the Vera Rubin supply chain</th><th class="c-text">Why it fits his screen</th>
+        </tr></thead>
+        <tbody>
+          <tr class="row-g"><td>1</td><td><b>Coherent</b></td><td>COHR (NYSE)</td><td><span class="badge g">High</span></td>
+            <td>Nvidia invested ~$2B (March 2026) + multibillion purchase commitment; silicon photonics already in Spectrum-X switches; ELS laser source for CPO; capacity doubling through CY27.</td>
+            <td>The single most-cited photonics supplier in every teardown; earnings step-up begins H2 2026 as Spectrum-6 CPO ramps.</td></tr>
+          <tr class="row-g"><td>2</td><td><b>Lumentum</b></td><td>LITE (Nasdaq)</td><td><span class="badge g">High</span></td>
+            <td>Mirror deal: ~$2B Nvidia investment + purchase commitment; primary external-laser-source (ELS) supplier with a ~15-month qualification lead; ~$480M Nvidia CPO revenue estimated FY27.</td>
+            <td>Highest near-term Nvidia CPO revenue share; new US fab capacity; the classic "step-up" profile.</td></tr>
+          <tr class="row-g"><td>3</td><td><b>Fabrinet</b></td><td>FN (NYSE)</td><td><span class="badge g">High</span></td>
+            <td>Thailand-based ODM assembling optical transceivers, CPO modules and laser modules; named by Nvidia in the CPO ecosystem; dominant contract manufacturer for US optics designers.</td>
+            <td>Assembly node where transceiver + CPO volumes convert to revenue; historically under-owned vs. designer peers.</td></tr>
+          <tr class="row-g"><td>4</td><td><b>Ciena</b></td><td>CIEN (NYSE)</td><td><span class="badge g">High</span></td>
+            <td>Optical systems &amp; coherent DSPs; WaveLogic coherent optics for data-center interconnect; supplies hyperscaler network fabrics alongside Nvidia ecosystems.</td>
+            <td>Pure-play optical at the systems level; estimate revisions lag transceiver makers &mdash; a later "step-up" candidate.</td></tr>
+          <tr class="row-g"><td>5</td><td><b>Nokia</b></td><td>NOK (NYSE)</td><td><span class="badge g">High</span></td>
+            <td>Acquired Infinera (2025) &mdash; coherent optics, plus silicon photonics push; large optical transport installed base inside telco/AI backbones.</td>
+            <td>Infinera integration + AI datacenter optics is a classic revision-up story; European name US funds under-weight.</td></tr>
+          <tr class="row-g"><td>6</td><td><b>Cisco</b></td><td>CSCO (Nasdaq)</td><td><span class="badge g">High</span></td>
+            <td>Owns Acacia (silicon photonics, coherent modules); ships 800G optics into AI fabrics; NVIDIA-named in optical ecosystem discussions.</td>
+            <td>Defensive optics incumbent; multiples and revisions offer room vs. the semiconductor complex.</td></tr>
+          <tr class="row-g"><td>7</td><td><b>Broadcom</b></td><td>AVGO (Nasdaq)</td><td><span class="badge g">High</span></td>
+            <td>Optical DSPs (PAM4), Tomahawk/Jericho Ethernet switches, its own CPO program; ESUN alliance member with Nvidia, Marvell, AMD for scale-out optical standards.</td>
+            <td>Mixed CPO threat vs. pluggables, but the scale-out networking step-up is real; huge AI revenue base.</td></tr>
+          <tr class="row-g"><td>8</td><td><b>Astera Labs</b></td><td>ALAB (Nasdaq)</td><td><span class="badge g">High</span></td>
+            <td>PCIe Gen6 retimers (Aries 6), Scorpio switches, CXL memory controllers &mdash; signal-integrity silicon for the densest racks ever built (1,300+ chips/NVL72).</td>
+            <td>Content-per-rack rises with Vera Rubin complexity; guidance beats consensus; "step-up" already visible.</td></tr>
+          <tr class="row-y"><td>9</td><td><b>Innolight (Zhongji Innolight)</b></td><td>300308.SZ</td><td><span class="badge y">Med</span></td>
+            <td>World's largest optical transceiver maker; 800G/1.6T modules into hyperscalers; dominant in Nvidia-adjacent networks.</td>
+            <td>The archetypal "many Asian" name; transceiver step-up with pricing power &mdash; exactly his screen.</td></tr>
+          <tr class="row-y"><td>10</td><td><b>Eoptolink</b></td><td>300502.SZ</td><td><span class="badge y">Med</span></td>
+            <td>800G/1.6T transceivers; hyperscaler design wins; fast ramp in CPO-adjacent pluggables.</td>
+            <td>Smaller, faster-growing Chinese transceiver peer; revision velocity is the whole thesis.</td></tr>
+          <tr class="row-y"><td>11</td><td><b>Accelink</b></td><td>002281.SZ</td><td><span class="badge y">Med</span></td>
+            <td>State-linked Chinese optical module maker; 400G/800G modules, coherent optics.</td>
+            <td>China AI buildout + export cycle; under-followed by Western funds.</td></tr>
+          <tr class="row-y"><td>12</td><td><b>Hisense Broadband</b></td><td>300821.SZ</td><td><span class="badge y">Med</span></td>
+            <td>400G/800G transceivers for AI data centers; aggressive capacity expansion.</td>
+            <td>Same Chinese transceiver cohort; earnings inflection timing lines up with H2 2025-26.</td></tr>
+          <tr class="row-y"><td>13</td><td><b>Sumitomo Electric</b></td><td>5802.T</td><td><span class="badge y">Med</span></td>
+            <td>InP laser diodes, optical fiber, MT ferrules &mdash; appears across NVLink 6, Quantum-X and Spectrum-X CPO (the "3-subsystem" optics supplier); upstream of Coherent/Lumentum.</td>
+            <td>The InP laser bottleneck; diversified but under-covered; step-up via CPO laser-die demand.</td></tr>
+          <tr class="row-y"><td>14</td><td><b>Fujikura</b></td><td>5803.T</td><td><span class="badge y">Med</span></td>
+            <td>Optical fiber, cabling and connectivity products used across AI datacenter buildouts.</td>
+            <td>Fiber demand scales with rack count; quiet Japanese compounder.</td></tr>
+          <tr class="row-y"><td>15</td><td><b>Furukawa Electric</b></td><td>5801.T</td><td><span class="badge y">Med</span></td>
+            <td>Optical fiber and components; long history in telecom/AI transport.</td>
+            <td>Same fiber bucket as Fujikura; cheap, cyclical-upturn leverage.</td></tr>
+          <tr class="row-y"><td>16</td><td><b>Yangtze Optical Fibre (YOFC)</b></td><td>6869.HK</td><td><span class="badge y">Med</span></td>
+            <td>Largest fiber producer globally; Nvidia-ecosystem partner; fiber demand driven by rack-scale networking.</td>
+            <td>Global fiber upturn + AI; China-listed/HK name with step-up in orders.</td></tr>
+          <tr class="row-y"><td>17</td><td><b>Hengtong Optic-Electric</b></td><td>600487.SS</td><td><span class="badge y">Med</span></td>
+            <td>Chinese fiber/cable giant; submarine + datacenter connectivity.</td>
+            <td>Volume fiber play on the same demand curve.</td></tr>
+          <tr class="row-y"><td>18</td><td><b>Browave</b></td><td>3163.TWO</td><td><span class="badge y">Med</span></td>
+            <td>Taiwanese fiber-optic component maker explicitly named by Nvidia in CPO ecosystem materials (fiber, micro-optics, connectors).</td>
+            <td>A direct Nvidia-named partner that US investors barely know &mdash; the report's exact profile.</td></tr>
+          <tr class="row-y"><td>19</td><td><b>TFC Optical Communication</b></td><td>300570.SZ</td><td><span class="badge y">Med</span></td>
+            <td>Fiber Array Units (FAUs) across NVLink 6, Quantum-X and Spectrum-X &mdash; the "picks and shovels of the picks and shovels" for CPO.</td>
+            <td>Highest-alpha teardown candidate; tiny, under-covered, direct CPO content.</td></tr>
+          <tr class="row-y"><td>20</td><td><b>POET Technologies</b></td><td>POET (Nasdaq)</td><td><span class="badge y">Med</span></td>
+            <td>Hybrid photonics platform (passive+active integration); 800G/CPO roadmap; micro-cap with design-win optionality.</td>
+            <td>The speculative "step-up lottery ticket" &mdash; fits his small/mid-cap thematic skew.</td></tr>
+          <tr class="row-y"><td>21</td><td><b>AXT Inc</b></td><td>AXTI (Nasdaq)</td><td><span class="badge y">Med</span></td>
+            <td>Pure-play InP/GaAs compound-semiconductor substrates &mdash; the raw material bottleneck behind every CPO laser (supplies Coherent/Lumentum/Ayar ecosystem).</td>
+            <td>~$350M market cap, off most radars; the classic second-order scarcity name.</td></tr>
+          <tr class="row-y"><td>22</td><td><b>Lightwave Logic</b></td><td>LWLG (Nasdaq)</td><td><span class="badge gr">Low</span></td>
+            <td>Polymer photonics / electro-optic modulators; long-running story, commercial ramp still unproven.</td>
+            <td>Speculative next-gen photonics; only fits if the report reaches beyond proven suppliers.</td></tr>
+          <tr class="row-y"><td>23</td><td><b>Delta Electronics</b></td><td>2308.TW</td><td><span class="badge y">Med</span></td>
+            <td>800VDC power racks, liquid-cooled busbars, UPS &mdash; one of the primary rack-level power partners for the 800V architecture.</td>
+            <td>The 800 VDC half of his paper; Taiwan mega-cap, under-covered by US investors.</td></tr>
+          <tr class="row-y"><td>24</td><td><b>Lite-On</b></td><td>2301.TW</td><td><span class="badge y">Med</span></td>
+            <td>1.5MW 800VDC power racks; confirmed Meta BBU supplier; capacity expansion in Kaohsiung.</td>
+            <td>Direct 800VDC revenue with "demand exceeding supply" &mdash; a literal step-up function.</td></tr>
+          <tr class="row-y"><td>25</td><td><b>Vicor</b></td><td>VICR (Nasdaq)</td><td><span class="badge y">Med</span></td>
+            <td>"Gold standard" 48V-to-sub-1V last-inch conversion (per Infineon materials); qualified for Nvidia's next-gen platform H2 2025.</td>
+            <td>Qualification + Nvidia ramp = the earnings inflection his screen hunts for.</td></tr>
+          <tr class="row-y"><td>26</td><td><b>Flex</b></td><td>FLEX (NYSE)</td><td><span class="badge y">Med</span></td>
+            <td>800VDC power racks + NVLink 6 system integration + full-rack assembly; appears across 3+ subsystems.</td>
+            <td>Broad Vera Rubin exposure beyond optics; contract-manufacturing margins improve with utilization.</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <div class="legend">
+        <span><span class="dot g"></span><span class="t">green = high confidence in the chain (Nvidia-named / $2B investments)</span></span>
+        <span><span class="dot y"></span><span class="t">yellow = strong fit via public teardowns (mostly Asian)</span></span>
+        <span><span class="dot gr"></span><span class="t">gray = speculative / unproven</span></span>
+      </div>
+      <p style="margin-top:14px" class="muted"><b>Honorable mentions</b> (also on the 800VDC / optics map): Vertiv (VRT), Eaton (ETN), GE Vernova (GEV), Schneider Electric, Hitachi Energy, Mitsubishi Electric, Fujitsu Optical, SENKO (private), Source Photonics. If 26 names seems one over &mdash; the true list could swap any of these for Lightwave Logic or Flex.</p>
+    </div>
+  </section>
+
+  <section class="sec" id="caveats">
+    <div class="sec-eye">How to read this</div>
+    <h2>Caveats &amp; Methodology</h2>
+    <div class="card">
+      <div class="warn"><b>This is a reconstruction, not the report.</b> The actual 25 names are paywalled (VisserLabs Substack / 22V Research, subscriber side; he posts the research prompts "this weekend" but not the list). Nothing here should be read as Jordi's actual picks or as financial advice.</div>
+      <p><b>What is certain:</b> the report exists; ~25 names; outside his 100-name portfolio; "many Asian" (per independent recap); optical/photonics + 800VDC focus; step-up earnings screen; MRVL largest position; AOI added same week.</p>
+      <p><b>What is reconstructed:</b> the candidate pool itself &mdash; assembled from Nvidia's public partner disclosures, the two independent Vera Rubin supply-chain teardowns (ksimback/Research-Public and Transurfing Volatility), and his own public comments across videos. Names in the teardowns that he almost certainly already holds in his 100-name index (TSMC, SK Hynix, Micron, Marvell, Nvidia itself, ARM, MediaTek, TSMC-adjacent packaging names) were deliberately excluded from the 25 to match his stated screen.</p>
+      <p><b>Inference discipline:</b> no ownership claim is made for any of the 26 names; confidence reflects supply-chain evidence, not his portfolio. H2 2026 (not 2025) is the operative earnings step-up window per the teardowns, one quarter later than his video's phrasing &mdash; a good example of why the reconstruction and the report can diverge.</p>
+    </div>
+  </section>
+
+  <section class="sec" id="sources">
+    <div class="sec-eye">Where every claim came from</div>
+    <h2>Sources</h2>
+    <div class="card">
+      <ol class="src">
+        <li><span class="n">1</span><div><b>Primary transcript &mdash; QHRUwziQ-oE.txt</b> (Jordi Visser weekly video, ~Jul 24, 2026, "Short-term AI fear, long-term compute scarcity"). <span class="tag">Local research archive, Grow Your WEALTH</span> &mdash; all direct quotes about the report, MRVL, AOI, 1,000 racks/day.</div></li>
+        <li><span class="n">2</span><div><b>BigGo Finance: "Jordi Visser: Google's $514B Backlog Shows the AI Trade Is Far From Over"</b> (Jul 26, 2026). <span class="tag">Episode recap</span> &mdash; confirms "~25 names outside his core 100-stock portfolio," optical step-up, AOI add. <a href="https://finance.biggo.com/news/12c9957b4621a2d4">finance.biggo.com/news/12c9957b4621a2d4</a></div></li>
+        <li><span class="n">3</span><div><b>BigGo Finance: "Jordi Visser: AI Agents Are Rewiring Markets Into Permanent Speed Crashes"</b> (Jul 19, 2026). <span class="tag">Episode recap</span> &mdash; "~25 new names, many Asian, step-function revenue potential; 800-volt DC thesis." <a href="https://finance.biggo.com/news/fce144d185fa0fc6">finance.biggo.com/news/fce144d185fa0fc6</a></div></li>
+        <li><span class="n">4</span><div><b>Jordi Visser YouTube: "AI's Speed Crash Is Creating the Next Opportunity"</b> (vu2zBT3ced8, Jul 19, 2026). <span class="tag">Primary video</span> &mdash; chapter 37:47 "Vera Rubin step-up &amp; the next beta: The 800V DC / Vera Rubin paper (~25 names)." <a href="https://www.youtube.com/watch?v=vu2zBT3ced8">youtube.com/watch?v=vu2zBT3ced8</a></div></li>
+        <li><span class="n">5</span><div><b>PodcastAlpha Substack: "Jordi Visser: The Hardware Era Has Started and the Mag7 Are Stuck"</b> (Jun 19, 2026). <span class="tag">Video recap</span> &mdash; "Marvell ran $90 to $300 in three months on optical networking. The Vera Rubin wave hasn't started, NVIDIA put in $2 billion..." <a href="https://podcastalpha.substack.com/p/visser-ai-stocks-20260617">podcastalpha.substack.com/p/visser-ai-stocks-20260617</a></div></li>
+        <li><span class="n">6</span><div><b>ksimback / Research-Public (GitHub): "NVIDIA GTC 2026 &mdash; Complete Supply Chain Alpha Report"</b> (Mar 2026). <span class="tag">Supply-chain teardown</span> &mdash; 17 direct beneficiaries + 2nd-order suppliers: Coherent/Lumentum $2B investments, Fabrinet, Astera, Delta, AXT, Sumitomo, Eaton, Modine, CPO TAM. <a href="https://github.com/ksimback/Research-Public/blob/main/nvidia_gtc2026_complete_supply_chain_alpha_report.md">github.com/ksimback/Research-Public</a></div></li>
+        <li><span class="n">7</span><div><b>FPX Research: "The Rubin Protocol: Supply Chain, Bottlenecks, and the Real Winners of the AI Buildout"</b> (Jan 2026). <span class="tag">Supply-chain teardown</span> &mdash; NVIDIA-named CPO ecosystem: Lumentum, Coherent, Sumitomo, Corning, Browave, SENKO, TFC, SPIL/ASE, Hon Hai, Fabrinet. <a href="https://research.fpx.world/p/the-rubin-protocol-supply-chain-bottlenecks">research.fpx.world/p/the-rubin-protocol-supply-chain-bottlenecks</a></div></li>
+        <li><span class="n">8</span><div><b>Transurfing Volatility: "Vera Rubin Decoded Pt. 6 &mdash; Supply Chain Master Reference"</b> (May 2026). <span class="tag">Supply-chain teardown</span> &mdash; optics trinity (Coherent, Lumentum, Corning), Sumitomo, TFC FAU, 800VDC partners (Delta, Flex, Lite-On, Vicor, Vertiv, Eaton, GE Vernova, Hitachi Energy), Lotes, Doosan, AVC/AURAS cooling. <a href="https://transurfing-volatility.com/vera-rubin-decoded-pt6/">transurfing-volatility.com/vera-rubin-decoded-pt6</a></div></li>
+        <li><span class="n">9</span><div><b>VisserLabs Substack + 22V Research</b>. <span class="tag">Distribution channels</span> &mdash; where the paywalled report and research prompts live. <a href="https://visserlabs.substack.com">visserlabs.substack.com</a> &middot; <a href="https://22vresearch.com/team-member/jordi-visser">22vresearch.com</a></div></li>
+        <li><span class="n">10</span><div><b>Secondary transcript &mdash; VVfTS50v91I.en.txt</b> (Jordi Visser weekly video, ~Aug 1, 2026). <span class="tag">Local research archive</span> &mdash; Corning named among "10 correlated names," AOI buy confirmed, Vera Rubin / token-efficiency commentary.</div></li>
+      </ol>
+    </div>
+  </section>
+
+</div>
+</div>
+</body>
+</html>

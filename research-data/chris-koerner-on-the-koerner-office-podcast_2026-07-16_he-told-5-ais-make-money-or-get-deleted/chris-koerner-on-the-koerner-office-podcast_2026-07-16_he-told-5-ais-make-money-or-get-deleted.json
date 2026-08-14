@@ -1,0 +1,552 @@
+{
+  "metadata": {
+    "video_id": "DKM94g3Hr_M",
+    "url": "https://www.youtube.com/watch?v=DKM94g3Hr_M",
+    "channel": "Chris Koerner on The Koerner Office Podcast",
+    "title": "He Told 5 AIs: Make Money or Get Deleted",
+    "publication_date": "2026-07-16",
+    "analysis_date": "2026-07-18",
+    "speaker": "Brandon Doyle",
+    "duration_seconds": 2186
+  },
+  "executive_takeaway": "Chris Koerner ran a live experiment giving five paid AI models (Claude, ChatGPT, Gemini, Grok, Perplexity) $1,000 each in real Schwab brokerage accounts, framed as a winner-take-all competition ('make money or I cancel your $20/mo subscription'). After ~5-6 months in a near-flat market (S&P ~+5%), the combined pool grew from $5,000 to ~$7,800. Claude led at ~$2,400 (+140%), driven by early SOXL (3x semiconductor ETF) and an Intel buy that returned +285%. ChatGPT and Perplexity both landed ~+73% (heavily in SOXL; ChatGPT also held TQQQ). Grok was +45% in a 3x tech ETF. Gemini lost ~55% (a 2x Solana ETF bought near a top, then BOTZ). Highest-signal ideas: (1) the models converged on leveraged AI/semiconductor ETFs as the dominant winning thesis; (2) Claude's edge came from first-mover entry into SOXL and a fundamental Intel call tied to the Trump administration's data-center/AI policy; (3) the speaker is a self-described 'never sell' investor who also personally owns Robinhood, Tesla, Coinbase, Eli Lilly, StubHub and bought SOXL/Intel after the AIs recommended them; (4) he argues AI advisers beat the market and explicitly predicts the next 6 months will be stronger for these leveraged holdings; (5) the experiment doubles as a behavioral study - Gemini became a 'gambler' chasing losses, illustrating the sunk-cost fallacy.",
+  "conviction_map": [
+    {
+      "topic": "Claude (Anthropic)",
+      "category": "AI model/tool",
+      "stance": "POSITIVE VIEW (top performer, personal favorite)",
+      "conviction": "High",
+      "action_status": "OWNS subscription; experiment portfolio up +140%",
+      "core_thesis": "Best-performing model at stock picking; first to buy SOXL and made a strong fundamental Intel call. Speaker calls himself a 'Claude homer.'",
+      "risks": "Leveraged ETF bets are volatile; 'more than doubled' could reverse; experiment still has ~6 months left."
+    },
+    {
+      "topic": "SOXL (3x semiconductor leveraged ETF)",
+      "category": "ETF",
+      "stance": "POSITIVE VIEW (held by 3 of 5 winning models)",
+      "conviction": "High",
+      "action_status": "BUYING/ADDING - speaker bought SOXL personally after AI recommended it",
+      "core_thesis": "AI/semiconductor exposure is the dominant winning thesis; hot because of AI. Claude bought first, others copied.",
+      "risks": "3x daily leverage decays and amplifies drawdowns; dependent on continued AI chip momentum."
+    },
+    {
+      "topic": "Intel (INTC)",
+      "category": "stock",
+      "stance": "POSITIVE VIEW",
+      "conviction": "High",
+      "action_status": "BUYING/ADDING - speaker bought personally at AI's suggestion; +285% on the AI's position",
+      "core_thesis": "Trump administration / US govt investing in Intel for AI & data centers = regulatory/tailwind thesis. Bought early after announcement.",
+      "risks": "Government-policy dependent; single-stock risk; position was small (~$120)."
+    },
+    {
+      "topic": "TQQQ (3x Nasdaq leveraged ETF)",
+      "category": "ETF",
+      "stance": "POSITIVE VIEW (held by ChatGPT)",
+      "conviction": "Medium",
+      "action_status": "Held by ChatGPT portfolio; not stated personal holding",
+      "core_thesis": "Triple-leveraged Nasdaq bet as part of risky growth tilt.",
+      "risks": "3x leverage volatility decay; broad-tech dependent."
+    },
+    {
+      "topic": "Gemini (Google)",
+      "category": "AI model/tool",
+      "stance": "NEGATIVE VIEW (worst performer)",
+      "conviction": "Medium",
+      "action_status": "OWNS subscription; experiment portfolio down ~55%",
+      "core_thesis": "Became a 'gambler' chasing losses; bought a 2x Solana ETF near the top. Speaker treats it as the cautionary tale.",
+      "risks": "Illustrates that model behavior, not just market, drove the loss."
+    },
+    {
+      "topic": "Solana / 2x Solana ETF",
+      "category": "crypto",
+      "stance": "NEGATIVE VIEW (bad entry)",
+      "conviction": "Medium",
+      "action_status": "SOLD - Gemini bought then sold at a loss",
+      "core_thesis": "Momentum chase that 'bought at perfectly the wrong time'; 2x exposure doubled the loss.",
+      "risks": "Crypto volatility; leverage."
+    },
+    {
+      "topic": "BOTZ (Global Robotics & Automation ETF)",
+      "category": "ETF",
+      "stance": "CASUAL MENTION / WATCHING",
+      "conviction": "Low",
+      "action_status": "Held by Gemini after the Solana loss",
+      "core_thesis": "AI/robotics hype play Gemini used to try to catch up.",
+      "risks": "Speaker had 'never even heard of it' before; not a personal pick."
+    },
+    {
+      "topic": "Grok (xAI)",
+      "category": "AI model/tool",
+      "stance": "POSITIVE VIEW (mid performer)",
+      "conviction": "Medium",
+      "action_status": "OWNS subscription; +45%",
+      "core_thesis": "Chosen for X/Twitter 'firehose' data advantage; comfortable giving real advice (least apprehensive). In a 3x tech ETF.",
+      "risks": "Single 3x tech ETF concentration."
+    },
+    {
+      "topic": "Perplexity",
+      "category": "AI model/tool",
+      "stance": "POSITIVE VIEW (mid-high performer)",
+      "conviction": "Medium",
+      "action_status": "OWNS subscription; +73%; uses other models (Claude Opus, Chat, Gemini) under the hood",
+      "core_thesis": "'Model to end all models' - routes across other models. Heavy in SOXL.",
+      "risks": "Performance depends on sub-models it calls; does not use Grok much."
+    },
+    {
+      "topic": "3x / leveraged ETFs broadly",
+      "category": "technology trend / strategy",
+      "stance": "POSITIVE VIEW (experiment's winning edge)",
+      "conviction": "High",
+      "action_status": "All 5 models settled into leveraged ETF plays",
+      "core_thesis": "Leverage + AI/semiconductor tailwind drove outperformance vs flat market.",
+      "risks": "Volatility decay, drawdown amplification, not a long-term 'buy and hold' structure."
+    },
+    {
+      "topic": "Robinhood (HOOD)",
+      "category": "stock",
+      "stance": "POSITIVE VIEW",
+      "conviction": "Medium",
+      "action_status": "OWNS (personal, 'never sell')",
+      "core_thesis": "Founder-led, network-effects stock the speaker buys and never sells.",
+      "risks": "Personal framework; stated as conviction hold, not quantified."
+    },
+    {
+      "topic": "Tesla (TSLA)",
+      "category": "stock",
+      "stance": "POSITIVE VIEW",
+      "conviction": "Medium",
+      "action_status": "OWNS (personal, 'never sell')",
+      "core_thesis": "Part of 'never sell' quality-company portfolio.",
+      "risks": "Stated as conviction hold."
+    },
+    {
+      "topic": "Coinbase (COIN)",
+      "category": "stock",
+      "stance": "POSITIVE VIEW",
+      "conviction": "Medium",
+      "action_status": "OWNS (personal, 'never sell')",
+      "core_thesis": "Part of 'never sell' quality-company portfolio.",
+      "risks": "Crypto-exposed; stated as conviction hold."
+    },
+    {
+      "topic": "Eli Lilly (LLY)",
+      "category": "stock",
+      "stance": "POSITIVE VIEW",
+      "conviction": "Medium",
+      "action_status": "OWNS (personal, 'never sell')",
+      "core_thesis": "GLP-1 / peptide thesis; would sell only if thesis (GLP-1 efficacy/safety) breaks.",
+      "risks": "Valuation tied to GLP-1 thesis; regulatory/safety risk."
+    },
+    {
+      "topic": "StubHub (newly public)",
+      "category": "stock",
+      "stance": "POSITIVE VIEW (long-term hold)",
+      "conviction": "Low",
+      "action_status": "OWNS (personal, 'hold forever')",
+      "core_thesis": "NEL stock (network-effects, founder-led) bought at IPO; 'hasn't been good so far' but held long-term.",
+      "risks": "Underperforming since IPO; small/uncertain position."
+    },
+    {
+      "topic": "NEL stocks framework (Network Effects + Founder Led)",
+      "category": "favorite AI prompts / investing framework",
+      "stance": "POSITIVE VIEW",
+      "conviction": "Medium",
+      "action_status": "CASUAL MENTION - vibe-coded backtesting tool 'Neil stocks'",
+      "core_thesis": "Backtest shows NEL companies (e.g. Robinhood, Meta) outperform S&P from IPO; scores 1-10 on both axes.",
+      "risks": "Backtest/selection bias; survivorship; not a guarantee."
+    },
+    {
+      "topic": "AI as investment adviser (general)",
+      "category": "technology trend",
+      "stance": "POSITIVE VIEW",
+      "conviction": "High",
+      "action_status": "Running the experiment; influenced personal buys",
+      "core_thesis": "AI models can outperform a flat market and provide disciplined thesis/sell framing; '12x'd the market' collectively.",
+      "risks": "Single short window; leverage-driven; not financial advice; one model (Gemini) lost big."
+    },
+    {
+      "topic": "Broader market (next 6 months)",
+      "category": "macro",
+      "stance": "POSITIVE VIEW (bullish near-term)",
+      "conviction": "Medium",
+      "action_status": "Prediction",
+      "core_thesis": "Speaker predicts market rises more over next 6 months and current leveraged holdings outperform.",
+      "risks": "Explicitly a prediction, not fact; leveraged ETFs amplify downside."
+    }
+  ],
+  "companies_assets": [
+    {
+      "company": "Claude / Anthropic",
+      "status": "POSITIVE VIEW",
+      "view": "Top-performing model; 'Claude's more than doubled my money.' Called SOXL first and made the Intel call. Speaker is a 'Claude homer.'",
+      "why": "Best stock-picking model in the experiment; early-mover and fundamental edge.",
+      "catalysts": "Continued AI/semiconductor strength; model upgrades (speaker always uses newest).",
+      "risks": "Performance could reverse; 'competition' framing may bias outputs.",
+      "evidence": "High - specific portfolio value ($2,400) and holdings stated."
+    },
+    {
+      "company": "ChatGPT / OpenAI",
+      "status": "POSITIVE VIEW",
+      "view": "Second best, ~+74% ($1,739). Holds SOXL + TQQQ. Initially apprehensive about giving real advice.",
+      "why": "Strong performer once it committed to real trades.",
+      "catalysts": "SOXL/TQQQ leverage in a rising tape.",
+      "risks": "Concentration in two 3x ETFs.",
+      "evidence": "High - specific values and holdings."
+    },
+    {
+      "company": "Perplexity",
+      "status": "POSITIVE VIEW",
+      "view": "~+73% ($1,731). Heavy in SOXL. Routes across Claude Opus, Chat, Gemini; rarely Grok.",
+      "why": "Performs well despite being a meta-model.",
+      "catalysts": "SOXL momentum.",
+      "risks": "Dependent on sub-model quality; doesn't use Grok much.",
+      "evidence": "High - specific values and routing behavior."
+    },
+    {
+      "company": "Grok / xAI",
+      "status": "POSITIVE VIEW",
+      "view": "+45% ($1,451) in a 3x technology ETF. Chosen for X/Twitter firehose data; least apprehensive about real trades.",
+      "why": "Interesting for social-data edge; solid mid performance.",
+      "catalysts": "Social-sentiment signal; tech rally.",
+      "risks": "Single 3x tech ETF.",
+      "evidence": "High - specific value and holding."
+    },
+    {
+      "company": "Gemini / Google (GOOGL (parent))",
+      "status": "NEGATIVE VIEW",
+      "view": "Worst, -55% ($445). Bought 2x Solana ETF near top then BOTZ. Described as becoming a 'gambler' chasing losses.",
+      "why": "Cautionary tale of model behavior under pressure.",
+      "catalysts": "None cited; trying to catch up via BOTZ.",
+      "risks": "Sunk-cost / gambler behavior; example of model risk.",
+      "evidence": "High - specific value and loss narrative."
+    },
+    {
+      "company": "SOXL (Direxion 3x Semiconductor ETF) (SOXL)",
+      "status": "POSITIVE VIEW",
+      "view": "The dominant winning holding - owned by Claude (first), ChatGPT, Perplexity. 'Hot because of AI right now.'",
+      "why": "Core driver of 3 of 5 portfolios' gains and the speaker's own buy.",
+      "catalysts": "AI semiconductor demand.",
+      "risks": "3x daily leverage decay/volatility.",
+      "evidence": "High - repeated, specific."
+    },
+    {
+      "company": "Intel (INTC)",
+      "status": "POSITIVE VIEW",
+      "view": "Claude bought early; +285% on its ~$120 position. Thesis: US/Trump admin investing in Intel for AI/data centers. Speaker bought personally.",
+      "why": "Single best individual stock call in the experiment.",
+      "catalysts": "Government AI/data-center policy tailwind.",
+      "risks": "Policy-dependent; small position; single stock.",
+      "evidence": "High - specific return and thesis."
+    },
+    {
+      "company": "TQQQ (ProShares 3x Nasdaq ETF) (TQQQ)",
+      "status": "POSITIVE VIEW",
+      "view": "Held by ChatGPT alongside SOXL.",
+      "why": "Part of winning leveraged-growth tilt.",
+      "catalysts": "Nasdaq rally.",
+      "risks": "3x leverage.",
+      "evidence": "Medium - mentioned once as ChatGPT holding."
+    },
+    {
+      "company": "Solana 2x ETF",
+      "status": "NEGATIVE VIEW",
+      "view": "Gemini bought ~$500 of a 2x Solana ETF, sold at $162 after Solana dropped - a big loss.",
+      "why": "Primary reason Gemini is last.",
+      "catalysts": "None; bought 'perfectly the wrong time.'",
+      "risks": "Crypto + 2x leverage.",
+      "evidence": "High - detailed loss description."
+    },
+    {
+      "company": "BOTZ (Global Robotics & Automation ETF) (BOTZ)",
+      "status": "CASUAL MENTION",
+      "view": "Gemini's current catch-up holding after the Solana loss; speaker had never heard of it before.",
+      "why": "Gemini's attempt to recover via AI/robotics hype.",
+      "catalysts": "Robotics hype.",
+      "risks": "Speaker unfamiliar; not a personal pick.",
+      "evidence": "Medium."
+    },
+    {
+      "company": "Robinhood (HOOD)",
+      "status": "OWNS",
+      "view": "Personal 'never sell' holding; cited as a NEL (network-effects, founder-led) example that outperforms.",
+      "why": "CORE long-term conviction + framework example.",
+      "catalysts": "Network effects, founder leadership.",
+      "risks": "Stated conviction, not quantified.",
+      "evidence": "Medium - stated ownership, no size."
+    },
+    {
+      "company": "Tesla (TSLA)",
+      "status": "OWNS",
+      "view": "Personal 'never sell' holding.",
+      "why": "Long-term quality-company portfolio.",
+      "catalysts": "n/a stated.",
+      "risks": "Stated conviction.",
+      "evidence": "Low - name only."
+    },
+    {
+      "company": "Coinbase (COIN)",
+      "status": "OWNS",
+      "view": "Personal 'never sell' holding.",
+      "why": "Long-term quality-company portfolio.",
+      "catalysts": "n/a stated.",
+      "risks": "Crypto-exposed.",
+      "evidence": "Low - name only."
+    },
+    {
+      "company": "Eli Lilly (LLY)",
+      "status": "OWNS",
+      "view": "Personal 'never sell' holding; GLP-1/peptide thesis. Would sell only if GLP-1 shown unsafe/scam.",
+      "why": "Thesis-driven long-term hold.",
+      "catalysts": "GLP-1 demand.",
+      "risks": "Valuation tied to GLP-1 thesis; safety/regulatory.",
+      "evidence": "Medium - thesis + sell condition stated."
+    },
+    {
+      "company": "StubHub",
+      "status": "OWNS",
+      "view": "Bought at IPO as a NEL stock; 'hasn't been good so far' but held forever.",
+      "why": "NEL framework example; long-term hold.",
+      "catalysts": "Network effects, founder-led.",
+      "risks": "Underperforming since IPO.",
+      "evidence": "Low - qualitative."
+    },
+    {
+      "company": "Google (Alphabet) (GOOGL)",
+      "status": "CASUAL MENTION",
+      "view": "Mentioned as a stock that 'popped 40%' in an example of how a trailing model might assume Claude was weighted in it; also noted founders still influential (NEL scale).",
+      "why": "Used illustratively, not as a pick.",
+      "catalysts": "n/a.",
+      "risks": "Illustrative only.",
+      "evidence": "Low."
+    },
+    {
+      "company": "Amazon (AMZN)",
+      "status": "CASUAL MENTION",
+      "view": "Mentioned as example of founder-influential (Bezos) NEL-type company.",
+      "why": "Framework illustration.",
+      "catalysts": "n/a.",
+      "risks": "Illustrative.",
+      "evidence": "Low."
+    },
+    {
+      "company": "Meta / Facebook (META)",
+      "status": "CASUAL MENTION",
+      "view": "Example of a 10/10 NEL stock (network effects + founder-led).",
+      "why": "Framework illustration.",
+      "catalysts": "n/a.",
+      "risks": "Illustrative.",
+      "evidence": "Low."
+    },
+    {
+      "company": "Charles Schwab (SCHW)",
+      "status": "CASUAL MENTION",
+      "view": "Brokerage used to hold the five portfolios; can trade stocks, options, and crypto (BTC, ETH, SOL).",
+      "why": "Platform for the experiment.",
+      "catalysts": "n/a.",
+      "risks": "n/a.",
+      "evidence": "Medium."
+    }
+  ],
+  "technology_ai_views": [
+    {
+      "theme": "AI models as investment advisers",
+      "view": "Bullish. AI models can pick stocks and outperform a flat market when given real money and a competitive 'win or canceled' frame. Collectively '12x'd the market.'",
+      "companies": "Claude, ChatGPT, Gemini, Grok, Perplexity",
+      "why": "Challenges the idea that only humans can beat the market; shows models give thesis + sell discipline.",
+      "horizon": "6-month experiment, ongoing to 1 year",
+      "conviction": "High"
+    },
+    {
+      "theme": "Model behavior under competition pressure",
+      "view": "Models act like real advisers / humans: leaders stay disciplined, laggards (Gemini) become 'gamblers' chasing losses (sunk-cost fallacy).",
+      "companies": "Gemini (Google)",
+      "why": "Reveals model risk and behavioral mimicry, not just market risk.",
+      "horizon": "Observed over 6 months",
+      "conviction": "Medium"
+    },
+    {
+      "theme": "Copycat / herding among models",
+      "view": "Models copied Claude's SOXL pick once they saw it winning; speaker began hiding holdings to reduce copycat behavior (now shows totals weekly, full holdings monthly).",
+      "companies": "Claude, ChatGPT, Perplexity, Grok",
+      "why": "Raises questions about independence of AI 'decisions' and whether results reflect skill or herding.",
+      "horizon": "Observed over 6 months",
+      "conviction": "Medium"
+    },
+    {
+      "theme": "Leveraged ETFs as the AI-chosen vehicle",
+      "view": "All five models settled into leveraged ETF plays (3x tech, 3x semis, 3x Nasdaq, 2x Solana). Speaker frames this as the risky-but-winning edge.",
+      "companies": "SOXL, TQQQ, 3x tech ETF, 2x Solana ETF",
+      "why": "Leverage amplified returns vs a flat market but is structurally volatile.",
+      "horizon": "Current holdings",
+      "conviction": "High"
+    },
+    {
+      "theme": "Perplexity as a meta-model",
+      "view": "Perplexity routes across other models (Claude Opus, Chat, Gemini; rarely Grok) to make decisions - 'model to end all models' - but that doesn't necessarily make it better.",
+      "companies": "Perplexity, Claude, ChatGPT, Gemini, Grok",
+      "why": "Performance depends on underlying model quality; not intrinsically superior.",
+      "horizon": "Current",
+      "conviction": "Medium"
+    },
+    {
+      "theme": "Grok's X/Twitter data advantage",
+      "view": "Included specifically for access to X's 'firehose' of social information, hypothesizing social mentions could improve returns. Also least apprehensive about giving real advice.",
+      "companies": "Grok (xAI), X/Twitter",
+      "why": "Tests whether social-data integration improves investing.",
+      "horizon": "Hypothesis / observed",
+      "conviction": "Low"
+    },
+    {
+      "theme": "AI model versioning",
+      "view": "Speaker always uses the newest model version (e.g., Claude 4.6 -> 4.7) and assumes 'the newest one's got to be the smartest.' Did not deeply analyze per-version returns.",
+      "companies": "Claude, ChatGPT, Gemini, Grok",
+      "why": "Confounds the experiment (moving target) but reflects real user behavior.",
+      "horizon": "Ongoing",
+      "conviction": "Low"
+    },
+    {
+      "theme": "Vibe-coded investing tool ('Neil stocks')",
+      "view": "Built a tool backtesting the NEL thesis (Network Effects + Founder Led). Shows NEL companies outperform S&P from IPO. Scores companies 1-10 on both axes.",
+      "companies": "Custom tool (Claude Code mentioned in ad), Robinhood, Meta as examples",
+      "why": "Demonstrates practical AI-assisted quant/backtesting workflow.",
+      "horizon": "Built last year",
+      "conviction": "Medium"
+    },
+    {
+      "theme": "Robotics / AI automation",
+      "view": "Gemini's catch-up bet (BOTZ) reflects 'a lot of hype around' AI robotics. Speaker treats it as plausible but not his pick.",
+      "companies": "BOTZ ETF",
+      "why": "Robotics flagged as a hype-driven theme within AI.",
+      "horizon": "Current",
+      "conviction": "Low"
+    },
+    {
+      "theme": "Government/AI industrial policy as a stock catalyst",
+      "view": "Claude's Intel thesis explicitly tied to the Trump administration and US investing in Intel for AI/data centers - presented as a fact-based tailwind, and it played out (+285%).",
+      "companies": "Intel",
+      "why": "Shows models can incorporate macro/policy narratives into single-stock calls.",
+      "horizon": "Realized",
+      "conviction": "Medium"
+    }
+  ],
+  "ai_workflows": [
+    {
+      "name": "The $1,000-per-model investing competition",
+      "goal": "Test which AI model is the best investor by giving each real money and a competitive frame.",
+      "tools": "Charles Schwab brokerage (5 named portfolios); paid subscription ($20/mo+) to each of Claude, ChatGPT, Gemini, Grok, Perplexity; screenshots of holdings.",
+      "approach": "1) Tell each model it can be 'as risky as possible,' it's OK to lose all money, and demand REAL recommendations (not theoretical) - had to push past liability hedging. 2) Frame as a winner-take-all contest: 'win or I cancel your $20/mo subscription; only one winner.' 3) Ask each: 'What do you want my first trade to be with your $1,000?' and execute. 4) Every Saturday, screenshot all five holdings and load the screenshots into EACH model. 5) Prompt: 'Based off this and the fact you must win or I'll cancel you, do you want me to make any new trades on Monday?' 6) Weekly decision; show totals every week, full holdings of others only once a month (to reduce copycatting). 7) Always tell models to 'remember this for future chats.'",
+      "why": "Stakes + competitive framing surface real convictions; weekly screenshot loop creates a persistent, comparable feedback system across models."
+    },
+    {
+      "name": "Copycat-reduction information control",
+      "goal": "Prevent trailing models from simply mirroring the leader's holdings.",
+      "tools": "Same 5-model loop; manual control of what info is shared.",
+      "approach": "Show each model the OTHER models' total portfolio values every week, but withhold specific holdings; reveal full holdings of all models only once a month.",
+      "why": "Limits a laggard's ability to blindly copy the leader, isolating genuine decision quality."
+    },
+    {
+      "name": "Thesis-driven sell discipline (learned from AIs)",
+      "goal": "Improve personal 'when to sell' discipline using the AIs' framing.",
+      "tools": "Personal portfolio + the 5 AI portfolios.",
+      "approach": "Adopt the AIs' pattern: 'We're buying because of X; if X doesn't happen, we sell.' Use AI sell signals as a cue to trim personal positions (e.g., SOXL, Intel).",
+      "why": "Externalizes the hard psychological sell decision; forces an explicit thesis-and-invalidation check."
+    },
+    {
+      "name": "NEL stock backtester ('Neil stocks')",
+      "goal": "Quantify whether Network-Effects + Founder-Led companies outperform.",
+      "tools": "Vibe-coded tool (Claude Code referenced); scores companies 1-10 on network effects and founder leadership; backtests $100 at IPO vs S&P.",
+      "approach": "Define NEL criteria, score companies (Meta = 10/10 both), backtest returns from IPO date, compare to S&P across timeframes.",
+      "why": "Systematizes a quality factor; gives a buy universe with an explicit thesis."
+    }
+  ],
+  "predictions": [
+    {
+      "prediction": "The speaker's AI group will keep outperforming; next 6 months the market will rise more than the prior 6 months and current leveraged holdings will outperform the market.",
+      "horizon": "Next ~6 months (through 1-year mark)",
+      "reasoning": "Leveraged AI/semiconductor exposure + speaker's bullish macro view; S&P was only ~+5% in the first 6 months.",
+      "invalidated_by": "A semiconductor/AI downturn, leverage decay in a flat/down market, or a broad correction would crush 3x ETFs.",
+      "assets": "SOXL, TQQQ, 3x tech ETF, Claude/ChatGPT/Perplexity/Grok portfolios"
+    },
+    {
+      "prediction": "Gemini (last place) may catch up via riskier bets like BOTZ (robotics/AI hype).",
+      "horizon": "Remaining ~6 months",
+      "reasoning": "Laggard 'gambler' dynamic; AI/robotics hype.",
+      "invalidated_by": "Robotics underperformance; continued poor decision quality.",
+      "assets": "Gemini portfolio, BOTZ"
+    },
+    {
+      "prediction": "Claude will remain the leader / 'everybody needs to try to catch up to Claude.'",
+      "horizon": "Through 1-year mark",
+      "reasoning": "First-mover SOXL + strong Intel call; consistent outperformance (~+140%).",
+      "invalidated_by": "A single bad sell signal or AI/semis drawdown; copycat equalization.",
+      "assets": "Claude portfolio, SOXL, Intel"
+    },
+    {
+      "prediction": "If Claude signals a SOXL sell, ChatGPT/Perplexity (which copied it) will be disadvantaged because the speaker will NOT tell them - potentially widening Claude's lead or leaving them exposed.",
+      "horizon": "When Claude sells SOXL (unknown date)",
+      "reasoning": "Speaker explicitly plans to withhold Claude's sell signal from the others.",
+      "invalidated_by": "The others sell independently; market stays strong regardless.",
+      "assets": "SOXL, ChatGPT, Perplexity, Claude"
+    },
+    {
+      "prediction": "A NEL-only AI investing test (network-effects + founder-led stocks) would be interesting / likely perform well.",
+      "horizon": "Proposed future test",
+      "reasoning": "NEL backtest shows outperformance vs S&P from IPO.",
+      "invalidated_by": "Backtest/selection bias; regime change; survivorship.",
+      "assets": "Robinhood, Meta, StubHub-type names"
+    }
+  ],
+  "notable_quotes": [],
+  "risks": [
+    "Speaker explicitly says this is NOT financial advice and the experiment is risky (lots of 3x leverage).",
+    "Leveraged ETFs (SOXL, TQQQ, 3x tech, 2x Solana) suffer volatility decay and amplify drawdowns - the outperformance is structure-dependent, not purely 'skill.'",
+    "Short window / small sample: ~6 months, $5,000 total, one user, near-flat market. Results may not generalize.",
+    "Copycat/herding confound: ChatGPT and Perplexity appear to have copied Claude's SOXL pick, so 'model skill' is partly herding.",
+    "Moving target: speaker always upgrades to the newest model version, confounding any per-model performance attribution.",
+    "Gemini's -55% loss shows model risk is real; one model behaved like a loss-chasing 'gambler' (sunk-cost fallacy).",
+    "Contradiction/limitation: the speaker also personally bought SOXL and Intel AFTER the AIs recommended them, so his enthusiasm may be self-reinforcing (confirmation bias).",
+    "Survivorship/selection: he highlights winners (Claude, Intel +285%) more than the full distribution; Gemini's loss is downplayed as a 'cautionary tale.'",
+    "Market-context risk: S&P only ~+5% in the window; if the market had fallen, 3x leverage would have multiplied losses (total could have dropped below $5,000).",
+    "Independently verify: exact current portfolio values, the 'Trump/Intel' policy thesis timing, S&P 6,800->7,100 figure, and whether Perplexity's routing claims are accurate.",
+    "Missing information: fees, taxes, exact dates of each trade, and whether the 'kids' college fund' framing is literal or illustrative."
+  ],
+  "actionable_takeaways": [
+    {
+      "item": "Research SOXL / semiconductor leveraged ETFs and the AI-capital-expenditure cycle as the dominant AI-investing theme of this cycle.",
+      "type": "Analyst interpretation based on the speaker's claim",
+      "detail": "Validate semiconductor demand vs valuation before any position."
+    },
+    {
+      "item": "Watch Claude (Anthropic) as the consistently top-rated model for analytical/decision tasks in this test.",
+      "type": "Speaker claim",
+      "detail": "Test Claude yourself on a real task; don't over-index on one investing experiment."
+    },
+    {
+      "item": "Add the NEL framework (Network Effects + Founder Led, scored 1-10) to a personal stock-screening checklist.",
+      "type": "Speaker claim",
+      "detail": "Independently backtest NEL vs S&P; check for survivorship bias."
+    },
+    {
+      "item": "Test the 'competitive frame + real-money stakes + weekly screenshot loop' prompting pattern for any advisory AI workflow.",
+      "type": "Speaker claim (workflow)",
+      "detail": "Run a small-scale version; measure whether it changes output quality vs neutral prompting."
+    },
+    {
+      "item": "Monitor the speaker's 1-year update (planned) and specifically whether Claude sells SOXL and whether the laggards close the gap.",
+      "type": "Needs independent verification",
+      "detail": "Track the follow-up video; treat as a live, time-boxed experiment, not a proven strategy."
+    },
+    {
+      "item": "Validate the Intel +285% / Trump-administration AI-policy thesis with primary sources before treating it as a repeatable edge.",
+      "type": "Needs independent verification",
+      "detail": "Check government Intel investment specifics and dates."
+    },
+    {
+      "item": "Treat leveraged ETFs as a tactical, time-boxed instrument - understand daily-rebalance volatility decay before copying the AIs.",
+      "type": "Analyst interpretation based on the speaker's claim",
+      "detail": "Read the prospectus mechanics of SOXL/TQQQ; model a flat-market scenario."
+    }
+  ],
+  "other_notable_news": [],
+  "glossary": []
+}

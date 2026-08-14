@@ -1,0 +1,791 @@
+{
+ "metadata": {
+  "video_id": "",
+  "url": "",
+  "channel": "Jordi Visser",
+  "title": "The Visser 100 — Reconstruction Brief | Jordi Visser Deep Research",
+  "publication_date": "2026-08-02",
+  "analysis_date": "2026-08-02",
+  "speaker": "Reconstruction brief — compiled from public sources, not a single video"
+ },
+ "executive_takeaway": "",
+ "conviction_map": [
+  {
+   "topic": "NVIDIA (NVDA)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "1 — Whole Rack — Core long-term holding; \"lowest PE in a decade\" (Apr); +120% YTD (Jun); 10-name list member; Jensen commentary = his main research input",
+   "risks": ""
+  },
+  {
+   "topic": "Marvell (MRVL)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "2 — Whole Rack / Optical — \"Favored\" — optical interconnect moat (Jun); Jensen-named; added small positions (Jul); +60% YTD; 10-name candidate",
+   "risks": ""
+  },
+  {
+   "topic": "Micron (MU)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "3 — Whole Rack — memory — Long \"memory bottleneck trade\"; sold (Jun) then repurchased ~1/5 of May position below ~$850, 200-day ~$500 (Jul); \"another five bagger\" potential",
+   "risks": ""
+  },
+  {
+   "topic": "Intel (INTC)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "4 — Whole Rack — CPU — Long; \"agentic AI server CPU shortage\" (Mar); started buying below $110; +400% from lows (Jun)",
+   "risks": ""
+  },
+  {
+   "topic": "AMD (AMD)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "5 — Whole Rack — CPU — Long; same agentic-CPU shortage thesis (Mar)",
+   "risks": ""
+  },
+  {
+   "topic": "Western Digital (WDC)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "6 — Whole Rack — memory — Long; \"AI memory shortage\" (Jan)",
+   "risks": ""
+  },
+  {
+   "topic": "Lattice Semi (LSCC)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "7 — Whole Rack — Long; \"semis supply chain may outperform AI leaders\" (Jan)",
+   "risks": ""
+  },
+  {
+   "topic": "Qualcomm (QCOM)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "8 — Whole Rack — Long; same supply-chain thesis (Jan)",
+   "risks": ""
+  },
+  {
+   "topic": "Teradyne (TER)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "9 — Whole Rack — test — Long; \"AI build-out industrials\" (Nov)",
+   "risks": ""
+  },
+  {
+   "topic": "Dell (DELL)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "10 — Whole Rack — servers — Exhaustion 39.1 (Jun 18); Michael Dell quoted confirming memory demand surge (Apr)",
+   "risks": ""
+  },
+  {
+   "topic": "Supermicro (SMCI)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "11 — Whole Rack — servers — Rack integration leader; \"every component of the AI rack needs more supply\" (Apr)",
+   "risks": ""
+  },
+  {
+   "topic": "Arista (ANET)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "12 — Whole Rack — switching — Switching/networking named as bottleneck component (Apr)",
+   "risks": ""
+  },
+  {
+   "topic": "Cisco (CSCO)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "13 — Whole Rack — networking — Featured in \"Cisco's Bandwidth Warning and the Optical Revolution\" recap; blowout quarter",
+   "risks": ""
+  },
+  {
+   "topic": "Pure Storage (PSTG)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "14 — Whole Rack — storage — Storage named as rack component (Apr)",
+   "risks": ""
+  },
+  {
+   "topic": "NXP (NXPI)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "15 — Whole Rack — edge — Edge AI / physical-world silicon, \"first inning\" thesis",
+   "risks": ""
+  },
+  {
+   "topic": "DuPont (DD)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "16 — Chemicals — Long; \"chemicals breakout\" (Jan)",
+   "risks": ""
+  },
+  {
+   "topic": "Freeport-McMoRan (FCX)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "17 — Chemicals — copper — Long; \"copper, cyclical breakout\" (Jan); copper = his scarcity trade",
+   "risks": ""
+  },
+  {
+   "topic": "Entegris (ENTG)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "18 — Chemicals — semis consumables — Exhaustion 70.6 (Jun 18) — in-universe; 10-name candidate; filtration/contamination consumables",
+   "risks": ""
+  },
+  {
+   "topic": "Merck KGaA (MRK)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "19 — Chemicals — electronics — Visser Technical Score 100/100 — highest in his universe; 15.3x P/E; ultra-pure semicon materials (Jun 21)",
+   "risks": ""
+  },
+  {
+   "topic": "Henkel (DE)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "20 — Chemicals — Exhaustion 72.4 (Jun 18)",
+   "risks": ""
+  },
+  {
+   "topic": "Cabot (CBT)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "21 — Chemicals — Exhaustion 70.3 (Jun 18)",
+   "risks": ""
+  },
+  {
+   "topic": "Teck Resources (TECK)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "23 — Chemicals — copper — Copper shortage narrative (Hormuz, sulfuric acid export ban)",
+   "risks": ""
+  },
+  {
+   "topic": "Vale (VALE)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "24 — Chemicals — copper — Copper/mining exposure",
+   "risks": ""
+  },
+  {
+   "topic": "Rio Tinto (RIO)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "25 — Chemicals — copper — Copper exposure",
+   "risks": ""
+  },
+  {
+   "topic": "BHP Group (BHP)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "26 — Chemicals — copper — Copper exposure",
+   "risks": ""
+  },
+  {
+   "topic": "Alcoa (AA)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "27 — Chemicals — aluminum — Aluminum named \"up in price and in short supply\" (ISM/Apr)",
+   "risks": ""
+  },
+  {
+   "topic": "Albemarle (ALB)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "28 — Chemicals — lithium — Critical minerals / lithium named in scarcity framework",
+   "risks": ""
+  },
+  {
+   "topic": "SQM (SQM)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "29 — Chemicals — lithium — Lithium + fertilizer inputs (sulfuric acid)",
+   "risks": ""
+  },
+  {
+   "topic": "MP Materials (MP)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "30 — Chemicals — rare earths — Rare earths named in ISM shortage list (Apr)",
+   "risks": ""
+  },
+  {
+   "topic": "KLA (KLAC)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "31 — Semicon Architecture — \"Ranked #1 in Visser's Semicon Architecture theme — above AVGO, NVDA, and ASML\"; \"cheapest stock in the entire Visser 100\"; PEG 0.13 on peak-cycle earnings; exhaustion 58.2 (Jun)",
+   "risks": ""
+  },
+  {
+   "topic": "TSMC (TSM)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "32 — Semicon Architecture — foundry — Foundry scarcity long (scarcity list: Samsung, Micron, SK Hynix, TSMC — Jul); exhaustion 50.3",
+   "risks": ""
+  },
+  {
+   "topic": "Broadcom (AVGO)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "33 — Semicon Architecture — Ranked below KLAC in theme (Jun); 10-name candidate; Google/Anthropic TPU partner",
+   "risks": ""
+  },
+  {
+   "topic": "ASML (ASML)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "34 — Semicon Architecture — Ranked below KLAC in theme (Jun); high-NA EUV gating",
+   "risks": ""
+  },
+  {
+   "topic": "MKS Instruments (MKSI)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "35 — Semicon Architecture — Exhaustion 77.7 (Jun 18)",
+   "risks": ""
+  },
+  {
+   "topic": "Samsung (KS)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "36 — Semicon Architecture — memory — Memory scarcity long (Jul); 10-day decline = buy signal; $100B long-term supply agreement",
+   "risks": ""
+  },
+  {
+   "topic": "Texas Instruments (TXN)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "38 — Semicon Architecture — analog — \"Analog semiconductors — sector long\" (Mar); 10-name candidate",
+   "risks": ""
+  },
+  {
+   "topic": "Applied Materials (AMAT)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "39 — Semicon Architecture — WFE — WFE market \"$140B+ in 2026\"; every high-NA EUV fab needs process tools",
+   "risks": ""
+  },
+  {
+   "topic": "Lam Research (LRCX)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "40 — Semicon Architecture — WFE — WFE peer of KLAC/AMAT",
+   "risks": ""
+  },
+  {
+   "topic": "ON Semiconductor (ON)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "41 — Semicon Architecture — power — \"SK Hynix and power semis had been correlated to thematic portfolio\" (Jun)",
+   "risks": ""
+  },
+  {
+   "topic": "Infineon (IFX)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "42 — Semicon Architecture — power — Power semiconductors + grid exposure",
+   "risks": ""
+  },
+  {
+   "topic": "Amkor (AMKR)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "43 — Advanced Packaging — Advanced Packaging was an explicit basket theme (Apr)",
+   "risks": ""
+  },
+  {
+   "topic": "Onto Innovation (ONTO)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "44 — Advanced Packaging — Packaging/process control metrology",
+   "risks": ""
+  },
+  {
+   "topic": "FormFactor (FORM)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "45 — Advanced Packaging — Probe/test for advanced packages",
+   "risks": ""
+  },
+  {
+   "topic": "Corning (GLW)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "46 — Optical — Core holding; \"the portfolio's stock\" (Jul); optical fiber thesis; 10-name list member; featured in his video",
+   "risks": ""
+  },
+  {
+   "topic": "Applied Optoelectronics (AAOI)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "47 — Optical — Added position during the week (Jul) — \"op [tical]... he added AOI\"; transceiver supplier",
+   "risks": ""
+  },
+  {
+   "topic": "Coherent (COHR)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "48 — Optical — Jensen-named (Apr); 10-name candidate; \"Names derived from Jensen Huang's commentary include Marvell, Coherent\"",
+   "risks": ""
+  },
+  {
+   "topic": "Credo (CRDO)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "49 — Optical — AEC — Exhaustion 44.2, lowest in the June basket; ZeroFlap AEC + DustPhotonics; 3x revenue growth",
+   "risks": ""
+  },
+  {
+   "topic": "Astera Labs (ALAB)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "50 — Optical — interconnect — Exhaustion 78.2 (Jun 18); PCIe retimer/interconnect",
+   "risks": ""
+  },
+  {
+   "topic": "Lumentum (LITE)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "51 — Optical — 10-name candidate list (prior research); datacom transceivers",
+   "risks": ""
+  },
+  {
+   "topic": "Ciena (CIEN)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "52 — Optical — systems — Optical revolution theme (Cisco bandwidth warning episode)",
+   "risks": ""
+  },
+  {
+   "topic": "Vistra (VST)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "53 — Energy — IPP — \"Defensive AI\" IPP trade (Jun); IPP equal-weight index member; 10-name candidate; flat YTD",
+   "risks": ""
+  },
+  {
+   "topic": "Constellation (CEG)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "54 — Energy — IPP — Named in \"Vistra, Constellation, etc.\" IPP cohort (Jun)",
+   "risks": ""
+  },
+  {
+   "topic": "Exxon Mobil (XOM)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "55 — Energy — Bought during the week — \"bought Exxon and Chevron during the week, not for drama\" (Jul/Energy hedge)",
+   "risks": ""
+  },
+  {
+   "topic": "Chevron (CVX)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "56 — Energy — Bought during the week (same)",
+   "risks": ""
+  },
+  {
+   "topic": "Eaton (ETN)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "57 — Energy — electrical — Long; \"capital goods\" (Feb); grid/electrical buildout",
+   "risks": ""
+  },
+  {
+   "topic": "Vertiv (VRT)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "58 — Energy — cooling — Power/cooling for data centers; $15B backlog +109% YoY; exhaustion inferred ~35 — \"likely in the 30-40 range\"",
+   "risks": ""
+  },
+  {
+   "topic": "Caterpillar (CAT)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "59 — Energy — industrial — Exhaustion 54.7 (Jun 18); data-center gensets + grid earthmoving",
+   "risks": ""
+  },
+  {
+   "topic": "GE Vernova (GEV)",
+   "category": "stock",
+   "stance": "WATCHING / HIGH-CONFIDENCE candidate (reconstructed, not independently confirmed)",
+   "conviction": "High",
+   "core_thesis": "60 — Energy — turbines — \"Power/turbines\" named as scarcity long (Jul AlphaAbstract framework)",
+   "risks": ""
+  },
+  {
+   "topic": "NRG Energy (NRG)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "61 — Energy — IPP — IPP cohort candidate (equal-weight 10-name IPP index)",
+   "risks": ""
+  },
+  {
+   "topic": "Fluence Energy (FLNC)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "62 — Energy — batteries — \"Positions in Fluence...\" (Jul transcript); battery storage = Currie's convergence point",
+   "risks": ""
+  },
+  {
+   "topic": "EnerSys (ENS)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "63 — Energy — batteries — Battery/energy storage named in scarcity framework",
+   "risks": ""
+  },
+  {
+   "topic": "Cameco (CCJ)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "64 — Energy — uranium — Uranium named in Power/Energy theme (Apr)",
+   "risks": ""
+  },
+  {
+   "topic": "nVent Electric (NVT)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "65 — Energy — electrical — Cooling/electrical buildout",
+   "risks": ""
+  },
+  {
+   "topic": "Emerson (EMR)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "66 — Energy — electrical — Power/electrical controls",
+   "risks": ""
+  },
+  {
+   "topic": "Quanta Services (PWR)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "67 — Energy — grid — Grid infrastructure (substations overloaded = his bottleneck #1)",
+   "risks": ""
+  },
+  {
+   "topic": "ABB (ABB)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "68 — Energy — grid — Grid/electrical equipment",
+   "risks": ""
+  },
+  {
+   "topic": "Hubbell (HUBB)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "69 — Energy — grid — Electrical infrastructure",
+   "risks": ""
+  },
+  {
+   "topic": "Atkore (ATKR)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "70 — Energy — electrical — Electrical conduit/infrastructure",
+   "risks": ""
+  },
+  {
+   "topic": "NextEra (NEE)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "71 — Energy — utility — Utilities sector-long (\"physical world\" theme)",
+   "risks": ""
+  },
+  {
+   "topic": "Exelon (EXC)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "72 — Energy — utility — Utility + nuclear exposure",
+   "risks": ""
+  },
+  {
+   "topic": "Southern Co. (SO)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "73 — Energy — utility — Utility; nuclear-friendly",
+   "risks": ""
+  },
+  {
+   "topic": "WEC Energy (WEC)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "74 — Energy — utility — Utility exposure",
+   "risks": ""
+  },
+  {
+   "topic": "Baker Hughes (BKR)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "75 — Energy — oil services — Energy cycle + LNG/gas for power",
+   "risks": ""
+  },
+  {
+   "topic": "SLB (SLB)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "76 — Energy — oil services — Energy supply tightening (Hormuz drawdowns)",
+   "risks": ""
+  },
+  {
+   "topic": "Halliburton (HAL)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "77 — Energy — oil services — Energy cycle",
+   "risks": ""
+  },
+  {
+   "topic": "ConocoPhillips (COP)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "78 — Energy — E&P — Oil price risk (\"WTI >$90\" = his watch)",
+   "risks": ""
+  },
+  {
+   "topic": "EOG Resources (EOG)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "79 — Energy — E&P — Energy exposure",
+   "risks": ""
+  },
+  {
+   "topic": "Occidental (OXY)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "80 — Energy — E&P — Energy + direct air capture angle",
+   "risks": ""
+  },
+  {
+   "topic": "Devon Energy (DVN)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "81 — Energy — E&P — Energy exposure",
+   "risks": ""
+  },
+  {
+   "topic": "First Solar (FSLR)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "82 — Energy — solar — Silver/solar critical-mineral chain (silver for AI/solar)",
+   "risks": ""
+  },
+  {
+   "topic": "Enphase (ENPH)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "83 — Energy — solar — Solar/electrical exposure",
+   "risks": ""
+  },
+  {
+   "topic": "Nucor (NUE)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "84 — Energy — electrical steel — Transformer/electrical steel shortage",
+   "risks": ""
+  },
+  {
+   "topic": "Eli Lilly (LLY)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "85 — Satellites — One of the five individual names in the basket; \"the world's largest company\" biotech thesis; Jensen-named; GLP-1 + AI drug discovery",
+   "risks": ""
+  },
+  {
+   "topic": "Brazil ETF (EWZ)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "86 — Satellites — One of the five individual names; \"green compute arbitrage of the AI decade\" paper; safe data-center haven",
+   "risks": ""
+  },
+  {
+   "topic": "Palantir (PLTR)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "87 — Satellites — One of the five individual names; long; \"buy pullbacks\"; liked relative to Microsoft (Apr); +0.41% quoted on BigGo recap",
+   "risks": ""
+  },
+  {
+   "topic": "Silver (iShares) (SLV)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "88 — Satellites — One of the five individual names; \"his favorite commodity\" (Apr); silver mining stocks lagging play (Jan)",
+   "risks": ""
+  },
+  {
+   "topic": "Alphabet (GOOGL)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "89 — Satellites — Long; Gemini + TPUs + VLM phase winner (Nov); Anthropic compute partner",
+   "risks": ""
+  },
+  {
+   "topic": "Biotech ETF (XBI)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "91 — Satellites — biotech — Long; \"AI drug discovery\" (Nov); biotech renaissance episode",
+   "risks": ""
+  },
+  {
+   "topic": "Tesla (TSLA)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "92 — Satellites — \"Top conviction buy\" (Nov); robotaxi Austin catalyst + humanoids",
+   "risks": ""
+  },
+  {
+   "topic": "Oracle (ORCL)",
+   "category": "stock",
+   "stance": "POSITIVE / CONFIRMED position or named holding (reconstructed from public sources)",
+   "conviction": "Confirmed",
+   "core_thesis": "93 — Satellites — \"Pullback = attractive entry\" (Nov); ROIC debate — hyperscaler-adjacent but owned",
+   "risks": ""
+  },
+  {
+   "topic": "Wheaton Precious (WPM)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "94 — Satellites — silver — Silver streamer — his favorite commodity exposure",
+   "risks": ""
+  },
+  {
+   "topic": "Pan American Silver (PAAS)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "95 — Satellites — silver — Silver miners \"lagging play\" (Jan)",
+   "risks": ""
+  },
+  {
+   "topic": "Energy Select ETF (XLE)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "96 — Satellites — energy — Explicitly long \"energy > software long-term\" (Feb); ETF as basket satellite",
+   "risks": ""
+  },
+  {
+   "topic": "Uranium ETF (URA)",
+   "category": "stock",
+   "stance": "SPECULATIVE / MEDIUM-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Medium",
+   "core_thesis": "97 — Satellites — uranium — Uranium theme vehicle",
+   "risks": ""
+  },
+  {
+   "topic": "\"Integris\" (unidentified) (INTG)",
+   "category": "stock",
+   "stance": "SPECULATIVE / LOW-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Low",
+   "core_thesis": "99 — Satellites — Transcript (Jul): \"positions in Fluence, Kimors, and Integris\" — 2 of 3 unresolved",
+   "risks": ""
+  },
+  {
+   "topic": "\"Kimors\" (unidentified) (KIM)",
+   "category": "stock",
+   "stance": "SPECULATIVE / LOW-CONFIDENCE candidate (theme-fit inference)",
+   "conviction": "Low",
+   "core_thesis": "100 — Satellites — Same transcript mention; possibly mis-transcription",
+   "risks": ""
+  }
+ ],
+ "companies_assets": [],
+ "technology_ai_views": [],
+ "ai_workflows": [],
+ "predictions": [],
+ "notable_quotes": [],
+ "risks": [],
+ "actionable_takeaways": [],
+ "other_notable_news": [],
+ "glossary": []
+}

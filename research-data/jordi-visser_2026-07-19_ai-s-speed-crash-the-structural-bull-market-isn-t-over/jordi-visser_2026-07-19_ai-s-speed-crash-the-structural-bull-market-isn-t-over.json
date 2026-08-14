@@ -1,0 +1,505 @@
+{
+  "metadata": {
+    "video_id": "tAUIFAptWvo",
+    "url": "https://www.youtube.com/watch?v=tAUIFAptWvo",
+    "channel": "Jordi Visser",
+    "title": "AI's Speed Crash: The Structural Bull Market Isn't Over",
+    "publication_date": "2026-07-19",
+    "analysis_date": "2026-07-19",
+    "speaker": "Jordi Visser",
+    "duration_seconds": 2700
+  },
+  "executive_takeaway": "(1) The AI structural bull market is intact but we are in a 'speed crash' / midcycle digestion phase: the Morgan Stanley tech momentum factor fell ~40% in 18 days, the worst tech unwind on record back to 1998. (2) Visser frames the new market regime as 'bubbles, parabolas, and speed crashes' driven by AI agents now executing non-emotional, momentum-chasing trades with leverage ('V control') that unwind violently. (3) He is buying selectively into weakness - added Micron this week, calls 'AI = memory' - but says odds are now 'fair' so he is sitting out the race until better setups. (4) He expects no massive V-shaped bounce; the correction is a healthy rotation, not a 2007-style systemic event - junk spreads are tight, earnings beats are huge, economy is strong. (5) His forward beta for the next 12 months is crypto/consumer agents (Ethereum especially), not the infrastructure trade; he sees Bitcoin as 'collateral of the future' and AGI arriving within a few years.",
+  "conviction_map": [
+    {
+      "topic": "AI / compute (structural bull)",
+      "category": "macro-ai",
+      "stance": "POSITIVE VIEW",
+      "conviction": "High",
+      "action_status": "Long-term structural bull; insatiable compute demand for 4+ years",
+      "core_thesis": "Insatiable demand for compute; we won't catch up to token/agent growth for years; AI is a structural bull market",
+      "risks": "Near-term speed crash / digestion; factor unwind of levered momentum funds"
+    },
+    {
+      "topic": "Micron (MU)",
+      "category": "semis",
+      "stance": "BUYING",
+      "conviction": "High",
+      "action_status": "Buying this week, including last 2 days; had an 8-10 bagger before selling in early June",
+      "core_thesis": "'AI = memory'; DRAM prices rising across all nodes; memory shortage; long-term contracts; earnings blew away; game-changing contracts signed",
+      "risks": "Already ran huge; multiple now ~6x vs peak; could still fall further before basing"
+    },
+    {
+      "topic": "Nvidia (NVDA)",
+      "category": "semis",
+      "stance": "OWNS",
+      "conviction": "Medium",
+      "action_status": "Owns it; one of only two semis he holds (with Marvell)",
+      "core_thesis": "12-bagger previously; tremendous earnings; but price reacts poorly to beats post-peak",
+      "risks": "Head-and-shoulders top pattern; multiples much higher than Micron; earnings no longer rewarded"
+    },
+    {
+      "topic": "Marvell (MRVL)",
+      "category": "semis",
+      "stance": "OWNS",
+      "conviction": "Medium",
+      "action_status": "Biggest position after Eli Lilly; down ~62% from highs, still holds",
+      "core_thesis": "Only semi he owns besides Nvidia; made money on the way up, took some off",
+      "risks": "Down sharply; painful; AI buildout may not rescue it near-term"
+    },
+    {
+      "topic": "Adobe / Salesforce (software)",
+      "category": "software",
+      "stance": "NEGATIVE VIEW",
+      "conviction": "Medium",
+      "action_status": "Avoids; calls them 'toast'",
+      "core_thesis": "Downward-sloping 200-day moving averages; will be disrupted by AI agents; must pivot business",
+      "risks": "Disruption by AI within next 1-3 months for many names"
+    },
+    {
+      "topic": "Crypto (Bitcoin / Ethereum / Silver)",
+      "category": "crypto",
+      "stance": "POSITIVE VIEW",
+      "conviction": "High",
+      "action_status": "Rotated a good portion of sold AI money into BTC, ETH and silver; next 12mo beta is here",
+      "core_thesis": "Consumer agents lead to more crypto; Bitcoin is 'collateral of the future'; Ethereum having best month since last Aug; moat like gold",
+      "risks": "Not out of the woods; could break to new lows before Oct/Nov break of 200-day"
+    },
+    {
+      "topic": "Hyperscalers (debt situation)",
+      "category": "macro-ai",
+      "stance": "POSITIVE VIEW",
+      "conviction": "High",
+      "action_status": "Not worried; sees them as protected by government",
+      "core_thesis": "Debt-to-equity next to nothing; combined RPOs (backlog) huge; debt funds compute buildout; protected in US-China race",
+      "risks": "People citing 'AI debt situation' as systemic risk - he dismisses it"
+    },
+    {
+      "topic": "US banks (JPM, GS, MS, etc.)",
+      "category": "financials",
+      "stance": "POSITIVE VIEW",
+      "conviction": "Medium",
+      "action_status": "Highlights as evidence economy is 'as good as it gets'",
+      "core_thesis": "JPM surprise +34% traded up 10% near ATH; GS beat 45%; AI infrastructure financing early; all-time highs",
+      "risks": "'As good as it gets' can mark tops historically"
+    },
+    {
+      "topic": "Fed / Kevin Warsh",
+      "category": "macro",
+      "stance": "POSITIVE VIEW",
+      "conviction": "Medium",
+      "action_status": "Believes Warsh is reformist, not hawkish; expects rate cuts",
+      "core_thesis": "Inflation data much lower than expected; Warsh focuses on forward-looking data; reform not hawkishness",
+      "risks": "Markets misread him as hawkish; could hike if prints hot"
+    },
+    {
+      "topic": "AGI / Demis Hassabis view",
+      "category": "ai-frontier",
+      "stance": "POSITIVE VIEW",
+      "conviction": "High",
+      "action_status": "Strong conviction; cites Hassabis as most honest voice on timeline",
+      "core_thesis": "AGI 'a few short years away'; civilizational transformation; if right, public cos won't survive unchanged by 2030",
+      "risks": "Timeline could be wrong; disruption to existing public companies"
+    }
+  ],
+  "companies_assets": [
+    {
+      "company": "Micron (MU)",
+      "status": "BUYING",
+      "view": "Buying into weakness this week; 'AI = memory'",
+      "why": "DRAM shortage, long-term contracts, earnings blew away, game-changing signed contracts",
+      "catalysts": "DRAM price increases, memory shortage, consumer agents in ~6 months",
+      "risks": "Already ran huge; near-term downside possible",
+      "evidence": "High"
+    },
+    {
+      "company": "Nvidia (NVDA)",
+      "status": "OWNS",
+      "view": "Holds; tremendous earnings but reactions poor post-peak",
+      "why": "12-bagger history; core AI compute; one of two semis he owns",
+      "catalysts": "Vera Rubin step-up, next earnings",
+      "risks": "Head-and-shoulders top; multiples elevated",
+      "evidence": "High"
+    },
+    {
+      "company": "Marvell (MRVL)",
+      "status": "OWNS",
+      "view": "Biggest position after LLY; down ~62% but holds",
+      "why": "AI connectivity semi; made money on way up",
+      "catalysts": "Vera Rubin rollout step-up function",
+      "risks": "Sharp drawdown; digestion phase",
+      "evidence": "Medium"
+    },
+    {
+      "company": "Eli Lilly (LLY)",
+      "status": "OWNS",
+      "view": "Largest position",
+      "why": "Long-term hold; mentioned as his #1 position",
+      "catalysts": "Pipeline progress",
+      "risks": "Not detailed",
+      "evidence": "Low"
+    },
+    {
+      "company": "Adobe (ADBE)",
+      "status": "NEGATIVE VIEW",
+      "view": "'Toast' - avoids",
+      "why": "Downward 200-day MA; AI agent disruption",
+      "catalysts": "Must pivot business",
+      "risks": "Disrupted by AI agents",
+      "evidence": "Medium"
+    },
+    {
+      "company": "Salesforce (CRM)",
+      "status": "NEGATIVE VIEW",
+      "view": "'Toast' - avoids",
+      "why": "Downward 200-day MA; AI agent disruption",
+      "catalysts": "Must pivot business",
+      "risks": "Disrupted by AI agents",
+      "evidence": "Medium"
+    },
+    {
+      "company": "JP Morgan (JPM)",
+      "status": "POSITIVE VIEW",
+      "view": "Beat +34%, up 10% near ATH",
+      "why": "Evidence economy 'as good as it gets'; AI financing early",
+      "catalysts": "AI infrastructure financing",
+      "risks": "Cycle peak risk",
+      "evidence": "High"
+    },
+    {
+      "company": "Goldman Sachs (GS)",
+      "status": "POSITIVE VIEW",
+      "view": "Beat 45%; at all-time high",
+      "why": "Investment banking booming; AI debt underwriting",
+      "catalysts": "M&A / financing cycle",
+      "risks": "Cycle peak risk",
+      "evidence": "High"
+    },
+    {
+      "company": "Morgan Stanley (MS)",
+      "status": "POSITIVE VIEW",
+      "view": "Beat 18%",
+      "why": "Broad strength across businesses",
+      "catalysts": "Wealth / trading",
+      "risks": "Cycle peak risk",
+      "evidence": "Medium"
+    },
+    {
+      "company": "Apple (AAPL)",
+      "status": "WATCHING",
+      "view": "Consumer-agent story; 'bad news, bad news, boom'",
+      "why": "Largest stocks; consumer agents catalyst",
+      "catalysts": "Consumer agent launches",
+      "risks": "Disruption timing",
+      "evidence": "Medium"
+    },
+    {
+      "company": "PayPal (PYPL)",
+      "status": "POSITIVE VIEW",
+      "view": "In his 40-name crypto thematic index; Stripe bid",
+      "why": "Stablecoin story; Stripe put in a bid for PayPal",
+      "catalysts": "Stablecoin regulation, Stripe acquisition",
+      "risks": "Deal may not close",
+      "evidence": "Medium"
+    },
+    {
+      "company": "Stripe",
+      "status": "CASUAL MENTION / POSITIVE",
+      "view": "Acquired Bridge stablecoin infra for $1.1B; bid for PayPal",
+      "why": "Stablecoin / tokenization leader",
+      "catalysts": "Stablecoin adoption",
+      "risks": "Regulatory",
+      "evidence": "Medium"
+    },
+    {
+      "company": "Hyperliquid",
+      "status": "CASUAL MENTION / POSITIVE",
+      "view": "Crypto ecosystem revenue growing",
+      "why": "Private markets tokenization activity",
+      "catalysts": "Tokenization growth",
+      "risks": "Volatile",
+      "evidence": "Low"
+    },
+    {
+      "company": "Anthropic / OpenAI",
+      "status": "CASUAL MENTION",
+      "view": "Frontier labs; protected by gov in US-China race",
+      "why": "Leading model companies; not in public-equity portfolio directly",
+      "catalysts": "Model releases",
+      "risks": "Open-source catching up",
+      "evidence": "Low"
+    },
+    {
+      "company": "Kimi (Moonshot AI)",
+      "status": "CASUAL MENTION",
+      "view": "Kimi K3.0 released; can't replace K2.5 due to hardware limits",
+      "why": "Another model; evidence of accelerating AI progress",
+      "catalysts": "Model releases",
+      "risks": "Hardware constraints",
+      "evidence": "Low"
+    }
+  ],
+  "technology_ai_views": [
+    {
+      "theme": "Bubbles, parabolas and speed crashes",
+      "view": "Markets structurally changed: faster up, faster down, driven by AI agents",
+      "companies": "All momentum trades, quant funds",
+      "why": "AI agents execute non-emotional momentum strategies with leverage; V control forces violent unwinds",
+      "horizon": "Now / structural",
+      "conviction": "High"
+    },
+    {
+      "theme": "AI agents in trading",
+      "view": "More trading activity daily done by agents (Robinhood open to agents); 'bubble of optimized portfolios'",
+      "companies": "Robinhood, quant/systematic funds, Korean retail",
+      "why": "Optimized portfolios with false confidence in risk control; Sharpe ratios will fall; 100-year storms happen constantly",
+      "horizon": "Now / ongoing",
+      "conviction": "High"
+    },
+    {
+      "theme": "AI = memory (DRAM shortage)",
+      "view": "Memory is the binding constraint; shortage ongoing; prices rising across nodes",
+      "companies": "Micron, Samsung, SK Hynix, ASML",
+      "why": "Agents consume tokens not goods; token demand grows exponentially; can't fill compute backlog",
+      "horizon": "Next 4+ years",
+      "conviction": "High"
+    },
+    {
+      "theme": "Compute demand insatiable",
+      "view": "Won't catch up for 4+ years; billions of agents coming",
+      "companies": "Hyperscalers, Nvidia, ASIC makers",
+      "why": "Exponential token consumption; RPOs huge; debt funds compute buildout",
+      "horizon": "Next 4+ years",
+      "conviction": "High"
+    },
+    {
+      "theme": "Agentic AI: discovery -> digestion",
+      "view": "Firework show over; buildout just begun; moving to consumer agents",
+      "companies": "Enterprise + consumer agent builders",
+      "why": "Enterprise agents first; consumer agents coming in ~6 months; idiosyncratic names, dangerous",
+      "horizon": "6-12 months",
+      "conviction": "High"
+    },
+    {
+      "theme": "Vera Rubin / 800V DC step-up",
+      "view": "Releasing a paper; step-up function for ~25 companies (many Asian)",
+      "companies": "Power / cooling / ASIC supply chain",
+      "why": "As Vera Rubin rolls out, many companies see earnings step-up",
+      "horizon": "Next 12 months",
+      "conviction": "Medium"
+    },
+    {
+      "theme": "Open-source vs frontier models",
+      "view": "Open source will dominate most enterprises long-term, not near-term; AI-native cos win, public cos lose",
+      "companies": "Anthropic, OpenAI, open-source labs",
+      "why": "Model routers; by 2030 unclear any public company survives unchanged if AGI arrives",
+      "horizon": "By 2030",
+      "conviction": "Medium"
+    },
+    {
+      "theme": "Tokenization / crypto ecosystem",
+      "view": "Everything tokenized, 24/7 trading; crypto is the next 12mo beta",
+      "companies": "Bitcoin, Ethereum, PayPal, Stripe, JPM, BlackRock",
+      "why": "JP Morgan, BlackRock, Goldman tokenizing stocks/treasuries; banking adoption ~32%; RWA chart rising",
+      "horizon": "Next 12 months",
+      "conviction": "High"
+    },
+    {
+      "theme": "AGI timeline",
+      "view": "Few years away (Hassabis: ~2030); civilizational transformation like fire/electricity",
+      "companies": "DeepMind, frontier labs",
+      "why": "Hassabis most honest voice; pure math trajectory; accelerates science breakthroughs",
+      "horizon": "Few years",
+      "conviction": "Medium"
+    }
+  ],
+  "ai_workflows": [
+    {
+      "name": "Tape reading for bottoms (VWAP/volume)",
+      "goal": "Identify trend change / bottom in corrected names like Micron",
+      "tools": "60-min charts, opening-to-10:30 window, VWAP, volume",
+      "approach": "Watch opening vs VWAP; biggest first-hour volume since peak = trend change signal; look for break of head-and-shoulders neckline then immediate reclaim",
+      "why": "Active intraday tape reading from his Morgan Stanley trading background; separates real bottoms from bounces"
+    },
+    {
+      "name": "Structural-bull 'neckline reclaim' buy",
+      "goal": "Buy favorite setup: structural bull breaks H&S neckline then immediately recovers",
+      "tools": "Charts, head-and-shoulders patterns",
+      "approach": "Wait for break of neckline then immediate move back above; echoes Amazon 2013 / Nvidia 2023 analogs",
+      "why": "His highest-conviction entry pattern in structural bulls"
+    },
+    {
+      "name": "Equal-risk position sizing under high vol",
+      "goal": "Size for much higher factor volatility",
+      "tools": "Risk parity / equal-risk weighting",
+      "approach": "With tech ~7x as volatile as S&P, appropriate position if equal-risk weighted is much smaller; hard for levered funds to re-enter",
+      "why": "Unprecedented factor VA; margins rise; leverage unwinds slowly reset"
+    },
+    {
+      "name": "Rotate into crypto on AI profits",
+      "goal": "Deploy proceeds from sold AI names into BTC/ETH/silver",
+      "tools": "Bitcoin, Ethereum, silver, stablecoins",
+      "approach": "As AI infrastructure trades correct, rotate a good portion into crypto/consumer-agent beta ahead of next leg",
+      "why": "Next-12-month beta is crypto/consumer agents, not infrastructure re-entry"
+    }
+  ],
+  "predictions": [
+    {
+      "prediction": "Tech momentum unwind is the worst on record (Morgan Stanley factor -40% in 18 days); more violent rotations ahead",
+      "horizon": "Now / structural",
+      "reasoning": "AI-agent-driven leverage unwinds; factor VA at historic highs; crowded trades unwind one direction",
+      "invalidated_by": "Levered funds re-lever quickly; vol compresses",
+      "assets": "Tech momentum, quant funds, AI semis"
+    },
+    {
+      "prediction": "No massive V-shaped bounce; digestion lasts; odds 'fair' so sit out the race",
+      "horizon": "Weeks-months",
+      "reasoning": "Factor unwind eradicates most levered funds/people; margins higher; leverage slow to reset",
+      "invalidated_by": "Fed cut / blowout earnings reset risk appetite",
+      "assets": "AI thematic portfolio, semis"
+    },
+    {
+      "prediction": "Crypto (esp. Ethereum) is the beta for next 12 months, not infrastructure re-entry",
+      "horizon": "Next 12 months",
+      "reasoning": "Consumer agents -> more crypto; ETH best month since Aug; Bitcoin 'collateral of future'; tokenization accelerating",
+      "invalidated_by": "200-day MA not broken until Oct/Nov; new lows first",
+      "assets": "Bitcoin, Ethereum, PayPal, stablecoins"
+    },
+    {
+      "prediction": "Hyperscaler debt is NOT a systemic risk; compute demand insatiable for 4+ years",
+      "horizon": "4+ years",
+      "reasoning": "Debt-to-equity near zero; huge RPOs; debt funds compute; government protects US labs in China race",
+      "invalidated_by": "Recession kills financing; demand surprise drop",
+      "assets": "Hyperscalers, Nvidia, memory"
+    },
+    {
+      "prediction": "AGI arrives within a few years (~2030); public companies may not survive unchanged",
+      "horizon": "By 2030",
+      "reasoning": "Hassabis trajectory; exponential token growth; AI-native companies win, public cos lose",
+      "invalidated_by": "Timeline slips; regulatory pause",
+      "assets": "All public equities, frontier labs"
+    },
+    {
+      "prediction": "Economy strong, no 2007-style recession; S&P YoY would need huge fall to signal recession",
+      "horizon": "6-12 months",
+      "reasoning": "Junk spreads tight, earnings beats huge (sales +4%, EPS +16%), breadth at highs, inflation low",
+      "invalidated_by": "Credit widening, claims rising, S&P goes negative YoY",
+      "assets": "S&P 500, broad market"
+    },
+    {
+      "prediction": "Fed (Warsh) cuts; inflation data much lower than expected; reform not hawkishness",
+      "horizon": "Next 6 months",
+      "reasoning": "Core CPI/PCE turning down; Warsh forward-looking; likely July cut to show before midterms",
+      "invalidated_by": "Hot prints force hike rhetoric",
+      "assets": "Rates, equities, crypto"
+    }
+  ],
+  "notable_quotes": [],
+  "risks": [
+    "Auto-generated transcript (yt-dlp); some names garbled (e.g. 'Kimi K 3.0', 'Integris', 'Fluence', 'Kimors', 'Marll'=Marvell, 'V control'=VaR control, 'VA'=variance). Verify tickers independently.",
+    "Visser is a market participant with positions; his bullish structural view may be self-reinforced by his book (owns MU, NVDA, MRVL, LLY).",
+    "He dismisses the 'AI debt situation' as non-risk; others (Zero Hedge cited) flag hyperscaler leverage as systemic - contested.",
+    "His 'no recession' call rests on S&P YoY not going negative; a sharp drawdown could flip that signal quickly.",
+    "Comparing current tech unwind to 2007 ignores that spreads are tight and earnings are beating - but 'as good as it gets' historically precedes tops.",
+    "AGI-by-2030 and 'public companies won't survive' are speculative convictions, not analysis; treat as opinion.",
+    "Crypto call (next-12mo beta) depends on breaking the 200-day MA, which he admits may not happen before Oct/Nov and could make new lows first.",
+    "His 'optimized portfolio bubble' / AI-agent market-structure thesis is novel and untested across a full cycle.",
+    "Software names called 'toast' (Adobe, Salesforce) may pivot successfully; his 200-day-MA read is technical, not fundamental.",
+    "Past analogs (Amazon 2013, Nvidia 2023 head-and-shoulders) may not repeat for Micron."
+  ],
+  "actionable_takeaways": [
+    {
+      "item": "Treat the AI selloff as a 'speed crash' / digestion, not the end of the structural bull - but don't expect a V-shaped bounce",
+      "type": "Speaker claim",
+      "detail": ""
+    },
+    {
+      "item": "'AI = memory': monitor DRAM prices and memory shortage as the binding constraint on the buildout",
+      "type": "Speaker claim",
+      "detail": ""
+    },
+    {
+      "item": "Use VWAP + first-hour volume on 60-min charts to spot real bottoms (Micron reclaimed VWAP on biggest volume since peak)",
+      "type": "Speaker claim (trading)",
+      "detail": ""
+    },
+    {
+      "item": "Watch for head-and-shoulders neckline break then immediate reclaim as highest-conviction buy in structural bulls",
+      "type": "Speaker claim (trading)",
+      "detail": ""
+    },
+    {
+      "item": "Next 12-month beta is crypto/consumer agents (Ethereum especially), not re-entering infrastructure",
+      "type": "Speaker claim",
+      "detail": ""
+    },
+    {
+      "item": "Read Demis Hassabis' AGI essay; he is the most honest voice on the timeline (~2030)",
+      "type": "Speaker recommendation",
+      "detail": ""
+    },
+    {
+      "item": "Ignore backward-looking inflation data; Warsh is reformist not hawkish - likely rate cuts ahead",
+      "type": "Speaker interpretation",
+      "detail": ""
+    },
+    {
+      "item": "Verify ticker names (Marvell, Integris, Fluence, etc.) and garbled transcript segments independently",
+      "type": "Needs independent verification",
+      "detail": ""
+    },
+    {
+      "item": "Watch junk spreads and S&P YoY as recession signals - both still healthy",
+      "type": "Analyst interpretation",
+      "detail": ""
+    }
+  ],
+  "other_notable_news": [
+    {
+      "category": "Macro / Markets",
+      "title": "Morgan Stanley tech momentum factor -40% in 18 days",
+      "detail": "Worst tech momentum unwind on record (Bloomberg data back to 1998). S&P -1.5%, Q's -4% on the week; small caps flat; equal-weight and breadth made new all-time highs - a rotation, not systemic."
+    },
+    {
+      "category": "Macro / Fed",
+      "title": "Inflation much lower than expected; core CPI/PCE turning down",
+      "detail": "Sticky core (Atlanta Fed) at new lows; Cleveland Fed nowcast for July at -0.4 vs -0.2 prior; Warsh viewed as reformist not hawkish; possible July cut before midterms."
+    },
+    {
+      "category": "Earnings",
+      "title": "Blockbuster bank beats near all-time highs",
+      "detail": "JPM +34% surprise traded up 10% (near ATH); Goldman +45%; Morgan Stanley +18%; UNH called 'a dead company'. Jamie Dimon: 'as good as it gets'."
+    },
+    {
+      "category": "AI / Market structure",
+      "title": "Bank of England warns AI agents risk market meltdowns",
+      "detail": "Visser agrees market structure is forever changed: AI agents drive faster-up/faster-down 'speed crashes'; quant funds had worst year since August; Korean retail VaR-controlled."
+    },
+    {
+      "category": "Crypto / Policy",
+      "title": "Japan reclassifies Bitcoin as financial assets; South Korea writes crypto into state rulebook",
+      "detail": "South Korea moves to allow spot Bitcoin ETFs after 76 years; Japan landmark vote this week; Clarity Act back to ~40% chance in US."
+    },
+    {
+      "category": "Crypto / Adoption",
+      "title": "Stripe bids for PayPal; JPM, BlackRock, Goldman tokenize stocks & treasuries",
+      "detail": "Bitcoin banking adoption ~32%; tokenized RWA chart rising; prediction markets open interest growing; Hyperliquid active in private markets."
+    },
+    {
+      "category": "AI / Frontier",
+      "title": "Kimi K3.0 released; Hassabis publishes AGI essay",
+      "detail": "Visser can't replace K2.5 with K3.0 due to hardware limits. Hassabis: AGI 'a few short years away', civilizational like fire/electricity; DeepMind first flagged AGI ~2010 targeting ~2030."
+    },
+    {
+      "category": "AI / Buildout",
+      "title": "Philly Fed / Empire AI-infra PMI at ~62 level",
+      "detail": "No weakness in AI infrastructure trade; economy strong, inflation not - supports continued buildout financing."
+    },
+    {
+      "category": "Geopolitics",
+      "title": "Oil backed up on bombings; swap market didn't budge",
+      "detail": "Despite Middle East bombings and oil backing up, rate-swap market showed no inflation repricing - reinforces 'inflation is not a problem' view."
+    }
+  ],
+  "glossary": []
+}
