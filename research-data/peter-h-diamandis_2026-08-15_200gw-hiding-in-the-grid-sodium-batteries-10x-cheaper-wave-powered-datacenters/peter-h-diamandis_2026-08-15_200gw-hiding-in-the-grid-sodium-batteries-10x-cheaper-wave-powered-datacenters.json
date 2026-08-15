@@ -159,6 +159,8 @@
     "The cost mechanism is Wright's law, not Moore's law — roughly 30% off per cumulative doubling of scale. Solar is 8% of global electricity, leaving 4–6 doublings: a 4–8x decline, not 1000x. Dyson spheres would need far more.",
     "The blocker in the US is land assembly, not economics — and the federal government is the largest landowner west of the Mississippi, concentrated in Nevada and Arizona. Naam: 'not something that interests the current administration.'",
     "85% of panels come from China and US tariffs double their price — 'we hurt ourselves by keeping them out.'",
+    "Geography works differently for sun than for oil: insolation varies at most 2x across inhabited places, while oil is wildly concentrated underground — solar's advantage is broad and shallow, and latitude matters far more than location.",
+    "Naam's siting picks are Australia above all (friendly government, land, world-class sun), then Chile and Mexico — though Chihuahua bans private behind-the-meter generation above ~500 kW, and labs want ironclad model-weight protection first.",
     "Winter, not night, is the unsolved problem: London gets a sixth or seventh of the January insolation it gets in June, and electrifying heat with heat pumps roughly doubles Northern European winter demand."
    ],
    "quote": {
@@ -170,10 +172,6 @@
     {
      "name": "Tesla (TSLA)",
      "blurb": "Musk stated on a recent earnings call he wants to build out 100 GW of solar capacity. Naam reads the motive as manufacturing capacity for space-based solar rather than the terrestrial US market."
-    },
-    {
-     "name": "Australia, Chile, Mexico",
-     "blurb": "Naam's picks for solar+battery AI data centers — Australia especially (friendly government, land, world-class sun). Chihuahua, Mexico currently bans private behind-the-meter generation above ~500 kW, and labs need ironclad model-weight protection before siting there."
     }
    ]
   },
@@ -191,6 +189,7 @@
     "The SMR case is that manufacturing gets cheaper and construction does not — so move as much as possible into a factory with the fewest moving parts. Naam is skeptical of the awkward middle (Natrium, BWRX-300) that still requires field assembly.",
     "Gen 3+/4 designs are passive safe — built to survive a 747 impact plus total grid loss. Fukushima melted down because grid-powered coolant pumps died with the transmission lines.",
     "Fusion's quiet regulatory win: the NRC regulates it like hospital radiological imaging rather than like fission, decided during COVID. Physically it cannot melt down — fission is default-on, fusion is default-off — though neutron damage still forces parts replacement every ~5 years.",
+    "No, you can't put a reactor beside every GPU: criticality sets a minimum size, and radiothermal generators deliver too little power per unit mass at too high a cost to leave satellites and deep-space probes.",
     "Hyperscaler SMR announcements are 'still kind of a fiction' on Naam's read — outside the five-year investable window — even as data center pull gives every nuclear company a massive tailwind."
    ],
    "quote": {
@@ -224,7 +223,7 @@
      "blurb": "At the micro-reactor end — shipping-container scale, aimed at powering US military bases and potentially forward-deployed locations without moving fuel."
     },
     {
-     "name": "Natrium, BWRX-300",
+     "name": "Natrium / BWRX-300 class",
      "blurb": "~1/3 GW class. Naam's concern: an awkward middle that manufactures components but still field-assembles, capturing neither large-plant economies nor factory learning rates."
     },
     {
@@ -331,7 +330,7 @@
   },
   {
    "icon": "🔗",
-   "title": "Open question from Salim Ismail: if chips, compute and electricity are three separate constraints, why aren't more companies vertically integrating across all three? Naam's answer is expertise — only Musk has been willing to integrate everything. Dave Blundin's addendum: Nvidia's ~$5T of market cap rests on a CUDA moat that Naam expects to break within two years.",
+   "title": "Open question from the panel: if chips, compute and electricity are three separate constraints, why aren't more companies vertically integrating across all three? Naam's answer is expertise — only Musk has been willing to integrate everything. Dave Blundin's addendum: Nvidia's ~$5T of market cap rests on a CUDA moat that Naam expects to break within two years.",
    "tag": "Structural"
   },
   {
@@ -351,7 +350,7 @@
   },
   {
    "icon": "🛢️",
-   "title": "On oil's muted response to the Iran war: China built the world's largest strategic reserve and drained it, and the ratio of global GDP to global oil spending has tripled or quadrupled since the 1970s, giving the world elasticity it lacked then. A ~2% oversupply was enough to crash prices in the last cycle.",
+   "title": "On oil's muted response to the Iran war: China built the world's largest strategic reserve and drained it, and the ratio of global GDP to global oil spending has tripled or quadrupled since the 1970s, giving the world elasticity it lacked then. A ~2% oversupply was enough to crash prices in the last cycle. The panel's framing: fossil fuels are an old battery roughly 25-30% drawn down, and the cure for high prices is high prices.",
    "tag": "Macro"
   },
   {
@@ -387,6 +386,10 @@
   {
    "term": "Interruptible load (CLR/PCLR)",
    "def": "A grid customer that lets the operator curtail its power at peak; under Texas's June rule this cuts interconnection from five to seven years down to 12–18 months."
+  },
+  {
+   "term": "Four nines",
+   "def": "The grid reliability bar: 99.9% uptime still means 8 hours of outage a year, which Americans treat as unacceptable, so 99.99% is the real target. That is why accepting 1% downtime is a real concession and buys such a large interconnection discount."
   },
   {
    "term": "Wright's law / learning rate",
