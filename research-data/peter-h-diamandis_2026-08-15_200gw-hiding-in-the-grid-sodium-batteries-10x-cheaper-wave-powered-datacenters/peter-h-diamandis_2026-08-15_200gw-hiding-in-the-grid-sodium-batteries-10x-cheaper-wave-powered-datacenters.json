@@ -186,7 +186,7 @@
     "The cheapest gigawatts are the boring ones: stop closing plants (Germany shouldn't have), extend life, uprate, restart Three Mile Island — but that totals only a few GW.",
     "China took the Westinghouse AP1000, localized the supply chain and built more than a dozen at 1.4 GW versus the West's roughly four at 1 GW. France stamped one light-water design out repeatedly and reached ~80% nuclear across ~60 plants; its newer EPR is a boondoggle.",
     "Naam — a critic of this administration on other energy fronts — credits it with the best nuclear policy in recent memory, including loan guarantees for about eight large reactors. First units always overrun; costs sort out after three to five.",
-    "The SMR case is that manufacturing gets cheaper and construction does not — so move as much as possible into a factory with the fewest moving parts. Naam is skeptical of the awkward middle (Natrium, BWRX-300) that still requires field assembly.",
+    "The SMR case is that manufacturing gets cheaper and construction does not — so move as much as possible into a factory with the fewest moving parts. Naam is skeptical of the awkward middle (Natrium, BWRX-300) that still requires field assembly. The awkward middle he distrusts is the ~1/3 GW class (Natrium, BWRX-300): factory-made components but field assembly, capturing neither large-plant economies nor factory learning rates.",
     "Gen 3+/4 designs are passive safe — built to survive a 747 impact plus total grid loss. Fukushima melted down because grid-powered coolant pumps died with the transmission lines.",
     "Fusion's quiet regulatory win: the NRC regulates it like hospital radiological imaging rather than like fission, decided during COVID. Physically it cannot melt down — fission is default-on, fusion is default-off — though neutron damage still forces parts replacement every ~5 years.",
     "No, you can't put a reactor beside every GPU: criticality sets a minimum size, and radiothermal generators deliver too little power per unit mass at too high a cost to leave satellites and deep-space probes.",
@@ -221,10 +221,6 @@
     {
      "name": "Radiant",
      "blurb": "At the micro-reactor end — shipping-container scale, aimed at powering US military bases and potentially forward-deployed locations without moving fuel."
-    },
-    {
-     "name": "Natrium / BWRX-300 class",
-     "blurb": "~1/3 GW class. Naam's concern: an awkward middle that manufactures components but still field-assembles, capturing neither large-plant economies nor factory learning rates."
     },
     {
      "name": "The Nuclear Company",
@@ -340,7 +336,7 @@
   },
   {
    "icon": "⚖️",
-   "title": "Dave Blundin's counter: 20 kW is about a dozen GPUs running ~500 concurrent Fable threads at ~10x human token rate — 1,000x the power for 5,000x the output. Naam's concession is narrower: models read more than any human can, but humans remain far more data-efficient learners.",
+   "title": "Dave Blundin's counter: 20 kW is about a dozen GPUs running ~500 concurrent Fable threads at ~10x human token rate — 1,000x the power for 5,000x the output. Naam's concession is narrower: models read more than any human can, but humans remain far more data-efficient learners. His analogy: compare Google to a librarian — Google was less smart, but it had every book and web page indexed, so it could do what no librarian could.",
    "tag": "Contested"
   },
   {
