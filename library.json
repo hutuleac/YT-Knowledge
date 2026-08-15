@@ -2,6 +2,178 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "anthony-pompliano_2026-08-15_bitcoin-wins-by-simply-not-playing-the-time-game.html",
+   "title": "Bitcoin Wins By Simply Not Playing The Time Game",
+   "channel": "Anthony Pompliano",
+   "date": "2026-08-15",
+   "speakers": "Jordi Visser (22V Research) with Anthony Pompliano",
+   "thread_line": "6 threads · the AI trade off the bottom · inflation in context · Figure and the middleman unwind · time as the real asset · AI adoption hits the mainstream · noise vs signal",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": "MU",
+     "display": "Micron",
+     "stance": "High conviction — positioning disclosed",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "High conviction — positioning disclosed",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "INTC",
+     "display": "Intel",
+     "stance": "High conviction — positioning disclosed",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "MRVL",
+     "display": "Marvell",
+     "stance": "High conviction — positioning disclosed",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "CAT",
+     "display": "Caterpillar",
+     "stance": "High conviction — positioning disclosed",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "GLW",
+     "display": "Corning",
+     "stance": "High conviction — positioning disclosed",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "LMND",
+     "display": "Lemonade",
+     "stance": "Contested — near-term benign, three-year view higher",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "TSLA",
+     "display": "Tesla",
+     "stance": "Contested — near-term benign, three-year view higher",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Figure Technologies",
+     "stance": "High conviction — building a product around it",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "HOOD",
+     "display": "Robinhood",
+     "stance": "High conviction — building a product around it",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "PYPL",
+     "display": "PayPal",
+     "stance": "High conviction — building a product around it",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "COIN",
+     "display": "Coinbase",
+     "stance": "High conviction — building a product around it",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Stripe",
+     "stance": "High conviction — building a product around it",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "JPM",
+     "display": "JPMorgan",
+     "stance": "High conviction — building a product around it",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "GS",
+     "display": "Goldman Sachs",
+     "stance": "High conviction — building a product around it",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "V",
+     "display": "Visa",
+     "stance": "High conviction — building a product around it",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "MA",
+     "display": "Mastercard",
+     "stance": "High conviction — building a product around it",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "CRM",
+     "display": "Salesforce",
+     "stance": "High conviction — building a product around it",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "F",
+     "display": "Ford",
+     "stance": "High conviction — building a product around it",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Core thesis — philosophical, deliberately unfalsifiable near-term",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Core thesis — philosophical, deliberately unfalsifiable near-term",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "PLTR",
+     "display": "Palantir",
+     "stance": "Core thesis — philosophical, deliberately unfalsifiable near-term",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "HUT",
+     "display": "Hut 8",
+     "stance": "Framework — explicitly apolitical",
+     "conviction": null,
+     "color": "gray"
+    }
+   ]
+  },
+  {
    "html": "peter-h-diamandis_2026-08-15_200gw-hiding-in-the-grid-sodium-batteries-10x-cheaper-wave-powered-datacenters.html",
    "title": "200GW Hiding in the Grid, Sodium Batteries 10x Cheaper, Wave-Powered Datacenters",
    "channel": "Peter H. Diamandis",
