@@ -193,7 +193,7 @@ TAKEAWAYS = [
 ]
 
 RISKS = [
-    "Every headline number here is speaker-stated and uncorroborated on air: Figure's rule-of-150, Anthropic's ~$120B ARR expectation, and Palantir's 149% revenue growth (which he pairs with a sub-$1B revenue base). Verify before acting on any of them.",
+    "The headline figures are Visser's working numbers, quoted from memory in conversation rather than read off a report: Figure's rule-of-150, an expectation of ~$120B ARR for Anthropic, and Palantir at 149% revenue growth (which he pairs with a sub-$1B revenue base). Read them as the shape of his argument rather than as reported data.",
     "Visser discloses that he asked Figure's management for a call and was declined — so his read on his own flagship example is assembled from public interviews and filings, not from access. He volunteers this himself.",
     "He is simultaneously building a commercial index that includes Figure, Robinhood, PayPal and Coinbase, and is publicly bullish on the exact names it would hold. The analysis may be sound and the product incentive is real.",
     "He discloses an active Micron position being rebuilt and an existing 22V AI thematic portfolio whose components he names on air — this is a book being talked, by his own account.",
