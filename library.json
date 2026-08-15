@@ -2,6 +2,255 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "peter-h-diamandis_2026-08-15_200gw-hiding-in-the-grid-sodium-batteries-10x-cheaper-wave-powered-datacenters.html",
+   "title": "200GW Hiding in the Grid, Sodium Batteries 10x Cheaper, Wave-Powered Datacenters",
+   "channel": "Peter H. Diamandis",
+   "date": "2026-08-15",
+   "speakers": "Ramez Naam (Planetary VC) with Peter Diamandis, Alex Wissner-Gross, Dave Blundin, Salim Ismail",
+   "thread_line": "6 threads · the grid is the AI bottleneck · behind-the-meter gas · flexibility is the near-term alpha · solar+battery economics · fission & fusion timelines · space, ocean & geothermal moonshots",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "High conviction — core thesis",
+     "conviction": null,
+     "color": "red"
+    },
+    {
+     "ticker": "AMD",
+     "display": "AMD",
+     "stance": "High conviction — core thesis",
+     "conviction": null,
+     "color": "red"
+    },
+    {
+     "ticker": null,
+     "display": "Cerebras",
+     "stance": "High conviction — core thesis",
+     "conviction": null,
+     "color": "red"
+    },
+    {
+     "ticker": "TSM",
+     "display": "TSMC",
+     "stance": "High conviction — core thesis",
+     "conviction": null,
+     "color": "red"
+    },
+    {
+     "ticker": "MSFT",
+     "display": "Microsoft",
+     "stance": "High conviction — core thesis",
+     "conviction": null,
+     "color": "red"
+    },
+    {
+     "ticker": null,
+     "display": "Huawei",
+     "stance": "High conviction — core thesis",
+     "conviction": null,
+     "color": "red"
+    },
+    {
+     "ticker": "GE",
+     "display": "GE",
+     "stance": "Confirmed trend — supply constrained",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Hitachi",
+     "stance": "Confirmed trend — supply constrained",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Solar Turbines",
+     "stance": "Confirmed trend — supply constrained",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Boom Supersonic",
+     "stance": "Confirmed trend — supply constrained",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Confirmed trend — supply constrained",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Emerald AI",
+     "stance": "High conviction — near-term win",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Agentic Infrastructures",
+     "stance": "High conviction — near-term win",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "WeaveGrid",
+     "stance": "High conviction — near-term win",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "GOOGL",
+     "display": "Google",
+     "stance": "High conviction — near-term win",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "TSLA",
+     "display": "Tesla",
+     "stance": "High conviction — with an explicit ceiling",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Australia",
+     "stance": "High conviction — with an explicit ceiling",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Chile",
+     "stance": "High conviction — with an explicit ceiling",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Mexico",
+     "stance": "High conviction — with an explicit ceiling",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Commonwealth Fusion Systems",
+     "stance": "Contested — timelines will slip",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Helion",
+     "stance": "Contested — timelines will slip",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Valar Atomics",
+     "stance": "Contested — timelines will slip",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Aalo",
+     "stance": "Contested — timelines will slip",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "X-Energy",
+     "stance": "Contested — timelines will slip",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Radiant",
+     "stance": "Contested — timelines will slip",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Natrium",
+     "stance": "Contested — timelines will slip",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "BWRX-300",
+     "stance": "Contested — timelines will slip",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "The Nuclear Company",
+     "stance": "Contested — timelines will slip",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Avalanche Energy",
+     "stance": "Contested — timelines will slip",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Westinghouse",
+     "stance": "Contested — timelines will slip",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX",
+     "stance": "Speculative — 15–20 year horizon",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": null,
+     "display": "Fervo Energy",
+     "stance": "Speculative — 15–20 year horizon",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": null,
+     "display": "Eavor",
+     "stance": "Speculative — 15–20 year horizon",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": null,
+     "display": "Quaise",
+     "stance": "Speculative — 15–20 year horizon",
+     "conviction": null,
+     "color": "gray"
+    }
+   ]
+  },
+  {
    "html": "meet-kevin_2026-08-13_the-sec-just-flipped-the-ai-bubble-bullish-on-fraud.html",
    "title": "The SEC JUST Flipped the AI Bubble | Bullish on Fraud.",
    "channel": "Meet Kevin",

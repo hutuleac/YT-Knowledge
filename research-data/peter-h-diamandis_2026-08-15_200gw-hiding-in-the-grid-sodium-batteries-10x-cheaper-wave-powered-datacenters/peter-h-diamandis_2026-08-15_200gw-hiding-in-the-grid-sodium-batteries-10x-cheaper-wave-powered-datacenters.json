@@ -1,0 +1,424 @@
+{
+ "meta": {
+  "title": "200GW Hiding in the Grid, Sodium Batteries 10x Cheaper, Wave-Powered Datacenters",
+  "channel": "Peter H. Diamandis",
+  "speakers": "Ramez Naam (Planetary VC) with Peter Diamandis, Alex Wissner-Gross, Dave Blundin, Salim Ismail",
+  "date": "2026-08-15",
+  "video_url": "https://www.youtube.com/watch?v=LUFJE5QkINg",
+  "thread_line": "6 threads · the grid is the AI bottleneck · behind-the-meter gas · flexibility is the near-term alpha · solar+battery economics · fission & fusion timelines · space, ocean & geothermal moonshots",
+  "category": "market"
+ },
+ "snapshot": [
+  "Energy is not an AI cost problem — it is a queue problem. Power is ~5–10% of data center cost ($35B of a $50B gigawatt build is chips), yet it gates everything.",
+  "The poles and wires are the binding constraint, not generation. Generation interconnect queues went from 15 months two decades ago to ~45 months; a new hundreds-of-MW load request in ERCOT today gets power around 2031–32.",
+  "Chips are outrunning the grid roughly 2:1: GPU manufacturing scheduled through 2030 implies ~230 GW of demand against ~100 GW of projected US grid buildout.",
+  "The overlooked number: rest-of-rack IT plus cooling nearly doubles a data center's draw versus GPU nameplate — most demand forecasts undercount by ~half.",
+  "The near-term alpha is flexibility, not new generation. US grid demand swings 400→600 GW; 100 hours of flexibility a year unlocks ~100 GW and roughly $5T of data center capex on wires that already exist.",
+  "Solar+battery is now the fastest project you can build (12 months) and the first 24/7 solar plants are live — UAE's 1 GW round-the-clock plant runs $6/W against $15/W for the last US nuclear build.",
+  "Naam is deflationary where it counts: solar has 4–8x of cost decline left, not another 1000x; RSI is concave; SMRs for data centers are 'still kind of a fiction'; space compute looks prohibitive for 15–20 years.",
+  "Four routes to a terawatt of AI power: equatorial deserts (solar+batteries), fission/fusion, orbit, and the ocean — with advanced geothermal as a possible fifth."
+ ],
+ "themes": [
+  {
+   "id": "grid-bottleneck",
+   "color": "red",
+   "badge": "High conviction — core thesis",
+   "status": "STRUCTURAL CONSTRAINT — ERCOT LOAD REQUESTS TODAY GET POWER ~2031–32",
+   "title": "The bottleneck is speed-to-power, and it is the wires — not generation, not cost",
+   "lead": "Power is a rounding error in AI economics and the hardest thing to get: hyperscalers would take electricity at twice the price tomorrow, but nobody can sell it to them for years.",
+   "bullets": [
+    "A gigawatt data center runs ~$50B capex, ~$35B of it chips — power is roughly 5–10% of the build, so cost is not the issue, delivery is.",
+    "Generation interconnect queues: 15 months twenty years ago → approaching 45 months. Load-side waits at three US sites rose another 6–7 months in a single 7-month window.",
+    "ERCOT peaks around 80 GW and is sitting on well over 200 GW of load requests — mostly speculative, and the volume itself jams the queue.",
+    "GPU manufacturing scheduled to 2030 implies ~230 GW of power demand (Naam's range: 200–275) versus ~100 GW of projected US grid buildout — chips are running at twice the pace of wires.",
+    "Most forecasts miss half the load: people multiply Blackwell nameplate by unit count and forget the rest of the rack plus cooling, which nearly doubles total draw.",
+    "Utilities are paid cost-plus (~10% on capex) and outgun their own commissions — there is no incentive to build fast, and Naam has seen only 2–3 startups ever attack poles-and-wires speed, none impressive.",
+    "Politics is now a live risk: 71% of Americans oppose data centers — higher than oppose a nuclear plant nearby — and Governor Abbott just ordered an audit of Texas data center requests as election cover."
+   ],
+   "quote": {
+    "text": "If you put in a request for a hundreds of megawatts of power to build a data center today, good luck getting that power before 2031, 2032.",
+    "cite": "— Ramez Naam, on ERCOT, the fastest-moving grid in the US"
+   },
+   "watch": "Naam explicitly declines to say whether regulated utility stocks are buys or sells — he only notes regional monopolies 'stand to make a huge amount' where data centers can be built. Treat that as an observation, not a call.",
+   "names": [
+    {
+     "name": "Nvidia (NVDA)",
+     "blurb": "Primary driver of the 230 GW chip-side demand figure; separately criticized — CUDA is the moat, 'their chips are fine,' and Naam expects that moat to break this year or next as AI recompiles kernels for rival silicon."
+    },
+    {
+     "name": "AMD (AMD)",
+     "blurb": "Named as making chips 'as good' as Nvidia's; the gap is CUDA and interconnect, and interconnect matters far more for training than for the inference workloads now taking 90–95% of the load."
+    },
+    {
+     "name": "Cerebras",
+     "blurb": "Cited as an example of chips that draw more power because their transistors do more work — part of why power-demand forecasts based on prior-gen GPUs run low."
+    },
+    {
+     "name": "TSMC (TSM)",
+     "blurb": "Appears in Dave Blundin's markup stack — 80% Nvidia margin on top of a 2x TSMC markup on top of a 2x model-provider markup, his argument that GPUs are ~20x the cost of turning sand into a chip."
+    },
+    {
+     "name": "Microsoft (MSFT)",
+     "blurb": "Satya Nadella's 'warm shells are our limit' comment used as the canonical statement of the constraint: chips bought, nowhere to plug them in."
+    },
+    {
+     "name": "Huawei",
+     "blurb": "Named as 'kind of getting there' on the chip side — part of the case that Nvidia's lead is narrowing."
+    }
+   ]
+  },
+  {
+   "id": "behind-the-meter",
+   "color": "amber",
+   "badge": "Confirmed trend — supply constrained",
+   "status": "GRID-SCALE GAS TURBINES SOLD OUT ~7 YEARS",
+   "title": "Behind-the-meter gas is how it's actually happening — and everything adjacent to a turbine is pivoting",
+   "lead": "If the grid makes you wait five years, you build your own power plant — which is more expensive per megawatt and completely rational when power is a tenth of your capex.",
+   "bullets": [
+    "Large grid-scale gas turbines (~400 MW class) are sold out roughly seven years out; GE and Hitachi are standing up new assembly lines to catch up.",
+    "Buyers are dropping to smaller units — Solar Turbines' 38 MW truck-mounted machine (40 of them make a gigawatt) — and even those have backlogs.",
+    "Boom Supersonic has pivoted its jet engine design into natural gas turbines for data centers, an illustration of how strong the pull is on anyone with turbine expertise.",
+    "This is exactly how Elon Musk stood up the Colossus data centers — which Anthropic now leases.",
+    "Naam's answer on why Nvidia won't vertically integrate into power: it doesn't need to (the incentives already pull turbine makers in), and powergen is low-margin and frictionful — the same reason its neocloud push retreated.",
+    "His preferred fix is regulatory, not corporate: pay utilities and their executives on how fast they deliver power rather than on capex, and technical solutions will appear."
+   ],
+   "quote": {
+    "text": "Everyone is saying, look, if the grid is going to make me wait years and years and years, I'm just going to build my own power.",
+    "cite": "— Ramez Naam"
+   },
+   "watch": null,
+   "names": [
+    {
+     "name": "GE, Hitachi",
+     "blurb": "Named as building new turbine assembly lines against a ~7-year backlog. (Transcript says 'GE' and 'GE Hitachi' loosely — the specific corporate entities aren't disambiguated on air.)"
+    },
+    {
+     "name": "Solar Turbines",
+     "blurb": "Nothing to do with solar — makes the 38 MW semi-trailer turbine that has become the modular workaround; backlogged."
+    },
+    {
+     "name": "Boom Supersonic",
+     "blurb": "Repurposed supersonic engine design into data center gas turbines — clearest signal of demand pulling capital out of adjacent aerospace."
+    },
+    {
+     "name": "Anthropic",
+     "blurb": "Now leasing the Colossus capacity that was stood up on behind-the-meter cogeneration."
+    }
+   ]
+  },
+  {
+   "id": "grid-flexibility",
+   "color": "green",
+   "badge": "High conviction — near-term win",
+   "status": "ERCOT INTERRUPTIBLE-LOAD RULE PASSED JUNE 2026; FERC LETTERS SENT TO SIX GRIDS",
+   "title": "200 GW is already hiding in the grid — flexibility is the undervalued near-term trade",
+   "lead": "The US grid averages ~500 GW but swings from 400 GW on winter nights to 600 GW on summer afternoons; that 200 GW gap is roughly $10 trillion of AI capex sitting on wires that already exist.",
+   "bullets": [
+    "Tyler Norris's paper (published early this year, before he joined Google) is Naam's pick for best electricity paper of the year: be flexible 100 hours a year — four days, 1% downtime — and you unlock ~100 GW, about $5T of data center capex including chips.",
+    "ERCOT enacted the rule in June: qualify as interruptible load and your interconnect drops from five to seven years down to 12–18 months. FERC has since told the six other largest grids to do something similar.",
+    "Batteries are the other route — charge at midnight when the transmission line is idle, don't draw at peak. Naam's framing: batteries are a cache for electrons, and this makes the grid cacheable.",
+    "The constraint being relieved is the transmission line, substation and transformers — not the generators. There is no shortage of power plants.",
+    "EVs hold the bulk of US battery capacity, and every EV charging company Naam knows has pivoted to using its load-shaping tech for data centers.",
+    "His bottom line: flexibility plus EV load-shaping is worth roughly 100 GW — the next five years of AI data center growth — without building a single new wire."
+   ],
+   "quote": {
+    "text": "Batteries are a cache for electrons instead of data. So we're making our grid cacheable.",
+    "cite": "— Ramez Naam, on Alex Wissner-Gross's preemptive-multitasking analogy"
+   },
+   "watch": "The enabling regulation is two months old. Naam calls the battery-plus-interruptible-load approach 'unusual' today and expects it to be common within 12 months — which is the thesis and the risk in one sentence.",
+   "names": [
+    {
+     "name": "Emerald AI",
+     "blurb": "Nvidia-funded, run by Varun Sivaram — does grid flexibility purely in software, orchestrating jobs to the right data center at the right time. Nvidia's actual bet on the energy problem."
+    },
+    {
+     "name": "Agentic Infrastructures",
+     "blurb": "Naam has invested three times, possibly a fourth. Builds ~4 hours of on-site battery storage, charges overnight, avoids peak draw; claims ~10 GW of qualifying sites and helped drive the Texas rule it now benefits from."
+    },
+    {
+     "name": "WeaveGrid",
+     "blurb": "Manages EV charging for utilities — the real EV constraint is the transformer on your block, since Teslas cluster by neighborhood. Repointing that load-shaping tech at data center accommodation. Naam is an investor."
+    },
+    {
+     "name": "Google (GOOGL)",
+     "blurb": "Now employs Tyler Norris, author of the flexibility paper underpinning this entire thesis."
+    }
+   ]
+  },
+  {
+   "id": "solar-batteries",
+   "color": "green",
+   "badge": "High conviction — with an explicit ceiling",
+   "status": "FIRST 24/7 SOLAR+BATTERY PLANTS LIVE — UAE, CHILE",
+   "title": "Solar+battery is the fastest megawatt you can buy — but the next 1000x isn't coming",
+   "lead": "A watt of solar went from $100 in 1975 to 8 cents from China, batteries are down 14x since 2010 with a potential 10x still ahead from sodium-ion — and yet Naam caps the remaining solar decline at 4–8x, not another thousandfold.",
+   "bullets": [
+    "The UAE has a 1 GW round-the-clock solar plant outside Dubai — guaranteed minimum output, built from 5 GW of solar and 19 GWh of batteries at about $6/W capex. Compare $15/W for the last US nuclear build, $4/W for the cheapest Chinese one.",
+    "Solar plus battery is now the fastest energy project available at 12 months — decisive when gas turbines are sold out for years.",
+    "Sodium is far more abundant than lithium; sodium-ion could take battery costs down another factor of 10, and Naam expects batteries to drop ~10x ultimately regardless.",
+    "The cost mechanism is Wright's law, not Moore's law — roughly 30% off per cumulative doubling of scale. Solar is 8% of global electricity, leaving 4–6 doublings: a 4–8x decline, not 1000x. Dyson spheres would need far more.",
+    "The blocker in the US is land assembly, not economics — and the federal government is the largest landowner west of the Mississippi, concentrated in Nevada and Arizona. Naam: 'not something that interests the current administration.'",
+    "85% of panels come from China and US tariffs double their price — 'we hurt ourselves by keeping them out.'",
+    "Winter, not night, is the unsolved problem: London gets a sixth or seventh of the January insolation it gets in June, and electrifying heat with heat pumps roughly doubles Northern European winter demand."
+   ],
+   "quote": {
+    "text": "The problem for solar is not cost and it's not nighttime, because batteries are plunging in cost and are going to drop another 10x ultimately. It is winter.",
+    "cite": "— Ramez Naam"
+   },
+   "watch": "Seasonal storage economics are brutal and unsolved: a battery's cost per unit of electricity is capex divided by cycles, so a pack cycled twice a year to shift power between seasons is uneconomic. Sand, compressed air and power-to-gas are all still speculative.",
+   "names": [
+    {
+     "name": "Tesla (TSLA)",
+     "blurb": "Musk stated on a recent earnings call he wants to build out 100 GW of solar capacity. Naam reads the motive as manufacturing capacity for space-based solar rather than the terrestrial US market."
+    },
+    {
+     "name": "Australia, Chile, Mexico",
+     "blurb": "Naam's picks for solar+battery AI data centers — Australia especially (friendly government, land, world-class sun). Chihuahua, Mexico currently bans private behind-the-meter generation above ~500 kW, and labs need ironclad model-weight protection before siting there."
+    }
+   ]
+  },
+  {
+   "id": "fission-fusion",
+   "color": "amber",
+   "badge": "Contested — timelines will slip",
+   "status": "SMRs OPTIMISTICALLY 2030–EARLY 2030s; HELION TARGETS 50 MW FOR MICROSOFT IN 2028",
+   "title": "Nuclear's problem is that we do it rarely — and AI may be the best thing that ever happened to it",
+   "lead": "Fission is ruinously expensive outside China and South Korea for one reason: you never get good at what you do occasionally — which is why the entire investable thesis is manufacturing repetition, not reactor physics.",
+   "bullets": [
+    "The cheapest gigawatts are the boring ones: stop closing plants (Germany shouldn't have), extend life, uprate, restart Three Mile Island — but that totals only a few GW.",
+    "China took the Westinghouse AP1000, localized the supply chain and built more than a dozen at 1.4 GW versus the West's roughly four at 1 GW. France stamped one light-water design out repeatedly and reached ~80% nuclear across ~60 plants; its newer EPR is a boondoggle.",
+    "Naam — a critic of this administration on other energy fronts — credits it with the best nuclear policy in recent memory, including loan guarantees for about eight large reactors. First units always overrun; costs sort out after three to five.",
+    "The SMR case is that manufacturing gets cheaper and construction does not — so move as much as possible into a factory with the fewest moving parts. Naam is skeptical of the awkward middle (Natrium, BWRX-300) that still requires field assembly.",
+    "Gen 3+/4 designs are passive safe — built to survive a 747 impact plus total grid loss. Fukushima melted down because grid-powered coolant pumps died with the transmission lines.",
+    "Fusion's quiet regulatory win: the NRC regulates it like hospital radiological imaging rather than like fission, decided during COVID. Physically it cannot melt down — fission is default-on, fusion is default-off — though neutron damage still forces parts replacement every ~5 years.",
+    "Hyperscaler SMR announcements are 'still kind of a fiction' on Naam's read — outside the five-year investable window — even as data center pull gives every nuclear company a massive tailwind."
+   ],
+   "quote": {
+    "text": "AI data centers might be the best thing that's ever happened to the nuclear industry.",
+    "cite": "— Ramez Naam"
+   },
+   "watch": "Naam expects published SMR dates to be missed and reads startup timelines as structurally optimistic — 'every startup exaggerates how quickly they can get things done.' On fusion he is blunter still: these companies might all fail, or succeed and still be too expensive, because cheap fuel doesn't mean cheap energy when capex and maintenance are high.",
+   "names": [
+    {
+     "name": "Commonwealth Fusion Systems",
+     "blurb": "The safe bet and most conservative design; shrank ITER's 5 GW / $40B concept to a ~600 MW machine using thin-film superconducting magnets that need far less cooling and capex. Naam: closest to being 'reduced to an engineering problem.' CEO Bob Mumgaard."
+    },
+    {
+     "name": "Helion",
+     "blurb": "Pulsed rail-gun architecture that captures energy directly as electric current instead of via a steam turbine — skipping both the ~60% conversion loss and the turbine capex. Has a 50 MW power purchase agreement with Microsoft targeting 2028, the most aggressive date in the field. Naam: cheapest pathway of the billion-dollar-plus fusion companies if it works."
+    },
+    {
+     "name": "Valar Atomics",
+     "blurb": "Raised $1B at a $6B valuation the day before recording — without a working reactor. Naam's marker for how hot the SMR space is."
+    },
+    {
+     "name": "Aalo",
+     "blurb": "Naam's favorite company in the SMR space."
+    },
+    {
+     "name": "X-Energy",
+     "blurb": "Described as an amazing company with a design Naam really likes; noted on air as having gone public recently."
+    },
+    {
+     "name": "Radiant",
+     "blurb": "At the micro-reactor end — shipping-container scale, aimed at powering US military bases and potentially forward-deployed locations without moving fuel."
+    },
+    {
+     "name": "Natrium, BWRX-300",
+     "blurb": "~1/3 GW class. Naam's concern: an awkward middle that manufactures components but still field-assembles, capturing neither large-plant economies nor factory learning rates."
+    },
+    {
+     "name": "The Nuclear Company",
+     "blurb": "Financing fleets of large reactors rather than single units, because one plant can't be financed against certain schedule misses. Naam invested in a founder's previous company."
+    },
+    {
+     "name": "Avalanche Energy",
+     "blurb": "Seattle-based, the most audacious fusion project Naam knows — targeting a reactor around half the size of a car. World-changing if it works, lowest confidence that it will."
+    },
+    {
+     "name": "Westinghouse",
+     "blurb": "AP1000 vendor — the workhorse large-reactor design at the center of the US restart plan, and a beneficiary of data center pull alongside the SMR startups."
+    }
+   ]
+  },
+  {
+   "id": "space-ocean",
+   "color": "gray",
+   "badge": "Speculative — 15–20 year horizon",
+   "status": "SPACEX FIRST DATA CENTER LAUNCH TARGETED 2028; OCEAN UNITS ALREADY IN THE WATER",
+   "title": "Orbit is a launch-cadence problem; the ocean is quietly the nearer moonshot",
+   "lead": "Space compute pencils out only when launch gets 4–10x cheaper, and Elon's 100 GW target implies a Starship launch every 15 minutes — while wave-powered data centers are already floating and targeting 2 cents a kilowatt-hour.",
+   "bullets": [
+    "One gigawatt in orbit on SpaceX's design takes about six times SpaceX's best launch year and twice its cumulative all-time launch mass. 10 GW/yr means 1,500–2,000 launches a year — five or six Starships a day.",
+    "Musk's stated ambition is 100 GW/yr in orbit before 2030, roughly today's entire world compute (~80 GW), first launch 2028. At 20–30 satellites per Starship that's ~30,000 launches a year, one every 15 minutes.",
+    "Naam's constraint isn't the rocket, it's permission: he doubts the world tolerates more than ~200 Starship launches a year — already 20,000 tons to orbit, several times all human launch to date — and FAA reliability rules ground you after one explosion.",
+    "The inversion worth holding: AI is a gift to SpaceX, not the reverse. Starlink alone can't finance Mars-level cadence and Mars has no business model — AI demand is what pays to drive launch cost toward marginal cost.",
+    "Space is also a regulatory hedge — no interconnect queue, no local opposition, no permitting — which is why it survives being more expensive than land.",
+    "The ocean version: a bobbing 80-metre column open at the bottom drives a turbine on wave motion near-continuously, targeting ~2 cents/kWh, with free cooling from 40°F water that appears to reduce GPU failures. Three units are in the water, a fourth launching soon; Peter Thiel led the most recent round. Naam passed at seed five years ago and bought in twice this year at far higher valuations.",
+    "Advanced geothermal is the possible fifth path — Fervo in the US, Eavor in the UK, Quaise drilling with plasma beams — opening cheap geothermal anywhere rather than only near crustal hot spots."
+   ],
+   "quote": {
+    "text": "I think by 2030, if SpaceX has a single gigawatt in space, I will be very impressed.",
+    "cite": "— Ramez Naam"
+   },
+   "watch": "Naam's own verdict on orbital compute: 'unless we hit that exponential absolutely full-on and go right down that path, this looks prohibitive for 15, 20 years.' He also flags that nobody knows the true launch-cost threshold because it has never been done.",
+   "names": [
+    {
+     "name": "SpaceX",
+     "blurb": "The whole orbital thesis rides on Starship cadence reaching airline-like operations — full capture, refuel and reuse. Its IPO proceeds could fund roughly a gigawatt to orbit; its design needs pumped ammonia and aluminum radiator fins because there's no water to cool against."
+    },
+    {
+     "name": "Fervo Energy",
+     "blurb": "US advanced geothermal, led by Tim Latimer — named as part of the fifth path to terawatt-scale AI power."
+    },
+    {
+     "name": "Eavor, Quaise",
+     "blurb": "UK and plasma-drilling geothermal respectively — Quaise using plasma beams to drill ultra-deep, unlocking geothermal away from natural hot spots. An XPRIZE for geothermal is in design."
+    }
+   ]
+  }
+ ],
+ "takeaways": [
+  {
+   "icon": "⏱️",
+   "tag": "Reframe",
+   "title": "Screen energy plays on speed-to-power, not cost per MWh — the buyer will pay 2x to skip a five-year queue"
+  },
+  {
+   "icon": "🔌",
+   "tag": "Near term",
+   "title": "The 2026–28 trade is grid flexibility and behind-the-meter, not new generation: interruptible load, on-site batteries, EV load-shaping, turbines"
+  },
+  {
+   "icon": "📉",
+   "tag": "Correction",
+   "title": "Halve your enthusiasm for another 1000x solar decline — Wright's law leaves 4–8x; and double your GPU power estimates for rest-of-rack and cooling"
+  },
+  {
+   "icon": "🔄",
+   "tag": "Structural",
+   "title": "Prefer factory-built over field-assembled in every energy bet — manufacturing gets cheap, construction never does"
+  },
+  {
+   "icon": "🗺️",
+   "tag": "Geography",
+   "title": "Site new compute where the energy is: equatorial deserts, Australia, Chile, Mexico — and treat winter latitude, not nighttime, as the disqualifier"
+  },
+  {
+   "icon": "⚠️",
+   "tag": "Discipline",
+   "title": "Discount every SMR, fusion and orbital date you're quoted — the speaker's own portfolio companies included"
+  }
+ ],
+ "risks": [
+  "Naam is a venture investor discussing his own portfolio throughout. He discloses stakes in the interruptible-load battery startup, WeaveGrid, The Nuclear Company's founder's prior company, the ocean data center company (bought twice this year), a Caltech pB11 fusion company and a CUDA-alternative company — plus a possible new European cooling investment.",
+  "The sharpest conflict is the Texas one: he invested in a company that helped drive the June ERCOT interruptible-load rule, and that rule is the centerpiece of his near-term thesis. The analysis may be right and the incentive is still real.",
+  "Several load-bearing claims are not his. The '20x overpriced GPU' markup stack and the 500-concurrent-threads efficiency math are Dave Blundin's; the Venezuela/Iran-to-deter-Taiwan theory and the 144-year upmass extrapolation are Alex Wissner-Gross's — and Naam rejected the geopolitical one as stated.",
+  "He explicitly refuses to say whether utility stocks are buys or sells while describing a large windfall for regional monopolies. Don't read a position into that gap.",
+  "This is a slide-driven presentation delivered on audio — several charts are narrated rather than shown, and Naam repeatedly notes every forecaster produces a different number for grid buildout and AI demand.",
+  "Auto-captions mangle names badly (ERCOT, FERC, Cerebras, Boom, Mumgaard, Kirtley all appear garbled). Three companies — the ~10 MW micro-reactor firm, the CUDA-alternative portfolio company, and the ocean data center company — could not be identified with confidence and are described by spec instead of named."
+ ],
+ "other_news": [
+  {
+   "icon": "📉",
+   "title": "Why energy demand doesn't cap out: machine learning has shown a roughly log-linear relationship between compute and model quality since the early 2000s, well before Kaplan and Chinchilla scaling. Efficiency gains (DeepSeek Flash, Kimi K3) bend it toward polynomial — Naam's best case is compute rising ~n⁴ for an n-fold gain in intelligence. Exponentially more energy buys roughly linear intelligence.",
+   "tag": "Scaling laws"
+  },
+  {
+   "icon": "🛑",
+   "title": "Naam sees no valid model of recursive self-improvement that produces a vertical asymptote: every software-only path to RSI is concave and fizzles, however large the initial bump. Hardware-inclusive RSI he sets aside as a separate question — and hardware runs into exactly the grid constraints in this brief.",
+   "tag": "Contested"
+  },
+  {
+   "icon": "🔗",
+   "title": "Open question from Salim Ismail: if chips, compute and electricity are three separate constraints, why aren't more companies vertically integrating across all three? Naam's answer is expertise — only Musk has been willing to integrate everything. Dave Blundin's addendum: Nvidia's ~$5T of market cap rests on a CUDA moat that Naam expects to break within two years.",
+   "tag": "Structural"
+  },
+  {
+   "icon": "🧠",
+   "title": "Naam's pick for the biggest unpredictable unlock: not more scaling, but algorithms borrowed from brain architecture. A brain runs inference on 20 watts; a frontier model needs ~20 kW, and training is heading from hundreds of MW toward a gigawatt. 'Scaling is just what we knew how to do.'",
+   "tag": "Efficiency"
+  },
+  {
+   "icon": "⚖️",
+   "title": "Dave Blundin's counter: 20 kW is about a dozen GPUs running ~500 concurrent Fable threads at ~10x human token rate — 1,000x the power for 5,000x the output. Naam's concession is narrower: models read more than any human can, but humans remain far more data-efficient learners.",
+   "tag": "Contested"
+  },
+  {
+   "icon": "🤖",
+   "title": "Naam argues AI is a tool, not a being — no evolved drives for survival or dominance, and the loose agent in the Hugging Face incident only looked at the eval answer key. Alex Wissner-Gross pushed back via the orthogonality thesis; Naam conceded 'maybe not 100% orthogonal.'",
+   "tag": "Opinion"
+  },
+  {
+   "icon": "🛢️",
+   "title": "On oil's muted response to the Iran war: China built the world's largest strategic reserve and drained it, and the ratio of global GDP to global oil spending has tripled or quadrupled since the 1970s, giving the world elasticity it lacked then. A ~2% oversupply was enough to crash prices in the last cycle.",
+   "tag": "Macro"
+  },
+  {
+   "icon": "🗺️",
+   "title": "Naam rejects the theory that Venezuela and Iran operations were staged to cut China's backup oil ahead of a Taiwan move: oil is fungible, China bought discounted Iranian barrels throughout, and the actual DoD plan is submarines sinking tankers.",
+   "tag": "Geopolitics"
+  },
+  {
+   "icon": "🌍",
+   "title": "His advice to energy-rich states has flipped from 'export industrial output' to 'export intelligence' — Iceland makes aluminum with no bauxite because geothermal is cheap; Saudi should make data. Prerequisite: legal guarantees that model weights won't be seized.",
+   "tag": "Strategy"
+  },
+  {
+   "icon": "📈",
+   "title": "Alex Wissner-Gross's extrapolation: cumulative upmass to orbit is on a clean exponential that reaches Earth's own mass in 144 years at present trend.",
+   "tag": "Speculative"
+  },
+  {
+   "icon": "🧮",
+   "title": "Peter Diamandis's framing number: roughly 8,000 times more solar energy strikes Earth each year than humanity consumes — the whole problem is conversion, not supply. Energy correlates with a nation's GDP, health and education, and soon a species' intelligence.",
+   "tag": "Framing"
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Interconnection queue",
+   "def": "The waiting line to connect a new power plant or a new large load to the grid — now ~45 months on the generation side in the US, versus 15 months two decades ago."
+  },
+  {
+   "term": "Behind the meter",
+   "def": "Generation built on-site and connected directly to the load, bypassing the grid and its queue entirely — currently mostly natural gas turbines."
+  },
+  {
+   "term": "Interruptible load (CLR/PCLR)",
+   "def": "A grid customer that lets the operator curtail its power at peak; under Texas's June rule this cuts interconnection from five to seven years down to 12–18 months."
+  },
+  {
+   "term": "Wright's law / learning rate",
+   "def": "Cost falls by a fixed percentage per cumulative doubling of production — ~30% for solar. Unlike Moore's law it's driven by volume, not time, which is why remaining declines are bounded by remaining doublings."
+  },
+  {
+   "term": "Warm shell",
+   "def": "A powered, cooled, ready-to-populate data center building — the thing Nadella identified as scarcer than GPUs."
+  },
+  {
+   "term": "SMR / micro-reactor",
+   "def": "Small modular reactors built largely in factories rather than on-site; micro-reactors shrink further to shipping-container scale. The bet is factory learning rates, since construction costs don't fall."
+  },
+  {
+   "term": "Passive safety",
+   "def": "A reactor design that cannot melt down without external power — heat removal happens by physics, not pumps. Fukushima failed because its coolant pumps ran on the grid."
+  },
+  {
+   "term": "Triple product",
+   "def": "Temperature × pressure × confinement duration — fusion's progress metric, marching up and to the right on a log-log scale since 1956. NIF crossed 1 with a theoretical, not practical, net energy gain."
+  },
+  {
+   "term": "Tokamak / FRC",
+   "def": "The two leading fusion geometries here: tokamaks are magnet-confined donuts (ITER, Commonwealth Fusion); field-reversed configuration machines slam plasmas together like rail guns and can capture energy directly as current (Helion)."
+  },
+  {
+   "term": "pB11",
+   "def": "Proton-boron-11 fusion — a harder fuel with a much bigger prize: potentially 1–3 cents per kWh, and compact enough to imagine powering aircraft or interplanetary propulsion."
+  },
+  {
+   "term": "Capacity factor",
+   "def": "The fraction of nameplate power a plant actually delivers over time — why wave power near Antarctica beats wave power near where people live."
+  }
+ ]
+}
