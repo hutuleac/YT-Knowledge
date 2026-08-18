@@ -89,6 +89,7 @@ THEMES = [
             "Google is on pace to spend roughly $250B in capex this year — the most of any company — and the hosts cite a stat that every $1 Google has invested has historically returned about $2.8 since inception.",
             "The hosts speculate the buy predates the Demis Hassabis/Jeff Dean leadership shakeup inside Google/DeepMind and that Sergey Brin's return 'in wartime mode' likely reinforces rather than changes the thesis.",
             "Apple remains Berkshire's single largest holding overall — still the most valuable company in the world even as the market has largely 'moved past it.'",
+            "The hosts frame Berkshire's barbell of legacy cash-cows plus frontier-AI bets as 'the Joshua Kushner thing' — naming the Thrive Capital investor's who's-been-around-forever-plus-who-wins-the-frontier framework as the mental model they're borrowing here.",
         ],
         "quote": {
             "text": "Google is the only company on Earth that owns the entire stack for AI.",
@@ -140,7 +141,7 @@ THEMES = [
         "lead": "**Nvidia's own equity portfolio reveals it is funding some of the same companies that turn around and buy Nvidia GPUs with that capital.**",
         "bullets": [
             "Nvidia's largest holding is a $30B stake in Intel, built on top of an earlier ~$5B investment (roughly mid-last-year) for about a 5% stake, made alongside the US government.",
-            "Jensen Huang's stated rationale for Intel: bleeding-edge CPUs are needed to orchestrate hundreds of thousands of GPUs and ensure AI agents make correct, fast tool calls.",
+            "Jensen Huang's stated rationale for Intel: bleeding-edge CPUs are needed to orchestrate hundreds of thousands of GPUs and ensure AI agents make correct, fast tool calls — the hosts cite this from a recent Huang interview/conference panel appearance, unnamed, where he pushed back on doubts about AI demand.",
             "Nvidia's second-largest holding is SpaceX, which in turn buys Nvidia GPUs almost exclusively to power its data centers.",
             "Nvidia also holds CoreWeave, Coherent, Nokia and Synopsys.",
             "The circular pattern: Nvidia invests in a company (e.g. a Neocloud), that company spends the capital on Nvidia GPUs, and that purchase shows up as Nvidia revenue.",
@@ -229,6 +230,7 @@ RISKS = [
 
 OTHER_NEWS = [
     {"icon": "\U0001F4B0", "title": "An unidentified fund manager overseeing roughly $35.4B lists Amazon as the #1 holding (name garbled in the source captions).", "tag": "13F season"},
+    {"icon": "\U0001F3A7", "title": "Sourcing named in this episode: Gavin Baker's own appearance on the All-In Podcast (cited as the source for his SpaceX conviction and the 'power and optics' framing); Bloomberg and Reuters (cited, unlinked, for the SK Hynix earnings reaction and Leopold's post-liquidation moves); and Jensen Huang's remarks from an unnamed recent interview/conference panel (cited for the AI-demand pushback). No newsletters, books, or specific articles were named.", "tag": "Sources referenced"},
 ]
 
 GLOSSARY = [
