@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research: Leopold's Final Portfolio Just Went Public</title>
+<style>
+:root{
+  --ink:#20231f; --muted:#6b6f66; --line:#e4e2d8; --card:#fffdf8; --bg:#efece2;
+  --brand:#8a5a2e; --serif:'Iowan Old Style','Palatino Linotype',Georgia,serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:clamp(15px,1.05vw,18px);line-height:1.7;-webkit-font-smoothing:antialiased;}
+.page{max-width:1600px;width:100%;margin:0 auto;background:var(--card);box-shadow:0 0 0 1px var(--line);}
+.hero{padding:clamp(18px,2.4vw,34px) clamp(18px,4vw,56px) clamp(14px,1.8vw,22px);border-bottom:1px solid var(--line);}
+.kicker{font-family:var(--serif);font-style:italic;font-size:clamp(13px,1vw,16px);color:var(--brand);margin-bottom:10px;}
+.backlink{margin-bottom:12px;}
+.backlink a{font-size:clamp(12.5px,.95vw,14px);color:var(--muted);text-decoration:none;border:1px solid var(--line);
+  border-radius:20px;padding:5px 14px;transition:color .15s,border-color .15s;}
+.backlink a:hover{color:var(--brand);border-color:var(--brand);}
+.hero h1{font-family:var(--serif);margin:0 0 14px;font-size:clamp(24px,3.4vw,42px);line-height:1.15;
+  letter-spacing:-.01em;font-weight:600;color:#171916;max-width:42ch;}
+.byline{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:clamp(13px,1vw,15px);line-height:1.6;}
+.byline b{color:var(--ink);font-weight:600;}
+.stats-line{font-family:var(--serif);font-style:italic;color:var(--brand);font-size:clamp(12.5px,.95vw,14.5px);margin-top:4px;}
+.stats-line a{color:var(--brand);}
+.inner{padding:10px clamp(18px,4vw,56px) 48px;}
+section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
+.sec-eye{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--brand);margin-bottom:4px;}
+.sec h2{font-family:var(--serif);margin:0;font-size:clamp(20px,2vw,26px);font-weight:600;color:#171916;
+  border-bottom:2px solid var(--brand);display:inline-block;padding-bottom:5px;}
+.card{background:#fbf7ef;border:1px solid var(--line);border-radius:14px;padding:clamp(18px,3vw,28px);}
+.snap{list-style:none;margin:0;padding:0;}
+.snap li{padding:12px 0;border-bottom:1px solid var(--line);line-height:1.6;font-size:clamp(14.5px,.95vw,16.5px);}
+.snap li:last-child{border-bottom:none}
+.theme{padding:36px 0;border-bottom:1px solid var(--line);}
+.theme-badgerow{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-bottom:10px;}
+.badge{display:inline-block;padding:5px 13px;border-radius:3px;font-size:12px;font-weight:700;
+  white-space:nowrap;letter-spacing:.03em;text-transform:uppercase;color:#fffdf8;}
+.theme-status{font-family:var(--serif);font-style:italic;font-size:13.5px;color:var(--muted);}
+.theme h2{font-family:var(--serif);margin:0 0 20px;font-size:clamp(20px,2.2vw,28px);font-weight:600;
+  color:#171916;line-height:1.25;max-width:32ch;padding-left:16px;}
+.theme-body{display:flex;flex-wrap:wrap;gap:28px;}
+.theme-main{flex:3 1 400px;min-width:0;}
+.theme-side{flex:2 1 260px;min-width:0;}
+.lead{margin:0 0 18px;font-size:clamp(16px,1.15vw,19px);line-height:1.6;color:#171916;font-weight:600;max-width:70ch;}
+.bullets{list-style:none;margin:0 0 22px;padding:0;max-width:76ch;}
+.bullets li{position:relative;padding:9px 0 9px 20px;border-bottom:1px solid var(--line);
+  font-size:clamp(14px,.95vw,15.5px);line-height:1.65;color:#2c2f28;}
+.bullets li .dot{position:absolute;left:0;top:16px;width:7px;height:7px;border-radius:50%;}
+.sidecard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:14px 16px 14px 26px;max-width:76ch;margin:0 0 18px;}
+.sidecard:last-child{margin-bottom:0;}
+.sidecard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;
+  background:var(--sc-accent);}
+.sidecard .lbl{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--sc-accent);margin-bottom:8px;}
+.sidecard.quote{font-family:var(--serif);font-style:italic;font-size:clamp(15px,1.1vw,18px);
+  line-height:1.5;color:#2c2f28;}
+.sidecard.quote .lbl{font-family:-apple-system,sans-serif;font-style:normal;}
+.sidecard.quote cite{display:block;font-family:-apple-system,sans-serif;font-style:normal;font-size:13px;
+  color:var(--muted);margin-top:9px;}
+.sidecard .txt{font-size:14.5px;line-height:1.55;color:#3a3d35;}
+.namechip{padding:0 0 10px;margin:0 0 10px;border-bottom:1px solid var(--line);}
+.namechip:last-child{padding-bottom:0;margin-bottom:0;border-bottom:none;}
+.namechip b{display:block;font-weight:600;font-size:14.5px;color:#171916;}
+.namechip span{font-size:13px;color:#4a4d44;line-height:1.5;}
+.icard{display:flex;gap:14px;align-items:flex-start;background:#fffefb;border:1px solid var(--line);
+  border-radius:12px;padding:14px 16px;margin:11px 0;}
+.icard .ic{flex:none;width:30px;height:30px;border-radius:6px;display:grid;place-items:center;
+  font-size:14px;background:#f4e9db;line-height:1;}
+.icard .title{font-weight:600;font-size:clamp(14px,.95vw,15.5px);color:#171916;line-height:1.42;margin-bottom:5px;}
+.icard .tag{display:inline-block;font-family:var(--serif);font-style:italic;font-size:13px;font-weight:600;color:var(--brand);}
+.icard .detail{font-size:13.5px;color:#4a4d44;line-height:1.55;margin-top:4px;}
+.riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px 14px 28px;margin:11px 0;}
+.riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
+.gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
+.gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
+.gloss b{font-family:var(--serif);color:#171916;}
+.empty{color:var(--muted);font-style:italic;font-size:14.5px;}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <div class="backlink"><a href="index.html">&#8592; All Research Briefs</a></div>
+    <div class="kicker">A YouTube Research Brief</div>
+    <h1>Leopold's Final Portfolio Just Went Public</h1>
+    <div class="byline">
+      Channel: <b>Limitless Podcast</b> &middot; Speaker: <b>Josh &amp; EJ</b> &middot; <b>2026-08-18</b>
+      <div class="stats-line">7 threads · this quarter's 13F season, from Leopold Aschenbrenner's leveraged memory blowup to Berkshire's surprise Google bet, the optics/photonics trade, Nvidia's circular equity stakes, and where the whole AI-investing consensus is (and isn't) crowding &middot; <a href="https://youtu.be/j1DyAWxcC60" target="_blank" rel="noopener">Watch on YouTube &#8599;</a></div>
+    </div>
+  </header>
+  <div class="inner">
+    <section class="sec">
+      <div class="sec-eye">The one-paragraph takeaway</div>
+      <h2>Video Snapshot</h2>
+      <div class="card" style="margin-top:16px;"><ol class="snap"><li>Over $200B in newly disclosed 13F positions across the AI stack from Warren Buffett/Berkshire, Ray Dalio, Bill Ackman, Brad Gersner, Gavin Baker, Nvidia itself, and the liquidated fund of Leopold Aschenbrenner.</li><li>Leopold's fund was over half memory (SanDisk 28.5% + Micron 28% of book) plus Bloom Energy, TSMC and Neocloud exposure, run with leverage — he got liquidated even though the hosts argue the thesis itself was right.</li><li>Citadel bought Leopold's entire liquidated book in one block trade and is already up roughly 2.5x on it.</li><li>SK Hynix's record quarter and SanDisk's new 'high bandwidth flash' memory (backlogged into late 2027) argue the memory selloff was a leverage panic, not a demand top — all 2026 memory supply is already sold out.</li><li>Berkshire, now run by Greg Abel, made a surprising $17B add to Alphabet — the quarter's single largest buy — on the thesis that Google is the only company that owns the entire AI stack, model to chip to distribution.</li><li>Gavin Baker and Brad Gersner are running the most concentrated, forward-looking bets — Nvidia, Cerebras, SpaceX, and a 'power and optics' photonics trade (Coherent Corp, Astera Labs) — with Baker also holding a $2.3B QQQ-puts hedge.</li><li>Nvidia's own 13F shows a circular-economy pattern: $30B in Intel, a big SpaceX stake, plus CoreWeave, Coherent, Nokia and Synopsys — companies that turn around and spend that capital on Nvidia GPUs.</li><li>Consensus money is piling into Alphabet, Amazon, TSMC and SpaceX — but almost nobody in this batch of filings holds Nvidia directly, and Tesla is absent from every portfolio discussed.</li></ol></div>
+    </section>
+
+    
+<section class="theme" id="leopold-blowup">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Confirmed event</span>
+    <span class="theme-status">LIQUIDATED — thesis intact, leverage fatal</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">Leopold Aschenbrenner's Fund Got Liquidated — But the Thesis Didn't</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Leopold's book was directionally right on memory and still got wiped out, because he ran it on leverage with no margin for a drawdown.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>SanDisk was 28.5% of the book and Micron 28% — over half the portfolio in two memory names.</li><li><span class="dot" style="background:#93711b;"></span>Bloom Energy was 9.5%, with TSMC and a core Nebius (Neocloud) position; everything else combined for about 18%.</li><li><span class="dot" style="background:#93711b;"></span>Leverage, not the underlying thesis, is what blew up the fund — the hosts call the stock selection 'directionally correct.'</li><li><span class="dot" style="background:#93711b;"></span>Citadel bought the entire liquidated portfolio in a single block trade and is already up roughly 2.5x on it in about two weeks.</li><li><span class="dot" style="background:#93711b;"></span>Reports (via Bloomberg/Reuters) suggest Leopold made a ~$500M private investment and is rebuilding a $500M–$1B open equity position, with the bulk of his remaining wealth still in an Anthropic stake.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#93711b;"><div class="lbl">Pull quote</div>&#8220;He just did it all wrong because he was using improper position sizing and most importantly leverage. I mean, this is what happens when you use leverage.&#8221;<cite>— Josh</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>SanDisk (SNDK)</b><span>Largest position in Leopold's liquidated book, 28.5% of the portfolio.</span></div><div class="namechip"><b>Micron (MU)</b><span>Second-largest position, 28% of the book.</span></div><div class="namechip"><b>Bloom Energy (BE)</b><span>9.5% of the liquidated book; a large gain before the blowup per the hosts.</span></div><div class="namechip"><b>TSMC (TSM)</b><span>Held within the remaining ~18% of the liquidated book.</span></div><div class="namechip"><b>Nebius (NBIS)</b><span>Core Neocloud position within the liquidated book.</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">Whether Leopold's next 13F even clears the $100M threshold to require filing is unresolved — the hosts expect a comeback but call it speculation.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="memory-validated">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#3f6b2e;">High conviction</span>
+    <span class="theme-status">SUPPLY SOLD OUT INTO 2027</span>
+  </div>
+  <h2 style="border-left:4px solid #3f6b2e;">The Memory Selloff Looks Like a Leverage Panic, Not a Demand Top</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**SK Hynix's record quarter and SanDisk's new inference-focused memory show funds bought the recent memory dip, not exited it.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#3f6b2e;"></span>SK Hynix reported its best quarterly earnings ever — more revenue in one quarter than all of last year — yet its stock fell about 20% the preceding week on fears memory buyers were overleveraged.</li><li><span class="dot" style="background:#3f6b2e;"></span>SanDisk's investor day showed major funds doubled down and bought more memory, especially at the recent lows.</li><li><span class="dot" style="background:#3f6b2e;"></span>SanDisk has invented a new memory category, 'high bandwidth flash' — distinct from standard DRAM and GPU-specific HBM — purpose-built for inference workloads, which now drives a huge share of hyperscaler capex.</li><li><span class="dot" style="background:#3f6b2e;"></span>SanDisk's high bandwidth flash is already backlogged into late 2027; all available 2026 memory supply is sold out.</li><li><span class="dot" style="background:#3f6b2e;"></span>The hosts' read: memory is constrained by physical atoms — insufficient fab and plumbing capacity to meet demand into 2028.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#3f6b2e;"><div class="lbl">Pull quote</div>&#8220;All the supply that is available for memory for next year is completely sold out.&#8221;<cite>— EJ</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>SK Hynix</b><span>Reported record quarterly earnings that briefly sold off on overleverage fears.</span></div><div class="namechip"><b>SanDisk (SNDK)</b><span>Invented 'high bandwidth flash,' a new inference-focused memory type backlogged into late 2027.</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">The hosts flag this could still be a house of cards — they hold the bullish view but explicitly don't rule out being wrong.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="berkshire-google">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#3f6b2e;">High conviction</span>
+    <span class="theme-status">$17B ADD — LARGEST BUY OF THE QUARTER</span>
+  </div>
+  <h2 style="border-left:4px solid #3f6b2e;">Berkshire's Greg Abel Makes Google the Quarter's Biggest Bet</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Post-Buffett Berkshire, now run by Greg Abel, made its largest single add of the quarter into Alphabet — betting on the only company that owns the full AI stack.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#3f6b2e;"></span>Berkshire added $17B to Alphabet/Google, the single biggest add of the quarter for the fund.</li><li><span class="dot" style="background:#3f6b2e;"></span>Berkshire also raised Domino's, Macy's, and Lamar-type advertising exposure by roughly 44% (names partly garbled in the source captions).</li><li><span class="dot" style="background:#3f6b2e;"></span>Thesis: Google is the only company that owns the entire AI stack — model creation, custom TPU/Ironwood chips, and the world's #1 distribution platforms (Search, Gmail, Android, G Suite).</li><li><span class="dot" style="background:#3f6b2e;"></span>Google is on pace to spend roughly $250B in capex this year — the most of any company — and the hosts cite a stat that every $1 Google has invested has historically returned about $2.8 since inception.</li><li><span class="dot" style="background:#3f6b2e;"></span>The hosts speculate the buy predates the Demis Hassabis/Jeff Dean leadership shakeup inside Google/DeepMind and that Sergey Brin's return 'in wartime mode' likely reinforces rather than changes the thesis.</li><li><span class="dot" style="background:#3f6b2e;"></span>Apple remains Berkshire's single largest holding overall — still the most valuable company in the world even as the market has largely 'moved past it.'</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#3f6b2e;"><div class="lbl">Pull quote</div>&#8220;Google is the only company on Earth that owns the entire stack for AI.&#8221;<cite>— EJ</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Alphabet (GOOGL)</b><span>Berkshire's largest single add this quarter, $17B, on a full-stack AI thesis.</span></div><div class="namechip"><b>Berkshire Hathaway (BRK.A)</b><span>Now run by Greg Abel; still holds Apple as its single largest position.</span></div><div class="namechip"><b>Apple (AAPL)</b><span>Berkshire's biggest overall holding, and the world's most valuable company.</span></div></div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="gersner-baker">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Contested — high risk, high conviction</span>
+    <span class="theme-status">CONCENTRATED INFRASTRUCTURE BETS</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">Gersner and Baker Push Further Out the Risk Curve — Into Optics and a Market Hedge</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Brad Gersner and Gavin Baker run the most forward-looking, concentrated books in this batch — chips, photonics interconnects, and a hedge against being wrong on the broad market.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>Gersner's top holdings: Nvidia (~$1.9–2B, his largest), Cerebras ($1.6B), plus Meta, TSMC, CoreWeave and ARM.</li><li><span class="dot" style="background:#93711b;"></span>Baker's top holdings: SpaceX ($4.7B, his largest and — per his own comments on the All-In podcast — his biggest win), plus Micron, Cerebras, Astera Labs, Ciena, and Credo.</li><li><span class="dot" style="background:#93711b;"></span>Baker's 'power and optics' trade: as GPU clusters scale into the hundreds of thousands to millions of units, copper interconnects become too power- and cost-inefficient, so data increasingly moves via photonics (light) instead.</li><li><span class="dot" style="background:#93711b;"></span>Astera Labs is a major position for the GPU-interconnect 'plumbing'; a leading photonics manufacturer in this space is up roughly 85% year-to-date per the hosts' portfolio artifact.</li><li><span class="dot" style="background:#93711b;"></span>Baker also holds a $2.3B position in QQQ puts — insurance so that even if the broad market falls, a concentrated bet on AI hardware can still win.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#93711b;"><div class="lbl">Pull quote</div>&#8220;They're going the next concentric circle out of this loop. They're going to the infrastructure layer. What is required in order to generate tokens? It's optics. It's memory.&#8221;<cite>— Josh</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Nvidia (NVDA)</b><span>Gersner's largest holding at roughly $1.9-2B.</span></div><div class="namechip"><b>Cerebras</b><span>Held by both Gersner ($1.6B) and Baker.</span></div><div class="namechip"><b>SpaceX</b><span>Baker's largest holding at $4.7B, and his self-described biggest win.</span></div><div class="namechip"><b>Astera Labs (ALAB)</b><span>Major Baker position in GPU interconnect 'plumbing.'</span></div><div class="namechip"><b>Ciena (CIEN)</b><span>Optical networking holding in Baker's book, tied to the power-and-optics trade.</span></div><div class="namechip"><b>Credo (CRDO)</b><span>Held by Baker within the optics/interconnect cluster.</span></div><div class="namechip"><b>CoreWeave (CRWV)</b><span>Held by Gersner among his hyperscaler/Neocloud exposure.</span></div><div class="namechip"><b>ARM (ARM)</b><span>Held by Gersner.</span></div></div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="nvidia-circular">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Contested</span>
+    <span class="theme-status">$30B INTEL STAKE — LARGEST NVIDIA HOLDING</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">Nvidia's Own 13F Shows a Circular AI Economy</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Nvidia's own equity portfolio reveals it is funding some of the same companies that turn around and buy Nvidia GPUs with that capital.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>Nvidia's largest holding is a $30B stake in Intel, built on top of an earlier ~$5B investment (roughly mid-last-year) for about a 5% stake, made alongside the US government.</li><li><span class="dot" style="background:#93711b;"></span>Jensen Huang's stated rationale for Intel: bleeding-edge CPUs are needed to orchestrate hundreds of thousands of GPUs and ensure AI agents make correct, fast tool calls.</li><li><span class="dot" style="background:#93711b;"></span>Nvidia's second-largest holding is SpaceX, which in turn buys Nvidia GPUs almost exclusively to power its data centers.</li><li><span class="dot" style="background:#93711b;"></span>Nvidia also holds CoreWeave, Coherent, Nokia and Synopsys.</li><li><span class="dot" style="background:#93711b;"></span>The circular pattern: Nvidia invests in a company (e.g. a Neocloud), that company spends the capital on Nvidia GPUs, and that purchase shows up as Nvidia revenue.</li></ul>
+    </div>
+    <div class="theme-side">
+      
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Intel (INTC)</b><span>Nvidia's largest 13F holding at $30B, tied to a CPU-orchestration thesis for AI agents.</span></div><div class="namechip"><b>SpaceX</b><span>Nvidia's second-largest holding; buys Nvidia GPUs almost exclusively.</span></div><div class="namechip"><b>CoreWeave (CRWV)</b><span>Held in Nvidia's portfolio.</span></div><div class="namechip"><b>Coherent Corp (COHR)</b><span>Held in Nvidia's portfolio; also a Baker/Gersner-adjacent photonics name.</span></div><div class="namechip"><b>Nokia (NOK)</b><span>Held in Nvidia's portfolio.</span></div><div class="namechip"><b>Synopsys (SNPS)</b><span>Held in Nvidia's portfolio.</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">The hosts describe the circular-revenue structure without resolving whether it's a genuine red flag or just how the ecosystem naturally consolidates.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="payments-rewire">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#65695f;">Speculative</span>
+    <span class="theme-status">NEW POSITIONS, UNPROVEN THESIS</span>
+  </div>
+  <h2 style="border-left:4px solid #65695f;">Ackman's Payments Bet Collides With an AI-Agent Router Land Grab</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Bill Ackman built a new payments-heavy book — Visa, Mastercard, S&amp;P Global, Netflix — just as Stripe and RAMP race to build the routing infrastructure for AI-agent payments.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#65695f;"></span>Ackman's new positions: Visa, Mastercard, S&amp;P Global, and Netflix; he trimmed Amazon by 25%.</li><li><span class="dot" style="background:#65695f;"></span>Context for the bet: Stripe just acquired Open Router, and RAMP is building its own router — both racing to own AI-agent payment infrastructure.</li><li><span class="dot" style="background:#65695f;"></span>Card networks currently take roughly 2.7–2.9% per transaction — a fee structure AI-agent payment rails could threaten.</li><li><span class="dot" style="background:#65695f;"></span>The hosts' theory (self-described as speculative): card networks already have distribution into every company's financial books, positioning them to sell AI inference/agent payment services on top of existing rails rather than being displaced by new entrants.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#65695f;"><div class="lbl">Pull quote</div>&#8220;It seems like AI agents are needing their own infrastructure layer in order to make these payments.&#8221;<cite>— Josh</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Visa (V)</b><span>New Ackman position; also the name Terry Smith was dumping the same quarter.</span></div><div class="namechip"><b>Mastercard (MA)</b><span>New Ackman position.</span></div><div class="namechip"><b>S&amp;P Global (SPGI)</b><span>New Ackman position.</span></div><div class="namechip"><b>Netflix (NFLX)</b><span>New, somewhat unexpected Ackman position.</span></div><div class="namechip"><b>Stripe</b><span>Acquired Open Router, fueling the AI-agent payments thesis.</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">The hosts explicitly flag their read on Ackman's rationale as a guess, not confirmed reasoning from Ackman himself.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="consensus-and-edge">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#3f6b2e;">Confirmed event</span>
+    <span class="theme-status">MOST-ADDED NAMES OF THE QUARTER</span>
+  </div>
+  <h2 style="border-left:4px solid #3f6b2e;">The Consensus Trade Is Alphabet, Amazon, TSMC and SpaceX — and Almost No One Holds Nvidia Directly</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Across nearly every fund in this batch of 13Fs, the same four names dominate net buying — while, oddly, direct Nvidia exposure and Tesla are both largely absent.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#3f6b2e;"></span>Alphabet had the most funds adding to it of any name tracked this quarter.</li><li><span class="dot" style="background:#3f6b2e;"></span>Amazon is the next most popular: Seth Klarman, Tiger Global, and David Tepper all list it as their #1 holding, with AWS, the Anthropic stake, and Trainium chips cited as three distinct AI-exposure verticals.</li><li><span class="dot" style="background:#3f6b2e;"></span>Andy Jassy (Amazon CEO, former AWS chief) is guiding roughly $200B in AI capex this year while publicly showing expanding AWS revenue and margins — which the hosts call a credibility signal given his AWS background.</li><li><span class="dot" style="background:#3f6b2e;"></span>TSMC is framed as the 'picks and shovels' play — the manufacturer nearly every AI chip ultimately depends on.</li><li><span class="dot" style="background:#3f6b2e;"></span>SpaceX enthusiasm ties to the data-center buildout, Starlink, and Grok reaching the frontier.</li><li><span class="dot" style="background:#3f6b2e;"></span>David Tepper added broadly across almost every AI-adjacent name this quarter (Amazon, Alphabet, TSMC, power/energy, Neoclouds, SpaceX), while Terry Smith moved the opposite direction, dumping both Visa and Alphabet — funds disagree with each other even within the same quarter.</li><li><span class="dot" style="background:#3f6b2e;"></span>Almost no fund in this batch holds Nvidia directly — Gavin Baker is the rare exception — and Tesla doesn't appear in any portfolio discussed.</li></ul>
+    </div>
+    <div class="theme-side">
+      
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Amazon (AMZN)</b><span>Most funds' #1 holding this quarter; AWS, Anthropic stake, and Trainium cited as separate AI verticals.</span></div><div class="namechip"><b>TSMC (TSM)</b><span>Framed as the indispensable chip-manufacturing 'picks and shovels' play.</span></div><div class="namechip"><b>SpaceX</b><span>Broadly popular across funds this quarter, tied to data-center buildout enthusiasm.</span></div><div class="namechip"><b>Tiger Global</b><span>Lists Amazon as its #1 holding.</span></div><div class="namechip"><b>David Tepper</b><span>Added broadly across nearly every AI-adjacent name this quarter.</span></div><div class="namechip"><b>Terry Smith</b><span>Dumped both Visa and Alphabet this quarter, against the broader consensus.</span></div><div class="namechip"><b>Citadel</b><span>Bought Leopold's entire liquidated portfolio in one block trade, already up ~2.5x.</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">The hosts explicitly ask whether crowding into the same four names means the real edge lies in a less-watched layer of the stack — power/energy build-out is their leading candidate, but they call it unresolved.</div></div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="sec">
+      <div class="sec-eye">What to do with this</div>
+      <h2>Best Actionable Takeaways</h2>
+      <div style="margin-top:16px;"><div class="icard"><div class="ic">📉</div><div><div class="title">Treat Leopold's blowup as a position-sizing lesson, not a thesis rejection — the memory call itself is still working.</div><div class="tag">Leverage discipline</div></div></div><div class="icard"><div class="ic">👀</div><div><div class="title">Track SanDisk's high-bandwidth-flash backlog and the next SK Hynix print as the real tell on whether memory demand is structural or topping.</div><div class="tag">Watch</div></div></div><div class="icard"><div class="ic">🔌</div><div><div class="title">Treat photonics/optics (Coherent, Astera Labs, Ciena) as its own trade distinct from generic memory or GPU exposure.</div><div class="tag">Sub-thesis</div></div></div><div class="icard"><div class="ic">🧭</div><div><div class="title">If Alphabet/Amazon/TSMC/SpaceX are consensus-crowded, look for edge in less-watched layers — power/energy buildout and AI-agent payment rails were the two flagged.</div><div class="tag">Contrarian angle</div></div></div><div class="icard"><div class="ic">📄</div><div><div class="title">Watch for Leopold's next 13F to see whether — and how much — he rebuilds.</div><div class="tag">Follow-up</div></div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where this could be wrong</div>
+      <h2>Risks &amp; Caveats on This Source</h2>
+      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Position sizes and percentages are the hosts' own reading of 13F filings and an on-screen portfolio artifact, not figures pulled directly from SEC documents in this video.</div></div><div class="riskcard"><div class="txt">Several company names in the source audio are unclear or auto-caption-mangled (a fund manager cited as running $35.4B, and part of Berkshire's smaller adds); where a name couldn't be confidently resolved, it's described by role rather than guessed.</div></div><div class="riskcard"><div class="txt">The claim that Leopold made a new ~$500M private investment and is rebuilding an equity position comes from unnamed Bloomberg/Reuters reports the hosts reference secondhand, not a filing.</div></div><div class="riskcard"><div class="txt">The hosts state their own standing bias toward memory, Nvidia, and Google at the close of the episode — a disclosed lean worth weighing against their bullish framing throughout.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Beyond the main threads</div>
+      <h2>Other Notable News</h2>
+      <div style="margin-top:16px;"><div class="icard"><div class="ic">💰</div><div><div class="title">An unidentified fund manager overseeing roughly $35.4B lists Amazon as the #1 holding (name garbled in the source captions).</div><div class="tag">13F season</div><div class="detail"></div></div></div></div>
+    </section>
+
+    <section class="sec" style="border-bottom:none;">
+      <div class="sec-eye">Names and terms at a glance</div>
+      <h2>Glossary &amp; Entities</h2>
+      <div style="margin-top:16px;"><div class="gloss"><div><b>13F filing</b> &mdash; A mandatory SEC quarterly disclosure for any institutional investment manager overseeing more than $100M in US equities, filed within 45 days of quarter-end.</div><div><b>DRAM</b> &mdash; Standard general-purpose memory used across most computing devices.</div><div><b>HBM (high bandwidth memory)</b> &mdash; A specialized memory type built specifically for AI GPU workloads.</div><div><b>High bandwidth flash</b> &mdash; A new memory category invented and dominated by SanDisk, built primarily for AI inference workloads rather than training.</div><div><b>Photonics</b> &mdash; Using light instead of copper/electrical signaling to move data between GPUs, which becomes more cost- and power-efficient than copper once clusters scale into the hundreds of thousands of GPUs.</div><div><b>Neocloud</b> &mdash; A newer-generation cloud infrastructure provider built specifically around renting out GPU compute for AI workloads.</div><div><b>QQQ puts</b> &mdash; Options giving the right to sell shares tracking the Nasdaq-100 index at a set price — used here as portfolio insurance against a broad market downturn.</div><div><b>Circular economy (in this context)</b> &mdash; A pattern where a company invests equity capital into a partner, which then spends that same capital buying the investor's own products — inflating reported revenue on both sides.</div></div></div>
+    </section>
+  </div>
+</div>
+</body>
+</html>

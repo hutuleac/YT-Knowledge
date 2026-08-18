@@ -2,6 +2,269 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "limitless-podcast_2026-08-18_leopold-s-final-portfolio-just-went-public.html",
+   "title": "Leopold's Final Portfolio Just Went Public",
+   "channel": "Limitless Podcast",
+   "date": "2026-08-18",
+   "speakers": "Josh & EJ",
+   "thread_line": "7 threads · this quarter's 13F season, from Leopold Aschenbrenner's leveraged memory blowup to Berkshire's surprise Google bet, the optics/photonics trade, Nvidia's circular equity stakes, and where the whole AI-investing consensus is (and isn't) crowding",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": "SNDK",
+     "display": "SanDisk",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "MU",
+     "display": "Micron",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "BE",
+     "display": "Bloom Energy",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "TSM",
+     "display": "TSMC",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "NBIS",
+     "display": "Nebius",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "SK Hynix",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "SNDK",
+     "display": "SanDisk",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "GOOGL",
+     "display": "Alphabet",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Berkshire Hathaway (BRK.A)",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "AAPL",
+     "display": "Apple",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "Contested — high risk, high conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Cerebras",
+     "stance": "Contested — high risk, high conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX",
+     "stance": "Contested — high risk, high conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "ALAB",
+     "display": "Astera Labs",
+     "stance": "Contested — high risk, high conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "CIEN",
+     "display": "Ciena",
+     "stance": "Contested — high risk, high conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "CRDO",
+     "display": "Credo",
+     "stance": "Contested — high risk, high conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "CRWV",
+     "display": "CoreWeave",
+     "stance": "Contested — high risk, high conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "ARM",
+     "display": "ARM",
+     "stance": "Contested — high risk, high conviction",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "INTC",
+     "display": "Intel",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "CRWV",
+     "display": "CoreWeave",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "COHR",
+     "display": "Coherent Corp",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "NOK",
+     "display": "Nokia",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "SNPS",
+     "display": "Synopsys",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "V",
+     "display": "Visa",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "MA",
+     "display": "Mastercard",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "SPGI",
+     "display": "S&P Global",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "NFLX",
+     "display": "Netflix",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": null,
+     "display": "Stripe",
+     "stance": "Speculative",
+     "conviction": null,
+     "color": "gray"
+    },
+    {
+     "ticker": "AMZN",
+     "display": "Amazon",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "TSM",
+     "display": "TSMC",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Tiger Global",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "David Tepper",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Terry Smith",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Citadel",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    }
+   ]
+  },
+  {
    "html": "anthony-pompliano_2026-08-15_bitcoin-wins-by-simply-not-playing-the-time-game.html",
    "title": "Bitcoin Wins By Simply Not Playing The Time Game",
    "channel": "Anthony Pompliano",

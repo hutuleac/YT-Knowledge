@@ -1,0 +1,243 @@
+"""
+Limitless Podcast — "Leopold's Final Portfolio Just Went Public" (2026-08-18)
+"""
+
+META = {
+    "title": "Leopold's Final Portfolio Just Went Public",
+    "channel": "Limitless Podcast",
+    "speakers": "Josh & EJ",
+    "date": "2026-08-18",
+    "video_url": "https://youtu.be/j1DyAWxcC60",
+    "thread_line": "7 threads · this quarter's 13F season, from Leopold Aschenbrenner's leveraged memory blowup to Berkshire's surprise Google bet, the optics/photonics trade, Nvidia's circular equity stakes, and where the whole AI-investing consensus is (and isn't) crowding",
+    "category": "market",
+}
+
+SNAPSHOT = [
+    "Over $200B in newly disclosed 13F positions across the AI stack from Warren Buffett/Berkshire, Ray Dalio, Bill Ackman, Brad Gersner, Gavin Baker, Nvidia itself, and the liquidated fund of Leopold Aschenbrenner.",
+    "Leopold's fund was over half memory (SanDisk 28.5% + Micron 28% of book) plus Bloom Energy, TSMC and Neocloud exposure, run with leverage — he got liquidated even though the hosts argue the thesis itself was right.",
+    "Citadel bought Leopold's entire liquidated book in one block trade and is already up roughly 2.5x on it.",
+    "SK Hynix's record quarter and SanDisk's new 'high bandwidth flash' memory (backlogged into late 2027) argue the memory selloff was a leverage panic, not a demand top — all 2026 memory supply is already sold out.",
+    "Berkshire, now run by Greg Abel, made a surprising $17B add to Alphabet — the quarter's single largest buy — on the thesis that Google is the only company that owns the entire AI stack, model to chip to distribution.",
+    "Gavin Baker and Brad Gersner are running the most concentrated, forward-looking bets — Nvidia, Cerebras, SpaceX, and a 'power and optics' photonics trade (Coherent Corp, Astera Labs) — with Baker also holding a $2.3B QQQ-puts hedge.",
+    "Nvidia's own 13F shows a circular-economy pattern: $30B in Intel, a big SpaceX stake, plus CoreWeave, Coherent, Nokia and Synopsys — companies that turn around and spend that capital on Nvidia GPUs.",
+    "Consensus money is piling into Alphabet, Amazon, TSMC and SpaceX — but almost nobody in this batch of filings holds Nvidia directly, and Tesla is absent from every portfolio discussed.",
+]
+
+THEMES = [
+    {
+        "id": "leopold-blowup",
+        "color": "amber",
+        "badge": "Confirmed event",
+        "status": "LIQUIDATED — thesis intact, leverage fatal",
+        "title": "Leopold Aschenbrenner's Fund Got Liquidated — But the Thesis Didn't",
+        "lead": "**Leopold's book was directionally right on memory and still got wiped out, because he ran it on leverage with no margin for a drawdown.**",
+        "bullets": [
+            "SanDisk was 28.5% of the book and Micron 28% — over half the portfolio in two memory names.",
+            "Bloom Energy was 9.5%, with TSMC and a core Nebius (Neocloud) position; everything else combined for about 18%.",
+            "Leverage, not the underlying thesis, is what blew up the fund — the hosts call the stock selection 'directionally correct.'",
+            "Citadel bought the entire liquidated portfolio in a single block trade and is already up roughly 2.5x on it in about two weeks.",
+            "Reports (via Bloomberg/Reuters) suggest Leopold made a ~$500M private investment and is rebuilding a $500M–$1B open equity position, with the bulk of his remaining wealth still in an Anthropic stake.",
+        ],
+        "quote": {
+            "text": "He just did it all wrong because he was using improper position sizing and most importantly leverage. I mean, this is what happens when you use leverage.",
+            "cite": "— Josh",
+        },
+        "watch": "Whether Leopold's next 13F even clears the $100M threshold to require filing is unresolved — the hosts expect a comeback but call it speculation.",
+        "names": [
+            {"name": "SanDisk (SNDK)", "blurb": "Largest position in Leopold's liquidated book, 28.5% of the portfolio."},
+            {"name": "Micron (MU)", "blurb": "Second-largest position, 28% of the book."},
+            {"name": "Bloom Energy (BE)", "blurb": "9.5% of the liquidated book; a large gain before the blowup per the hosts."},
+            {"name": "TSMC (TSM)", "blurb": "Held within the remaining ~18% of the liquidated book."},
+            {"name": "Nebius (NBIS)", "blurb": "Core Neocloud position within the liquidated book."},
+        ],
+    },
+    {
+        "id": "memory-validated",
+        "color": "green",
+        "badge": "High conviction",
+        "status": "SUPPLY SOLD OUT INTO 2027",
+        "title": "The Memory Selloff Looks Like a Leverage Panic, Not a Demand Top",
+        "lead": "**SK Hynix's record quarter and SanDisk's new inference-focused memory show funds bought the recent memory dip, not exited it.**",
+        "bullets": [
+            "SK Hynix reported its best quarterly earnings ever — more revenue in one quarter than all of last year — yet its stock fell about 20% the preceding week on fears memory buyers were overleveraged.",
+            "SanDisk's investor day showed major funds doubled down and bought more memory, especially at the recent lows.",
+            "SanDisk has invented a new memory category, 'high bandwidth flash' — distinct from standard DRAM and GPU-specific HBM — purpose-built for inference workloads, which now drives a huge share of hyperscaler capex.",
+            "SanDisk's high bandwidth flash is already backlogged into late 2027; all available 2026 memory supply is sold out.",
+            "The hosts' read: memory is constrained by physical atoms — insufficient fab and plumbing capacity to meet demand into 2028.",
+        ],
+        "quote": {
+            "text": "All the supply that is available for memory for next year is completely sold out.",
+            "cite": "— EJ",
+        },
+        "watch": "The hosts flag this could still be a house of cards — they hold the bullish view but explicitly don't rule out being wrong.",
+        "names": [
+            {"name": "SK Hynix", "blurb": "Reported record quarterly earnings that briefly sold off on overleverage fears."},
+            {"name": "SanDisk (SNDK)", "blurb": "Invented 'high bandwidth flash,' a new inference-focused memory type backlogged into late 2027."},
+        ],
+    },
+    {
+        "id": "berkshire-google",
+        "color": "green",
+        "badge": "High conviction",
+        "status": "$17B ADD — LARGEST BUY OF THE QUARTER",
+        "title": "Berkshire's Greg Abel Makes Google the Quarter's Biggest Bet",
+        "lead": "**Post-Buffett Berkshire, now run by Greg Abel, made its largest single add of the quarter into Alphabet — betting on the only company that owns the full AI stack.**",
+        "bullets": [
+            "Berkshire added $17B to Alphabet/Google, the single biggest add of the quarter for the fund.",
+            "Berkshire also raised Domino's, Macy's, and Lamar-type advertising exposure by roughly 44% (names partly garbled in the source captions).",
+            "Thesis: Google is the only company that owns the entire AI stack — model creation, custom TPU/Ironwood chips, and the world's #1 distribution platforms (Search, Gmail, Android, G Suite).",
+            "Google is on pace to spend roughly $250B in capex this year — the most of any company — and the hosts cite a stat that every $1 Google has invested has historically returned about $2.8 since inception.",
+            "The hosts speculate the buy predates the Demis Hassabis/Jeff Dean leadership shakeup inside Google/DeepMind and that Sergey Brin's return 'in wartime mode' likely reinforces rather than changes the thesis.",
+            "Apple remains Berkshire's single largest holding overall — still the most valuable company in the world even as the market has largely 'moved past it.'",
+        ],
+        "quote": {
+            "text": "Google is the only company on Earth that owns the entire stack for AI.",
+            "cite": "— EJ",
+        },
+        "watch": None,
+        "names": [
+            {"name": "Alphabet (GOOGL)", "blurb": "Berkshire's largest single add this quarter, $17B, on a full-stack AI thesis."},
+            {"name": "Berkshire Hathaway (BRK.A)", "blurb": "Now run by Greg Abel; still holds Apple as its single largest position."},
+            {"name": "Apple (AAPL)", "blurb": "Berkshire's biggest overall holding, and the world's most valuable company."},
+        ],
+    },
+    {
+        "id": "gersner-baker",
+        "color": "amber",
+        "badge": "Contested — high risk, high conviction",
+        "status": "CONCENTRATED INFRASTRUCTURE BETS",
+        "title": "Gersner and Baker Push Further Out the Risk Curve — Into Optics and a Market Hedge",
+        "lead": "**Brad Gersner and Gavin Baker run the most forward-looking, concentrated books in this batch — chips, photonics interconnects, and a hedge against being wrong on the broad market.**",
+        "bullets": [
+            "Gersner's top holdings: Nvidia (~$1.9–2B, his largest), Cerebras ($1.6B), plus Meta, TSMC, CoreWeave and ARM.",
+            "Baker's top holdings: SpaceX ($4.7B, his largest and — per his own comments on the All-In podcast — his biggest win), plus Micron, Cerebras, Astera Labs, Ciena, and Credo.",
+            "Baker's 'power and optics' trade: as GPU clusters scale into the hundreds of thousands to millions of units, copper interconnects become too power- and cost-inefficient, so data increasingly moves via photonics (light) instead.",
+            "Astera Labs is a major position for the GPU-interconnect 'plumbing'; a leading photonics manufacturer in this space is up roughly 85% year-to-date per the hosts' portfolio artifact.",
+            "Baker also holds a $2.3B position in QQQ puts — insurance so that even if the broad market falls, a concentrated bet on AI hardware can still win.",
+        ],
+        "quote": {
+            "text": "They're going the next concentric circle out of this loop. They're going to the infrastructure layer. What is required in order to generate tokens? It's optics. It's memory.",
+            "cite": "— Josh",
+        },
+        "watch": None,
+        "names": [
+            {"name": "Nvidia (NVDA)", "blurb": "Gersner's largest holding at roughly $1.9-2B."},
+            {"name": "Cerebras", "blurb": "Held by both Gersner ($1.6B) and Baker."},
+            {"name": "SpaceX", "blurb": "Baker's largest holding at $4.7B, and his self-described biggest win."},
+            {"name": "Astera Labs (ALAB)", "blurb": "Major Baker position in GPU interconnect 'plumbing.'"},
+            {"name": "Ciena (CIEN)", "blurb": "Optical networking holding in Baker's book, tied to the power-and-optics trade."},
+            {"name": "Credo (CRDO)", "blurb": "Held by Baker within the optics/interconnect cluster."},
+            {"name": "CoreWeave (CRWV)", "blurb": "Held by Gersner among his hyperscaler/Neocloud exposure."},
+            {"name": "ARM (ARM)", "blurb": "Held by Gersner."},
+        ],
+    },
+    {
+        "id": "nvidia-circular",
+        "color": "amber",
+        "badge": "Contested",
+        "status": "$30B INTEL STAKE — LARGEST NVIDIA HOLDING",
+        "title": "Nvidia's Own 13F Shows a Circular AI Economy",
+        "lead": "**Nvidia's own equity portfolio reveals it is funding some of the same companies that turn around and buy Nvidia GPUs with that capital.**",
+        "bullets": [
+            "Nvidia's largest holding is a $30B stake in Intel, built on top of an earlier ~$5B investment (roughly mid-last-year) for about a 5% stake, made alongside the US government.",
+            "Jensen Huang's stated rationale for Intel: bleeding-edge CPUs are needed to orchestrate hundreds of thousands of GPUs and ensure AI agents make correct, fast tool calls.",
+            "Nvidia's second-largest holding is SpaceX, which in turn buys Nvidia GPUs almost exclusively to power its data centers.",
+            "Nvidia also holds CoreWeave, Coherent, Nokia and Synopsys.",
+            "The circular pattern: Nvidia invests in a company (e.g. a Neocloud), that company spends the capital on Nvidia GPUs, and that purchase shows up as Nvidia revenue.",
+        ],
+        "quote": None,
+        "watch": "The hosts describe the circular-revenue structure without resolving whether it's a genuine red flag or just how the ecosystem naturally consolidates.",
+        "names": [
+            {"name": "Intel (INTC)", "blurb": "Nvidia's largest 13F holding at $30B, tied to a CPU-orchestration thesis for AI agents."},
+            {"name": "SpaceX", "blurb": "Nvidia's second-largest holding; buys Nvidia GPUs almost exclusively."},
+            {"name": "CoreWeave (CRWV)", "blurb": "Held in Nvidia's portfolio."},
+            {"name": "Coherent Corp (COHR)", "blurb": "Held in Nvidia's portfolio; also a Baker/Gersner-adjacent photonics name."},
+            {"name": "Nokia (NOK)", "blurb": "Held in Nvidia's portfolio."},
+            {"name": "Synopsys (SNPS)", "blurb": "Held in Nvidia's portfolio."},
+        ],
+    },
+    {
+        "id": "payments-rewire",
+        "color": "gray",
+        "badge": "Speculative",
+        "status": "NEW POSITIONS, UNPROVEN THESIS",
+        "title": "Ackman's Payments Bet Collides With an AI-Agent Router Land Grab",
+        "lead": "**Bill Ackman built a new payments-heavy book — Visa, Mastercard, S&P Global, Netflix — just as Stripe and RAMP race to build the routing infrastructure for AI-agent payments.**",
+        "bullets": [
+            "Ackman's new positions: Visa, Mastercard, S&P Global, and Netflix; he trimmed Amazon by 25%.",
+            "Context for the bet: Stripe just acquired Open Router, and RAMP is building its own router — both racing to own AI-agent payment infrastructure.",
+            "Card networks currently take roughly 2.7–2.9% per transaction — a fee structure AI-agent payment rails could threaten.",
+            "The hosts' theory (self-described as speculative): card networks already have distribution into every company's financial books, positioning them to sell AI inference/agent payment services on top of existing rails rather than being displaced by new entrants.",
+        ],
+        "quote": {
+            "text": "It seems like AI agents are needing their own infrastructure layer in order to make these payments.",
+            "cite": "— Josh",
+        },
+        "watch": "The hosts explicitly flag their read on Ackman's rationale as a guess, not confirmed reasoning from Ackman himself.",
+        "names": [
+            {"name": "Visa (V)", "blurb": "New Ackman position; also the name Terry Smith was dumping the same quarter."},
+            {"name": "Mastercard (MA)", "blurb": "New Ackman position."},
+            {"name": "S&P Global (SPGI)", "blurb": "New Ackman position."},
+            {"name": "Netflix (NFLX)", "blurb": "New, somewhat unexpected Ackman position."},
+            {"name": "Stripe", "blurb": "Acquired Open Router, fueling the AI-agent payments thesis."},
+        ],
+    },
+    {
+        "id": "consensus-and-edge",
+        "color": "green",
+        "badge": "Confirmed event",
+        "status": "MOST-ADDED NAMES OF THE QUARTER",
+        "title": "The Consensus Trade Is Alphabet, Amazon, TSMC and SpaceX — and Almost No One Holds Nvidia Directly",
+        "lead": "**Across nearly every fund in this batch of 13Fs, the same four names dominate net buying — while, oddly, direct Nvidia exposure and Tesla are both largely absent.**",
+        "bullets": [
+            "Alphabet had the most funds adding to it of any name tracked this quarter.",
+            "Amazon is the next most popular: Seth Klarman, Tiger Global, and David Tepper all list it as their #1 holding, with AWS, the Anthropic stake, and Trainium chips cited as three distinct AI-exposure verticals.",
+            "Andy Jassy (Amazon CEO, former AWS chief) is guiding roughly $200B in AI capex this year while publicly showing expanding AWS revenue and margins — which the hosts call a credibility signal given his AWS background.",
+            "TSMC is framed as the 'picks and shovels' play — the manufacturer nearly every AI chip ultimately depends on.",
+            "SpaceX enthusiasm ties to the data-center buildout, Starlink, and Grok reaching the frontier.",
+            "David Tepper added broadly across almost every AI-adjacent name this quarter (Amazon, Alphabet, TSMC, power/energy, Neoclouds, SpaceX), while Terry Smith moved the opposite direction, dumping both Visa and Alphabet — funds disagree with each other even within the same quarter.",
+            "Almost no fund in this batch holds Nvidia directly — Gavin Baker is the rare exception — and Tesla doesn't appear in any portfolio discussed.",
+        ],
+        "quote": None,
+        "watch": "The hosts explicitly ask whether crowding into the same four names means the real edge lies in a less-watched layer of the stack — power/energy build-out is their leading candidate, but they call it unresolved.",
+        "names": [
+            {"name": "Amazon (AMZN)", "blurb": "Most funds' #1 holding this quarter; AWS, Anthropic stake, and Trainium cited as separate AI verticals."},
+            {"name": "TSMC (TSM)", "blurb": "Framed as the indispensable chip-manufacturing 'picks and shovels' play."},
+            {"name": "SpaceX", "blurb": "Broadly popular across funds this quarter, tied to data-center buildout enthusiasm."},
+            {"name": "Tiger Global", "blurb": "Lists Amazon as its #1 holding."},
+            {"name": "David Tepper", "blurb": "Added broadly across nearly every AI-adjacent name this quarter."},
+            {"name": "Terry Smith", "blurb": "Dumped both Visa and Alphabet this quarter, against the broader consensus."},
+            {"name": "Citadel", "blurb": "Bought Leopold's entire liquidated portfolio in one block trade, already up ~2.5x."},
+        ],
+    },
+]
+
+TAKEAWAYS = [
+    {"icon": "\U0001F4C9", "tag": "Leverage discipline", "title": "Treat Leopold's blowup as a position-sizing lesson, not a thesis rejection — the memory call itself is still working."},
+    {"icon": "\U0001F440", "tag": "Watch", "title": "Track SanDisk's high-bandwidth-flash backlog and the next SK Hynix print as the real tell on whether memory demand is structural or topping."},
+    {"icon": "\U0001F50C", "tag": "Sub-thesis", "title": "Treat photonics/optics (Coherent, Astera Labs, Ciena) as its own trade distinct from generic memory or GPU exposure."},
+    {"icon": "\U0001F9ED", "tag": "Contrarian angle", "title": "If Alphabet/Amazon/TSMC/SpaceX are consensus-crowded, look for edge in less-watched layers — power/energy buildout and AI-agent payment rails were the two flagged."},
+    {"icon": "\U0001F4C4", "tag": "Follow-up", "title": "Watch for Leopold's next 13F to see whether — and how much — he rebuilds."},
+]
+
+RISKS = [
+    "Position sizes and percentages are the hosts' own reading of 13F filings and an on-screen portfolio artifact, not figures pulled directly from SEC documents in this video.",
+    "Several company names in the source audio are unclear or auto-caption-mangled (a fund manager cited as running $35.4B, and part of Berkshire's smaller adds); where a name couldn't be confidently resolved, it's described by role rather than guessed.",
+    "The claim that Leopold made a new ~$500M private investment and is rebuilding an equity position comes from unnamed Bloomberg/Reuters reports the hosts reference secondhand, not a filing.",
+    "The hosts state their own standing bias toward memory, Nvidia, and Google at the close of the episode — a disclosed lean worth weighing against their bullish framing throughout.",
+]
+
+OTHER_NEWS = [
+    {"icon": "\U0001F4B0", "title": "An unidentified fund manager overseeing roughly $35.4B lists Amazon as the #1 holding (name garbled in the source captions).", "tag": "13F season"},
+]
+
+GLOSSARY = [
+    {"term": "13F filing", "def": "A mandatory SEC quarterly disclosure for any institutional investment manager overseeing more than $100M in US equities, filed within 45 days of quarter-end."},
+    {"term": "DRAM", "def": "Standard general-purpose memory used across most computing devices."},
+    {"term": "HBM (high bandwidth memory)", "def": "A specialized memory type built specifically for AI GPU workloads."},
+    {"term": "High bandwidth flash", "def": "A new memory category invented and dominated by SanDisk, built primarily for AI inference workloads rather than training."},
+    {"term": "Photonics", "def": "Using light instead of copper/electrical signaling to move data between GPUs, which becomes more cost- and power-efficient than copper once clusters scale into the hundreds of thousands of GPUs."},
+    {"term": "Neocloud", "def": "A newer-generation cloud infrastructure provider built specifically around renting out GPU compute for AI workloads."},
+    {"term": "QQQ puts", "def": "Options giving the right to sell shares tracking the Nasdaq-100 index at a set price — used here as portfolio insurance against a broad market downturn."},
+    {"term": "Circular economy (in this context)", "def": "A pattern where a company invests equity capital into a partner, which then spends that same capital buying the investor's own products — inflating reported revenue on both sides."},
+]
