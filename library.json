@@ -265,6 +265,192 @@
    ]
   },
   {
+   "html": "jordi-visser_2026-08-16_ai-is-changing-time-those-who-can-t-compete-compute.html",
+   "title": "AI Is Changing Time: Those Who Can't Compete, Compute",
+   "channel": "Jordi Visser",
+   "date": "2026-08-16",
+   "speakers": "Jordi Visser",
+   "thread_line": "6 threads · a weekly recap spanning the compute-capital mobilization wave, Google's AI talent drain, SpaceX's space-based data centers, Visser's portfolio scorecard and conviction-tracking prompt, a new crypto/stablecoin thesis, and the macro debasement trade",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "APO",
+     "display": "Apollo",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "BLK",
+     "display": "BlackRock",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "BX",
+     "display": "Blackstone",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "BN",
+     "display": "Brookfield",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "GS",
+     "display": "Goldman Sachs",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "KKR",
+     "display": "KKR",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "MS",
+     "display": "Morgan Stanley",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "GOOGL",
+     "display": "Alphabet",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "INTC",
+     "display": "Intel",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "GOOGL",
+     "display": "Alphabet",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "META",
+     "display": "Meta",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "xAI",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "NVDA",
+     "display": "Nvidia",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "MU",
+     "display": "Micron",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "BTC",
+     "display": "Bitcoin",
+     "stance": "High conviction, still emerging",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Figure",
+     "stance": "High conviction, still emerging",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "BTC",
+     "display": "Bitcoin",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Gold",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Silver",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
    "html": "anthony-pompliano_2026-08-15_bitcoin-wins-by-simply-not-playing-the-time-game.html",
    "title": "Bitcoin Wins By Simply Not Playing The Time Game",
    "channel": "Anthony Pompliano",
