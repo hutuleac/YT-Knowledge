@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research: The Biggest AI Bull Market Is Still Ahead of Us</title>
+<style>
+:root{
+  --ink:#20231f; --muted:#6b6f66; --line:#e4e2d8; --card:#fffdf8; --bg:#efece2;
+  --brand:#8a5a2e; --serif:'Iowan Old Style','Palatino Linotype',Georgia,serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:clamp(15px,1.05vw,18px);line-height:1.7;-webkit-font-smoothing:antialiased;}
+.page{max-width:1600px;width:100%;margin:0 auto;background:var(--card);box-shadow:0 0 0 1px var(--line);}
+.hero{padding:clamp(18px,2.4vw,34px) clamp(18px,4vw,56px) clamp(14px,1.8vw,22px);border-bottom:1px solid var(--line);}
+.kicker{font-family:var(--serif);font-style:italic;font-size:clamp(13px,1vw,16px);color:var(--brand);margin-bottom:10px;}
+.backlink{margin-bottom:12px;}
+.backlink a{font-size:clamp(12.5px,.95vw,14px);color:var(--muted);text-decoration:none;border:1px solid var(--line);
+  border-radius:20px;padding:5px 14px;transition:color .15s,border-color .15s;}
+.backlink a:hover{color:var(--brand);border-color:var(--brand);}
+.hero h1{font-family:var(--serif);margin:0 0 14px;font-size:clamp(24px,3.4vw,42px);line-height:1.15;
+  letter-spacing:-.01em;font-weight:600;color:#171916;max-width:42ch;}
+.byline{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:clamp(13px,1vw,15px);line-height:1.6;}
+.byline b{color:var(--ink);font-weight:600;}
+.stats-line{font-family:var(--serif);font-style:italic;color:var(--brand);font-size:clamp(12.5px,.95vw,14.5px);margin-top:4px;}
+.stats-line a{color:var(--brand);}
+.inner{padding:10px clamp(18px,4vw,56px) 48px;}
+section.sec{padding:34px 0;border-bottom:1px solid var(--line);}
+.sec-eye{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--brand);margin-bottom:4px;}
+.sec h2{font-family:var(--serif);margin:0;font-size:clamp(20px,2vw,26px);font-weight:600;color:#171916;
+  border-bottom:2px solid var(--brand);display:inline-block;padding-bottom:5px;}
+.card{background:#fbf7ef;border:1px solid var(--line);border-radius:14px;padding:clamp(18px,3vw,28px);}
+.snap{list-style:none;margin:0;padding:0;}
+.snap li{padding:12px 0;border-bottom:1px solid var(--line);line-height:1.6;font-size:clamp(14.5px,.95vw,16.5px);}
+.snap li:last-child{border-bottom:none}
+.theme{padding:36px 0;border-bottom:1px solid var(--line);}
+.theme-badgerow{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-bottom:10px;}
+.badge{display:inline-block;padding:5px 13px;border-radius:3px;font-size:12px;font-weight:700;
+  white-space:nowrap;letter-spacing:.03em;text-transform:uppercase;color:#fffdf8;}
+.theme-status{font-family:var(--serif);font-style:italic;font-size:13.5px;color:var(--muted);}
+.theme h2{font-family:var(--serif);margin:0 0 20px;font-size:clamp(20px,2.2vw,28px);font-weight:600;
+  color:#171916;line-height:1.25;max-width:32ch;padding-left:16px;}
+.theme-body{display:flex;flex-wrap:wrap;gap:28px;}
+.theme-main{flex:3 1 400px;min-width:0;}
+.theme-side{flex:2 1 260px;min-width:0;}
+.lead{margin:0 0 18px;font-size:clamp(16px,1.15vw,19px);line-height:1.6;color:#171916;font-weight:600;max-width:70ch;}
+.bullets{list-style:none;margin:0 0 22px;padding:0;max-width:76ch;}
+.bullets li{position:relative;padding:9px 0 9px 20px;border-bottom:1px solid var(--line);
+  font-size:clamp(14px,.95vw,15.5px);line-height:1.65;color:#2c2f28;}
+.bullets li .dot{position:absolute;left:0;top:16px;width:7px;height:7px;border-radius:50%;}
+.sidecard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:14px 16px 14px 26px;max-width:76ch;margin:0 0 18px;}
+.sidecard:last-child{margin-bottom:0;}
+.sidecard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;
+  background:var(--sc-accent);}
+.sidecard .lbl{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--sc-accent);margin-bottom:8px;}
+.sidecard.quote{font-family:var(--serif);font-style:italic;font-size:clamp(15px,1.1vw,18px);
+  line-height:1.5;color:#2c2f28;}
+.sidecard.quote .lbl{font-family:-apple-system,sans-serif;font-style:normal;}
+.sidecard.quote cite{display:block;font-family:-apple-system,sans-serif;font-style:normal;font-size:13px;
+  color:var(--muted);margin-top:9px;}
+.sidecard .txt{font-size:14.5px;line-height:1.55;color:#3a3d35;}
+.namechip{padding:0 0 10px;margin:0 0 10px;border-bottom:1px solid var(--line);}
+.namechip:last-child{padding-bottom:0;margin-bottom:0;border-bottom:none;}
+.namechip b{display:block;font-weight:600;font-size:14.5px;color:#171916;}
+.namechip span{font-size:13px;color:#4a4d44;line-height:1.5;}
+.icard{display:flex;gap:14px;align-items:flex-start;background:#fffefb;border:1px solid var(--line);
+  border-radius:12px;padding:14px 16px;margin:11px 0;}
+.icard .ic{flex:none;width:30px;height:30px;border-radius:6px;display:grid;place-items:center;
+  font-size:14px;background:#f4e9db;line-height:1;}
+.icard .title{font-weight:600;font-size:clamp(14px,.95vw,15.5px);color:#171916;line-height:1.42;margin-bottom:5px;}
+.icard .tag{display:inline-block;font-family:var(--serif);font-style:italic;font-size:13px;font-weight:600;color:var(--brand);}
+.icard .detail{font-size:13.5px;color:#4a4d44;line-height:1.55;margin-top:4px;}
+.riskcard{position:relative;background:#fffefb;border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px 14px 28px;margin:11px 0;}
+.riskcard::before{content:"";position:absolute;left:11px;top:12px;bottom:12px;width:7px;border-radius:5px;background:#a23f22;}
+.riskcard .txt{font-weight:500;font-size:clamp(13.5px,.9vw,15px);color:#171916;line-height:1.55;}
+.gloss{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 30px;}
+.gloss div{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.8px;line-height:1.55;}
+.gloss b{font-family:var(--serif);color:#171916;}
+.empty{color:var(--muted);font-style:italic;font-size:14.5px;}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <div class="backlink"><a href="index.html">&#8592; All Research Briefs</a></div>
+    <div class="kicker">A YouTube Research Brief</div>
+    <h1>The Biggest AI Bull Market Is Still Ahead of Us</h1>
+    <div class="byline">
+      Channel: <b>Milk Road Stocks</b> &middot; Speaker: <b>LG (host) &amp; Kyle (Milk Road co-owner/market analyst)</b> &middot; <b>2026-08-19</b>
+      <div class="stats-line">4 threads · Goldilocks macro backdrop, the AI-jobs debate, ROI-positive AI stack, barbell portfolio strategy &middot; <a href="https://www.youtube.com/watch?v=2F99aOxwJrg" target="_blank" rel="noopener">Watch on YouTube &#8599;</a></div>
+    </div>
+  </header>
+  <div class="inner">
+    <section class="sec">
+      <div class="sec-eye">The one-paragraph takeaway</div>
+      <h2>Video Snapshot</h2>
+      <div class="card" style="margin-top:16px;"><ol class="snap"><li>Kyle's "everything bull market" thesis: a Goldilocks macro backdrop (ISM &gt;56, cooling inflation, low hiring) plus an AI stack that is ROI-positive at every layer.</li><li>AI lets companies grow earnings without growing headcount — profit-per-employee rises, which keeps growth non-inflationary and keeps the Fed on hold.</li><li>Kalshi/Polymarket odds of a September rate hike fell from ~60% to ~29% (71% chance the Fed holds), with the hold priced in for most Fed meetings through January.</li><li>Anthropic hit a $65B annualized revenue run rate, OpenAI $40B — combined run rate expected near $200B by year-end 2026, and Anthropic cited as targeting $250-400B run rate by end of 2027 (per All-In Podcast).</li><li>Kyle argues AI creates more jobs, not fewer, in the near term — companies want more AI-literate hires because profit per employee goes up; robotics disruption is pushed out to 2029-2030.</li><li>Demand is arriving in overlapping waves — chat, then enterprise agents (already underway), consumer agents (kicking off late 2026 via Apple/Google), then physical AI — unlike the internet buildout's sequential fiber-then-mobile waits.</li><li>Kyle's portfolio strategy is a barbell: infrastructure basket (memory, GPUs, semis, compute, power) plus application-layer winners (e.g. Eli Lilly, SaaS), buying into fear rather than euphoria.</li><li>Heavy self-promotion throughout for Milk Road Pro's price increase (Aug 25 deadline) and a Saber Money sponsor read — excluded from the substantive brief below.</li></ol></div>
+    </section>
+
+    
+<section class="theme" id="goldilocks-macro">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Macro thesis, contested externally</span>
+    <span class="theme-status">LIVE — Kyle says the setup has been building since ~June/July 2026</span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">The "everything bull market": a Goldilocks macro backdrop the Fed can't spoil</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**AI is lifting earnings without lifting hiring or wages, so growth isn't feeding inflation — which keeps the Fed on hold and stocks grinding higher.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>ISM is above 56 — normally a sign the economy is overheating toward a Fed hike, but unemployment (~4%, still above the ~3% cycle low) and non-farm payrolls (net negative last month) aren't confirming that overheating.</li><li><span class="dot" style="background:#93711b;"></span>CPI peaked near 4.2% earlier this year (driven by oil/Iran war and the Strait of Hormuz closure) and has cooled to 3.4%; oil is at $84 and Kyle expects a slide back into the $60s to keep dragging inflation toward the Fed's 2% target.</li><li><span class="dot" style="background:#93711b;"></span>Kalshi/Polymarket odds of a September hike were ~60% a couple weeks ago; now the market prices ~71% odds the Fed holds (even ~1.2% odds of a cut), and that hold is priced across nearly every Fed meeting through January.</li><li><span class="dot" style="background:#93711b;"></span>Kyle's read: capex growth in AI infrastructure is now large enough (he pegs it above the 3.2-3.5% range he references) that even a hike or two wouldn't derail the buildout — but materially higher rates would eventually bite.</li><li><span class="dot" style="background:#93711b;"></span>Contrast with 2022: that inflation spike was a supply-chain problem; this one has been an energy/oil shock layered on an otherwise cool labor market — a different mechanism, in Kyle's framing.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#93711b;"><div class="lbl">Pull quote</div>&#8220;We are seeing the integration and adoption of AI and soon AI agents, which is growing revenues without growing the human count inside of companies... that means the stock market can go much higher without causing inflation to go much higher.&#8221;<cite>— Kyle</cite></div>
+      
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">This is Kyle's own thesis, coined and pushed on Twitter over the prior two to three months — he acknowledges pullbacks will keep happening and that the Goldilocks window itself won't last forever (he flags a possible end "next year").</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="ai-jobs-debate">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#93711b;">Opinion, self-described as contested</span>
+    <span class="theme-status"></span>
+  </div>
+  <h2 style="border-left:4px solid #93711b;">Does AI kill jobs or create them? Kyle's profit-per-employee argument</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Kyle argues AI raises profit per employee, so companies will hire more AI-literate workers, not fewer workers overall — near term.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#93711b;"></span>His framing: as AI makes each employee more productive/profitable, companies want to hire more people who can use AI to capture that extra profit, rather than shrink headcount.</li><li><span class="dot" style="background:#93711b;"></span>Cites his own two companies as hiring throughout, conditional on candidates using AI.</li><li><span class="dot" style="background:#93711b;"></span>Robotics/physical automation is the disruption he expects to actually displace labor at scale — but he places that around 2029-2030, calling it a slow scale-out.</li><li><span class="dot" style="background:#93711b;"></span>Used a personal anecdote to make the case to skeptical, non-AI family members: a school assignment that used to be a 10-page essay can now be a full engineering blueprint, 3D rendering, bill of materials and sourcing plan — the point being AI raises what one person can deliver rather than eliminating the need for people.</li><li><span class="dot" style="background:#93711b;"></span>Flags the second-order risk himself: more jobs and higher consumption could eventually re-accelerate inflation, unless AI-driven manufacturing/robotics and cheaper energy offset it by pushing the cost of goods down.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#93711b;"><div class="lbl">Pull quote</div>&#8220;It's not that they're going to be able to fast-track their 10-page report — it's that the assignment should no longer be a 10-page report now that they can do so much more.&#8221;<cite>— LG, paraphrasing Kyle's framing</cite></div>
+      
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">Kyle explicitly says he doesn't know when/if the inflation offset from AI-driven manufacturing materializes — "I'm sure we'll probably get inflation pickup before then, but I don't know."</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="ai-stack-roi">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#3f6b2e;">High conviction</span>
+    <span class="theme-status">Confirmed by Q2 2026 revenue figures cited in the episode</span>
+  </div>
+  <h2 style="border-left:4px solid #3f6b2e;">Every layer of the AI stack is ROI-positive, and the revenue numbers back it up</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Infrastructure, model and application layers are all making money on AI spend right now, which Kyle says means the buildout keeps scaling rather than stalling.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#3f6b2e;"></span>Among 117 companies with $500M+ annual revenue, those spending on LLM tokens grew revenue roughly 3x faster than those that didn't, per a chart Kyle cites (source not named beyond "a chart").</li><li><span class="dot" style="background:#3f6b2e;"></span>Semianalysis estimate cited: for every gigawatt of compute Anthropic or OpenAI buys, they can generate ~$100B via inference API revenue — which is why neoclouds selling long-term gigawatt deals at $10B/year, or Elon Musk's cited $30-50B/year gigawatt pricing, still leaves Anthropic/OpenAI several multiples ahead.</li><li><span class="dot" style="background:#3f6b2e;"></span>Anthropic: $65B annualized revenue run rate; Q2 2026 revenue was $11.5B (up 14x year-over-year, up from $4.7B in Q1). OpenAI: $40B annualized run rate, and roughly doubled revenue in about two months.</li><li><span class="dot" style="background:#3f6b2e;"></span>OpenAI's Codex user base more than doubled in a month — 6M users (July 12) to 15M users (August 12).</li><li><span class="dot" style="background:#3f6b2e;"></span>Kyle's year-end 2026 estimates: Anthropic run rate reaching $100-120B, OpenAI $60-80B (combined ~$200B); citing the All-In Podcast (Gavin Baker and, he believes, David Sacks), he references a $250-400B Anthropic run-rate estimate by end of 2027.</li><li><span class="dot" style="background:#3f6b2e;"></span>Cursor and xAI's Grok (newly launched Grok 4.6 and "Grokbot") are named as an emerging third/fourth frontier-model force, currently at an estimated $6-8B revenue run rate and projected to hit $10-20B by year-end — Kyle expects them to start taking share from Anthropic/OpenAI.</li><li><span class="dot" style="background:#3f6b2e;"></span>Moat argument: open-source models are cheaper per-token but lack the enterprise admin/UX layer (user management, agent-building tools, CRM integration, cost controls) that Anthropic and OpenAI have built — which he says is why enterprises keep onboarding into Codex/Anthropic rather than self-building on open weights.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#3f6b2e;"><div class="lbl">Pull quote</div>&#8220;If a company can spend money on OpenAI and Anthropic and make money, they're just going to continue to do that.&#8221;<cite>— Kyle</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Anthropic</b><span>$65B annualized run rate; Q2 revenue $11.5B, up 14x YoY; Kyle's estimate of $100-120B run rate by end of 2026, $250-400B by end of 2027 per an All-In Podcast estimate.</span></div><div class="namechip"><b>OpenAI</b><span>$40B annualized run rate; roughly doubled revenue in ~2 months; Codex users doubled from 6M to 15M in a month; Kyle estimates $60-80B run rate by end of 2026.</span></div><div class="namechip"><b>Cursor</b><span>Estimated $6-8B revenue run rate currently, projected $10-20B by year-end; named alongside Grok as an emerging frontier-model challenger.</span></div><div class="namechip"><b>SpaceX</b><span>Named among the capital-rich buyers (with Google, Amazon, Microsoft, Nebius, CoreWeave) able to keep funding data-center and GPU buildout because compute resale is ROI-positive.</span></div><div class="namechip"><b>Google (GOOGL)</b><span>Named among hyperscalers with the capital to keep building data centers; Gemini flagged as a possible but unconfirmed fourth major model player.</span></div><div class="namechip"><b>Amazon (AMZN)</b><span>Named among hyperscalers with capital to keep funding the AI buildout.</span></div><div class="namechip"><b>Microsoft (MSFT)</b><span>Named alongside OpenAI/Anthropic as able to monetize compute spend at a return.</span></div><div class="namechip"><b>Nebius (NBIS)</b><span>Named as a neocloud with the capital and long-term compute deals to keep building out capacity.</span></div><div class="namechip"><b>CoreWeave (CRWV)</b><span>Named as a neocloud with the capital and long-term compute deals to keep building out capacity.</span></div><div class="namechip"><b>DeepSeek</b><span>Cited as an open-source model alternative that lacks the enterprise admin/UX layer Anthropic and OpenAI have built, which Kyle says limits its enterprise displacement of them.</span></div></div>
+      <div class="sidecard" style="--sc-accent:#93711b;"><div class="lbl">Worth noting</div><div class="txt">The Anthropic/OpenAI 2027 run-rate figures are Kyle relaying a secondhand estimate from an All-In Podcast discussion, not a company projection — and his own year-end 2026 numbers are explicitly his own back-of-envelope guesses ("let's say").</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="theme" id="barbell-portfolio">
+  <div class="theme-badgerow">
+    <span class="badge" style="background:#3f6b2e;">High conviction, actioned</span>
+    <span class="theme-status">ACTIONED — Milk Road Pro called buys during the July 2026 pullback</span>
+  </div>
+  <h2 style="border-left:4px solid #3f6b2e;">Kyle's barbell: buy the infrastructure basket and the application-layer winners, and buy into fear</h2>
+  <div class="theme-body">
+    <div class="theme-main">
+      <p class="lead">**Kyle splits his AI exposure across an infrastructure basket and application-layer earners, and times entries around investor-sentiment fear rather than euphoria.**</p>
+      <ul class="bullets"><li><span class="dot" style="background:#3f6b2e;"></span>Model layer (Anthropic, OpenAI) is mostly uninvestable being private — Kyle treats Cursor and Grok/xAI as the closest public-adjacent proxies, though he says their pricing already diverges from a pure frontier-model comp.</li><li><span class="dot" style="background:#3f6b2e;"></span>Infrastructure layer: buy a basket (not single names) of memory, GPU, semis, compute and power plays as long as capex keeps growing.</li><li><span class="dot" style="background:#3f6b2e;"></span>Application layer: buy companies whose earnings improve from integrating AI — Eli Lilly (LLY) is his largest example (biggest biotech by market cap, S&amp;P 500 member, over $1T market cap, showing AI-attributed revenue); he also flags SaaS broadly as a bottom-buy that's since outperformed infrastructure names, despite being down ~50% at its low.</li><li><span class="dot" style="background:#3f6b2e;"></span>Timing: Kyle bought into the Iran-war-driven selloff (spring 2026) and again during the July 2026 pullback, using an investor-sentiment chart to time entries into fear rather than euphoria — he flags today's (August 2026) sentiment as "very bullish" post-rebound, though he still sees room to run since several names (Nebius, Micron) haven't retaken all-time highs.</li><li><span class="dot" style="background:#3f6b2e;"></span>Named July 2026 buys (per Milk Road Pro calls referenced): Micron (MU), Nebius (NBIS), CoreWeave (CRWV); Nebius fell to $147 from ~$280 during the dip, which Kyle calls roughly a 2x round-trip opportunity.</li></ul>
+    </div>
+    <div class="theme-side">
+      <div class="sidecard quote" style="--sc-accent:#3f6b2e;"><div class="lbl">Pull quote</div>&#8220;You want to try to time when you enter into different companies or just into the broader market... what you want to do again is wait for fear.&#8221;<cite>— Kyle</cite></div>
+      <div class="sidecard" style="--sc-accent:#65695f;"><div class="lbl">Names in play</div><div class="namechip"><b>Eli Lilly (LLY)</b><span>Kyle's largest application-layer holding example — biggest biotech by market cap, S&amp;P 500, &gt;$1T market cap, showing AI-attributed revenue growth.</span></div><div class="namechip"><b>Micron (MU)</b><span>Named as a Milk Road Pro buy call during the July 2026 pullback.</span></div><div class="namechip"><b>Nebius (NBIS)</b><span>Fell to ~$147 from ~$280 in the July 2026 dip, called by Kyle roughly a 2x round-trip; also referenced as an earlier ~$300 entry call back in February.</span></div><div class="namechip"><b>CoreWeave (CRWV)</b><span>Named as a Milk Road Pro buy call during the July 2026 pullback.</span></div><div class="namechip"><b>AMD</b><span>Named in passing as one of the infrastructure-layer names that has rallied alongside Micron and Nebius.</span></div><div class="namechip"><b>Palantir (PLTR)</b><span>Cited as an example application-layer company profiting by helping enterprises integrate AI.</span></div><div class="namechip"><b>ServiceNow (NOW)</b><span>Cited as an example application-layer company profiting by helping enterprises integrate AI.</span></div><div class="namechip"><b>Salesforce (CRM)</b><span>Named as an example SaaS company using AI to improve its offering.</span></div><div class="namechip"><b>Robinhood (HOOD)</b><span>Named as an example of an average company whose AI adoption is improving shipping speed and earnings.</span></div><div class="namechip"><b>Coinbase (COIN)</b><span>Named as an example of an average company whose AI adoption is improving shipping speed and earnings.</span></div><div class="namechip"><b>SanDisk (SNDK)</b><span>Named in a list of recent Milk Road Pro dip-buy calls alongside Nebius and SpaceX-adjacent infrastructure names.</span></div></div>
+      
+    </div>
+  </div>
+</section>
+
+
+    <section class="sec">
+      <div class="sec-eye">What to do with this</div>
+      <h2>Best Actionable Takeaways</h2>
+      <div style="margin-top:16px;"><div class="icard"><div class="ic">📊</div><div><div class="title">Watch Kalshi/Polymarket Fed-hike odds, not just CPI — the market is already pricing holds through January</div><div class="tag">Macro</div></div></div><div class="icard"><div class="ic">💰</div><div><div class="title">Track Anthropic/OpenAI run-rate growth as the clearest read on whether the AI-stack ROI thesis is still intact</div><div class="tag">Earnings</div></div></div><div class="icard"><div class="ic">⚖️</div><div><div class="title">Consider a barbell of infrastructure basket + application-layer earners rather than betting on a single AI layer</div><div class="tag">Portfolio</div></div></div><div class="icard"><div class="ic">😼</div><div><div class="title">Use investor-sentiment/fear signals to time entries — Kyle's biggest calls came during selloffs, not at highs</div><div class="tag">Timing</div></div></div><div class="icard"><div class="ic">🤖</div><div><div class="title">Watch for the demand-wave handoff from enterprise agents to consumer agents (Apple/Google) late 2026, then physical AI</div><div class="tag">Watch next</div></div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Where this could be wrong</div>
+      <h2>Risks &amp; Caveats on This Source</h2>
+      <div style="margin-top:16px;"><div class="riskcard"><div class="txt">Kyle is a co-owner of Milk Road and runs a paid portfolio product (Milk Road Pro) whose price was rising the week this episode aired — his bullish framing and the specific buy calls cited carry a direct commercial incentive to drive subscriptions.</div></div><div class="riskcard"><div class="txt">The "everything bull market" is Kyle's own coined thesis, not third-party research — the ROI figures he cites (the 117-company token-spend chart, the Semianalysis gigawatt-to-revenue estimate) are described from memory/screen-share rather than sourced with citations in the episode.</div></div><div class="riskcard"><div class="txt">The 2027 Anthropic run-rate estimate ($250-400B) is Kyle relaying a secondhand recollection of an All-In Podcast discussion he attributes to Gavin Baker and, tentatively, David Sacks ("I think it was David Sacks, maybe I forget") — he is not certain of the source himself.</div></div><div class="riskcard"><div class="txt">Several figures are explicitly Kyle's own rough estimates rather than reported numbers ("let's say" for Cursor/Grok revenue run rate, year-end 2026 Anthropic/OpenAI projections) — presented as working numbers in conversation, not audited guidance.</div></div><div class="riskcard"><div class="txt">Auto-captions garbled several names (e.g. "Palunteer" for Palantir, "Sandis" for SanDisk, "Kim K3" for what is likely Kimi K2) — resolved here by context; treat as reasonably but not certainly correct.</div></div></div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-eye">Beyond the main threads</div>
+      <h2>Other Notable News</h2>
+      <div style="margin-top:16px;"><p class="empty">Nothing notable found in this category for this video.</p></div>
+    </section>
+
+    <section class="sec" style="border-bottom:none;">
+      <div class="sec-eye">Names and terms at a glance</div>
+      <h2>Glossary &amp; Entities</h2>
+      <div style="margin-top:16px;"><div class="gloss"><div><b>ISM</b> &mdash; Institute for Supply Management index; above 50 signals expansion, and Kyle cites a reading above 56 as a sign the economy is running hot.</div><div><b>Goldilocks economy</b> &mdash; A macro state where growth is strong but not so strong that it forces the Fed to raise rates — Kyle's core argument for why the AI-driven bull market can keep running.</div><div><b>Kalshi / Polymarket</b> &mdash; Prediction markets Kyle cites for real-time odds on Fed rate decisions, used as a probability read on hikes/holds/cuts.</div><div><b>Run rate</b> &mdash; Annualized revenue extrapolated from a recent period (e.g. a quarter x4) — used throughout to describe Anthropic's and OpenAI's growth.</div><div><b>Neocloud</b> &mdash; A newer compute/cloud provider (e.g. Nebius, CoreWeave) selling GPU capacity to AI labs, distinct from legacy hyperscalers.</div><div><b>Barbell strategy</b> &mdash; Kyle's portfolio approach of owning both ends of the AI value chain (infrastructure basket + application-layer earners) rather than concentrating in the middle (model layer).</div><div><b>Inference API</b> &mdash; The pay-per-use API through which companies access AI model outputs (chat, agents) — the revenue channel Kyle says makes each gigawatt of compute worth roughly $100B to Anthropic/OpenAI.</div></div></div>
+    </section>
+  </div>
+</div>
+</body>
+</html>

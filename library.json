@@ -2,6 +2,164 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "milk-road-stocks_2026-08-19_the-biggest-ai-bull-market-is-still-ahead-of-us.html",
+   "title": "The Biggest AI Bull Market Is Still Ahead of Us",
+   "channel": "Milk Road Stocks",
+   "date": "2026-08-19",
+   "speakers": "LG (host) & Kyle (Milk Road co-owner/market analyst)",
+   "thread_line": "4 threads · Goldilocks macro backdrop, the AI-jobs debate, ROI-positive AI stack, barbell portfolio strategy",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Cursor",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "GOOGL",
+     "display": "Google",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "AMZN",
+     "display": "Amazon",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "MSFT",
+     "display": "Microsoft",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "NBIS",
+     "display": "Nebius",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "CRWV",
+     "display": "CoreWeave",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "DeepSeek",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "LLY",
+     "display": "Eli Lilly",
+     "stance": "High conviction, actioned",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "MU",
+     "display": "Micron",
+     "stance": "High conviction, actioned",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "NBIS",
+     "display": "Nebius",
+     "stance": "High conviction, actioned",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "CRWV",
+     "display": "CoreWeave",
+     "stance": "High conviction, actioned",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "AMD",
+     "display": "AMD",
+     "stance": "High conviction, actioned",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "PLTR",
+     "display": "Palantir",
+     "stance": "High conviction, actioned",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "NOW",
+     "display": "ServiceNow",
+     "stance": "High conviction, actioned",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "CRM",
+     "display": "Salesforce",
+     "stance": "High conviction, actioned",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "HOOD",
+     "display": "Robinhood",
+     "stance": "High conviction, actioned",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "COIN",
+     "display": "Coinbase",
+     "stance": "High conviction, actioned",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "SNDK",
+     "display": "SanDisk",
+     "stance": "High conviction, actioned",
+     "conviction": null,
+     "color": "green"
+    }
+   ]
+  },
+  {
    "html": "limitless-podcast_2026-08-18_leopold-s-final-portfolio-just-went-public.html",
    "title": "Leopold's Final Portfolio Just Went Public",
    "channel": "Limitless Podcast",
