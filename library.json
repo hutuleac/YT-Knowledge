@@ -2,6 +2,16 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "matt-pocock_2026-08-19_live-uncle-bob-on-software-fundamentals-in-the-age-of-ai.html",
+   "title": "LIVE: Uncle Bob on Software Fundamentals in the Age of AI",
+   "channel": "Matt Pocock",
+   "date": "2026-08-19",
+   "speakers": "Matt Pocock, Robert C. Martin (\"Uncle Bob\")",
+   "thread_line": "6 threads · why messy code still breaks agents, ditching steering for deterministic gauntlets, a 5-agent implement-clean-harden-QA pipeline, module structure as agent leverage, which human disciplines don't transfer to agents, and how juniors learn strategic programming when AI eats the tactical work",
+   "category": "dev",
+   "entities": []
+  },
+  {
    "html": "milk-road-stocks_2026-08-19_the-biggest-ai-bull-market-is-still-ahead-of-us.html",
    "title": "The Biggest AI Bull Market Is Still Ahead of Us",
    "channel": "Milk Road Stocks",
