@@ -2,6 +2,87 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "tom-bilyeu_2026-08-20_raoul-pal-the-economic-singularity-is-coming-by-2030-here-s-how-to-position-now.html",
+   "title": "Raoul Pal: The Economic Singularity Is Coming by 2030 — Here's How to Position Now",
+   "channel": "Tom Bilyeu",
+   "date": "2026-08-20",
+   "speakers": "Raoul Pal (guest, Real Vision / Global Macro Investor), Tom Bilyeu (host, Impact Theory)",
+   "thread_line": "6 threads · the 2030 economic singularity, why the liquidity gap (not dead tech) explains crypto's stall, the Cape-ratio bear case vs Raoul's debasement rebuttal, Amazon as the productivity-miracle preview colliding with a widening K, Raoul's own hard-won portfolio psychology, and his Reed's-Law/'universal code' thesis for why capital keeps flowing to AI",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": "BTC",
+     "display": "Bitcoin",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": "ETH",
+     "display": "Ethereum",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Berkshire Hathaway (BRK.B)",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "AAPL",
+     "display": "Apple",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "GOOGL",
+     "display": "Alphabet",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "CRWV",
+     "display": "CoreWeave",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "ORCL",
+     "display": "Oracle",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": "AMZN",
+     "display": "Amazon",
+     "stance": "Structural bull case, social cost flagged",
+     "conviction": null,
+     "color": "amber"
+    }
+   ]
+  },
+  {
    "html": "matt-pocock_2026-08-19_live-uncle-bob-on-software-fundamentals-in-the-age-of-ai.html",
    "title": "LIVE: Uncle Bob on Software Fundamentals in the Age of AI",
    "channel": "Matt Pocock",
