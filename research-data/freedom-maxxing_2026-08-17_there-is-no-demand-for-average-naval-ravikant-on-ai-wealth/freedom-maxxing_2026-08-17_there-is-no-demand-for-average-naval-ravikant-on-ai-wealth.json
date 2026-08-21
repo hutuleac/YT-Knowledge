@@ -1,0 +1,190 @@
+{
+ "meta": {
+  "title": "There Is No Demand For Average — Naval Ravikant on AI & Wealth",
+  "channel": "Freedom Maxxing",
+  "speakers": "Naval Ravikant, with co-panelists (incl. one named \"Max\")",
+  "date": "2026-08-17",
+  "video_url": "https://www.youtube.com/watch?v=b_Gj2Xlerac",
+  "thread_line": "6 threads · software's death as a moat, the solo-creator renaissance, the agency-vs-intelligence flip, human desire as the last moat, the economics of wasting tokens, and taste as the bottleneck on model quality",
+  "category": "dev"
+ },
+ "snapshot": [
+  "Compilation stitched from four separate episodes of Naval's own podcast (Feb–Jul 2026), not one sitting — so timeline references ('a couple of years back', 'recently') span that whole window.",
+  "Central claim: 'pure software is uninvestable' — coding agents will one-shot any specified software within a year, so a software-only moat has an expiry date measured in weeks.",
+  "Hardware isn't a safe harbor either — China commoditizes hardware as fast as the US commoditizes software (Shenzhen cited as the counter-example to any hardware moat).",
+  "Naval reframes the intelligence-vs-agency debate: a co-panelist ('Max') argues the return on skill is now 70% agency / 30% intelligence; Naval counters it's 99% intelligence / 1% agency, because agents will supply the agency once you point them at a goal.",
+  "The one thing Naval says AI structurally cannot replace is human desire — as long as humans want things, humans stay in the loop, even in a world of expert-level (not superintelligent) AI.",
+  "Practical money claim: at ~$100K/year in token spend, an individual can already operate at a capability level Naval associates with 'a normal citizen in 2028' — and token cost is still falling.",
+  "Model quality gains lately are attributed less to bigger training runs and more to elite software engineers' taste feeding back into training data — taste/judgment is framed as the actual scarce resource, not raw model capability.",
+  "Endgame framing: humans shift from builders to verifiers ('this is roughly correct, I'll stand behind it') and from operators to AI/robot handlers — Naval's 'Pokémon trainer' analogy for the human role once AI reaches expert level but not ASI."
+ ],
+ "themes": [
+  {
+   "id": "software-uninvestable",
+   "color": "amber",
+   "badge": "Structural critique",
+   "status": "STATED AS CURRENT VIEW, MID-2026",
+   "title": "\"Pure software is uninvestable\" — Cloud code burns down the software castle",
+   "lead": "**Naval's flagship claim: a software-only moat no longer buys durable time, because coding agents close the gap in one or two shots.**",
+   "bullets": [
+    "Naval walks back his own softened tweet (\"there's no market for venture-backed software anymore\") to the harder claim: pure software is uninvestable, full stop.",
+    "Two reasons given: (1) anyone can already hack together a working version today, and (2) coding agents are improving fast enough that within a year — or less — they'll produce scalable, well-architected software outright.",
+    "Reframes the old VC pattern-match on hardware deals (\"what's the software lock-in?\") as backwards: hardware used to be the moat that bought time to build a software castle; now \"cloud code burns software down.\"",
+    "Extends the same commoditization logic to hardware itself — China can replicate any hardware built in the US more cheaply, citing Shenzhen's ~3,000 manufacturers clustered around a single component ecosystem as the proof case.",
+    "Net effect: he says durable competitive advantage is compressing in time faster than in any prior era — \"you might have the smartest model, but what are you going to do with it in 2 or 3 weeks\" before someone else has it, including via open-source catch-up."
+   ],
+   "quote": {
+    "text": "Software was eating the world and AI eats software. So now software's commoditized.",
+    "cite": "— Naval Ravikant"
+   },
+   "watch": "This is Naval's stated position in this compilation, not a verified market outcome — treat \"uninvestable\" as his thesis about moat durability, not a claim that software VC funding has actually stopped.",
+   "names": null
+  },
+  {
+   "id": "solo-creator-renaissance",
+   "color": "green",
+   "badge": "Recommendation",
+   "status": "ONGOING SHIFT, PER NAVAL",
+   "title": "One- and two-person companies can now scale to millions of users",
+   "lead": "**Naval frames AI coding tools as a renaissance for individual creators, not just a threat to software companies.**",
+   "bullets": [
+    "Claims the population who could plausibly build their own apps moves from ~0.1% to 1–3% — but stresses the majority still won't code, because computers remain \"a magic black box\" to most people regardless of how much easier building has become.",
+    "The addressable group he's excited about: people who are creative, self-motivated, and articulate with a clear vision — \"there's nobody standing in between\" them and shipping software now.",
+    "Cites Notch, Satoshi Nakamoto, the original Instagram team, and the original WhatsApp team as prior proof that tiny teams can build products used by hundreds of millions — and argues AI coding tools make this pattern far more repeatable going forward.",
+    "Notes a real platform constraint: Apple won't let you distribute AI-generated apps broadly — you can key custom apps to specific devices for friends and family, but can't yet ship to \"everybody\" on the App Store.",
+    "Argues hyper-custom, niche, or private apps (tuned to one person's specific use case) are where solo-built AI apps win, while broad-use-case categories stay dominated by hand-tuned, best-of-breed incumbent apps."
+   ],
+   "quote": null,
+   "watch": null,
+   "names": null
+  },
+  {
+   "id": "agency-vs-intelligence",
+   "color": "amber",
+   "badge": "Contested",
+   "status": "LIVE DISAGREEMENT ON CAMERA",
+   "title": "Agency vs. intelligence: two competing bets on what wins going forward",
+   "lead": "**A named co-panelist and Naval stake out opposite predictions about which trait drives returns as models improve.**",
+   "bullets": [
+    "Max's position: historically returns split ~70% intelligence / 30% agency; going forward it flips to ~70% agency / 30% intelligence, and that split shifts further toward agency as models get better.",
+    "Naval's counter: closer to 99% intelligence / 1% agency, on the logic that the agents themselves will increasingly supply the agency — a human's job becomes stating the goal (\"I'm making smart decisions and thinking big thoughts, just go implement stuff\") rather than grinding execution.",
+    "Neither side treats this as settled — it's presented as an open bet about where leverage concentrates as models get stronger."
+   ],
+   "quote": {
+    "text": "I think it's 99% intelligence and 1% agency because then the agents will exercise the agency.",
+    "cite": "— Naval Ravikant (responding to \"Max\")"
+   },
+   "watch": "Explicitly a live disagreement between two speakers, not a resolved framework — both positions are forward-looking bets, not measured outcomes.",
+   "names": null
+  },
+  {
+   "id": "human-desire-moat",
+   "color": "gray",
+   "badge": "Structural critique",
+   "status": "PHILOSOPHICAL CLAIM",
+   "title": "Human desire is the one thing AI can't replace — so humans stay in the loop",
+   "lead": "**Naval's deepest and most forward-looking claim: even robots with their own desires can't substitute for human desire, which keeps humans structurally necessary.**",
+   "bullets": [
+    "Core logic: as long as humans have desires and AI/robots can help fulfill them, humans are needed in the loop — this is offered as a durable (not just current-era) argument, independent of how capable models get.",
+    "Personal taste test he applies: the moment he learns something is fully AI-made — writing, art, analysis — he loses interest, unless a human is using AI as a tool (\"a human using an AI is a different thing\").",
+    "Endgame scenario if AI reaches expert level but not ASI: humans still supply guidance, taste, and creativity, becoming what he calls \"Pokémon trainers\" or AI/robot handlers rather than doers.",
+    "Ties this to a self-credited older prediction — a tweet he's proud of, \"soon everybody will have AI anxiety\" — contrasted with his own self-description as \"AI jubilant\" rather than anxious.",
+    "Also flags a near-term labor claim: he wants to hire AI-leveraged people *more*, not less, and frames the shift as agentic/creative people becoming more valuable, not fewer humans being hired overall — though he says he's not sure this is strictly a junior-vs-senior story."
+   ],
+   "quote": {
+    "text": "The one thing you can't replace is human desire. Even if robots have their own desires, they cannot replace human desires.",
+    "cite": "— Naval Ravikant"
+   },
+   "watch": "This is presented as Naval's philosophical bet on the limits of AI substitution, not a testable claim — no falsification criteria are offered for when/whether it breaks.",
+   "names": null
+  },
+  {
+   "id": "waste-tokens-save-time",
+   "color": "green",
+   "badge": "Recommendation",
+   "status": "PRACTICAL GUIDANCE, MID-2026",
+   "title": "\"Waste tokens, save time\" — and $100K/year in tokens buys you 2028 living standards today",
+   "lead": "**Naval's actionable financial claim: token spend is already cheap relative to human time, and it's about to get much cheaper.**",
+   "bullets": [
+    "States he brute-forces problems by throwing Codex, Claude, and Gemini at the same task simultaneously and treating wasted tokens as an acceptable cost — \"no matter how expensive these models might seem, they're still way cheaper than a human.\"",
+    "Explicit instruction: don't evaluate token cost as inputs or outputs — evaluate only your time and the final output quality; accepts that resulting code is often lower-quality or non-production-grade, and treats that as an acceptable tradeoff for speed.",
+    "Forward-looking number: he says if you're willing to spend roughly $100,000/year on tokens, you can effectively live at the capability level of \"a normal citizen in 2028\" — offered as a rough, illustrative claim rather than a costed model, alongside a general expectation that token cost keeps falling as compute scales."
+   ],
+   "quote": {
+    "text": "I would say just waste tokens, save time.",
+    "cite": "— Naval Ravikant"
+   },
+   "watch": "The $100K/year-to-2028-citizen figure is his own illustrative shorthand, not a benchmarked calculation — no methodology is given for how that number was derived.",
+   "names": null
+  },
+  {
+   "id": "taste-bottleneck",
+   "color": "amber",
+   "badge": "Structural critique",
+   "status": "CURRENT-STATE OBSERVATION",
+   "title": "Recent coding-model gains trace back to elite engineers' taste, not just bigger training runs",
+   "lead": "**Naval attributes the recent jump in coding-model quality mainly to top software engineers feeding their judgment back into training, and argues taste is the harder bottleneck going forward.**",
+   "bullets": [
+    "Two causes floated for why coding models improved recently: some recursive training (one model helping train the next), but the bigger factor he names is that top-tier software engineers only started heavily using these models in the last few months, feeding their code *and* their taste back into the loop.",
+    "Concrete example of taste showing up in output: asking a model to put high-cardinality telemetry data into Postgres now gets pushed back on — the model recommends ClickHouse or Athena instead, which he says didn't happen before.",
+    "General claim: improving these models requires \"high-taste feedback loops,\" which he says are harder to build than they look — tractable in some domains, unclear how to do in others.",
+    "Frames this as part of a broader shift where humans move from builders to verifiers — \"a lot of the old function of people, lawyers, engineers, operations — moved to verifying the stack\" and standing behind the output rather than producing it.",
+    "Caveat he raises himself: models rarely contradict you unless you're clearly wrong, because they're optimizing to please the user and lack a persistent theory of mind — so they tend to morph toward whatever answer you already believe, which he flags as a real limitation of relying on model taste alone."
+   ],
+   "quote": {
+    "text": "You need high-taste feedback loops to improve these models, and those are harder to develop than they look.",
+    "cite": "— Naval Ravikant"
+   },
+   "watch": "The sycophancy caveat (models rarely contradict you) is Naval's own stated limitation on how much to trust model \"taste\" — worth reading alongside the taste-bottleneck claim above, not as a separate settled fact.",
+   "names": null
+  }
+ ],
+ "takeaways": [
+  {
+   "icon": "🛠",
+   "tag": "Build",
+   "title": "Don't fund or build on a software-only moat — assume any specifiable software gets one-shot within a year"
+  },
+  {
+   "icon": "🚀",
+   "tag": "Create",
+   "title": "If you're creative and articulate but non-technical, this is the window to build your own niche/custom app — nobody is standing in between you and shipping"
+  },
+  {
+   "icon": "💸",
+   "tag": "Spend",
+   "title": "Stop rationing tokens against a budget mindset — measure cost against your time saved, not against token counts"
+  },
+  {
+   "icon": "🎯",
+   "tag": "Position",
+   "title": "Build toward being a verifier/handler of AI output (taste + judgment + accountability), not just a producer of it"
+  },
+  {
+   "icon": "🧠",
+   "tag": "Watch",
+   "title": "Treat model \"agreement\" skeptically — it's optimized to please you, not to independently push back, so it will rarely contradict you even when you're wrong"
+  }
+ ],
+ "risks": [
+  "This is a compilation stitched from four separate Naval podcast episodes recorded between February and July 2026 — timeline phrases like \"a couple of years back\" or \"recently\" are anchored to whichever original episode that clip came from, not to this compilation's August 2026 upload date.",
+  "Speaker attribution beyond Naval is partial — auto-captions mark speaker changes with \">>\" but only one co-panelist is named (\"Max\"); other voices are transcribed but not identifiable by name, so quotes not explicitly attributed to Naval above are left unnamed rather than guessed.",
+  "All dollar figures and percentages (the $100K/year token-spend claim, the 70/30 and 99/1 agency-intelligence splits) are Naval's or a co-panelist's own illustrative numbers from conversation, not sourced from a study or report.",
+  "The compilation is framed by its uploader as educational/commentary content built from Naval's own podcast; the source episodes named in the description (\"A Motorcycle for the Mind,\" \"A Return to Code,\" \"The AI Industrial Revolution,\" \"Live in the Future\") were not independently re-checked against this transcript."
+ ],
+ "other_news": [],
+ "glossary": [
+  {
+   "term": "Uninvestable (software)",
+   "def": "Naval's term for a startup whose only advantage is proprietary software that competitors — or AI coding agents — can replicate within one or two development cycles."
+  },
+  {
+   "term": "High-taste feedback loop",
+   "def": "Naval's term for training data or evaluation signal supplied by expert practitioners whose judgment about quality is itself hard to replicate or crowdsource."
+  },
+  {
+   "term": "AI handler / \"Pokémon trainer\"",
+   "def": "Naval's analogy for the human role in a world where AI reaches expert level but not superintelligence: directing and taking responsibility for AI/robot output rather than doing the underlying work."
+  }
+ ]
+}

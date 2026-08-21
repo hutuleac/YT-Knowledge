@@ -1,0 +1,3765 @@
+1
+00:00:04,280 --> 00:00:05,950
+
+There is a very real phenomenon going on
+
+2
+00:00:05,950 --> 00:00:05,960
+There is a very real phenomenon going on
+ 
+
+3
+00:00:05,960 --> 00:00:08,030
+There is a very real phenomenon going on
+right now where the people who would
+
+4
+00:00:08,030 --> 00:00:08,040
+right now where the people who would
+ 
+
+5
+00:00:08,040 --> 00:00:10,230
+right now where the people who would
+know the most in the labs are basically
+
+6
+00:00:10,230 --> 00:00:10,240
+know the most in the labs are basically
+ 
+
+7
+00:00:10,240 --> 00:00:11,510
+know the most in the labs are basically
+saying there will be nothing left for
+
+8
+00:00:11,510 --> 00:00:11,520
+saying there will be nothing left for
+ 
+
+9
+00:00:11,520 --> 00:00:13,150
+saying there will be nothing left for
+humans to do. Really, when you when you
+
+10
+00:00:13,150 --> 00:00:13,160
+humans to do. Really, when you when you
+ 
+
+11
+00:00:13,160 --> 00:00:14,110
+humans to do. Really, when you when you
+read between the lines of what they're
+
+12
+00:00:14,110 --> 00:00:14,120
+read between the lines of what they're
+ 
+
+13
+00:00:14,120 --> 00:00:15,070
+read between the lines of what they're
+saying, they're saying in different
+
+14
+00:00:15,070 --> 00:00:15,080
+saying, they're saying in different
+ 
+
+15
+00:00:15,080 --> 00:00:16,750
+saying, they're saying in different
+ways, but they're saying your harness
+
+16
+00:00:16,750 --> 00:00:16,760
+ways, but they're saying your harness
+ 
+
+17
+00:00:16,760 --> 00:00:18,750
+ways, but they're saying your harness
+doesn't matter because within a year the
+
+18
+00:00:18,750 --> 00:00:18,760
+doesn't matter because within a year the
+ 
+
+19
+00:00:18,760 --> 00:00:20,350
+doesn't matter because within a year the
+AI will be spinning up harnesses as
+
+20
+00:00:20,350 --> 00:00:20,360
+AI will be spinning up harnesses as
+ 
+
+21
+00:00:20,360 --> 00:00:21,670
+AI will be spinning up harnesses as
+needed and you won't even be the
+
+22
+00:00:21,670 --> 00:00:21,680
+needed and you won't even be the
+ 
+
+23
+00:00:21,680 --> 00:00:23,310
+needed and you won't even be the
+consumer because it'll be talking to
+
+24
+00:00:23,310 --> 00:00:23,320
+consumer because it'll be talking to
+ 
+
+25
+00:00:23,320 --> 00:00:25,630
+consumer because it'll be talking to
+other AIs and beyond the Otis problem
+
+26
+00:00:25,630 --> 00:00:25,640
+other AIs and beyond the Otis problem
+ 
+
+27
+00:00:25,640 --> 00:00:27,030
+other AIs and beyond the Otis problem
+it'll be solving fundamental problems in
+
+28
+00:00:27,030 --> 00:00:27,040
+it'll be solving fundamental problems in
+ 
+
+29
+00:00:27,040 --> 00:00:28,710
+it'll be solving fundamental problems in
+material science and physics and math
+
+30
+00:00:28,710 --> 00:00:28,720
+material science and physics and math
+ 
+
+31
+00:00:28,720 --> 00:00:31,510
+material science and physics and math
+and and engineering and health.
+
+32
+00:00:31,510 --> 00:00:31,520
+and and engineering and health.
+ 
+
+33
+00:00:31,520 --> 00:00:32,630
+and and engineering and health.
+>> Great.
+
+34
+00:00:32,630 --> 00:00:32,640
+>> Great.
+ 
+
+35
+00:00:32,640 --> 00:00:34,950
+>> Great.
+>> Yes, but then you know, that's taking
+
+36
+00:00:34,950 --> 00:00:34,960
+>> Yes, but then you know, that's taking
+ 
+
+37
+00:00:34,960 --> 00:00:48,630
+>> Yes, but then you know, that's taking
+the average person out on the street.
+
+38
+00:00:48,630 --> 00:00:48,640
+
+ 
+
+39
+00:00:48,640 --> 00:00:50,910
+
+They're shifting very very fast.
+
+40
+00:00:50,910 --> 00:00:50,920
+They're shifting very very fast.
+ 
+
+41
+00:00:50,920 --> 00:00:52,750
+They're shifting very very fast.
+It may be the case that
+
+42
+00:00:52,750 --> 00:00:52,760
+It may be the case that
+ 
+
+43
+00:00:52,760 --> 00:00:55,070
+It may be the case that
+the big companies are vulnerable because
+
+44
+00:00:55,070 --> 00:00:55,080
+the big companies are vulnerable because
+ 
+
+45
+00:00:55,080 --> 00:00:57,270
+the big companies are vulnerable because
+now anyone can create software.
+
+46
+00:00:57,270 --> 00:00:57,280
+now anyone can create software.
+ 
+
+47
+00:00:57,280 --> 00:00:58,590
+now anyone can create software.
+It may be the case that they have more
+
+48
+00:00:58,590 --> 00:00:58,600
+It may be the case that they have more
+ 
+
+49
+00:00:58,600 --> 00:00:59,910
+It may be the case that they have more
+of an advantage because they have
+
+50
+00:00:59,910 --> 00:00:59,920
+of an advantage because they have
+ 
+
+51
+00:00:59,920 --> 00:01:01,350
+of an advantage because they have
+distribution. They can just fill all the
+
+52
+00:01:01,350 --> 00:01:01,360
+distribution. They can just fill all the
+ 
+
+53
+00:01:01,360 --> 00:01:02,590
+distribution. They can just fill all the
+gaps with all the software they can
+
+54
+00:01:02,590 --> 00:01:02,600
+gaps with all the software they can
+ 
+
+55
+00:01:02,600 --> 00:01:04,310
+gaps with all the software they can
+dream up. But I actually think this is a
+
+56
+00:01:04,310 --> 00:01:04,320
+dream up. But I actually think this is a
+ 
+
+57
+00:01:04,320 --> 00:01:05,870
+dream up. But I actually think this is a
+renaissance for individual software
+
+58
+00:01:05,870 --> 00:01:05,880
+renaissance for individual software
+ 
+
+59
+00:01:05,880 --> 00:01:08,070
+renaissance for individual software
+creators. Now, one of the tweet that I
+
+60
+00:01:08,070 --> 00:01:08,080
+creators. Now, one of the tweet that I
+ 
+
+61
+00:01:08,080 --> 00:01:09,510
+creators. Now, one of the tweet that I
+put out was something like there's no
+
+62
+00:01:09,510 --> 00:01:09,520
+put out was something like there's no
+ 
+
+63
+00:01:09,520 --> 00:01:11,230
+put out was something like there's no
+market for venture back software anymore
+
+64
+00:01:11,230 --> 00:01:11,240
+market for venture back software anymore
+ 
+
+65
+00:01:11,240 --> 00:01:12,590
+market for venture back software anymore
+or pure software is not venture
+
+66
+00:01:12,590 --> 00:01:12,600
+or pure software is not venture
+ 
+
+67
+00:01:12,600 --> 00:01:13,910
+or pure software is not venture
+investable anymore.
+
+68
+00:01:13,910 --> 00:01:13,920
+investable anymore.
+ 
+
+69
+00:01:13,920 --> 00:01:16,750
+investable anymore.
+>> I think it's like pure software is
+
+70
+00:01:16,750 --> 00:01:16,760
+>> I think it's like pure software is
+ 
+
+71
+00:01:16,760 --> 00:01:19,350
+>> I think it's like pure software is
+rapidly becoming uninvestable if I
+
+72
+00:01:19,350 --> 00:01:19,360
+rapidly becoming uninvestable if I
+ 
+
+73
+00:01:19,360 --> 00:01:20,710
+rapidly becoming uninvestable if I
+remember correctly.
+
+74
+00:01:20,710 --> 00:01:20,720
+remember correctly.
+ 
+
+75
+00:01:20,720 --> 00:01:22,110
+remember correctly.
+>> Yeah, that's a watered down version of
+
+76
+00:01:22,110 --> 00:01:22,120
+>> Yeah, that's a watered down version of
+ 
+
+77
+00:01:22,120 --> 00:01:23,150
+>> Yeah, that's a watered down version of
+what I really wanted to say which is
+
+78
+00:01:23,150 --> 00:01:23,160
+what I really wanted to say which is
+ 
+
+79
+00:01:23,160 --> 00:01:25,550
+what I really wanted to say which is
+that pure software is uninvestable.
+
+80
+00:01:25,550 --> 00:01:25,560
+that pure software is uninvestable.
+ 
+
+81
+00:01:25,560 --> 00:01:27,470
+that pure software is uninvestable.
+I would just full stop right there. If
+
+82
+00:01:27,470 --> 00:01:27,480
+I would just full stop right there. If
+ 
+
+83
+00:01:27,480 --> 00:01:28,950
+I would just full stop right there. If
+your whole advantage is like hey, I'm
+
+84
+00:01:28,950 --> 00:01:28,960
+your whole advantage is like hey, I'm
+ 
+
+85
+00:01:28,960 --> 00:01:30,390
+your whole advantage is like hey, I'm
+building cool software that other people
+
+86
+00:01:30,390 --> 00:01:30,400
+building cool software that other people
+ 
+
+87
+00:01:30,400 --> 00:01:31,950
+building cool software that other people
+don't know how to build, I think that's
+
+88
+00:01:31,950 --> 00:01:31,960
+don't know how to build, I think that's
+ 
+
+89
+00:01:31,960 --> 00:01:34,070
+don't know how to build, I think that's
+uninvestable. And it's uninvestable for
+
+90
+00:01:34,070 --> 00:01:34,080
+uninvestable. And it's uninvestable for
+ 
+
+91
+00:01:34,080 --> 00:01:35,830
+uninvestable. And it's uninvestable for
+two reasons. One is
+
+92
+00:01:35,830 --> 00:01:35,840
+two reasons. One is
+ 
+
+93
+00:01:35,840 --> 00:01:37,910
+two reasons. One is
+they can just hack it together today and
+
+94
+00:01:37,910 --> 00:01:37,920
+they can just hack it together today and
+ 
+
+95
+00:01:37,920 --> 00:01:39,230
+they can just hack it together today and
+the second is the coding agents are
+
+96
+00:01:39,230 --> 00:01:39,240
+the second is the coding agents are
+ 
+
+97
+00:01:39,240 --> 00:01:42,110
+the second is the coding agents are
+getting better so quickly that within a
+
+98
+00:01:42,110 --> 00:01:42,120
+getting better so quickly that within a
+ 
+
+99
+00:01:42,120 --> 00:01:43,910
+getting better so quickly that within a
+year or even less they're probably
+
+100
+00:01:43,910 --> 00:01:43,920
+year or even less they're probably
+ 
+
+101
+00:01:43,920 --> 00:01:45,430
+year or even less they're probably
+building scalable software with good
+
+102
+00:01:45,430 --> 00:01:45,440
+building scalable software with good
+ 
+
+103
+00:01:45,440 --> 00:01:47,830
+building scalable software with good
+architecture. Uh and so people want to
+
+104
+00:01:47,830 --> 00:01:47,840
+architecture. Uh and so people want to
+ 
+
+105
+00:01:47,840 --> 00:01:50,230
+architecture. Uh and so people want to
+invest in software. So even in the US
+
+106
+00:01:50,230 --> 00:01:50,240
+invest in software. So even in the US
+ 
+
+107
+00:01:50,240 --> 00:01:51,470
+invest in software. So even in the US
+whenever you get a hardware company
+
+108
+00:01:51,470 --> 00:01:51,480
+whenever you get a hardware company
+ 
+
+109
+00:01:51,480 --> 00:01:52,990
+whenever you get a hardware company
+funded the VCs will always ask you well
+
+110
+00:01:52,990 --> 00:01:53,000
+funded the VCs will always ask you well
+ 
+
+111
+00:01:53,000 --> 00:01:54,190
+funded the VCs will always ask you well
+what's the software lock in? What's the
+
+112
+00:01:54,190 --> 00:01:54,200
+what's the software lock in? What's the
+ 
+
+113
+00:01:54,200 --> 00:01:56,230
+what's the software lock in? What's the
+software piece, right? And so this is
+
+114
+00:01:56,230 --> 00:01:56,240
+software piece, right? And so this is
+ 
+
+115
+00:01:56,240 --> 00:01:58,070
+software piece, right? And so this is
+why like I used to say, yeah, hard
+
+116
+00:01:58,070 --> 00:01:58,080
+why like I used to say, yeah, hard
+ 
+
+117
+00:01:58,080 --> 00:01:59,910
+why like I used to say, yeah, hard
+hardware is the moat that buys you time
+
+118
+00:01:59,910 --> 00:01:59,920
+hardware is the moat that buys you time
+ 
+
+119
+00:01:59,920 --> 00:02:02,230
+hardware is the moat that buys you time
+to build a software castle, right? But
+
+120
+00:02:02,230 --> 00:02:02,240
+to build a software castle, right? But
+ 
+
+121
+00:02:02,240 --> 00:02:04,310
+to build a software castle, right? But
+guess what? Cloud code burns software
+
+122
+00:02:04,310 --> 00:02:04,320
+guess what? Cloud code burns software
+ 
+
+123
+00:02:04,320 --> 00:02:06,510
+guess what? Cloud code burns software
+down. Software was eating the world and
+
+124
+00:02:06,510 --> 00:02:06,520
+down. Software was eating the world and
+ 
+
+125
+00:02:06,520 --> 00:02:08,389
+down. Software was eating the world and
+AI eats software. So now software's
+
+126
+00:02:08,389 --> 00:02:08,399
+AI eats software. So now software's
+ 
+
+127
+00:02:08,399 --> 00:02:10,990
+AI eats software. So now software's
+commoditized. The moment you can specify
+
+128
+00:02:10,990 --> 00:02:11,000
+commoditized. The moment you can specify
+ 
+
+129
+00:02:11,000 --> 00:02:13,110
+commoditized. The moment you can specify
+it, an AI can one-shot it or two-shot it
+
+130
+00:02:13,110 --> 00:02:13,120
+it, an AI can one-shot it or two-shot it
+ 
+
+131
+00:02:13,120 --> 00:02:14,430
+it, an AI can one-shot it or two-shot it
+or get to it within a couple of shots
+
+132
+00:02:14,430 --> 00:02:14,440
+or get to it within a couple of shots
+ 
+
+133
+00:02:14,440 --> 00:02:19,070
+or get to it within a couple of shots
+and eventually one-shot it.
+
+134
+00:02:19,070 --> 00:02:19,080
+
+ 
+
+135
+00:02:19,080 --> 00:02:21,110
+
+But hardware is also commoditized by
+
+136
+00:02:21,110 --> 00:02:21,120
+But hardware is also commoditized by
+ 
+
+137
+00:02:21,120 --> 00:02:23,790
+But hardware is also commoditized by
+China. Any hardware I can make here, you
+
+138
+00:02:23,790 --> 00:02:23,800
+China. Any hardware I can make here, you
+ 
+
+139
+00:02:23,800 --> 00:02:25,430
+China. Any hardware I can make here, you
+can make in China more cheaply and more
+
+140
+00:02:25,430 --> 00:02:25,440
+can make in China more cheaply and more
+ 
+
+141
+00:02:25,440 --> 00:02:27,030
+can make in China more cheaply and more
+easily. The whole ecosystem is there.
+
+142
+00:02:27,030 --> 00:02:27,040
+easily. The whole ecosystem is there.
+ 
+
+143
+00:02:27,040 --> 00:02:29,030
+easily. The whole ecosystem is there.
+Shenzhen has like 3,000 manufacturers
+
+144
+00:02:29,030 --> 00:02:29,040
+Shenzhen has like 3,000 manufacturers
+ 
+
+145
+00:02:29,040 --> 00:02:30,550
+Shenzhen has like 3,000 manufacturers
+this tiny little cable all in one little
+
+146
+00:02:30,550 --> 00:02:30,560
+this tiny little cable all in one little
+ 
+
+147
+00:02:30,560 --> 00:02:30,990
+this tiny little cable all in one little
+area.
+
+148
+00:02:30,990 --> 00:02:31,000
+area.
+ 
+
+149
+00:02:31,000 --> 00:02:33,110
+area.
+>> for normalizing relations with China and
+
+150
+00:02:33,110 --> 00:02:33,120
+>> for normalizing relations with China and
+ 
+
+151
+00:02:33,120 --> 00:02:34,670
+>> for normalizing relations with China and
+taking us off the dollar standard or the
+
+152
+00:02:34,670 --> 00:02:34,680
+taking us off the dollar standard or the
+ 
+
+153
+00:02:34,680 --> 00:02:35,430
+taking us off the dollar standard or the
+gold standard.
+
+154
+00:02:35,430 --> 00:02:35,440
+gold standard.
+ 
+
+155
+00:02:35,440 --> 00:02:36,830
+gold standard.
+>> so bringing
+
+156
+00:02:36,830 --> 00:02:36,840
+>> so bringing
+ 
+
+157
+00:02:36,840 --> 00:02:38,910
+>> so bringing
+>> It's also incredibly fun. It takes the
+
+158
+00:02:38,910 --> 00:02:38,920
+>> It's also incredibly fun. It takes the
+ 
+
+159
+00:02:38,920 --> 00:02:40,190
+>> It's also incredibly fun. It takes the
+number of people who might have built
+
+160
+00:02:40,190 --> 00:02:40,200
+number of people who might have built
+ 
+
+161
+00:02:40,200 --> 00:02:43,750
+number of people who might have built
+apps from like 0.1% to 1 or 2 or 3% in
+
+162
+00:02:43,750 --> 00:02:43,760
+apps from like 0.1% to 1 or 2 or 3% in
+ 
+
+163
+00:02:43,760 --> 00:02:45,670
+apps from like 0.1% to 1 or 2 or 3% in
+the populace. Don't get me wrong, the
+
+164
+00:02:45,670 --> 00:02:45,680
+the populace. Don't get me wrong, the
+ 
+
+165
+00:02:45,680 --> 00:02:46,870
+the populace. Don't get me wrong, the
+majority of people are not going to code
+
+166
+00:02:46,870 --> 00:02:46,880
+majority of people are not going to code
+ 
+
+167
+00:02:46,880 --> 00:02:48,590
+majority of people are not going to code
+their own apps. For the majority of
+
+168
+00:02:48,590 --> 00:02:48,600
+their own apps. For the majority of
+ 
+
+169
+00:02:48,600 --> 00:02:50,670
+their own apps. For the majority of
+people, computers are sort of this magic
+
+170
+00:02:50,670 --> 00:02:50,680
+people, computers are sort of this magic
+ 
+
+171
+00:02:50,680 --> 00:02:52,470
+people, computers are sort of this magic
+black box and who knows what is going on
+
+172
+00:02:52,470 --> 00:02:52,480
+black box and who knows what is going on
+ 
+
+173
+00:02:52,480 --> 00:02:54,030
+black box and who knows what is going on
+there anyways. The fact that it's become
+
+174
+00:02:54,030 --> 00:02:54,040
+there anyways. The fact that it's become
+ 
+
+175
+00:02:54,040 --> 00:02:55,870
+there anyways. The fact that it's become
+10x or 100x easier still doesn't mean
+
+176
+00:02:55,870 --> 00:02:55,880
+10x or 100x easier still doesn't mean
+ 
+
+177
+00:02:55,880 --> 00:02:57,230
+10x or 100x easier still doesn't mean
+anything to them.
+
+178
+00:02:57,230 --> 00:02:57,240
+anything to them.
+ 
+
+179
+00:02:57,240 --> 00:02:59,949
+anything to them.
+It's still a black box. But for the
+
+180
+00:02:59,949 --> 00:02:59,959
+It's still a black box. But for the
+ 
+
+181
+00:02:59,959 --> 00:03:01,310
+It's still a black box. But for the
+people who are creative, who are
+
+182
+00:03:01,310 --> 00:03:01,320
+people who are creative, who are
+ 
+
+183
+00:03:01,320 --> 00:03:02,870
+people who are creative, who are
+self-motivated,
+
+184
+00:03:02,870 --> 00:03:02,880
+self-motivated,
+ 
+
+185
+00:03:02,880 --> 00:03:04,430
+self-motivated,
+and who are articulate and have a good
+
+186
+00:03:04,430 --> 00:03:04,440
+and who are articulate and have a good
+ 
+
+187
+00:03:04,440 --> 00:03:07,229
+and who are articulate and have a good
+vision, you can code now. There's nobody
+
+188
+00:03:07,229 --> 00:03:07,239
+vision, you can code now. There's nobody
+ 
+
+189
+00:03:07,239 --> 00:03:08,509
+vision, you can code now. There's nobody
+standing in between.
+
+190
+00:03:08,509 --> 00:03:08,519
+standing in between.
+ 
+
+191
+00:03:08,519 --> 00:03:09,870
+standing in between.
+>> I think we all come from a world where
+
+192
+00:03:09,870 --> 00:03:09,880
+>> I think we all come from a world where
+ 
+
+193
+00:03:09,880 --> 00:03:12,270
+>> I think we all come from a world where
+advantages like had some durability and
+
+194
+00:03:12,270 --> 00:03:12,280
+advantages like had some durability and
+ 
+
+195
+00:03:12,280 --> 00:03:14,110
+advantages like had some durability and
+you could actually operationalize your
+
+196
+00:03:14,110 --> 00:03:14,120
+you could actually operationalize your
+ 
+
+197
+00:03:14,120 --> 00:03:15,790
+you could actually operationalize your
+advantage against the rest of the world,
+
+198
+00:03:15,790 --> 00:03:15,800
+advantage against the rest of the world,
+ 
+
+199
+00:03:15,800 --> 00:03:17,949
+advantage against the rest of the world,
+but that's just like narrowing down in
+
+200
+00:03:17,949 --> 00:03:17,959
+but that's just like narrowing down in
+ 
+
+201
+00:03:17,959 --> 00:03:19,670
+but that's just like narrowing down in
+time. So, you know, you might have the
+
+202
+00:03:19,670 --> 00:03:19,680
+time. So, you know, you might have the
+ 
+
+203
+00:03:19,680 --> 00:03:21,390
+time. So, you know, you might have the
+smartest model, but what are you going
+
+204
+00:03:21,390 --> 00:03:21,400
+smartest model, but what are you going
+ 
+
+205
+00:03:21,400 --> 00:03:23,190
+smartest model, but what are you going
+to do with it in 2 weeks, in 3 4 weeks
+
+206
+00:03:23,190 --> 00:03:23,200
+to do with it in 2 weeks, in 3 4 weeks
+ 
+
+207
+00:03:23,200 --> 00:03:25,390
+to do with it in 2 weeks, in 3 4 weeks
+when till somebody else has it too? So,
+
+208
+00:03:25,390 --> 00:03:25,400
+when till somebody else has it too? So,
+ 
+
+209
+00:03:25,400 --> 00:03:27,590
+when till somebody else has it too? So,
+the I I think there's a different part
+
+210
+00:03:27,590 --> 00:03:27,600
+the I I think there's a different part
+ 
+
+211
+00:03:27,600 --> 00:03:28,670
+the I I think there's a different part
+of the game theory that we've not
+
+212
+00:03:28,670 --> 00:03:28,680
+of the game theory that we've not
+ 
+
+213
+00:03:28,680 --> 00:03:30,190
+of the game theory that we've not
+experienced before, which is the time
+
+214
+00:03:30,190 --> 00:03:30,200
+experienced before, which is the time
+ 
+
+215
+00:03:30,200 --> 00:03:32,509
+experienced before, which is the time
+contraction of any of these advantages.
+
+216
+00:03:32,509 --> 00:03:32,519
+contraction of any of these advantages.
+ 
+
+217
+00:03:32,519 --> 00:03:33,830
+contraction of any of these advantages.
+Um and I don't think it makes them
+
+218
+00:03:33,830 --> 00:03:33,840
+Um and I don't think it makes them
+ 
+
+219
+00:03:33,840 --> 00:03:35,870
+Um and I don't think it makes them
+harder to predict who's going to be in
+
+220
+00:03:35,870 --> 00:03:35,880
+harder to predict who's going to be in
+ 
+
+221
+00:03:35,880 --> 00:03:37,790
+harder to predict who's going to be in
+charge of anything because
+
+222
+00:03:37,790 --> 00:03:37,800
+charge of anything because
+ 
+
+223
+00:03:37,800 --> 00:03:39,949
+charge of anything because
+like you said, a few months later, the
+
+224
+00:03:39,949 --> 00:03:39,959
+like you said, a few months later, the
+ 
+
+225
+00:03:39,959 --> 00:03:41,630
+like you said, a few months later, the
+smartest model is now open source.
+
+226
+00:03:41,630 --> 00:03:41,640
+smartest model is now open source.
+ 
+
+227
+00:03:41,640 --> 00:03:43,229
+smartest model is now open source.
+>> Guys, I'm so [\h__\h] worried.
+
+228
+00:03:43,229 --> 00:03:43,239
+>> Guys, I'm so [\h__\h] worried.
+ 
+
+229
+00:03:43,239 --> 00:03:44,470
+>> Guys, I'm so [\h__\h] worried.
+>> This is one of my tweets I'm prouder of
+
+230
+00:03:44,470 --> 00:03:44,480
+>> This is one of my tweets I'm prouder of
+ 
+
+231
+00:03:44,480 --> 00:03:45,790
+>> This is one of my tweets I'm prouder of
+a couple of years back. I said, "Soon
+
+232
+00:03:45,790 --> 00:03:45,800
+a couple of years back. I said, "Soon
+ 
+
+233
+00:03:45,800 --> 00:03:48,070
+a couple of years back. I said, "Soon
+everybody will have AI anxiety." Like
+
+234
+00:03:48,070 --> 00:03:48,080
+everybody will have AI anxiety." Like
+ 
+
+235
+00:03:48,080 --> 00:03:49,550
+everybody will have AI anxiety." Like
+we're all feeling it. We're all feeling
+
+236
+00:03:49,550 --> 00:03:49,560
+we're all feeling it. We're all feeling
+ 
+
+237
+00:03:49,560 --> 00:03:52,630
+we're all feeling it. We're all feeling
+AI anxious, right? It's it's incredibly
+
+238
+00:03:52,630 --> 00:03:52,640
+AI anxious, right? It's it's incredibly
+ 
+
+239
+00:03:52,640 --> 00:04:02,430
+AI anxious, right? It's it's incredibly
+>> I am AI jubilant. Yeah.
+
+240
+00:04:02,430 --> 00:04:02,440
+
+ 
+
+241
+00:04:02,440 --> 00:04:04,670
+
+They would be writing code, fixing bugs,
+
+242
+00:04:04,670 --> 00:04:04,680
+They would be writing code, fixing bugs,
+ 
+
+243
+00:04:04,680 --> 00:04:06,350
+They would be writing code, fixing bugs,
+responding to people, and they would
+
+244
+00:04:06,350 --> 00:04:06,360
+responding to people, and they would
+ 
+
+245
+00:04:06,360 --> 00:04:09,310
+responding to people, and they would
+have no ego if they wrote a lot of code
+
+246
+00:04:09,310 --> 00:04:09,320
+have no ego if they wrote a lot of code
+ 
+
+247
+00:04:09,320 --> 00:04:10,830
+have no ego if they wrote a lot of code
+to fix a bug and then you just threw it
+
+248
+00:04:10,830 --> 00:04:10,840
+to fix a bug and then you just threw it
+ 
+
+249
+00:04:10,840 --> 00:04:12,030
+to fix a bug and then you just threw it
+all away.
+
+250
+00:04:12,030 --> 00:04:12,040
+all away.
+ 
+
+251
+00:04:12,040 --> 00:04:13,910
+all away.
+So, I just find that kind of a feature
+
+252
+00:04:13,910 --> 00:04:13,920
+So, I just find that kind of a feature
+ 
+
+253
+00:04:13,920 --> 00:04:15,790
+So, I just find that kind of a feature
+very compelling. You truly can have one
+
+254
+00:04:15,790 --> 00:04:15,800
+very compelling. You truly can have one
+ 
+
+255
+00:04:15,800 --> 00:04:17,509
+very compelling. You truly can have one
+person, two person software companies
+
+256
+00:04:17,509 --> 00:04:17,519
+person, two person software companies
+ 
+
+257
+00:04:17,519 --> 00:04:20,110
+person, two person software companies
+now that can scale to millions upon
+
+258
+00:04:20,110 --> 00:04:20,120
+now that can scale to millions upon
+ 
+
+259
+00:04:20,120 --> 00:04:21,789
+now that can scale to millions upon
+millions of users and make billions upon
+
+260
+00:04:21,789 --> 00:04:21,799
+millions of users and make billions upon
+ 
+
+261
+00:04:21,799 --> 00:04:23,830
+millions of users and make billions upon
+billions of dollars. That has happened
+
+262
+00:04:23,830 --> 00:04:23,840
+billions of dollars. That has happened
+ 
+
+263
+00:04:23,840 --> 00:04:25,950
+billions of dollars. That has happened
+already in the past with people like
+
+264
+00:04:25,950 --> 00:04:25,960
+already in the past with people like
+ 
+
+265
+00:04:25,960 --> 00:04:28,750
+already in the past with people like
+Notch and Satoshi Nakamoto and very
+
+266
+00:04:28,750 --> 00:04:28,760
+Notch and Satoshi Nakamoto and very
+ 
+
+267
+00:04:28,760 --> 00:04:30,430
+Notch and Satoshi Nakamoto and very
+small teams like the original Instagram
+
+268
+00:04:30,430 --> 00:04:30,440
+small teams like the original Instagram
+ 
+
+269
+00:04:30,440 --> 00:04:32,110
+small teams like the original Instagram
+team that just made a huge dent with
+
+270
+00:04:32,110 --> 00:04:32,120
+team that just made a huge dent with
+ 
+
+271
+00:04:32,120 --> 00:04:33,870
+team that just made a huge dent with
+very few people or the original WhatsApp
+
+272
+00:04:33,870 --> 00:04:33,880
+very few people or the original WhatsApp
+ 
+
+273
+00:04:33,880 --> 00:04:35,470
+very few people or the original WhatsApp
+team. But, I think you're going to see
+
+274
+00:04:35,470 --> 00:04:35,480
+team. But, I think you're going to see
+ 
+
+275
+00:04:35,480 --> 00:04:37,750
+team. But, I think you're going to see
+it more and more now. will not let you
+
+276
+00:04:37,750 --> 00:04:37,760
+it more and more now. will not let you
+ 
+
+277
+00:04:37,760 --> 00:04:39,070
+it more and more now. will not let you
+build apps that can be downloaded on
+
+278
+00:04:39,070 --> 00:04:39,080
+build apps that can be downloaded on
+ 
+
+279
+00:04:39,080 --> 00:04:41,070
+build apps that can be downloaded on
+anyone's iPhone. You have to key them
+
+280
+00:04:41,070 --> 00:04:41,080
+anyone's iPhone. You have to key them
+ 
+
+281
+00:04:41,080 --> 00:04:42,790
+anyone's iPhone. You have to key them
+against your specific devices. So, with
+
+282
+00:04:42,790 --> 00:04:42,800
+against your specific devices. So, with
+ 
+
+283
+00:04:42,800 --> 00:04:44,150
+against your specific devices. So, with
+my friends and family, I can deliver
+
+284
+00:04:44,150 --> 00:04:44,160
+my friends and family, I can deliver
+ 
+
+285
+00:04:44,160 --> 00:04:46,190
+my friends and family, I can deliver
+them apps. I can't yet deliver them to
+
+286
+00:04:46,190 --> 00:04:46,200
+them apps. I can't yet deliver them to
+ 
+
+287
+00:04:46,200 --> 00:04:47,510
+them apps. I can't yet deliver them to
+everybody.
+
+288
+00:04:47,510 --> 00:04:47,520
+everybody.
+ 
+
+289
+00:04:47,520 --> 00:04:49,310
+everybody.
+However, this whole experience is
+
+290
+00:04:49,310 --> 00:04:49,320
+However, this whole experience is
+ 
+
+291
+00:04:49,320 --> 00:04:51,110
+However, this whole experience is
+incredibly addictive. You can get
+
+292
+00:04:51,110 --> 00:04:51,120
+incredibly addictive. You can get
+ 
+
+293
+00:04:51,120 --> 00:04:53,950
+incredibly addictive. You can get
+extremely customized tuned apps for you.
+
+294
+00:04:53,950 --> 00:04:53,960
+extremely customized tuned apps for you.
+ 
+
+295
+00:04:53,960 --> 00:04:55,470
+extremely customized tuned apps for you.
+Now, does this mean that normal apps
+
+296
+00:04:55,470 --> 00:04:55,480
+Now, does this mean that normal apps
+ 
+
+297
+00:04:55,480 --> 00:04:57,030
+Now, does this mean that normal apps
+don't have a place? They have of course
+
+298
+00:04:57,030 --> 00:04:57,040
+don't have a place? They have of course
+ 
+
+299
+00:04:57,040 --> 00:04:58,630
+don't have a place? They have of course
+they have a place. Those apps that cover
+
+300
+00:04:58,630 --> 00:04:58,640
+they have a place. Those apps that cover
+ 
+
+301
+00:04:58,640 --> 00:05:00,190
+they have a place. Those apps that cover
+the broad use cases, they're going to be
+
+302
+00:05:00,190 --> 00:05:00,200
+the broad use cases, they're going to be
+ 
+
+303
+00:05:00,200 --> 00:05:02,350
+the broad use cases, they're going to be
+the best of breed. Someone's hand tuned
+
+304
+00:05:02,350 --> 00:05:02,360
+the best of breed. Someone's hand tuned
+ 
+
+305
+00:05:02,360 --> 00:05:04,070
+the best of breed. Someone's hand tuned
+them, enslaved over them.
+
+306
+00:05:04,070 --> 00:05:04,080
+them, enslaved over them.
+ 
+
+307
+00:05:04,080 --> 00:05:05,550
+them, enslaved over them.
+So, you're not going to beat that if
+
+308
+00:05:05,550 --> 00:05:05,560
+So, you're not going to beat that if
+ 
+
+309
+00:05:05,560 --> 00:05:07,270
+So, you're not going to beat that if
+your use case is covered by one of the
+
+310
+00:05:07,270 --> 00:05:07,280
+your use case is covered by one of the
+ 
+
+311
+00:05:07,280 --> 00:05:08,790
+your use case is covered by one of the
+broad use cases.
+
+312
+00:05:08,790 --> 00:05:08,800
+broad use cases.
+ 
+
+313
+00:05:08,800 --> 00:05:09,990
+broad use cases.
+But, when you want something truly
+
+314
+00:05:09,990 --> 00:05:10,000
+But, when you want something truly
+ 
+
+315
+00:05:10,000 --> 00:05:12,150
+But, when you want something truly
+custom or private,
+
+316
+00:05:12,150 --> 00:05:12,160
+custom or private,
+ 
+
+317
+00:05:12,160 --> 00:05:14,470
+custom or private,
+these are great for niche apps that only
+
+318
+00:05:14,470 --> 00:05:14,480
+these are great for niche apps that only
+ 
+
+319
+00:05:14,480 --> 00:05:16,190
+these are great for niche apps that only
+you would want or you want to tune them
+
+320
+00:05:16,190 --> 00:05:16,200
+you would want or you want to tune them
+ 
+
+321
+00:05:16,200 --> 00:05:18,390
+you would want or you want to tune them
+to your specific use case, this is going
+
+322
+00:05:18,390 --> 00:05:18,400
+to your specific use case, this is going
+ 
+
+323
+00:05:18,400 --> 00:05:20,110
+to your specific use case, this is going
+to be incredible. And it's very
+
+324
+00:05:20,110 --> 00:05:20,120
+to be incredible. And it's very
+ 
+
+325
+00:05:20,120 --> 00:05:22,350
+to be incredible. And it's very
+addictive because like in a video game,
+
+326
+00:05:22,350 --> 00:05:22,360
+addictive because like in a video game,
+ 
+
+327
+00:05:22,360 --> 00:05:25,950
+addictive because like in a video game,
+the way a video game is designed is that
+
+328
+00:05:25,950 --> 00:05:25,960
+the way a video game is designed is that
+ 
+
+329
+00:05:25,960 --> 00:05:28,710
+the way a video game is designed is that
+it keeps you hooked by giving you
+
+330
+00:05:28,710 --> 00:05:28,720
+it keeps you hooked by giving you
+ 
+
+331
+00:05:28,720 --> 00:05:31,470
+it keeps you hooked by giving you
+feedback and rewards for doing work.
+
+332
+00:05:31,470 --> 00:05:31,480
+feedback and rewards for doing work.
+ 
+
+333
+00:05:31,480 --> 00:05:33,750
+feedback and rewards for doing work.
+>> and it's not a value. Um in fact, more
+
+334
+00:05:33,750 --> 00:05:33,760
+>> and it's not a value. Um in fact, more
+ 
+
+335
+00:05:33,760 --> 00:05:34,870
+>> and it's not a value. Um in fact, more
+value.
+
+336
+00:05:34,870 --> 00:05:34,880
+value.
+ 
+
+337
+00:05:34,880 --> 00:05:36,470
+value.
+All of us, everyone here, our
+
+338
+00:05:36,470 --> 00:05:36,480
+All of us, everyone here, our
+ 
+
+339
+00:05:36,480 --> 00:05:38,590
+All of us, everyone here, our
+productivity has gone through the roof.
+
+340
+00:05:38,590 --> 00:05:38,600
+productivity has gone through the roof.
+ 
+
+341
+00:05:38,600 --> 00:05:40,310
+productivity has gone through the roof.
+And basic economics normally says that
+
+342
+00:05:40,310 --> 00:05:40,320
+And basic economics normally says that
+ 
+
+343
+00:05:40,320 --> 00:05:41,990
+And basic economics normally says that
+when someone's productivity is higher,
+
+344
+00:05:41,990 --> 00:05:42,000
+when someone's productivity is higher,
+ 
+
+345
+00:05:42,000 --> 00:05:43,230
+when someone's productivity is higher,
+they're wealthier, they're better off.
+
+346
+00:05:43,230 --> 00:05:43,240
+they're wealthier, they're better off.
+ 
+
+347
+00:05:43,240 --> 00:05:45,030
+they're wealthier, they're better off.
+You actually hire more of them, not less
+
+348
+00:05:45,030 --> 00:05:45,040
+You actually hire more of them, not less
+ 
+
+349
+00:05:45,040 --> 00:05:46,909
+You actually hire more of them, not less
+of them. Maybe some of you are not
+
+350
+00:05:46,909 --> 00:05:46,919
+of them. Maybe some of you are not
+ 
+
+351
+00:05:46,919 --> 00:05:49,230
+of them. Maybe some of you are not
+hiring junior people anymore, although I
+
+352
+00:05:49,230 --> 00:05:49,240
+hiring junior people anymore, although I
+ 
+
+353
+00:05:49,240 --> 00:05:50,470
+hiring junior people anymore, although I
+don't know if that's necessarily true. I
+
+354
+00:05:50,470 --> 00:05:50,480
+don't know if that's necessarily true. I
+ 
+
+355
+00:05:50,480 --> 00:05:52,110
+don't know if that's necessarily true. I
+don't think it was junior versus senior.
+
+356
+00:05:52,110 --> 00:05:52,120
+don't think it was junior versus senior.
+ 
+
+357
+00:05:52,120 --> 00:05:54,150
+don't think it was junior versus senior.
+If someone is really good with AI and
+
+358
+00:05:54,150 --> 00:05:54,160
+If someone is really good with AI and
+ 
+
+359
+00:05:54,160 --> 00:05:55,630
+If someone is really good with AI and
+they're really smart and creative, I
+
+360
+00:05:55,630 --> 00:05:55,640
+they're really smart and creative, I
+ 
+
+361
+00:05:55,640 --> 00:05:57,350
+they're really smart and creative, I
+want to hire them more than ever because
+
+362
+00:05:57,350 --> 00:05:57,360
+want to hire them more than ever because
+ 
+
+363
+00:05:57,360 --> 00:05:58,390
+want to hire them more than ever because
+the leverage I'm going to get out of
+
+364
+00:05:58,390 --> 00:05:58,400
+the leverage I'm going to get out of
+ 
+
+365
+00:05:58,400 --> 00:05:59,030
+the leverage I'm going to get out of
+them is incredible.
+
+366
+00:05:59,030 --> 00:05:59,040
+them is incredible.
+ 
+
+367
+00:05:59,040 --> 00:06:00,870
+them is incredible.
+>> new requirement. We're hiring juniors
+
+368
+00:06:00,870 --> 00:06:00,880
+>> new requirement. We're hiring juniors
+ 
+
+369
+00:06:00,880 --> 00:06:05,270
+>> new requirement. We're hiring juniors
+and super seniors.
+
+370
+00:06:05,270 --> 00:06:05,280
+
+ 
+
+371
+00:06:05,280 --> 00:06:06,550
+
+>> No way, that's scary.
+
+372
+00:06:06,550 --> 00:06:06,560
+>> No way, that's scary.
+ 
+
+373
+00:06:06,560 --> 00:06:09,070
+>> No way, that's scary.
+>> I think historically it was the returns
+
+374
+00:06:09,070 --> 00:06:09,080
+>> I think historically it was the returns
+ 
+
+375
+00:06:09,080 --> 00:06:13,030
+>> I think historically it was the returns
+were like 70% intelligence, 30% agency,
+
+376
+00:06:13,030 --> 00:06:13,040
+were like 70% intelligence, 30% agency,
+ 
+
+377
+00:06:13,040 --> 00:06:16,310
+were like 70% intelligence, 30% agency,
+and now it's going to be 70% agency, 30%
+
+378
+00:06:16,310 --> 00:06:16,320
+and now it's going to be 70% agency, 30%
+ 
+
+379
+00:06:16,320 --> 00:06:17,510
+and now it's going to be 70% agency, 30%
+intelligence.
+
+380
+00:06:17,510 --> 00:06:17,520
+intelligence.
+ 
+
+381
+00:06:17,520 --> 00:06:19,270
+intelligence.
+And that will that will shift further as
+
+382
+00:06:19,270 --> 00:06:19,280
+And that will that will shift further as
+ 
+
+383
+00:06:19,280 --> 00:06:20,790
+And that will that will shift further as
+the models get better and better.
+
+384
+00:06:20,790 --> 00:06:20,800
+the models get better and better.
+ 
+
+385
+00:06:20,800 --> 00:06:22,110
+the models get better and better.
+>> I'm actually not sure about that, Max.
+
+386
+00:06:22,110 --> 00:06:22,120
+>> I'm actually not sure about that, Max.
+ 
+
+387
+00:06:22,120 --> 00:06:23,350
+>> I'm actually not sure about that, Max.
+I'll take the counterpoint on that. I
+
+388
+00:06:23,350 --> 00:06:23,360
+I'll take the counterpoint on that. I
+ 
+
+389
+00:06:23,360 --> 00:06:25,790
+I'll take the counterpoint on that. I
+think it's 99% intelligence and 1%
+
+390
+00:06:25,790 --> 00:06:25,800
+think it's 99% intelligence and 1%
+ 
+
+391
+00:06:25,800 --> 00:06:27,550
+think it's 99% intelligence and 1%
+agency because then the agents will
+
+392
+00:06:27,550 --> 00:06:27,560
+agency because then the agents will
+ 
+
+393
+00:06:27,560 --> 00:06:29,270
+agency because then the agents will
+exercise the agency.
+
+394
+00:06:29,270 --> 00:06:29,280
+exercise the agency.
+ 
+
+395
+00:06:29,280 --> 00:06:30,790
+exercise the agency.
+All right, you will literally be like,
+
+396
+00:06:30,790 --> 00:06:30,800
+All right, you will literally be like,
+ 
+
+397
+00:06:30,800 --> 00:06:32,950
+All right, you will literally be like,
+"Hey agent, I'm making smart decisions
+
+398
+00:06:32,950 --> 00:06:32,960
+"Hey agent, I'm making smart decisions
+ 
+
+399
+00:06:32,960 --> 00:06:34,190
+"Hey agent, I'm making smart decisions
+and thinking big thoughts. Just go
+
+400
+00:06:34,190 --> 00:06:34,200
+and thinking big thoughts. Just go
+ 
+
+401
+00:06:34,200 --> 00:06:36,230
+and thinking big thoughts. Just go
+implement stuff." In fact, sometimes I
+
+402
+00:06:36,230 --> 00:06:36,240
+implement stuff." In fact, sometimes I
+ 
+
+403
+00:06:36,240 --> 00:06:36,510
+implement stuff." In fact, sometimes I
+want
+
+404
+00:06:36,510 --> 00:06:36,520
+want
+ 
+
+405
+00:06:36,520 --> 00:06:37,550
+want
+>> I mean, the one thing you can't replace
+
+406
+00:06:37,550 --> 00:06:37,560
+>> I mean, the one thing you can't replace
+ 
+
+407
+00:06:37,560 --> 00:06:39,670
+>> I mean, the one thing you can't replace
+is human desire. Even if robots have
+
+408
+00:06:39,670 --> 00:06:39,680
+is human desire. Even if robots have
+ 
+
+409
+00:06:39,680 --> 00:06:41,190
+is human desire. Even if robots have
+their own desires, they cannot replace
+
+410
+00:06:41,190 --> 00:06:41,200
+their own desires, they cannot replace
+ 
+
+411
+00:06:41,200 --> 00:06:43,190
+their own desires, they cannot replace
+human desires. So, as long as humans
+
+412
+00:06:43,190 --> 00:06:43,200
+human desires. So, as long as humans
+ 
+
+413
+00:06:43,200 --> 00:06:44,870
+human desires. So, as long as humans
+have desires and there are AIs and
+
+414
+00:06:44,870 --> 00:06:44,880
+have desires and there are AIs and
+ 
+
+415
+00:06:44,880 --> 00:06:46,830
+have desires and there are AIs and
+robots that can help fulfill them, then
+
+416
+00:06:46,830 --> 00:06:46,840
+robots that can help fulfill them, then
+ 
+
+417
+00:06:46,840 --> 00:06:48,230
+robots that can help fulfill them, then
+you always need humans in the loop.
+
+418
+00:06:48,230 --> 00:06:48,240
+you always need humans in the loop.
+ 
+
+419
+00:06:48,240 --> 00:06:48,909
+you always need humans in the loop.
+You'll always need
+
+420
+00:06:48,909 --> 00:06:48,919
+You'll always need
+ 
+
+421
+00:06:48,919 --> 00:06:50,710
+You'll always need
+>> Yeah, like the moment I find out I'm
+
+422
+00:06:50,710 --> 00:06:50,720
+>> Yeah, like the moment I find out I'm
+ 
+
+423
+00:06:50,720 --> 00:06:52,590
+>> Yeah, like the moment I find out I'm
+talking to an AI or I'm reading the work
+
+424
+00:06:52,590 --> 00:06:52,600
+talking to an AI or I'm reading the work
+ 
+
+425
+00:06:52,600 --> 00:06:54,350
+talking to an AI or I'm reading the work
+of an AI or I'm even looking at art
+
+426
+00:06:54,350 --> 00:06:54,360
+of an AI or I'm even looking at art
+ 
+
+427
+00:06:54,360 --> 00:06:55,790
+of an AI or I'm even looking at art
+created by an AI, I'm completely
+
+428
+00:06:55,790 --> 00:06:55,800
+created by an AI, I'm completely
+ 
+
+429
+00:06:55,800 --> 00:06:57,550
+created by an AI, I'm completely
+uninterested. Assuming it's completely
+
+430
+00:06:57,550 --> 00:06:57,560
+uninterested. Assuming it's completely
+ 
+
+431
+00:06:57,560 --> 00:06:59,470
+uninterested. Assuming it's completely
+done by an AI. Now, if a human using an
+
+432
+00:06:59,470 --> 00:06:59,480
+done by an AI. Now, if a human using an
+ 
+
+433
+00:06:59,480 --> 00:07:03,870
+done by an AI. Now, if a human using an
+AI is a different thing.
+
+434
+00:07:03,870 --> 00:07:03,880
+
+ 
+
+435
+00:07:03,880 --> 00:07:06,750
+
+>> things still, right? But, um anyway,
+
+436
+00:07:06,750 --> 00:07:06,760
+>> things still, right? But, um anyway,
+ 
+
+437
+00:07:06,760 --> 00:07:08,190
+>> things still, right? But, um anyway,
+that's how I that's, you know, Welcome
+
+438
+00:07:08,190 --> 00:07:08,200
+that's how I that's, you know, Welcome
+ 
+
+439
+00:07:08,200 --> 00:07:09,674
+that's how I that's, you know, Welcome
+to my TED Talk.
+
+440
+00:07:09,674 --> 00:07:09,684
+to my TED Talk.
+ 
+
+441
+00:07:09,684 --> 00:07:10,390
+to my TED Talk.
+>> [laughter]
+
+442
+00:07:10,390 --> 00:07:10,400
+>> [laughter]
+ 
+
+443
+00:07:10,400 --> 00:07:11,110
+>> [laughter]
+>> I do
+
+444
+00:07:11,110 --> 00:07:11,120
+>> I do
+ 
+
+445
+00:07:11,120 --> 00:07:12,390
+>> I do
+definitely agree like to predict the
+
+446
+00:07:12,390 --> 00:07:12,400
+definitely agree like to predict the
+ 
+
+447
+00:07:12,400 --> 00:07:13,670
+definitely agree like to predict the
+future, you just live in the future.
+
+448
+00:07:13,670 --> 00:07:13,680
+future, you just live in the future.
+ 
+
+449
+00:07:13,680 --> 00:07:15,070
+future, you just live in the future.
+>> Right. Right. That's the best way to
+
+450
+00:07:15,070 --> 00:07:15,080
+>> Right. Right. That's the best way to
+ 
+
+451
+00:07:15,080 --> 00:07:18,030
+>> Right. Right. That's the best way to
+learn. And everyone should be AI maxing
+
+452
+00:07:18,030 --> 00:07:18,040
+learn. And everyone should be AI maxing
+ 
+
+453
+00:07:18,040 --> 00:07:19,390
+learn. And everyone should be AI maxing
+just to figure it out. Otherwise, you're
+
+454
+00:07:19,390 --> 00:07:19,400
+just to figure it out. Otherwise, you're
+ 
+
+455
+00:07:19,400 --> 00:07:20,630
+just to figure it out. Otherwise, you're
+going to have no sense of where it's
+
+456
+00:07:20,630 --> 00:07:20,640
+going to have no sense of where it's
+ 
+
+457
+00:07:20,640 --> 00:07:20,950
+going to have no sense of where it's
+going.
+
+458
+00:07:20,950 --> 00:07:20,960
+going.
+ 
+
+459
+00:07:20,960 --> 00:07:23,350
+going.
+>> I think like today's virtue signal is I
+
+460
+00:07:23,350 --> 00:07:23,360
+>> I think like today's virtue signal is I
+ 
+
+461
+00:07:23,360 --> 00:07:24,190
+>> I think like today's virtue signal is I
+mean,
+
+462
+00:07:24,190 --> 00:07:24,200
+mean,
+ 
+
+463
+00:07:24,200 --> 00:07:26,510
+mean,
+I think that it's not helpful to people.
+
+464
+00:07:26,510 --> 00:07:26,520
+I think that it's not helpful to people.
+ 
+
+465
+00:07:26,520 --> 00:07:27,550
+I think that it's not helpful to people.
+Like, there are people who are going to
+
+466
+00:07:27,550 --> 00:07:27,560
+Like, there are people who are going to
+ 
+
+467
+00:07:27,560 --> 00:07:30,310
+Like, there are people who are going to
+listen to this who want to be rich. And
+
+468
+00:07:30,310 --> 00:07:30,320
+listen to this who want to be rich. And
+ 
+
+469
+00:07:30,320 --> 00:07:32,470
+listen to this who want to be rich. And
+they're going to be like, "Oh, no. Like,
+
+470
+00:07:32,470 --> 00:07:32,480
+they're going to be like, "Oh, no. Like,
+ 
+
+471
+00:07:32,480 --> 00:07:33,950
+they're going to be like, "Oh, no. Like,
+I shouldn't use AI
+
+472
+00:07:33,950 --> 00:07:33,960
+I shouldn't use AI
+ 
+
+473
+00:07:33,960 --> 00:07:35,590
+I shouldn't use AI
+>> with the models because I just assume I
+
+474
+00:07:35,590 --> 00:07:35,600
+>> with the models because I just assume I
+ 
+
+475
+00:07:35,600 --> 00:07:37,950
+>> with the models because I just assume I
+can brute force my way through it. And
+
+476
+00:07:37,950 --> 00:07:37,960
+can brute force my way through it. And
+ 
+
+477
+00:07:37,960 --> 00:07:39,670
+can brute force my way through it. And
+I'll throw Codex, Claude, and Gemini at
+
+478
+00:07:39,670 --> 00:07:39,680
+I'll throw Codex, Claude, and Gemini at
+ 
+
+479
+00:07:39,680 --> 00:07:42,030
+I'll throw Codex, Claude, and Gemini at
+the same problem over and over and just
+
+480
+00:07:42,030 --> 00:07:42,040
+the same problem over and over and just
+ 
+
+481
+00:07:42,040 --> 00:07:44,390
+the same problem over and over and just
+waste tokens to save time. And I think
+
+482
+00:07:44,390 --> 00:07:44,400
+waste tokens to save time. And I think
+ 
+
+483
+00:07:44,400 --> 00:07:45,990
+waste tokens to save time. And I think
+no matter how expensive these models
+
+484
+00:07:45,990 --> 00:07:46,000
+no matter how expensive these models
+ 
+
+485
+00:07:46,000 --> 00:07:47,470
+no matter how expensive these models
+might seem, they're still way cheaper
+
+486
+00:07:47,470 --> 00:07:47,480
+might seem, they're still way cheaper
+ 
+
+487
+00:07:47,480 --> 00:07:49,790
+might seem, they're still way cheaper
+than a human. So, I would say just waste
+
+488
+00:07:49,790 --> 00:07:49,800
+than a human. So, I would say just waste
+ 
+
+489
+00:07:49,800 --> 00:07:51,390
+than a human. So, I would say just waste
+tokens, save time. Don't look at the
+
+490
+00:07:51,390 --> 00:07:51,400
+tokens, save time. Don't look at the
+ 
+
+491
+00:07:51,400 --> 00:07:54,270
+tokens, save time. Don't look at the
+tokens either as inputs or outputs. Just
+
+492
+00:07:54,270 --> 00:07:54,280
+tokens either as inputs or outputs. Just
+ 
+
+493
+00:07:54,280 --> 00:07:55,950
+tokens either as inputs or outputs. Just
+look at your time, and look at the final
+
+494
+00:07:55,950 --> 00:07:55,960
+look at your time, and look at the final
+ 
+
+495
+00:07:55,960 --> 00:07:57,990
+look at your time, and look at the final
+output. And even if they're writing
+
+496
+00:07:57,990 --> 00:07:58,000
+output. And even if they're writing
+ 
+
+497
+00:07:58,000 --> 00:07:59,790
+output. And even if they're writing
+low-quality code, which I know in many
+
+498
+00:07:59,790 --> 00:07:59,800
+low-quality code, which I know in many
+ 
+
+499
+00:07:59,800 --> 00:08:01,230
+low-quality code, which I know in many
+cases they are, it's not necessarily
+
+500
+00:08:01,230 --> 00:08:01,240
+cases they are, it's not necessarily
+ 
+
+501
+00:08:01,240 --> 00:08:03,470
+cases they are, it's not necessarily
+production-quality or scalable code,
+
+502
+00:08:03,470 --> 00:08:03,480
+production-quality or scalable code,
+ 
+
+503
+00:08:03,480 --> 00:08:04,030
+production-quality or scalable code,
+when the time
+
+504
+00:08:04,030 --> 00:08:04,040
+when the time
+ 
+
+505
+00:08:04,040 --> 00:08:05,350
+when the time
+>> Seems like basically if you you know,
+
+506
+00:08:05,350 --> 00:08:05,360
+>> Seems like basically if you you know,
+ 
+
+507
+00:08:05,360 --> 00:08:07,150
+>> Seems like basically if you you know,
+the craziest idea that I discovered is
+
+508
+00:08:07,150 --> 00:08:07,160
+the craziest idea that I discovered is
+ 
+
+509
+00:08:07,160 --> 00:08:08,710
+the craziest idea that I discovered is
+that if you're just willing to spend
+
+510
+00:08:08,710 --> 00:08:08,720
+that if you're just willing to spend
+ 
+
+511
+00:08:08,720 --> 00:08:11,350
+that if you're just willing to spend
+like $100,000 a year on tokens, you can
+
+512
+00:08:11,350 --> 00:08:11,360
+like $100,000 a year on tokens, you can
+ 
+
+513
+00:08:11,360 --> 00:08:14,230
+like $100,000 a year on tokens, you can
+basically live like you uh are a normal
+
+514
+00:08:14,230 --> 00:08:14,240
+basically live like you uh are a normal
+ 
+
+515
+00:08:14,240 --> 00:08:17,030
+basically live like you uh are a normal
+citizen in 2028. Like it's just pretty
+
+516
+00:08:17,030 --> 00:08:17,040
+citizen in 2028. Like it's just pretty
+ 
+
+517
+00:08:17,040 --> 00:08:18,950
+citizen in 2028. Like it's just pretty
+clear that token cost is going to come
+
+518
+00:08:18,950 --> 00:08:18,960
+clear that token cost is going to come
+ 
+
+519
+00:08:18,960 --> 00:08:24,310
+clear that token cost is going to come
+down. Uh compute is
+
+520
+00:08:24,310 --> 00:08:24,320
+
+ 
+
+521
+00:08:24,320 --> 00:08:25,870
+
+>> be created without having to have humans
+
+522
+00:08:25,870 --> 00:08:25,880
+>> be created without having to have humans
+ 
+
+523
+00:08:25,880 --> 00:08:27,110
+>> be created without having to have humans
+in the loop saying this is good, this is
+
+524
+00:08:27,110 --> 00:08:27,120
+in the loop saying this is good, this is
+ 
+
+525
+00:08:27,120 --> 00:08:29,030
+in the loop saying this is good, this is
+bad. For example, if you're trying to
+
+526
+00:08:29,030 --> 00:08:29,040
+bad. For example, if you're trying to
+ 
+
+527
+00:08:29,040 --> 00:08:30,590
+bad. For example, if you're trying to
+creative writing with these models,
+
+528
+00:08:30,590 --> 00:08:30,600
+creative writing with these models,
+ 
+
+529
+00:08:30,600 --> 00:08:32,190
+creative writing with these models,
+they're going to output huge amounts of
+
+530
+00:08:32,190 --> 00:08:32,200
+they're going to output huge amounts of
+ 
+
+531
+00:08:32,200 --> 00:08:33,790
+they're going to output huge amounts of
+content. They can output infinite
+
+532
+00:08:33,790 --> 00:08:33,800
+content. They can output infinite
+ 
+
+533
+00:08:33,800 --> 00:08:34,870
+content. They can output infinite
+essays.
+
+534
+00:08:34,870 --> 00:08:34,880
+essays.
+ 
+
+535
+00:08:34,880 --> 00:08:36,190
+essays.
+Who's to say it's good on the other
+
+536
+00:08:36,190 --> 00:08:36,200
+Who's to say it's good on the other
+ 
+
+537
+00:08:36,200 --> 00:08:38,110
+Who's to say it's good on the other
+side? Even if you hire some low-wage
+
+538
+00:08:38,110 --> 00:08:38,120
+side? Even if you hire some low-wage
+ 
+
+539
+00:08:38,120 --> 00:08:41,110
+side? Even if you hire some low-wage
+people to sit around call center style
+
+540
+00:08:41,110 --> 00:08:41,120
+people to sit around call center style
+ 
+
+541
+00:08:41,120 --> 00:08:42,830
+people to sit around call center style
+and say this is good or this is bad.
+
+542
+00:08:42,830 --> 00:08:42,840
+and say this is good or this is bad.
+ 
+
+543
+00:08:42,840 --> 00:08:44,590
+and say this is good or this is bad.
+It's only as good as their taste. I
+
+544
+00:08:44,590 --> 00:08:44,600
+It's only as good as their taste. I
+ 
+
+545
+00:08:44,600 --> 00:08:45,990
+It's only as good as their taste. I
+think one of the reasons why these
+
+546
+00:08:45,990 --> 00:08:46,000
+think one of the reasons why these
+ 
+
+547
+00:08:46,000 --> 00:08:48,190
+think one of the reasons why these
+coding models got really good recently,
+
+548
+00:08:48,190 --> 00:08:48,200
+coding models got really good recently,
+ 
+
+549
+00:08:48,200 --> 00:08:49,870
+coding models got really good recently,
+there's multiple. One is they're doing
+
+550
+00:08:49,870 --> 00:08:49,880
+there's multiple. One is they're doing
+ 
+
+551
+00:08:49,880 --> 00:08:51,590
+there's multiple. One is they're doing
+sort of almost recursive training where
+
+552
+00:08:51,590 --> 00:08:51,600
+sort of almost recursive training where
+ 
+
+553
+00:08:51,600 --> 00:08:53,270
+sort of almost recursive training where
+like one model is helping improve the
+
+554
+00:08:53,270 --> 00:08:53,280
+like one model is helping improve the
+ 
+
+555
+00:08:53,280 --> 00:08:54,350
+like one model is helping improve the
+next one.
+
+556
+00:08:54,350 --> 00:08:54,360
+next one.
+ 
+
+557
+00:08:54,360 --> 00:08:56,350
+next one.
+But I think the bigger reason might just
+
+558
+00:08:56,350 --> 00:08:56,360
+But I think the bigger reason might just
+ 
+
+559
+00:08:56,360 --> 00:08:57,990
+But I think the bigger reason might just
+be that a lot of the best software
+
+560
+00:08:57,990 --> 00:08:58,000
+be that a lot of the best software
+ 
+
+561
+00:08:58,000 --> 00:08:59,470
+be that a lot of the best software
+engineers started using these models in
+
+562
+00:08:59,470 --> 00:08:59,480
+engineers started using these models in
+ 
+
+563
+00:08:59,480 --> 00:09:03,190
+engineers started using these models in
+the last few months. And their taste has
+
+564
+00:09:03,190 --> 00:09:03,200
+the last few months. And their taste has
+ 
+
+565
+00:09:03,200 --> 00:09:04,990
+the last few months. And their taste has
+now feeding back in. So, you're getting
+
+566
+00:09:04,990 --> 00:09:05,000
+now feeding back in. So, you're getting
+ 
+
+567
+00:09:05,000 --> 00:09:07,190
+now feeding back in. So, you're getting
+access to their code plus their taste as
+
+568
+00:09:07,190 --> 00:09:07,200
+access to their code plus their taste as
+ 
+
+569
+00:09:07,200 --> 00:09:08,829
+access to their code plus their taste as
+to what's good and what's not.
+
+570
+00:09:08,829 --> 00:09:08,839
+to what's good and what's not.
+ 
+
+571
+00:09:08,839 --> 00:09:10,870
+to what's good and what's not.
+You need high-taste
+
+572
+00:09:10,870 --> 00:09:10,880
+You need high-taste
+ 
+
+573
+00:09:10,880 --> 00:09:13,030
+You need high-taste
+feedback loops to improve these models,
+
+574
+00:09:13,030 --> 00:09:13,040
+feedback loops to improve these models,
+ 
+
+575
+00:09:13,040 --> 00:09:14,150
+feedback loops to improve these models,
+and those are harder to develop than
+
+576
+00:09:14,150 --> 00:09:14,160
+and those are harder to develop than
+ 
+
+577
+00:09:14,160 --> 00:09:15,430
+and those are harder to develop than
+they look. In certain domains it's
+
+578
+00:09:15,430 --> 00:09:15,440
+they look. In certain domains it's
+ 
+
+579
+00:09:15,440 --> 00:09:17,230
+they look. In certain domains it's
+tractable, and in other domains it's
+
+580
+00:09:17,230 --> 00:09:17,240
+tractable, and in other domains it's
+ 
+
+581
+00:09:17,240 --> 00:09:19,270
+tractable, and in other domains it's
+hard to see how it happens.
+
+582
+00:09:19,270 --> 00:09:19,280
+hard to see how it happens.
+ 
+
+583
+00:09:19,280 --> 00:09:21,910
+hard to see how it happens.
+>> or queuing system. And those I mean, the
+
+584
+00:09:21,910 --> 00:09:21,920
+>> or queuing system. And those I mean, the
+ 
+
+585
+00:09:21,920 --> 00:09:23,590
+>> or queuing system. And those I mean, the
+models can suggest them, but that's the
+
+586
+00:09:23,590 --> 00:09:23,600
+models can suggest them, but that's the
+ 
+
+587
+00:09:23,600 --> 00:09:24,590
+models can suggest them, but that's the
+thing, right? You'll see it, and you'll
+
+588
+00:09:24,590 --> 00:09:24,600
+thing, right? You'll see it, and you'll
+ 
+
+589
+00:09:24,600 --> 00:09:25,510
+thing, right? You'll see it, and you'll
+be like, no, no, no, I want to use this
+
+590
+00:09:25,510 --> 00:09:25,520
+be like, no, no, no, I want to use this
+ 
+
+591
+00:09:25,520 --> 00:09:26,870
+be like, no, no, no, I want to use this
+other thing. That's the type of little
+
+592
+00:09:26,870 --> 00:09:26,880
+other thing. That's the type of little
+ 
+
+593
+00:09:26,880 --> 00:09:28,590
+other thing. That's the type of little
+feedback that I'm saying really matters
+
+594
+00:09:28,590 --> 00:09:28,600
+feedback that I'm saying really matters
+ 
+
+595
+00:09:28,600 --> 00:09:29,950
+feedback that I'm saying really matters
+in the types of output that you seem to
+
+596
+00:09:29,950 --> 00:09:29,960
+in the types of output that you seem to
+ 
+
+597
+00:09:29,960 --> 00:09:30,470
+in the types of output that you seem to
+get at this point.
+
+598
+00:09:30,470 --> 00:09:30,480
+get at this point.
+ 
+
+599
+00:09:30,480 --> 00:09:32,350
+get at this point.
+>> taste taste and judgment, right? Taste
+
+600
+00:09:32,350 --> 00:09:32,360
+>> taste taste and judgment, right? Taste
+ 
+
+601
+00:09:32,360 --> 00:09:34,350
+>> taste taste and judgment, right? Taste
+and judgment. That said, you can ask
+
+602
+00:09:34,350 --> 00:09:34,360
+and judgment. That said, you can ask
+ 
+
+603
+00:09:34,360 --> 00:09:36,310
+and judgment. That said, you can ask
+them which one should I use and why, and
+
+604
+00:09:36,310 --> 00:09:36,320
+them which one should I use and why, and
+ 
+
+605
+00:09:36,320 --> 00:09:37,590
+them which one should I use and why, and
+they know everything. They'll give you
+
+606
+00:09:37,590 --> 00:09:37,600
+they know everything. They'll give you
+ 
+
+607
+00:09:37,600 --> 00:09:39,190
+they know everything. They'll give you
+really good trade-offs. That's the
+
+608
+00:09:39,190 --> 00:09:39,200
+really good trade-offs. That's the
+ 
+
+609
+00:09:39,200 --> 00:09:40,750
+really good trade-offs. That's the
+change that I was saying has happened
+
+610
+00:09:40,750 --> 00:09:40,760
+change that I was saying has happened
+ 
+
+611
+00:09:40,760 --> 00:09:42,630
+change that I was saying has happened
+recently where you would say, "Hey, go
+
+612
+00:09:42,630 --> 00:09:42,640
+recently where you would say, "Hey, go
+ 
+
+613
+00:09:42,640 --> 00:09:43,590
+recently where you would say, "Hey, go
+and
+
+614
+00:09:43,590 --> 00:09:43,600
+and
+ 
+
+615
+00:09:43,600 --> 00:09:45,510
+and
+put this super high cardinality
+
+616
+00:09:45,510 --> 00:09:45,520
+put this super high cardinality
+ 
+
+617
+00:09:45,520 --> 00:09:47,310
+put this super high cardinality
+telemetry data into Postgres." And it's
+
+618
+00:09:47,310 --> 00:09:47,320
+telemetry data into Postgres." And it's
+ 
+
+619
+00:09:47,320 --> 00:09:49,190
+telemetry data into Postgres." And it's
+like, "No, no, no, no, bro. Like, we
+
+620
+00:09:49,190 --> 00:09:49,200
+like, "No, no, no, no, bro. Like, we
+ 
+
+621
+00:09:49,200 --> 00:09:50,190
+like, "No, no, no, no, bro. Like, we
+don't put that kind of data into
+
+622
+00:09:50,190 --> 00:09:50,200
+don't put that kind of data into
+ 
+
+623
+00:09:50,200 --> 00:09:51,710
+don't put that kind of data into
+Postgres. Like, you should consider
+
+624
+00:09:51,710 --> 00:09:51,720
+Postgres. Like, you should consider
+ 
+
+625
+00:09:51,720 --> 00:09:54,030
+Postgres. Like, you should consider
+ClickHouse or Athena or whatever." Like,
+
+626
+00:09:54,030 --> 00:09:54,040
+ClickHouse or Athena or whatever." Like,
+ 
+
+627
+00:09:54,040 --> 00:09:55,950
+ClickHouse or Athena or whatever." Like,
+that's happened to me a lot, which is
+
+628
+00:09:55,950 --> 00:09:55,960
+that's happened to me a lot, which is
+ 
+
+629
+00:09:55,960 --> 00:09:57,510
+that's happened to me a lot, which is
+really impressive.
+
+630
+00:09:57,510 --> 00:09:57,520
+really impressive.
+ 
+
+631
+00:09:57,520 --> 00:10:00,870
+really impressive.
+Um but I the the thing I'm still like
+
+632
+00:10:00,870 --> 00:10:00,880
+Um but I the the thing I'm still like
+ 
+
+633
+00:10:00,880 --> 00:10:02,950
+Um but I the the thing I'm still like
+kind of struggling with is
+
+634
+00:10:02,950 --> 00:10:02,960
+kind of struggling with is
+ 
+
+635
+00:10:02,960 --> 00:10:05,630
+kind of struggling with is
+clearly the human is a still completing
+
+636
+00:10:05,630 --> 00:10:05,640
+clearly the human is a still completing
+ 
+
+637
+00:10:05,640 --> 00:10:08,710
+clearly the human is a still completing
+the model. Like, at one point is it the
+
+638
+00:10:08,710 --> 00:10:08,720
+the model. Like, at one point is it the
+ 
+
+639
+00:10:08,720 --> 00:10:11,070
+the model. Like, at one point is it the
+other way about? Like, the the human is
+
+640
+00:10:11,070 --> 00:10:11,080
+other way about? Like, the the human is
+ 
+
+641
+00:10:11,080 --> 00:10:12,030
+other way about? Like, the the human is
+the
+
+642
+00:10:12,030 --> 00:10:12,040
+the
+ 
+
+643
+00:10:12,040 --> 00:10:14,910
+the
+is it performant? And are you still
+
+644
+00:10:14,910 --> 00:10:14,920
+is it performant? And are you still
+ 
+
+645
+00:10:14,920 --> 00:10:17,670
+is it performant? And are you still
+motivated to invest all of those tokens
+
+646
+00:10:17,670 --> 00:10:17,680
+motivated to invest all of those tokens
+ 
+
+647
+00:10:17,680 --> 00:10:19,350
+motivated to invest all of those tokens
+in maintaining it in prod?
+
+648
+00:10:19,350 --> 00:10:19,360
+in maintaining it in prod?
+ 
+
+649
+00:10:19,360 --> 00:10:21,150
+in maintaining it in prod?
+>> I mean, humans are becoming verifiers,
+
+650
+00:10:21,150 --> 00:10:21,160
+>> I mean, humans are becoming verifiers,
+ 
+
+651
+00:10:21,160 --> 00:10:22,910
+>> I mean, humans are becoming verifiers,
+right? And and that's kind of how we
+
+652
+00:10:22,910 --> 00:10:22,920
+right? And and that's kind of how we
+ 
+
+653
+00:10:22,920 --> 00:10:24,070
+right? And and that's kind of how we
+train these models with good
+
+654
+00:10:24,070 --> 00:10:24,080
+train these models with good
+ 
+
+655
+00:10:24,080 --> 00:10:25,950
+train these models with good
+verification data. And now we need human
+
+656
+00:10:25,950 --> 00:10:25,960
+verification data. And now we need human
+ 
+
+657
+00:10:25,960 --> 00:10:27,350
+verification data. And now we need human
+verifiers. So, yeah, I think a lot of
+
+658
+00:10:27,350 --> 00:10:27,360
+verifiers. So, yeah, I think a lot of
+ 
+
+659
+00:10:27,360 --> 00:10:29,990
+verifiers. So, yeah, I think a lot of
+the a lot of the old function of people,
+
+660
+00:10:29,990 --> 00:10:30,000
+the a lot of the old function of people,
+ 
+
+661
+00:10:30,000 --> 00:10:32,390
+the a lot of the old function of people,
+lawyers, engineers, operations people
+
+662
+00:10:32,390 --> 00:10:32,400
+lawyers, engineers, operations people
+ 
+
+663
+00:10:32,400 --> 00:10:34,190
+lawyers, engineers, operations people
+moved to verifying the stack and saying,
+
+664
+00:10:34,190 --> 00:10:34,200
+moved to verifying the stack and saying,
+ 
+
+665
+00:10:34,200 --> 00:10:36,270
+moved to verifying the stack and saying,
+"Yeah, this is roughly correct and I
+
+666
+00:10:36,270 --> 00:10:36,280
+"Yeah, this is roughly correct and I
+ 
+
+667
+00:10:36,280 --> 00:10:38,110
+"Yeah, this is roughly correct and I
+I'll roughly stand behind it and I'll
+
+668
+00:10:38,110 --> 00:10:38,120
+I'll roughly stand behind it and I'll
+ 
+
+669
+00:10:38,120 --> 00:10:39,630
+I'll roughly stand behind it and I'll
+support you if it goes wrong." And math
+
+670
+00:10:39,630 --> 00:10:39,640
+support you if it goes wrong." And math
+ 
+
+671
+00:10:39,640 --> 00:10:41,670
+support you if it goes wrong." And math
+is a very bounded domain, but it's a big
+
+672
+00:10:41,670 --> 00:10:41,680
+is a very bounded domain, but it's a big
+ 
+
+673
+00:10:41,680 --> 00:10:43,030
+is a very bounded domain, but it's a big
+one. I'm not I'm not saying it'll never
+
+674
+00:10:43,030 --> 00:10:43,040
+one. I'm not I'm not saying it'll never
+ 
+
+675
+00:10:43,040 --> 00:10:44,670
+one. I'm not I'm not saying it'll never
+get there. I don't have that confidence,
+
+676
+00:10:44,670 --> 00:10:44,680
+get there. I don't have that confidence,
+ 
+
+677
+00:10:44,680 --> 00:10:46,110
+get there. I don't have that confidence,
+but I think at least at the moment I
+
+678
+00:10:46,110 --> 00:10:46,120
+but I think at least at the moment I
+ 
+
+679
+00:10:46,120 --> 00:10:48,350
+but I think at least at the moment I
+would say that uh truly stepping
+
+680
+00:10:48,350 --> 00:10:48,360
+would say that uh truly stepping
+ 
+
+681
+00:10:48,360 --> 00:10:49,950
+would say that uh truly stepping
+outside, surprising people is still a
+
+682
+00:10:49,950 --> 00:10:49,960
+outside, surprising people is still a
+ 
+
+683
+00:10:49,960 --> 00:10:52,150
+outside, surprising people is still a
+domain of humans. And I think humans
+
+684
+00:10:52,150 --> 00:10:52,160
+domain of humans. And I think humans
+ 
+
+685
+00:10:52,160 --> 00:10:54,910
+domain of humans. And I think humans
+plus AI is where it's all moving to.
+
+686
+00:10:54,910 --> 00:10:54,920
+plus AI is where it's all moving to.
+ 
+
+687
+00:10:54,920 --> 00:10:57,350
+plus AI is where it's all moving to.
+Like, human without AI, forget it. Pure
+
+688
+00:10:57,350 --> 00:10:57,360
+Like, human without AI, forget it. Pure
+ 
+
+689
+00:10:57,360 --> 00:10:58,990
+Like, human without AI, forget it. Pure
+AI, I don't think is there yet, but I
+
+690
+00:10:58,990 --> 00:10:59,000
+AI, I don't think is there yet, but I
+ 
+
+691
+00:10:59,000 --> 00:11:01,230
+AI, I don't think is there yet, but I
+think human plus AI, we're in that era.
+
+692
+00:11:01,230 --> 00:11:01,240
+think human plus AI, we're in that era.
+ 
+
+693
+00:11:01,240 --> 00:11:02,790
+think human plus AI, we're in that era.
+How long we stay there, you know what
+
+694
+00:11:02,790 --> 00:11:02,800
+How long we stay there, you know what
+ 
+
+695
+00:11:02,800 --> 00:11:05,150
+How long we stay there, you know what
+the answer is. It is rare that they will
+
+696
+00:11:05,150 --> 00:11:05,160
+the answer is. It is rare that they will
+ 
+
+697
+00:11:05,160 --> 00:11:06,510
+the answer is. It is rare that they will
+contradict you. You have to be pretty
+
+698
+00:11:06,510 --> 00:11:06,520
+contradict you. You have to be pretty
+ 
+
+699
+00:11:06,520 --> 00:11:08,070
+contradict you. You have to be pretty
+wrong for them to contradict you.
+
+700
+00:11:08,070 --> 00:11:08,080
+wrong for them to contradict you.
+ 
+
+701
+00:11:08,080 --> 00:11:10,110
+wrong for them to contradict you.
+They're trying to please you.
+
+702
+00:11:10,110 --> 00:11:10,120
+They're trying to please you.
+ 
+
+703
+00:11:10,120 --> 00:11:11,270
+They're trying to please you.
+And I don't think they have any
+
+704
+00:11:11,270 --> 00:11:11,280
+And I don't think they have any
+ 
+
+705
+00:11:11,280 --> 00:11:13,710
+And I don't think they have any
+long-lived theory of mind of their own.
+
+706
+00:11:13,710 --> 00:11:13,720
+long-lived theory of mind of their own.
+ 
+
+707
+00:11:13,720 --> 00:11:16,870
+long-lived theory of mind of their own.
+So, they're always kind of morphing
+
+708
+00:11:16,870 --> 00:11:16,880
+So, they're always kind of morphing
+ 
+
+709
+00:11:16,880 --> 00:11:20,110
+So, they're always kind of morphing
+towards you and they're going to find
+
+710
+00:11:20,110 --> 00:11:20,120
+towards you and they're going to find
+ 
+
+711
+00:11:20,120 --> 00:11:22,030
+towards you and they're going to find
+the answer that you're looking for. So,
+
+712
+00:11:22,030 --> 00:11:22,040
+the answer that you're looking for. So,
+ 
+
+713
+00:11:22,040 --> 00:11:23,550
+the answer that you're looking for. So,
+if you think the answer is in a certain
+
+714
+00:11:23,550 --> 00:11:23,560
+if you think the answer is in a certain
+ 
+
+715
+00:11:23,560 --> 00:11:24,910
+if you think the answer is in a certain
+area,
+
+716
+00:11:24,910 --> 00:11:24,920
+area,
+ 
+
+717
+00:11:24,920 --> 00:11:26,630
+area,
+they can actually be handling and
+
+718
+00:11:26,630 --> 00:11:26,640
+they can actually be handling and
+ 
+
+719
+00:11:26,640 --> 00:11:28,710
+they can actually be handling and
+guiding the robots and the AIs. And And
+
+720
+00:11:28,710 --> 00:11:28,720
+guiding the robots and the AIs. And And
+ 
+
+721
+00:11:28,720 --> 00:11:31,270
+guiding the robots and the AIs. And And
+so, if we don't get ASI, if AI gets you
+
+722
+00:11:31,270 --> 00:11:31,280
+so, if we don't get ASI, if AI gets you
+ 
+
+723
+00:11:31,280 --> 00:11:33,350
+so, if we don't get ASI, if AI gets you
+to expert level, but doesn't go beyond,
+
+724
+00:11:33,350 --> 00:11:33,360
+to expert level, but doesn't go beyond,
+ 
+
+725
+00:11:33,360 --> 00:11:34,950
+to expert level, but doesn't go beyond,
+still needs human guidance, taste, and
+
+726
+00:11:34,950 --> 00:11:34,960
+still needs human guidance, taste, and
+ 
+
+727
+00:11:34,960 --> 00:11:36,790
+still needs human guidance, taste, and
+creativity, humans are still the
+
+728
+00:11:36,790 --> 00:11:36,800
+creativity, humans are still the
+ 
+
+729
+00:11:36,800 --> 00:11:38,590
+creativity, humans are still the
+motivating things in the environment,
+
+730
+00:11:38,590 --> 00:11:38,600
+motivating things in the environment,
+ 
+
+731
+00:11:38,600 --> 00:11:40,350
+motivating things in the environment,
+and so people become like Pokémon
+
+732
+00:11:40,350 --> 00:11:40,360
+and so people become like Pokémon
+ 
+
+733
+00:11:40,360 --> 00:11:42,030
+and so people become like Pokémon
+trainers. You're like robot handlers,
+
+734
+00:11:42,030 --> 00:11:42,040
+trainers. You're like robot handlers,
+ 
+
+735
+00:11:42,040 --> 00:11:43,590
+trainers. You're like robot handlers,
+right? AI handlers, and you use that to
+
+736
+00:11:43,590 --> 00:11:43,600
+right? AI handlers, and you use that to
+ 
+
+737
+00:11:43,600 --> 00:11:45,710
+right? AI handlers, and you use that to
+say sorry. And that's to be to to the
+
+738
+00:11:45,710 --> 00:11:45,720
+say sorry. And that's to be to to the
+ 
+
+739
+00:11:45,720 --> 00:11:47,190
+say sorry. And that's to be to to the
+truth of it, that's what we're seeing
+
+740
+00:11:47,190 --> 00:11:47,200
+truth of it, that's what we're seeing
+ 
+
+741
+00:11:47,200 --> 00:11:50,430
+truth of it, that's what we're seeing
+today. The people who are using AI today
+
+742
+00:11:50,430 --> 00:11:50,440
+today. The people who are using AI today
+ 
+
+743
+00:11:50,440 --> 00:11:52,190
+today. The people who are using AI today
+are more productive than ever. They are
+
+744
+00:11:52,190 --> 00:11:52,200
+are more productive than ever. They are
+ 
+
+745
+00:11:52,200 --> 00:11:54,230
+are more productive than ever. They are
+not being displaced. The only reason
+
+746
+00:11:54,230 --> 00:11:54,240
+not being displaced. The only reason
+ 
+
+747
+00:11:54,240 --> 00:11:55,710
+not being displaced. The only reason
+you're being displaced by an AI is cuz
+
+748
+00:11:55,710 --> 00:11:55,720
+you're being displaced by an AI is cuz
+ 
+
+749
+00:11:55,720 --> 00:11:58,110
+you're being displaced by an AI is cuz
+you refuse to use the AI. If you're
+
+750
+00:11:58,110 --> 00:11:58,120
+you refuse to use the AI. If you're
+ 
+
+751
+00:11:58,120 --> 00:12:00,190
+you refuse to use the AI. If you're
+using the AI, you have more work than
+
+752
+00:12:00,190 --> 00:12:00,200
+using the AI, you have more work than
+ 
+
+753
+00:12:00,200 --> 00:12:02,600
+using the AI, you have more work than
+ever.
+
