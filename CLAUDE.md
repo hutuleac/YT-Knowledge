@@ -4,8 +4,8 @@ Library of structured research briefs generated from YouTube videos (investing/A
 crypto/market interviews, and dev/career/workflow content). Static HTML, no build step, no deps.
 
 ## Repo
-- **Remote:** https://github.com/hutuleac/YT-Knowledge.git (`main` branch, no other branches used)
-- **Live site:** https://hutuleac.github.io/YT-Knowledge/ — GitHub Pages serving `main` branch root
+- **Remote:** https://github.com/hutuleac/YT-Stocks.git (`main` branch, no other branches used)
+- **Live site:** https://hutuleac.github.io/YT-Stocks/ — GitHub Pages serving `main` branch root
 - Working directory root should only ever gain the finished `.html` brief + the refreshed
   `index.html`/`library.json`. Everything else (transcripts, JSON, archived data files) lives in
   `research-data/<slug>/`.
