@@ -1096,6 +1096,52 @@
    ]
   },
   {
+   "html": "this-week-in-startups_2026-08-15_what-we-ll-learn-from-anthropic-s-2-3t-ipo-e2325.html",
+   "title": "What we'll learn from Anthropic's $2-3T IPO | E2325",
+   "channel": "This Week in Startups",
+   "date": "2026-08-15",
+   "speakers": "Jason Calacanis (host), Lon Harris (co-host), Sammy Herabi (Wisewell, guest), Punit Puri (Grit Robotics, guest)",
+   "thread_line": "5 threads · what Anthropic's S-1 will actually reveal, the Decart deal as a sign M&A is back, a countertop water-purification pitch (and the microplastics case for it), AI-trained robot arms racing to install solar 4x faster, and a Friday off-duty round of dictation gear and media picks",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Decart AI",
+     "stance": "In talks — unannounced",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Wisewell",
+     "stance": "Recommendation",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Grit Robotics",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    }
+   ]
+  },
+  {
    "html": "meet-kevin_2026-08-13_the-sec-just-flipped-the-ai-bubble-bullish-on-fraud.html",
    "title": "The SEC JUST Flipped the AI Bubble | Bullish on Fraud.",
    "channel": "Meet Kevin",
