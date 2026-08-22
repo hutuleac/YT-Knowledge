@@ -2,6 +2,122 @@
  "generated_from": "youtube-research-brief generate.py --reindex",
  "briefs": [
   {
+   "html": "peter-h-diamandis_2026-08-21_openai-pauses-frontier-training-elon-s-100x-prediction-lands-robot-beats-usain-bolt-ep-282.html",
+   "title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt — EP#282",
+   "channel": "Peter H. Diamandis",
+   "date": "2026-08-21",
+   "speakers": "Peter Diamandis (host), Alex Wissner-Gross \"AWG\", Dave Blundin, Salim Ismail \"Sem\", Imad Mostaque (Moonshot Mates panel)",
+   "thread_line": "7 threads · OpenAI's voluntary RL-training pause as safety signal vs marketing, Elon's 100x prediction confirmed and the specialization-vs-sparsification debate, model convergence and Anthropic's new 'AI mind virus' research, Anthropic's super-voting-share IPO plan and the regulatory-capture argument, memory (not GPUs) as the real AI bottleneck, superhuman robots and million-drone-a-day delivery, and a breakout week for mRNA cancer vaccines and cell-simulation AI",
+   "category": "market",
+   "entities": [
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "SpaceX",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Thinking Machines",
+     "stance": "High conviction",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Anthropic",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "OpenAI",
+     "stance": "Contested",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "SK Hynix",
+     "stance": "Structural constraint",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Solidigm",
+     "stance": "Structural constraint",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Tesla",
+     "stance": "Structural constraint",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Etched",
+     "stance": "Structural constraint",
+     "conviction": null,
+     "color": "amber"
+    },
+    {
+     "ticker": null,
+     "display": "Unitree",
+     "stance": "Confirmed events",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Uber",
+     "stance": "Confirmed events",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Zipline",
+     "stance": "Confirmed events",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Moderna",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    },
+    {
+     "ticker": null,
+     "display": "Merck",
+     "stance": "Confirmed event",
+     "conviction": null,
+     "color": "green"
+    }
+   ]
+  },
+  {
    "html": "tom-bilyeu_2026-08-20_raoul-pal-the-economic-singularity-is-coming-by-2030-here-s-how-to-position-now.html",
    "title": "Raoul Pal: The Economic Singularity Is Coming by 2030 — Here's How to Position Now",
    "channel": "Tom Bilyeu",
